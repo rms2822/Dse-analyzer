@@ -1,0 +1,4239 @@
+{
+  "language": "en",
+  "duration": 326.88,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 4.8,
+      "text": "On the third floor of a party building in Pyongyang, there's a room with no sign on the door.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.16,
+          "word": " On"
+        },
+        {
+          "start": 0.16,
+          "end": 0.28,
+          "word": " the"
+        },
+        {
+          "start": 0.28,
+          "end": 0.56,
+          "word": " third"
+        },
+        {
+          "start": 0.56,
+          "end": 0.88,
+          "word": " floor"
+        },
+        {
+          "start": 0.88,
+          "end": 1.1,
+          "word": " of"
+        },
+        {
+          "start": 1.1,
+          "end": 1.2,
+          "word": " a"
+        },
+        {
+          "start": 1.2,
+          "end": 1.42,
+          "word": " party"
+        },
+        {
+          "start": 1.42,
+          "end": 1.76,
+          "word": " building"
+        },
+        {
+          "start": 1.76,
+          "end": 1.92,
+          "word": " in"
+        },
+        {
+          "start": 1.92,
+          "end": 2.46,
+          "word": " Pyongyang,"
+        },
+        {
+          "start": 2.94,
+          "end": 3.28,
+          "word": " there's"
+        },
+        {
+          "start": 3.28,
+          "end": 3.38,
+          "word": " a"
+        },
+        {
+          "start": 3.38,
+          "end": 3.58,
+          "word": " room"
+        },
+        {
+          "start": 3.58,
+          "end": 3.72,
+          "word": " with"
+        },
+        {
+          "start": 3.72,
+          "end": 3.94,
+          "word": " no"
+        },
+        {
+          "start": 3.94,
+          "end": 4.26,
+          "word": " sign"
+        },
+        {
+          "start": 4.26,
+          "end": 4.4,
+          "word": " on"
+        },
+        {
+          "start": 4.4,
+          "end": 4.52,
+          "word": " the"
+        },
+        {
+          "start": 4.52,
+          "end": 4.8,
+          "word": " door."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.4,
+      "end": 6.0,
+      "text": "No listing.",
+      "words": [
+        {
+          "start": 5.4,
+          "end": 5.68,
+          "word": " No"
+        },
+        {
+          "start": 5.68,
+          "end": 6.0,
+          "word": " listing."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.68,
+      "end": 10.14,
+      "text": "No official name anyone outside North Korea has ever confirmed.",
+      "words": [
+        {
+          "start": 6.68,
+          "end": 6.92,
+          "word": " No"
+        },
+        {
+          "start": 6.92,
+          "end": 7.28,
+          "word": " official"
+        },
+        {
+          "start": 7.28,
+          "end": 7.58,
+          "word": " name"
+        },
+        {
+          "start": 7.58,
+          "end": 7.96,
+          "word": " anyone"
+        },
+        {
+          "start": 7.96,
+          "end": 8.42,
+          "word": " outside"
+        },
+        {
+          "start": 8.42,
+          "end": 8.62,
+          "word": " North"
+        },
+        {
+          "start": 8.62,
+          "end": 8.96,
+          "word": " Korea"
+        },
+        {
+          "start": 8.96,
+          "end": 9.28,
+          "word": " has"
+        },
+        {
+          "start": 9.28,
+          "end": 9.58,
+          "word": " ever"
+        },
+        {
+          "start": 9.58,
+          "end": 10.14,
+          "word": " confirmed."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 11.4,
+      "end": 15.98,
+      "text": "And yet, at its peak, this one room is believed to have moved.",
+      "words": [
+        {
+          "start": 11.4,
+          "end": 11.72,
+          "word": " And"
+        },
+        {
+          "start": 11.72,
+          "end": 11.96,
+          "word": " yet,"
+        },
+        {
+          "start": 12.38,
+          "end": 12.58,
+          "word": " at"
+        },
+        {
+          "start": 12.58,
+          "end": 12.74,
+          "word": " its"
+        },
+        {
+          "start": 12.74,
+          "end": 13.08,
+          "word": " peak,"
+        },
+        {
+          "start": 13.68,
+          "end": 13.84,
+          "word": " this"
+        },
+        {
+          "start": 13.84,
+          "end": 14.18,
+          "word": " one"
+        },
+        {
+          "start": 14.18,
+          "end": 14.58,
+          "word": " room"
+        },
+        {
+          "start": 14.58,
+          "end": 14.84,
+          "word": " is"
+        },
+        {
+          "start": 14.84,
+          "end": 15.16,
+          "word": " believed"
+        },
+        {
+          "start": 15.16,
+          "end": 15.4,
+          "word": " to"
+        },
+        {
+          "start": 15.4,
+          "end": 15.52,
+          "word": " have"
+        },
+        {
+          "start": 15.52,
+          "end": 15.98,
+          "word": " moved."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 16.86,
+      "end": 19.88,
+      "text": "As much as half of North Korea's entire GDP.",
+      "words": [
+        {
+          "start": 16.86,
+          "end": 17.14,
+          "word": " As"
+        },
+        {
+          "start": 17.14,
+          "end": 17.32,
+          "word": " much"
+        },
+        {
+          "start": 17.32,
+          "end": 17.52,
+          "word": " as"
+        },
+        {
+          "start": 17.52,
+          "end": 17.88,
+          "word": " half"
+        },
+        {
+          "start": 17.88,
+          "end": 18.16,
+          "word": " of"
+        },
+        {
+          "start": 18.16,
+          "end": 18.36,
+          "word": " North"
+        },
+        {
+          "start": 18.36,
+          "end": 18.96,
+          "word": " Korea's"
+        },
+        {
+          "start": 18.96,
+          "end": 19.34,
+          "word": " entire"
+        },
+        {
+          "start": 19.34,
+          "end": 19.88,
+          "word": " GDP."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 21.08,
+      "end": 22.94,
+      "text": "This is Room 39.",
+      "words": [
+        {
+          "start": 21.08,
+          "end": 21.66,
+          "word": " This"
+        },
+        {
+          "start": 21.66,
+          "end": 22.14,
+          "word": " is"
+        },
+        {
+          "start": 22.14,
+          "end": 22.36,
+          "word": " Room"
+        },
+        {
+          "start": 22.36,
+          "end": 22.94,
+          "word": " 39."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 24.58,
+      "end": 30.6,
+      "text": "1972, Kim Jong Il, not yet the country's leader, just the heir apparent, has a problem.",
+      "words": [
+        {
+          "start": 24.58,
+          "end": 25.18,
+          "word": " 1972,"
+        },
+        {
+          "start": 25.74,
+          "end": 25.96,
+          "word": " Kim"
+        },
+        {
+          "start": 25.96,
+          "end": 26.18,
+          "word": " Jong"
+        },
+        {
+          "start": 26.18,
+          "end": 26.46,
+          "word": " Il,"
+        },
+        {
+          "start": 27.02,
+          "end": 27.2,
+          "word": " not"
+        },
+        {
+          "start": 27.2,
+          "end": 27.4,
+          "word": " yet"
+        },
+        {
+          "start": 27.4,
+          "end": 27.58,
+          "word": " the"
+        },
+        {
+          "start": 27.58,
+          "end": 27.98,
+          "word": " country's"
+        },
+        {
+          "start": 27.98,
+          "end": 28.22,
+          "word": " leader,"
+        },
+        {
+          "start": 28.5,
+          "end": 28.64,
+          "word": " just"
+        },
+        {
+          "start": 28.64,
+          "end": 28.82,
+          "word": " the"
+        },
+        {
+          "start": 28.82,
+          "end": 28.96,
+          "word": " heir"
+        },
+        {
+          "start": 28.96,
+          "end": 29.44,
+          "word": " apparent,"
+        },
+        {
+          "start": 29.88,
+          "end": 30.12,
+          "word": " has"
+        },
+        {
+          "start": 30.12,
+          "end": 30.24,
+          "word": " a"
+        },
+        {
+          "start": 30.24,
+          "end": 30.6,
+          "word": " problem."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 31.44,
+      "end": 35.5,
+      "text": "North Korea's economy is stalling, and the regime needs hard currency.",
+      "words": [
+        {
+          "start": 31.44,
+          "end": 31.7,
+          "word": " North"
+        },
+        {
+          "start": 31.7,
+          "end": 32.14,
+          "word": " Korea's"
+        },
+        {
+          "start": 32.14,
+          "end": 32.48,
+          "word": " economy"
+        },
+        {
+          "start": 32.48,
+          "end": 32.7,
+          "word": " is"
+        },
+        {
+          "start": 32.7,
+          "end": 33.32,
+          "word": " stalling,"
+        },
+        {
+          "start": 33.64,
+          "end": 33.84,
+          "word": " and"
+        },
+        {
+          "start": 33.84,
+          "end": 33.94,
+          "word": " the"
+        },
+        {
+          "start": 33.94,
+          "end": 34.26,
+          "word": " regime"
+        },
+        {
+          "start": 34.26,
+          "end": 34.6,
+          "word": " needs"
+        },
+        {
+          "start": 34.6,
+          "end": 35.0,
+          "word": " hard"
+        },
+        {
+          "start": 35.0,
+          "end": 35.5,
+          "word": " currency."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 36.12,
+      "end": 38.42,
+      "text": "Real, spendable, foreign money.",
+      "words": [
+        {
+          "start": 36.12,
+          "end": 36.72,
+          "word": " Real,"
+        },
+        {
+          "start": 37.02,
+          "end": 37.54,
+          "word": " spendable,"
+        },
+        {
+          "start": 37.82,
+          "end": 38.02,
+          "word": " foreign"
+        },
+        {
+          "start": 38.02,
+          "end": 38.42,
+          "word": " money."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 39.22,
+      "end": 42.78,
+      "text": "The kind sanctions are specifically designed to keep out of its hands.",
+      "words": [
+        {
+          "start": 39.22,
+          "end": 39.34,
+          "word": " The"
+        },
+        {
+          "start": 39.34,
+          "end": 39.6,
+          "word": " kind"
+        },
+        {
+          "start": 39.6,
+          "end": 40.06,
+          "word": " sanctions"
+        },
+        {
+          "start": 40.06,
+          "end": 40.28,
+          "word": " are"
+        },
+        {
+          "start": 40.28,
+          "end": 40.86,
+          "word": " specifically"
+        },
+        {
+          "start": 40.86,
+          "end": 41.42,
+          "word": " designed"
+        },
+        {
+          "start": 41.42,
+          "end": 41.68,
+          "word": " to"
+        },
+        {
+          "start": 41.68,
+          "end": 41.94,
+          "word": " keep"
+        },
+        {
+          "start": 41.94,
+          "end": 42.14,
+          "word": " out"
+        },
+        {
+          "start": 42.14,
+          "end": 42.26,
+          "word": " of"
+        },
+        {
+          "start": 42.26,
+          "end": 42.36,
+          "word": " its"
+        },
+        {
+          "start": 42.36,
+          "end": 42.78,
+          "word": " hands."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 43.62,
+      "end": 45.02,
+      "text": "So he builds a solution.",
+      "words": [
+        {
+          "start": 43.62,
+          "end": 44.06,
+          "word": " So"
+        },
+        {
+          "start": 44.06,
+          "end": 44.2,
+          "word": " he"
+        },
+        {
+          "start": 44.2,
+          "end": 44.46,
+          "word": " builds"
+        },
+        {
+          "start": 44.46,
+          "end": 44.62,
+          "word": " a"
+        },
+        {
+          "start": 44.62,
+          "end": 45.02,
+          "word": " solution."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 45.88,
+      "end": 50.54,
+      "text": "Three secret departments, all housed on the same floor of the same building,",
+      "words": [
+        {
+          "start": 45.88,
+          "end": 46.28,
+          "word": " Three"
+        },
+        {
+          "start": 46.28,
+          "end": 46.68,
+          "word": " secret"
+        },
+        {
+          "start": 46.68,
+          "end": 47.18,
+          "word": " departments,"
+        },
+        {
+          "start": 47.96,
+          "end": 48.22,
+          "word": " all"
+        },
+        {
+          "start": 48.22,
+          "end": 48.54,
+          "word": " housed"
+        },
+        {
+          "start": 48.54,
+          "end": 48.74,
+          "word": " on"
+        },
+        {
+          "start": 48.74,
+          "end": 48.86,
+          "word": " the"
+        },
+        {
+          "start": 48.86,
+          "end": 49.14,
+          "word": " same"
+        },
+        {
+          "start": 49.14,
+          "end": 49.5,
+          "word": " floor"
+        },
+        {
+          "start": 49.5,
+          "end": 49.78,
+          "word": " of"
+        },
+        {
+          "start": 49.78,
+          "end": 49.9,
+          "word": " the"
+        },
+        {
+          "start": 49.9,
+          "end": 50.2,
+          "word": " same"
+        },
+        {
+          "start": 50.2,
+          "end": 50.54,
+          "word": " building,"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 50.54,
+      "end": 53.66,
+      "text": "nicknamed appropriately, the third floor.",
+      "words": [
+        {
+          "start": 50.54,
+          "end": 51.72,
+          "word": " nicknamed"
+        },
+        {
+          "start": 51.72,
+          "end": 52.26,
+          "word": " appropriately,"
+        },
+        {
+          "start": 52.82,
+          "end": 52.94,
+          "word": " the"
+        },
+        {
+          "start": 52.94,
+          "end": 53.26,
+          "word": " third"
+        },
+        {
+          "start": 53.26,
+          "end": 53.66,
+          "word": " floor."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 54.96,
+      "end": 56.82,
+      "text": "Office 35 handles intelligence.",
+      "words": [
+        {
+          "start": 54.96,
+          "end": 55.16,
+          "word": " Office"
+        },
+        {
+          "start": 55.16,
+          "end": 55.74,
+          "word": " 35"
+        },
+        {
+          "start": 55.74,
+          "end": 56.18,
+          "word": " handles"
+        },
+        {
+          "start": 56.18,
+          "end": 56.82,
+          "word": " intelligence."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 57.74,
+      "end": 60.74,
+      "text": "Office 38 handles the money that's more or less legal.",
+      "words": [
+        {
+          "start": 57.74,
+          "end": 57.94,
+          "word": " Office"
+        },
+        {
+          "start": 57.94,
+          "end": 58.44,
+          "word": " 38"
+        },
+        {
+          "start": 58.44,
+          "end": 58.86,
+          "word": " handles"
+        },
+        {
+          "start": 58.86,
+          "end": 59.04,
+          "word": " the"
+        },
+        {
+          "start": 59.04,
+          "end": 59.22,
+          "word": " money"
+        },
+        {
+          "start": 59.22,
+          "end": 59.7,
+          "word": " that's"
+        },
+        {
+          "start": 59.7,
+          "end": 60.0,
+          "word": " more"
+        },
+        {
+          "start": 60.0,
+          "end": 60.14,
+          "word": " or"
+        },
+        {
+          "start": 60.14,
+          "end": 60.38,
+          "word": " less"
+        },
+        {
+          "start": 60.38,
+          "end": 60.74,
+          "word": " legal."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 61.92,
+      "end": 62.76,
+      "text": "And Room 39?",
+      "words": [
+        {
+          "start": 61.92,
+          "end": 62.06,
+          "word": " And"
+        },
+        {
+          "start": 62.06,
+          "end": 62.24,
+          "word": " Room"
+        },
+        {
+          "start": 62.24,
+          "end": 62.76,
+          "word": " 39?"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 63.7,
+      "end": 66.38,
+      "text": "Room 39 stops waiting for legal money.",
+      "words": [
+        {
+          "start": 63.7,
+          "end": 64.02,
+          "word": " Room"
+        },
+        {
+          "start": 64.02,
+          "end": 64.58,
+          "word": " 39"
+        },
+        {
+          "start": 64.58,
+          "end": 64.96,
+          "word": " stops"
+        },
+        {
+          "start": 64.96,
+          "end": 65.5,
+          "word": " waiting"
+        },
+        {
+          "start": 65.5,
+          "end": 65.82,
+          "word": " for"
+        },
+        {
+          "start": 65.82,
+          "end": 66.06,
+          "word": " legal"
+        },
+        {
+          "start": 66.06,
+          "end": 66.38,
+          "word": " money."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 67.24,
+      "end": 68.82,
+      "text": "It starts manufacturing it.",
+      "words": [
+        {
+          "start": 67.24,
+          "end": 67.44,
+          "word": " It"
+        },
+        {
+          "start": 67.44,
+          "end": 67.7,
+          "word": " starts"
+        },
+        {
+          "start": 67.7,
+          "end": 68.42,
+          "word": " manufacturing"
+        },
+        {
+          "start": 68.42,
+          "end": 68.82,
+          "word": " it."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 70.0,
+      "end": 72.7,
+      "text": "On paper, Room 39 looks almost boring.",
+      "words": [
+        {
+          "start": 70.0,
+          "end": 70.2,
+          "word": " On"
+        },
+        {
+          "start": 70.2,
+          "end": 70.54,
+          "word": " paper,"
+        },
+        {
+          "start": 70.82,
+          "end": 70.94,
+          "word": " Room"
+        },
+        {
+          "start": 70.94,
+          "end": 71.44,
+          "word": " 39"
+        },
+        {
+          "start": 71.44,
+          "end": 71.74,
+          "word": " looks"
+        },
+        {
+          "start": 71.74,
+          "end": 72.22,
+          "word": " almost"
+        },
+        {
+          "start": 72.22,
+          "end": 72.7,
+          "word": " boring."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 73.44,
+      "end": 78.3,
+      "text": "Over a hundred trading companies, mining operations, textile factories,",
+      "words": [
+        {
+          "start": 73.44,
+          "end": 73.78,
+          "word": " Over"
+        },
+        {
+          "start": 73.78,
+          "end": 73.96,
+          "word": " a"
+        },
+        {
+          "start": 73.96,
+          "end": 74.22,
+          "word": " hundred"
+        },
+        {
+          "start": 74.22,
+          "end": 74.58,
+          "word": " trading"
+        },
+        {
+          "start": 74.58,
+          "end": 75.1,
+          "word": " companies,"
+        },
+        {
+          "start": 75.62,
+          "end": 75.98,
+          "word": " mining"
+        },
+        {
+          "start": 75.98,
+          "end": 76.52,
+          "word": " operations,"
+        },
+        {
+          "start": 77.3,
+          "end": 77.68,
+          "word": " textile"
+        },
+        {
+          "start": 77.68,
+          "end": 78.3,
+          "word": " factories,"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 78.3,
+      "end": 82.64,
+      "text": "even a restaurant chain that quietly operates in cities most people",
+      "words": [
+        {
+          "start": 78.3,
+          "end": 79.38,
+          "word": " even"
+        },
+        {
+          "start": 79.38,
+          "end": 79.62,
+          "word": " a"
+        },
+        {
+          "start": 79.62,
+          "end": 79.96,
+          "word": " restaurant"
+        },
+        {
+          "start": 79.96,
+          "end": 80.36,
+          "word": " chain"
+        },
+        {
+          "start": 80.36,
+          "end": 80.6,
+          "word": " that"
+        },
+        {
+          "start": 80.6,
+          "end": 81.02,
+          "word": " quietly"
+        },
+        {
+          "start": 81.02,
+          "end": 81.48,
+          "word": " operates"
+        },
+        {
+          "start": 81.48,
+          "end": 81.74,
+          "word": " in"
+        },
+        {
+          "start": 81.74,
+          "end": 81.96,
+          "word": " cities"
+        },
+        {
+          "start": 81.96,
+          "end": 82.32,
+          "word": " most"
+        },
+        {
+          "start": 82.32,
+          "end": 82.64,
+          "word": " people"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 82.64,
+      "end": 85.56,
+      "text": "wouldn't expect to find North Korean run businesses at all.",
+      "words": [
+        {
+          "start": 82.64,
+          "end": 83.06,
+          "word": " wouldn't"
+        },
+        {
+          "start": 83.06,
+          "end": 83.36,
+          "word": " expect"
+        },
+        {
+          "start": 83.36,
+          "end": 83.66,
+          "word": " to"
+        },
+        {
+          "start": 83.66,
+          "end": 83.82,
+          "word": " find"
+        },
+        {
+          "start": 83.82,
+          "end": 84.04,
+          "word": " North"
+        },
+        {
+          "start": 84.04,
+          "end": 84.3,
+          "word": " Korean"
+        },
+        {
+          "start": 84.3,
+          "end": 84.58,
+          "word": " run"
+        },
+        {
+          "start": 84.58,
+          "end": 85.0,
+          "word": " businesses"
+        },
+        {
+          "start": 85.0,
+          "end": 85.28,
+          "word": " at"
+        },
+        {
+          "start": 85.28,
+          "end": 85.56,
+          "word": " all."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 86.28,
+      "end": 87.74,
+      "text": "It looks like an economy.",
+      "words": [
+        {
+          "start": 86.28,
+          "end": 86.76,
+          "word": " It"
+        },
+        {
+          "start": 86.76,
+          "end": 87.02,
+          "word": " looks"
+        },
+        {
+          "start": 87.02,
+          "end": 87.26,
+          "word": " like"
+        },
+        {
+          "start": 87.26,
+          "end": 87.4,
+          "word": " an"
+        },
+        {
+          "start": 87.4,
+          "end": 87.74,
+          "word": " economy."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 88.6,
+      "end": 92.8,
+      "text": "A small, strange, isolated economy, but a real one.",
+      "words": [
+        {
+          "start": 88.6,
+          "end": 88.92,
+          "word": " A"
+        },
+        {
+          "start": 88.92,
+          "end": 89.34,
+          "word": " small,"
+        },
+        {
+          "start": 89.8,
+          "end": 90.04,
+          "word": " strange,"
+        },
+        {
+          "start": 90.28,
+          "end": 90.74,
+          "word": " isolated"
+        },
+        {
+          "start": 90.74,
+          "end": 91.34,
+          "word": " economy,"
+        },
+        {
+          "start": 91.88,
+          "end": 92.08,
+          "word": " but"
+        },
+        {
+          "start": 92.08,
+          "end": 92.22,
+          "word": " a"
+        },
+        {
+          "start": 92.22,
+          "end": 92.48,
+          "word": " real"
+        },
+        {
+          "start": 92.48,
+          "end": 92.8,
+          "word": " one."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 93.78,
+      "end": 95.52,
+      "text": "Then you look closer at the textiles.",
+      "words": [
+        {
+          "start": 93.78,
+          "end": 94.0,
+          "word": " Then"
+        },
+        {
+          "start": 94.0,
+          "end": 94.14,
+          "word": " you"
+        },
+        {
+          "start": 94.14,
+          "end": 94.28,
+          "word": " look"
+        },
+        {
+          "start": 94.28,
+          "end": 94.66,
+          "word": " closer"
+        },
+        {
+          "start": 94.66,
+          "end": 94.8,
+          "word": " at"
+        },
+        {
+          "start": 94.8,
+          "end": 94.9,
+          "word": " the"
+        },
+        {
+          "start": 94.9,
+          "end": 95.52,
+          "word": " textiles."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 96.28,
+      "end": 100.34,
+      "text": "North Korea exports roughly $500 million a year in garments.",
+      "words": [
+        {
+          "start": 96.28,
+          "end": 96.6,
+          "word": " North"
+        },
+        {
+          "start": 96.6,
+          "end": 96.9,
+          "word": " Korea"
+        },
+        {
+          "start": 96.9,
+          "end": 97.3,
+          "word": " exports"
+        },
+        {
+          "start": 97.3,
+          "end": 97.8,
+          "word": " roughly"
+        },
+        {
+          "start": 97.8,
+          "end": 98.34,
+          "word": " $500"
+        },
+        {
+          "start": 98.34,
+          "end": 98.96,
+          "word": " million"
+        },
+        {
+          "start": 98.96,
+          "end": 99.5,
+          "word": " a"
+        },
+        {
+          "start": 99.5,
+          "end": 99.8,
+          "word": " year"
+        },
+        {
+          "start": 99.8,
+          "end": 100.0,
+          "word": " in"
+        },
+        {
+          "start": 100.0,
+          "end": 100.34,
+          "word": " garments."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 101.08,
+      "end": 106.08,
+      "text": "Except a significant share of them never leave the factory labeled made in North Korea.",
+      "words": [
+        {
+          "start": 101.08,
+          "end": 101.62,
+          "word": " Except"
+        },
+        {
+          "start": 101.62,
+          "end": 101.82,
+          "word": " a"
+        },
+        {
+          "start": 101.82,
+          "end": 102.24,
+          "word": " significant"
+        },
+        {
+          "start": 102.24,
+          "end": 102.62,
+          "word": " share"
+        },
+        {
+          "start": 102.62,
+          "end": 102.8,
+          "word": " of"
+        },
+        {
+          "start": 102.8,
+          "end": 102.96,
+          "word": " them"
+        },
+        {
+          "start": 102.96,
+          "end": 103.46,
+          "word": " never"
+        },
+        {
+          "start": 103.46,
+          "end": 103.76,
+          "word": " leave"
+        },
+        {
+          "start": 103.76,
+          "end": 103.92,
+          "word": " the"
+        },
+        {
+          "start": 103.92,
+          "end": 104.26,
+          "word": " factory"
+        },
+        {
+          "start": 104.26,
+          "end": 104.72,
+          "word": " labeled"
+        },
+        {
+          "start": 104.72,
+          "end": 105.26,
+          "word": " made"
+        },
+        {
+          "start": 105.26,
+          "end": 105.48,
+          "word": " in"
+        },
+        {
+          "start": 105.48,
+          "end": 105.68,
+          "word": " North"
+        },
+        {
+          "start": 105.68,
+          "end": 106.08,
+          "word": " Korea."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 106.08,
+      "end": 109.44,
+      "text": "They leave labeled made in China.",
+      "words": [
+        {
+          "start": 106.08,
+          "end": 107.28,
+          "word": " They"
+        },
+        {
+          "start": 107.28,
+          "end": 107.68,
+          "word": " leave"
+        },
+        {
+          "start": 107.68,
+          "end": 108.08,
+          "word": " labeled"
+        },
+        {
+          "start": 108.08,
+          "end": 108.84,
+          "word": " made"
+        },
+        {
+          "start": 108.84,
+          "end": 109.04,
+          "word": " in"
+        },
+        {
+          "start": 109.04,
+          "end": 109.44,
+          "word": " China."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 110.7,
+      "end": 113.96,
+      "text": "Even the legitimate arm of Room 39 is built on a lie.",
+      "words": [
+        {
+          "start": 110.7,
+          "end": 110.88,
+          "word": " Even"
+        },
+        {
+          "start": 110.88,
+          "end": 111.08,
+          "word": " the"
+        },
+        {
+          "start": 111.08,
+          "end": 111.5,
+          "word": " legitimate"
+        },
+        {
+          "start": 111.5,
+          "end": 111.88,
+          "word": " arm"
+        },
+        {
+          "start": 111.88,
+          "end": 112.06,
+          "word": " of"
+        },
+        {
+          "start": 112.06,
+          "end": 112.2,
+          "word": " Room"
+        },
+        {
+          "start": 112.2,
+          "end": 112.66,
+          "word": " 39"
+        },
+        {
+          "start": 112.66,
+          "end": 113.02,
+          "word": " is"
+        },
+        {
+          "start": 113.02,
+          "end": 113.3,
+          "word": " built"
+        },
+        {
+          "start": 113.3,
+          "end": 113.5,
+          "word": " on"
+        },
+        {
+          "start": 113.5,
+          "end": 113.64,
+          "word": " a"
+        },
+        {
+          "start": 113.64,
+          "end": 113.96,
+          "word": " lie."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 114.66,
+      "end": 116.08,
+      "text": "That's not the exception here.",
+      "words": [
+        {
+          "start": 114.66,
+          "end": 115.06,
+          "word": " That's"
+        },
+        {
+          "start": 115.06,
+          "end": 115.16,
+          "word": " not"
+        },
+        {
+          "start": 115.16,
+          "end": 115.32,
+          "word": " the"
+        },
+        {
+          "start": 115.32,
+          "end": 115.76,
+          "word": " exception"
+        },
+        {
+          "start": 115.76,
+          "end": 116.08,
+          "word": " here."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 116.54,
+      "end": 117.48,
+      "text": "That's the pattern.",
+      "words": [
+        {
+          "start": 116.54,
+          "end": 116.92,
+          "word": " That's"
+        },
+        {
+          "start": 116.92,
+          "end": 117.04,
+          "word": " the"
+        },
+        {
+          "start": 117.04,
+          "end": 117.48,
+          "word": " pattern."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 118.44,
+      "end": 122.48,
+      "text": "Because once you're willing to fake a clothing label, the next question is obvious.",
+      "words": [
+        {
+          "start": 118.44,
+          "end": 118.74,
+          "word": " Because"
+        },
+        {
+          "start": 118.74,
+          "end": 119.0,
+          "word": " once"
+        },
+        {
+          "start": 119.0,
+          "end": 119.22,
+          "word": " you're"
+        },
+        {
+          "start": 119.22,
+          "end": 119.4,
+          "word": " willing"
+        },
+        {
+          "start": 119.4,
+          "end": 119.6,
+          "word": " to"
+        },
+        {
+          "start": 119.6,
+          "end": 119.8,
+          "word": " fake"
+        },
+        {
+          "start": 119.8,
+          "end": 119.94,
+          "word": " a"
+        },
+        {
+          "start": 119.94,
+          "end": 120.28,
+          "word": " clothing"
+        },
+        {
+          "start": 120.28,
+          "end": 120.64,
+          "word": " label,"
+        },
+        {
+          "start": 121.12,
+          "end": 121.34,
+          "word": " the"
+        },
+        {
+          "start": 121.34,
+          "end": 121.54,
+          "word": " next"
+        },
+        {
+          "start": 121.54,
+          "end": 121.92,
+          "word": " question"
+        },
+        {
+          "start": 121.92,
+          "end": 122.12,
+          "word": " is"
+        },
+        {
+          "start": 122.12,
+          "end": 122.48,
+          "word": " obvious."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 123.26,
+      "end": 124.46,
+      "text": "What else can you fake?",
+      "words": [
+        {
+          "start": 123.26,
+          "end": 123.6,
+          "word": " What"
+        },
+        {
+          "start": 123.6,
+          "end": 123.88,
+          "word": " else"
+        },
+        {
+          "start": 123.88,
+          "end": 124.1,
+          "word": " can"
+        },
+        {
+          "start": 124.1,
+          "end": 124.22,
+          "word": " you"
+        },
+        {
+          "start": 124.22,
+          "end": 124.46,
+          "word": " fake?"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start": 125.86,
+      "end": 131.02,
+      "text": "In the late 80s, the US Secret Service starts finding $100 bills that shouldn't exist.",
+      "words": [
+        {
+          "start": 125.86,
+          "end": 126.04,
+          "word": " In"
+        },
+        {
+          "start": 126.04,
+          "end": 126.16,
+          "word": " the"
+        },
+        {
+          "start": 126.16,
+          "end": 126.36,
+          "word": " late"
+        },
+        {
+          "start": 126.36,
+          "end": 126.86,
+          "word": " 80s,"
+        },
+        {
+          "start": 126.98,
+          "end": 127.06,
+          "word": " the"
+        },
+        {
+          "start": 127.06,
+          "end": 127.36,
+          "word": " US"
+        },
+        {
+          "start": 127.36,
+          "end": 127.66,
+          "word": " Secret"
+        },
+        {
+          "start": 127.66,
+          "end": 128.04,
+          "word": " Service"
+        },
+        {
+          "start": 128.04,
+          "end": 128.4,
+          "word": " starts"
+        },
+        {
+          "start": 128.4,
+          "end": 128.76,
+          "word": " finding"
+        },
+        {
+          "start": 128.76,
+          "end": 129.24,
+          "word": " $100"
+        },
+        {
+          "start": 129.24,
+          "end": 129.72,
+          "word": " bills"
+        },
+        {
+          "start": 129.72,
+          "end": 130.08,
+          "word": " that"
+        },
+        {
+          "start": 130.08,
+          "end": 130.48,
+          "word": " shouldn't"
+        },
+        {
+          "start": 130.48,
+          "end": 131.02,
+          "word": " exist."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start": 131.02,
+      "end": 133.42,
+      "text": "Near perfect counterfeits.",
+      "words": [
+        {
+          "start": 131.02,
+          "end": 132.14,
+          "word": " Near"
+        },
+        {
+          "start": 132.14,
+          "end": 132.68,
+          "word": " perfect"
+        },
+        {
+          "start": 132.68,
+          "end": 133.42,
+          "word": " counterfeits."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start": 134.12,
+      "end": 138.08,
+      "text": "The same intaglio printing technique the US Treasury itself uses.",
+      "words": [
+        {
+          "start": 134.12,
+          "end": 134.28,
+          "word": " The"
+        },
+        {
+          "start": 134.28,
+          "end": 134.64,
+          "word": " same"
+        },
+        {
+          "start": 134.64,
+          "end": 135.26,
+          "word": " intaglio"
+        },
+        {
+          "start": 135.26,
+          "end": 135.58,
+          "word": " printing"
+        },
+        {
+          "start": 135.58,
+          "end": 136.12,
+          "word": " technique"
+        },
+        {
+          "start": 136.12,
+          "end": 136.36,
+          "word": " the"
+        },
+        {
+          "start": 136.36,
+          "end": 136.7,
+          "word": " US"
+        },
+        {
+          "start": 136.7,
+          "end": 137.12,
+          "word": " Treasury"
+        },
+        {
+          "start": 137.12,
+          "end": 137.48,
+          "word": " itself"
+        },
+        {
+          "start": 137.48,
+          "end": 138.08,
+          "word": " uses."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start": 138.92,
+      "end": 142.5,
+      "text": "Security features almost indistinguishable from the real thing.",
+      "words": [
+        {
+          "start": 138.92,
+          "end": 139.3,
+          "word": " Security"
+        },
+        {
+          "start": 139.3,
+          "end": 139.84,
+          "word": " features"
+        },
+        {
+          "start": 139.84,
+          "end": 140.42,
+          "word": " almost"
+        },
+        {
+          "start": 140.42,
+          "end": 141.54,
+          "word": " indistinguishable"
+        },
+        {
+          "start": 141.54,
+          "end": 141.76,
+          "word": " from"
+        },
+        {
+          "start": 141.76,
+          "end": 141.88,
+          "word": " the"
+        },
+        {
+          "start": 141.88,
+          "end": 142.16,
+          "word": " real"
+        },
+        {
+          "start": 142.16,
+          "end": 142.5,
+          "word": " thing."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start": 143.42,
+      "end": 146.6,
+      "text": "Investigators trace them back to North Korean state operations.",
+      "words": [
+        {
+          "start": 143.42,
+          "end": 144.14,
+          "word": " Investigators"
+        },
+        {
+          "start": 144.14,
+          "end": 144.42,
+          "word": " trace"
+        },
+        {
+          "start": 144.42,
+          "end": 144.62,
+          "word": " them"
+        },
+        {
+          "start": 144.62,
+          "end": 144.82,
+          "word": " back"
+        },
+        {
+          "start": 144.82,
+          "end": 145.04,
+          "word": " to"
+        },
+        {
+          "start": 145.04,
+          "end": 145.3,
+          "word": " North"
+        },
+        {
+          "start": 145.3,
+          "end": 145.64,
+          "word": " Korean"
+        },
+        {
+          "start": 145.64,
+          "end": 146.0,
+          "word": " state"
+        },
+        {
+          "start": 146.0,
+          "end": 146.6,
+          "word": " operations."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start": 147.64,
+      "end": 148.88,
+      "text": "The bills get a nickname.",
+      "words": [
+        {
+          "start": 147.64,
+          "end": 147.86,
+          "word": " The"
+        },
+        {
+          "start": 147.86,
+          "end": 148.16,
+          "word": " bills"
+        },
+        {
+          "start": 148.16,
+          "end": 148.4,
+          "word": " get"
+        },
+        {
+          "start": 148.4,
+          "end": 148.52,
+          "word": " a"
+        },
+        {
+          "start": 148.52,
+          "end": 148.88,
+          "word": " nickname."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start": 150.1,
+      "end": 150.86,
+      "text": "Supernotes.",
+      "words": [
+        {
+          "start": 150.1,
+          "end": 150.86,
+          "word": " Supernotes."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start": 151.74,
+      "end": 154.1,
+      "text": "But the boldest scheme isn't counterfeiting paper.",
+      "words": [
+        {
+          "start": 151.74,
+          "end": 151.96,
+          "word": " But"
+        },
+        {
+          "start": 151.96,
+          "end": 152.1,
+          "word": " the"
+        },
+        {
+          "start": 152.1,
+          "end": 152.5,
+          "word": " boldest"
+        },
+        {
+          "start": 152.5,
+          "end": 152.82,
+          "word": " scheme"
+        },
+        {
+          "start": 152.82,
+          "end": 153.24,
+          "word": " isn't"
+        },
+        {
+          "start": 153.24,
+          "end": 153.72,
+          "word": " counterfeiting"
+        },
+        {
+          "start": 153.72,
+          "end": 154.1,
+          "word": " paper."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start": 154.78,
+      "end": 156.04,
+      "text": "It's counterfeiting death.",
+      "words": [
+        {
+          "start": 154.78,
+          "end": 155.08,
+          "word": " It's"
+        },
+        {
+          "start": 155.08,
+          "end": 155.66,
+          "word": " counterfeiting"
+        },
+        {
+          "start": 155.66,
+          "end": 156.04,
+          "word": " death."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start": 156.04,
+      "end": 161.24,
+      "text": "A state-owned insurance company fully owned by the North Korean government",
+      "words": [
+        {
+          "start": 156.04,
+          "end": 156.82,
+          "word": " A"
+        },
+        {
+          "start": 156.82,
+          "end": 157.7,
+          "word": " state"
+        },
+        {
+          "start": 157.7,
+          "end": 157.94,
+          "word": "-owned"
+        },
+        {
+          "start": 157.94,
+          "end": 158.34,
+          "word": " insurance"
+        },
+        {
+          "start": 158.34,
+          "end": 158.86,
+          "word": " company"
+        },
+        {
+          "start": 158.86,
+          "end": 159.66,
+          "word": " fully"
+        },
+        {
+          "start": 159.66,
+          "end": 160.04,
+          "word": " owned"
+        },
+        {
+          "start": 160.04,
+          "end": 160.2,
+          "word": " by"
+        },
+        {
+          "start": 160.2,
+          "end": 160.32,
+          "word": " the"
+        },
+        {
+          "start": 160.32,
+          "end": 160.48,
+          "word": " North"
+        },
+        {
+          "start": 160.48,
+          "end": 160.74,
+          "word": " Korean"
+        },
+        {
+          "start": 160.74,
+          "end": 161.24,
+          "word": " government"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start": 161.24,
+      "end": 165.0,
+      "text": "starts filing reinsurance claims with companies in Europe.",
+      "words": [
+        {
+          "start": 161.24,
+          "end": 162.16,
+          "word": " starts"
+        },
+        {
+          "start": 162.16,
+          "end": 162.64,
+          "word": " filing"
+        },
+        {
+          "start": 162.64,
+          "end": 163.3,
+          "word": " reinsurance"
+        },
+        {
+          "start": 163.3,
+          "end": 163.7,
+          "word": " claims"
+        },
+        {
+          "start": 163.7,
+          "end": 163.98,
+          "word": " with"
+        },
+        {
+          "start": 163.98,
+          "end": 164.38,
+          "word": " companies"
+        },
+        {
+          "start": 164.38,
+          "end": 164.62,
+          "word": " in"
+        },
+        {
+          "start": 164.62,
+          "end": 165.0,
+          "word": " Europe."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start": 165.66,
+      "end": 166.9,
+      "text": "Claims for accidents.",
+      "words": [
+        {
+          "start": 165.66,
+          "end": 166.32,
+          "word": " Claims"
+        },
+        {
+          "start": 166.32,
+          "end": 166.44,
+          "word": " for"
+        },
+        {
+          "start": 166.44,
+          "end": 166.9,
+          "word": " accidents."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start": 167.72,
+      "end": 168.38,
+      "text": "For deaths.",
+      "words": [
+        {
+          "start": 167.72,
+          "end": 167.92,
+          "word": " For"
+        },
+        {
+          "start": 167.92,
+          "end": 168.38,
+          "word": " deaths."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start": 169.6,
+      "end": 173.38,
+      "text": "Under North Korean law where no foreign court can meaningfully investigate",
+      "words": [
+        {
+          "start": 169.6,
+          "end": 169.8,
+          "word": " Under"
+        },
+        {
+          "start": 169.8,
+          "end": 170.08,
+          "word": " North"
+        },
+        {
+          "start": 170.08,
+          "end": 170.34,
+          "word": " Korean"
+        },
+        {
+          "start": 170.34,
+          "end": 170.76,
+          "word": " law"
+        },
+        {
+          "start": 170.76,
+          "end": 171.16,
+          "word": " where"
+        },
+        {
+          "start": 171.16,
+          "end": 171.46,
+          "word": " no"
+        },
+        {
+          "start": 171.46,
+          "end": 171.88,
+          "word": " foreign"
+        },
+        {
+          "start": 171.88,
+          "end": 172.2,
+          "word": " court"
+        },
+        {
+          "start": 172.2,
+          "end": 172.46,
+          "word": " can"
+        },
+        {
+          "start": 172.46,
+          "end": 172.98,
+          "word": " meaningfully"
+        },
+        {
+          "start": 172.98,
+          "end": 173.38,
+          "word": " investigate"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start": 173.38,
+      "end": 177.06,
+      "text": "and no foreign lawyer can meaningfully challenge them.",
+      "words": [
+        {
+          "start": 173.38,
+          "end": 174.4,
+          "word": " and"
+        },
+        {
+          "start": 174.4,
+          "end": 174.66,
+          "word": " no"
+        },
+        {
+          "start": 174.66,
+          "end": 175.08,
+          "word": " foreign"
+        },
+        {
+          "start": 175.08,
+          "end": 175.42,
+          "word": " lawyer"
+        },
+        {
+          "start": 175.42,
+          "end": 175.76,
+          "word": " can"
+        },
+        {
+          "start": 175.76,
+          "end": 176.3,
+          "word": " meaningfully"
+        },
+        {
+          "start": 176.3,
+          "end": 176.74,
+          "word": " challenge"
+        },
+        {
+          "start": 176.74,
+          "end": 177.06,
+          "word": " them."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start": 178.04,
+      "end": 178.82,
+      "text": "It works.",
+      "words": [
+        {
+          "start": 178.04,
+          "end": 178.42,
+          "word": " It"
+        },
+        {
+          "start": 178.42,
+          "end": 178.82,
+          "word": " works."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start": 179.64,
+      "end": 183.16,
+      "text": "European insurers pay out tens of millions of dollars",
+      "words": [
+        {
+          "start": 179.64,
+          "end": 180.16,
+          "word": " European"
+        },
+        {
+          "start": 180.16,
+          "end": 180.74,
+          "word": " insurers"
+        },
+        {
+          "start": 180.74,
+          "end": 181.16,
+          "word": " pay"
+        },
+        {
+          "start": 181.16,
+          "end": 181.32,
+          "word": " out"
+        },
+        {
+          "start": 181.32,
+          "end": 181.7,
+          "word": " tens"
+        },
+        {
+          "start": 181.7,
+          "end": 182.06,
+          "word": " of"
+        },
+        {
+          "start": 182.06,
+          "end": 182.52,
+          "word": " millions"
+        },
+        {
+          "start": 182.52,
+          "end": 182.78,
+          "word": " of"
+        },
+        {
+          "start": 182.78,
+          "end": 183.16,
+          "word": " dollars"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "start": 183.16,
+      "end": 187.26,
+      "text": "and in at least one case after years of legal battling",
+      "words": [
+        {
+          "start": 183.16,
+          "end": 184.06,
+          "word": " and"
+        },
+        {
+          "start": 184.06,
+          "end": 184.16,
+          "word": " in"
+        },
+        {
+          "start": 184.16,
+          "end": 184.34,
+          "word": " at"
+        },
+        {
+          "start": 184.34,
+          "end": 184.52,
+          "word": " least"
+        },
+        {
+          "start": 184.52,
+          "end": 184.8,
+          "word": " one"
+        },
+        {
+          "start": 184.8,
+          "end": 185.16,
+          "word": " case"
+        },
+        {
+          "start": 185.16,
+          "end": 185.82,
+          "word": " after"
+        },
+        {
+          "start": 185.82,
+          "end": 186.36,
+          "word": " years"
+        },
+        {
+          "start": 186.36,
+          "end": 186.56,
+          "word": " of"
+        },
+        {
+          "start": 186.56,
+          "end": 186.8,
+          "word": " legal"
+        },
+        {
+          "start": 186.8,
+          "end": 187.26,
+          "word": " battling"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "start": 187.26,
+      "end": 191.82,
+      "text": "simply settle and hand over 95% of what was claimed.",
+      "words": [
+        {
+          "start": 187.26,
+          "end": 188.14,
+          "word": " simply"
+        },
+        {
+          "start": 188.14,
+          "end": 188.64,
+          "word": " settle"
+        },
+        {
+          "start": 188.64,
+          "end": 189.24,
+          "word": " and"
+        },
+        {
+          "start": 189.24,
+          "end": 189.52,
+          "word": " hand"
+        },
+        {
+          "start": 189.52,
+          "end": 189.72,
+          "word": " over"
+        },
+        {
+          "start": 189.72,
+          "end": 190.2,
+          "word": " 95"
+        },
+        {
+          "start": 190.2,
+          "end": 190.94,
+          "word": "%"
+        },
+        {
+          "start": 190.94,
+          "end": 191.12,
+          "word": " of"
+        },
+        {
+          "start": 191.12,
+          "end": 191.24,
+          "word": " what"
+        },
+        {
+          "start": 191.24,
+          "end": 191.42,
+          "word": " was"
+        },
+        {
+          "start": 191.42,
+          "end": 191.82,
+          "word": " claimed."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "start": 192.78,
+      "end": 194.16,
+      "text": "Not because they believed it.",
+      "words": [
+        {
+          "start": 192.78,
+          "end": 193.06,
+          "word": " Not"
+        },
+        {
+          "start": 193.06,
+          "end": 193.34,
+          "word": " because"
+        },
+        {
+          "start": 193.34,
+          "end": 193.52,
+          "word": " they"
+        },
+        {
+          "start": 193.52,
+          "end": 193.88,
+          "word": " believed"
+        },
+        {
+          "start": 193.88,
+          "end": 194.16,
+          "word": " it."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "start": 194.7,
+      "end": 196.86,
+      "text": "Because they couldn't prove it wasn't true.",
+      "words": [
+        {
+          "start": 194.7,
+          "end": 195.06,
+          "word": " Because"
+        },
+        {
+          "start": 195.06,
+          "end": 195.24,
+          "word": " they"
+        },
+        {
+          "start": 195.24,
+          "end": 195.52,
+          "word": " couldn't"
+        },
+        {
+          "start": 195.52,
+          "end": 195.84,
+          "word": " prove"
+        },
+        {
+          "start": 195.84,
+          "end": 196.02,
+          "word": " it"
+        },
+        {
+          "start": 196.02,
+          "end": 196.54,
+          "word": " wasn't"
+        },
+        {
+          "start": 196.54,
+          "end": 196.86,
+          "word": " true."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "start": 197.88,
+      "end": 201.46,
+      "text": "By the 1990s Room 39 finds a new export.",
+      "words": [
+        {
+          "start": 197.88,
+          "end": 198.38,
+          "word": " By"
+        },
+        {
+          "start": 198.38,
+          "end": 198.5,
+          "word": " the"
+        },
+        {
+          "start": 198.5,
+          "end": 199.5,
+          "word": " 1990s"
+        },
+        {
+          "start": 199.5,
+          "end": 199.7,
+          "word": " Room"
+        },
+        {
+          "start": 199.7,
+          "end": 200.18,
+          "word": " 39"
+        },
+        {
+          "start": 200.18,
+          "end": 200.58,
+          "word": " finds"
+        },
+        {
+          "start": 200.58,
+          "end": 200.74,
+          "word": " a"
+        },
+        {
+          "start": 200.74,
+          "end": 200.92,
+          "word": " new"
+        },
+        {
+          "start": 200.92,
+          "end": 201.46,
+          "word": " export."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "start": 202.3,
+      "end": 203.02,
+      "text": "Methamphetamine.",
+      "words": [
+        {
+          "start": 202.3,
+          "end": 203.02,
+          "word": " Methamphetamine."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "start": 203.74,
+      "end": 208.28,
+      "text": "Produced in state-linked facilities sold abroad for foreign currency.",
+      "words": [
+        {
+          "start": 203.74,
+          "end": 204.46,
+          "word": " Produced"
+        },
+        {
+          "start": 204.46,
+          "end": 204.64,
+          "word": " in"
+        },
+        {
+          "start": 204.64,
+          "end": 204.96,
+          "word": " state"
+        },
+        {
+          "start": 204.96,
+          "end": 205.32,
+          "word": "-linked"
+        },
+        {
+          "start": 205.32,
+          "end": 205.84,
+          "word": " facilities"
+        },
+        {
+          "start": 205.84,
+          "end": 206.66,
+          "word": " sold"
+        },
+        {
+          "start": 206.66,
+          "end": 207.1,
+          "word": " abroad"
+        },
+        {
+          "start": 207.1,
+          "end": 207.36,
+          "word": " for"
+        },
+        {
+          "start": 207.36,
+          "end": 207.74,
+          "word": " foreign"
+        },
+        {
+          "start": 207.74,
+          "end": 208.28,
+          "word": " currency."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "start": 208.28,
+      "end": 213.66,
+      "text": "And so normalized at home that using it in front of others carries almost no stigma.",
+      "words": [
+        {
+          "start": 208.28,
+          "end": 209.22,
+          "word": " And"
+        },
+        {
+          "start": 209.22,
+          "end": 209.54,
+          "word": " so"
+        },
+        {
+          "start": 209.54,
+          "end": 209.98,
+          "word": " normalized"
+        },
+        {
+          "start": 209.98,
+          "end": 210.28,
+          "word": " at"
+        },
+        {
+          "start": 210.28,
+          "end": 210.6,
+          "word": " home"
+        },
+        {
+          "start": 210.6,
+          "end": 210.86,
+          "word": " that"
+        },
+        {
+          "start": 210.86,
+          "end": 211.22,
+          "word": " using"
+        },
+        {
+          "start": 211.22,
+          "end": 211.4,
+          "word": " it"
+        },
+        {
+          "start": 211.4,
+          "end": 211.52,
+          "word": " in"
+        },
+        {
+          "start": 211.52,
+          "end": 211.68,
+          "word": " front"
+        },
+        {
+          "start": 211.68,
+          "end": 211.8,
+          "word": " of"
+        },
+        {
+          "start": 211.8,
+          "end": 212.12,
+          "word": " others"
+        },
+        {
+          "start": 212.12,
+          "end": 212.52,
+          "word": " carries"
+        },
+        {
+          "start": 212.52,
+          "end": 212.9,
+          "word": " almost"
+        },
+        {
+          "start": 212.9,
+          "end": 213.26,
+          "word": " no"
+        },
+        {
+          "start": 213.26,
+          "end": 213.66,
+          "word": " stigma."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "start": 214.76,
+      "end": 218.54,
+      "text": "For people who can't afford real medicine, it becomes medicine.",
+      "words": [
+        {
+          "start": 214.76,
+          "end": 214.86,
+          "word": " For"
+        },
+        {
+          "start": 214.86,
+          "end": 215.16,
+          "word": " people"
+        },
+        {
+          "start": 215.16,
+          "end": 215.36,
+          "word": " who"
+        },
+        {
+          "start": 215.36,
+          "end": 215.66,
+          "word": " can't"
+        },
+        {
+          "start": 215.66,
+          "end": 215.88,
+          "word": " afford"
+        },
+        {
+          "start": 215.88,
+          "end": 216.3,
+          "word": " real"
+        },
+        {
+          "start": 216.3,
+          "end": 216.76,
+          "word": " medicine,"
+        },
+        {
+          "start": 217.36,
+          "end": 217.48,
+          "word": " it"
+        },
+        {
+          "start": 217.48,
+          "end": 218.0,
+          "word": " becomes"
+        },
+        {
+          "start": 218.0,
+          "end": 218.54,
+          "word": " medicine."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "start": 219.6,
+      "end": 220.46,
+      "text": "Then there's the labor.",
+      "words": [
+        {
+          "start": 219.6,
+          "end": 219.84,
+          "word": " Then"
+        },
+        {
+          "start": 219.84,
+          "end": 220.08,
+          "word": " there's"
+        },
+        {
+          "start": 220.08,
+          "end": 220.2,
+          "word": " the"
+        },
+        {
+          "start": 220.2,
+          "end": 220.46,
+          "word": " labor."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "start": 221.24,
+      "end": 224.26,
+      "text": "Tens of thousands of North Korean workers sent overseas.",
+      "words": [
+        {
+          "start": 221.24,
+          "end": 221.68,
+          "word": " Tens"
+        },
+        {
+          "start": 221.68,
+          "end": 221.86,
+          "word": " of"
+        },
+        {
+          "start": 221.86,
+          "end": 222.36,
+          "word": " thousands"
+        },
+        {
+          "start": 222.36,
+          "end": 222.6,
+          "word": " of"
+        },
+        {
+          "start": 222.6,
+          "end": 222.74,
+          "word": " North"
+        },
+        {
+          "start": 222.74,
+          "end": 223.04,
+          "word": " Korean"
+        },
+        {
+          "start": 223.04,
+          "end": 223.44,
+          "word": " workers"
+        },
+        {
+          "start": 223.44,
+          "end": 223.84,
+          "word": " sent"
+        },
+        {
+          "start": 223.84,
+          "end": 224.26,
+          "word": " overseas."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "start": 225.14,
+      "end": 227.62,
+      "text": "Construction sites, restaurants, factories.",
+      "words": [
+        {
+          "start": 225.14,
+          "end": 225.62,
+          "word": " Construction"
+        },
+        {
+          "start": 225.62,
+          "end": 226.2,
+          "word": " sites,"
+        },
+        {
+          "start": 226.58,
+          "end": 226.9,
+          "word": " restaurants,"
+        },
+        {
+          "start": 227.38,
+          "end": 227.62,
+          "word": " factories."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "start": 228.62,
+      "end": 230.84,
+      "text": "Earning wages that by some estimates",
+      "words": [
+        {
+          "start": 228.62,
+          "end": 228.98,
+          "word": " Earning"
+        },
+        {
+          "start": 228.98,
+          "end": 229.32,
+          "word": " wages"
+        },
+        {
+          "start": 229.32,
+          "end": 229.76,
+          "word": " that"
+        },
+        {
+          "start": 229.76,
+          "end": 230.06,
+          "word": " by"
+        },
+        {
+          "start": 230.06,
+          "end": 230.36,
+          "word": " some"
+        },
+        {
+          "start": 230.36,
+          "end": 230.84,
+          "word": " estimates"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "start": 230.84,
+      "end": 234.82,
+      "text": "add over a billion dollars a year to Room 39's income.",
+      "words": [
+        {
+          "start": 230.84,
+          "end": 231.6,
+          "word": " add"
+        },
+        {
+          "start": 231.6,
+          "end": 231.84,
+          "word": " over"
+        },
+        {
+          "start": 231.84,
+          "end": 232.0,
+          "word": " a"
+        },
+        {
+          "start": 232.0,
+          "end": 232.38,
+          "word": " billion"
+        },
+        {
+          "start": 232.38,
+          "end": 232.78,
+          "word": " dollars"
+        },
+        {
+          "start": 232.78,
+          "end": 233.0,
+          "word": " a"
+        },
+        {
+          "start": 233.0,
+          "end": 233.32,
+          "word": " year"
+        },
+        {
+          "start": 233.32,
+          "end": 233.58,
+          "word": " to"
+        },
+        {
+          "start": 233.58,
+          "end": 233.8,
+          "word": " Room"
+        },
+        {
+          "start": 233.8,
+          "end": 234.48,
+          "word": " 39's"
+        },
+        {
+          "start": 234.48,
+          "end": 234.82,
+          "word": " income."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "start": 234.82,
+      "end": 238.82,
+      "text": "Wages the workers themselves rarely see in full.",
+      "words": [
+        {
+          "start": 234.82,
+          "end": 236.24,
+          "word": " Wages"
+        },
+        {
+          "start": 236.24,
+          "end": 236.48,
+          "word": " the"
+        },
+        {
+          "start": 236.48,
+          "end": 236.74,
+          "word": " workers"
+        },
+        {
+          "start": 236.74,
+          "end": 237.28,
+          "word": " themselves"
+        },
+        {
+          "start": 237.28,
+          "end": 237.9,
+          "word": " rarely"
+        },
+        {
+          "start": 237.9,
+          "end": 238.34,
+          "word": " see"
+        },
+        {
+          "start": 238.34,
+          "end": 238.52,
+          "word": " in"
+        },
+        {
+          "start": 238.52,
+          "end": 238.82,
+          "word": " full."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "start": 239.44,
+      "end": 242.96,
+      "text": "And in the 21st century the operation goes digital.",
+      "words": [
+        {
+          "start": 239.44,
+          "end": 240.16,
+          "word": " And"
+        },
+        {
+          "start": 240.16,
+          "end": 240.28,
+          "word": " in"
+        },
+        {
+          "start": 240.28,
+          "end": 240.38,
+          "word": " the"
+        },
+        {
+          "start": 240.38,
+          "end": 240.9,
+          "word": " 21st"
+        },
+        {
+          "start": 240.9,
+          "end": 241.26,
+          "word": " century"
+        },
+        {
+          "start": 241.26,
+          "end": 241.68,
+          "word": " the"
+        },
+        {
+          "start": 241.68,
+          "end": 242.16,
+          "word": " operation"
+        },
+        {
+          "start": 242.16,
+          "end": 242.48,
+          "word": " goes"
+        },
+        {
+          "start": 242.48,
+          "end": 242.96,
+          "word": " digital."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "start": 243.9,
+      "end": 249.04,
+      "text": "Hacking groups linked to the same network are connected to the 2014 Sony Pictures Breach",
+      "words": [
+        {
+          "start": 243.9,
+          "end": 244.32,
+          "word": " Hacking"
+        },
+        {
+          "start": 244.32,
+          "end": 244.66,
+          "word": " groups"
+        },
+        {
+          "start": 244.66,
+          "end": 244.96,
+          "word": " linked"
+        },
+        {
+          "start": 244.96,
+          "end": 245.12,
+          "word": " to"
+        },
+        {
+          "start": 245.12,
+          "end": 245.22,
+          "word": " the"
+        },
+        {
+          "start": 245.22,
+          "end": 245.52,
+          "word": " same"
+        },
+        {
+          "start": 245.52,
+          "end": 245.94,
+          "word": " network"
+        },
+        {
+          "start": 245.94,
+          "end": 246.24,
+          "word": " are"
+        },
+        {
+          "start": 246.24,
+          "end": 246.56,
+          "word": " connected"
+        },
+        {
+          "start": 246.56,
+          "end": 246.82,
+          "word": " to"
+        },
+        {
+          "start": 246.82,
+          "end": 246.92,
+          "word": " the"
+        },
+        {
+          "start": 246.92,
+          "end": 247.5,
+          "word": " 2014"
+        },
+        {
+          "start": 247.5,
+          "end": 248.02,
+          "word": " Sony"
+        },
+        {
+          "start": 248.02,
+          "end": 248.46,
+          "word": " Pictures"
+        },
+        {
+          "start": 248.46,
+          "end": 249.04,
+          "word": " Breach"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "start": 249.04,
+      "end": 253.02,
+      "text": "and to some of the largest cryptocurrency thefts in history.",
+      "words": [
+        {
+          "start": 249.04,
+          "end": 250.02,
+          "word": " and"
+        },
+        {
+          "start": 250.02,
+          "end": 250.26,
+          "word": " to"
+        },
+        {
+          "start": 250.26,
+          "end": 250.4,
+          "word": " some"
+        },
+        {
+          "start": 250.4,
+          "end": 250.54,
+          "word": " of"
+        },
+        {
+          "start": 250.54,
+          "end": 250.62,
+          "word": " the"
+        },
+        {
+          "start": 250.62,
+          "end": 251.0,
+          "word": " largest"
+        },
+        {
+          "start": 251.0,
+          "end": 251.6,
+          "word": " cryptocurrency"
+        },
+        {
+          "start": 251.6,
+          "end": 252.38,
+          "word": " thefts"
+        },
+        {
+          "start": 252.38,
+          "end": 252.52,
+          "word": " in"
+        },
+        {
+          "start": 252.52,
+          "end": 253.02,
+          "word": " history."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "start": 254.52,
+      "end": 256.42,
+      "text": "Same room, same mission.",
+      "words": [
+        {
+          "start": 254.52,
+          "end": 254.78,
+          "word": " Same"
+        },
+        {
+          "start": 254.78,
+          "end": 255.16,
+          "word": " room,"
+        },
+        {
+          "start": 255.88,
+          "end": 256.02,
+          "word": " same"
+        },
+        {
+          "start": 256.02,
+          "end": 256.42,
+          "word": " mission."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "start": 257.22,
+      "end": 259.2,
+      "text": "New century, new tools.",
+      "words": [
+        {
+          "start": 257.22,
+          "end": 257.48,
+          "word": " New"
+        },
+        {
+          "start": 257.48,
+          "end": 257.92,
+          "word": " century,"
+        },
+        {
+          "start": 258.52,
+          "end": 258.8,
+          "word": " new"
+        },
+        {
+          "start": 258.8,
+          "end": 259.2,
+          "word": " tools."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "start": 259.94,
+      "end": 264.68,
+      "text": "In 2014 a man named Ri Jong-ho defected to South Korea.",
+      "words": [
+        {
+          "start": 259.94,
+          "end": 260.64,
+          "word": " In"
+        },
+        {
+          "start": 260.64,
+          "end": 261.3,
+          "word": " 2014"
+        },
+        {
+          "start": 261.3,
+          "end": 261.86,
+          "word": " a"
+        },
+        {
+          "start": 261.86,
+          "end": 262.08,
+          "word": " man"
+        },
+        {
+          "start": 262.08,
+          "end": 262.36,
+          "word": " named"
+        },
+        {
+          "start": 262.36,
+          "end": 262.66,
+          "word": " Ri"
+        },
+        {
+          "start": 262.66,
+          "end": 263.0,
+          "word": " Jong"
+        },
+        {
+          "start": 263.0,
+          "end": 263.24,
+          "word": "-ho"
+        },
+        {
+          "start": 263.24,
+          "end": 263.7,
+          "word": " defected"
+        },
+        {
+          "start": 263.7,
+          "end": 264.14,
+          "word": " to"
+        },
+        {
+          "start": 264.14,
+          "end": 264.32,
+          "word": " South"
+        },
+        {
+          "start": 264.32,
+          "end": 264.68,
+          "word": " Korea."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "start": 265.78,
+      "end": 268.8,
+      "text": "For years he'd been one of the people making this machine run.",
+      "words": [
+        {
+          "start": 265.78,
+          "end": 266.08,
+          "word": " For"
+        },
+        {
+          "start": 266.08,
+          "end": 266.48,
+          "word": " years"
+        },
+        {
+          "start": 266.48,
+          "end": 266.86,
+          "word": " he'd"
+        },
+        {
+          "start": 266.86,
+          "end": 266.96,
+          "word": " been"
+        },
+        {
+          "start": 266.96,
+          "end": 267.12,
+          "word": " one"
+        },
+        {
+          "start": 267.12,
+          "end": 267.2,
+          "word": " of"
+        },
+        {
+          "start": 267.2,
+          "end": 267.28,
+          "word": " the"
+        },
+        {
+          "start": 267.28,
+          "end": 267.52,
+          "word": " people"
+        },
+        {
+          "start": 267.52,
+          "end": 267.86,
+          "word": " making"
+        },
+        {
+          "start": 267.86,
+          "end": 268.12,
+          "word": " this"
+        },
+        {
+          "start": 268.12,
+          "end": 268.44,
+          "word": " machine"
+        },
+        {
+          "start": 268.44,
+          "end": 268.8,
+          "word": " run."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "start": 269.66,
+      "end": 275.46,
+      "text": "And he describes almost casually how he used to move cash from China into North Korea.",
+      "words": [
+        {
+          "start": 269.66,
+          "end": 269.88,
+          "word": " And"
+        },
+        {
+          "start": 269.88,
+          "end": 270.0,
+          "word": " he"
+        },
+        {
+          "start": 270.0,
+          "end": 270.52,
+          "word": " describes"
+        },
+        {
+          "start": 270.52,
+          "end": 271.14,
+          "word": " almost"
+        },
+        {
+          "start": 271.14,
+          "end": 271.78,
+          "word": " casually"
+        },
+        {
+          "start": 271.78,
+          "end": 272.6,
+          "word": " how"
+        },
+        {
+          "start": 272.6,
+          "end": 272.8,
+          "word": " he"
+        },
+        {
+          "start": 272.8,
+          "end": 272.98,
+          "word": " used"
+        },
+        {
+          "start": 272.98,
+          "end": 273.12,
+          "word": " to"
+        },
+        {
+          "start": 273.12,
+          "end": 273.28,
+          "word": " move"
+        },
+        {
+          "start": 273.28,
+          "end": 273.6,
+          "word": " cash"
+        },
+        {
+          "start": 273.6,
+          "end": 273.9,
+          "word": " from"
+        },
+        {
+          "start": 273.9,
+          "end": 274.26,
+          "word": " China"
+        },
+        {
+          "start": 274.26,
+          "end": 274.78,
+          "word": " into"
+        },
+        {
+          "start": 274.78,
+          "end": 275.06,
+          "word": " North"
+        },
+        {
+          "start": 275.06,
+          "end": 275.46,
+          "word": " Korea."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "start": 276.56,
+      "end": 277.12,
+      "text": "Physically.",
+      "words": [
+        {
+          "start": 276.56,
+          "end": 277.12,
+          "word": " Physically."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "start": 277.94,
+      "end": 278.58,
+      "text": "By ship.",
+      "words": [
+        {
+          "start": 277.94,
+          "end": 278.22,
+          "word": " By"
+        },
+        {
+          "start": 278.22,
+          "end": 278.58,
+          "word": " ship."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "start": 279.24,
+      "end": 279.66,
+      "text": "By train.",
+      "words": [
+        {
+          "start": 279.24,
+          "end": 279.28,
+          "word": " By"
+        },
+        {
+          "start": 279.28,
+          "end": 279.66,
+          "word": " train."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "start": 280.76,
+      "end": 285.68,
+      "text": "Suitcases of currency crossing a border sanctions were supposed to seal shut.",
+      "words": [
+        {
+          "start": 280.76,
+          "end": 281.46,
+          "word": " Suitcases"
+        },
+        {
+          "start": 281.46,
+          "end": 281.72,
+          "word": " of"
+        },
+        {
+          "start": 281.72,
+          "end": 282.16,
+          "word": " currency"
+        },
+        {
+          "start": 282.16,
+          "end": 283.08,
+          "word": " crossing"
+        },
+        {
+          "start": 283.08,
+          "end": 283.32,
+          "word": " a"
+        },
+        {
+          "start": 283.32,
+          "end": 283.54,
+          "word": " border"
+        },
+        {
+          "start": 283.54,
+          "end": 283.94,
+          "word": " sanctions"
+        },
+        {
+          "start": 283.94,
+          "end": 284.46,
+          "word": " were"
+        },
+        {
+          "start": 284.46,
+          "end": 284.86,
+          "word": " supposed"
+        },
+        {
+          "start": 284.86,
+          "end": 285.16,
+          "word": " to"
+        },
+        {
+          "start": 285.16,
+          "end": 285.38,
+          "word": " seal"
+        },
+        {
+          "start": 285.38,
+          "end": 285.68,
+          "word": " shut."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "start": 286.68,
+      "end": 289.12,
+      "text": "The world knows about Room 39 now.",
+      "words": [
+        {
+          "start": 286.68,
+          "end": 287.08,
+          "word": " The"
+        },
+        {
+          "start": 287.08,
+          "end": 287.34,
+          "word": " world"
+        },
+        {
+          "start": 287.34,
+          "end": 287.76,
+          "word": " knows"
+        },
+        {
+          "start": 287.76,
+          "end": 288.02,
+          "word": " about"
+        },
+        {
+          "start": 288.02,
+          "end": 288.26,
+          "word": " Room"
+        },
+        {
+          "start": 288.26,
+          "end": 288.64,
+          "word": " 39"
+        },
+        {
+          "start": 288.64,
+          "end": 289.12,
+          "word": " now."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "start": 289.94,
+      "end": 291.4,
+      "text": "Sanctions targeted by name.",
+      "words": [
+        {
+          "start": 289.94,
+          "end": 290.32,
+          "word": " Sanctions"
+        },
+        {
+          "start": 290.32,
+          "end": 290.8,
+          "word": " targeted"
+        },
+        {
+          "start": 290.8,
+          "end": 291.06,
+          "word": " by"
+        },
+        {
+          "start": 291.06,
+          "end": 291.4,
+          "word": " name."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "start": 292.24,
+      "end": 294.66,
+      "text": "Defectors have testified in front of governments.",
+      "words": [
+        {
+          "start": 292.24,
+          "end": 293.0,
+          "word": " Defectors"
+        },
+        {
+          "start": 293.0,
+          "end": 293.16,
+          "word": " have"
+        },
+        {
+          "start": 293.16,
+          "end": 293.6,
+          "word": " testified"
+        },
+        {
+          "start": 293.6,
+          "end": 293.94,
+          "word": " in"
+        },
+        {
+          "start": 293.94,
+          "end": 294.14,
+          "word": " front"
+        },
+        {
+          "start": 294.14,
+          "end": 294.26,
+          "word": " of"
+        },
+        {
+          "start": 294.26,
+          "end": 294.66,
+          "word": " governments."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "start": 295.66,
+      "end": 300.68,
+      "text": "And still the front companies just change their names and the money keeps moving.",
+      "words": [
+        {
+          "start": 295.66,
+          "end": 295.86,
+          "word": " And"
+        },
+        {
+          "start": 295.86,
+          "end": 296.22,
+          "word": " still"
+        },
+        {
+          "start": 296.22,
+          "end": 297.08,
+          "word": " the"
+        },
+        {
+          "start": 297.08,
+          "end": 297.32,
+          "word": " front"
+        },
+        {
+          "start": 297.32,
+          "end": 297.72,
+          "word": " companies"
+        },
+        {
+          "start": 297.72,
+          "end": 297.98,
+          "word": " just"
+        },
+        {
+          "start": 297.98,
+          "end": 298.3,
+          "word": " change"
+        },
+        {
+          "start": 298.3,
+          "end": 298.52,
+          "word": " their"
+        },
+        {
+          "start": 298.52,
+          "end": 298.88,
+          "word": " names"
+        },
+        {
+          "start": 298.88,
+          "end": 299.48,
+          "word": " and"
+        },
+        {
+          "start": 299.48,
+          "end": 299.6,
+          "word": " the"
+        },
+        {
+          "start": 299.6,
+          "end": 299.84,
+          "word": " money"
+        },
+        {
+          "start": 299.84,
+          "end": 300.3,
+          "word": " keeps"
+        },
+        {
+          "start": 300.3,
+          "end": 300.68,
+          "word": " moving."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "start": 301.72,
+      "end": 308.18,
+      "text": "Because Room 39 was never really about one room or one building or one floor.",
+      "words": [
+        {
+          "start": 301.72,
+          "end": 302.14,
+          "word": " Because"
+        },
+        {
+          "start": 302.14,
+          "end": 302.42,
+          "word": " Room"
+        },
+        {
+          "start": 302.42,
+          "end": 302.94,
+          "word": " 39"
+        },
+        {
+          "start": 302.94,
+          "end": 303.32,
+          "word": " was"
+        },
+        {
+          "start": 303.32,
+          "end": 303.7,
+          "word": " never"
+        },
+        {
+          "start": 303.7,
+          "end": 304.06,
+          "word": " really"
+        },
+        {
+          "start": 304.06,
+          "end": 304.3,
+          "word": " about"
+        },
+        {
+          "start": 304.3,
+          "end": 304.76,
+          "word": " one"
+        },
+        {
+          "start": 304.76,
+          "end": 305.16,
+          "word": " room"
+        },
+        {
+          "start": 305.16,
+          "end": 305.86,
+          "word": " or"
+        },
+        {
+          "start": 305.86,
+          "end": 306.2,
+          "word": " one"
+        },
+        {
+          "start": 306.2,
+          "end": 306.6,
+          "word": " building"
+        },
+        {
+          "start": 306.6,
+          "end": 307.44,
+          "word": " or"
+        },
+        {
+          "start": 307.44,
+          "end": 307.82,
+          "word": " one"
+        },
+        {
+          "start": 307.82,
+          "end": 308.18,
+          "word": " floor."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "start": 308.98,
+      "end": 314.6,
+      "text": "It's the financial nervous system of a family that has now ruled for three generations.",
+      "words": [
+        {
+          "start": 308.98,
+          "end": 309.5,
+          "word": " It's"
+        },
+        {
+          "start": 309.5,
+          "end": 309.62,
+          "word": " the"
+        },
+        {
+          "start": 309.62,
+          "end": 310.06,
+          "word": " financial"
+        },
+        {
+          "start": 310.06,
+          "end": 310.48,
+          "word": " nervous"
+        },
+        {
+          "start": 310.48,
+          "end": 311.04,
+          "word": " system"
+        },
+        {
+          "start": 311.04,
+          "end": 311.28,
+          "word": " of"
+        },
+        {
+          "start": 311.28,
+          "end": 311.38,
+          "word": " a"
+        },
+        {
+          "start": 311.38,
+          "end": 311.8,
+          "word": " family"
+        },
+        {
+          "start": 311.8,
+          "end": 312.46,
+          "word": " that"
+        },
+        {
+          "start": 312.46,
+          "end": 312.6,
+          "word": " has"
+        },
+        {
+          "start": 312.6,
+          "end": 312.84,
+          "word": " now"
+        },
+        {
+          "start": 312.84,
+          "end": 313.22,
+          "word": " ruled"
+        },
+        {
+          "start": 313.22,
+          "end": 313.54,
+          "word": " for"
+        },
+        {
+          "start": 313.54,
+          "end": 313.96,
+          "word": " three"
+        },
+        {
+          "start": 313.96,
+          "end": 314.6,
+          "word": " generations."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "start": 315.42,
+      "end": 319.44,
+      "text": "Built to survive the one thing that should have ended it decades ago.",
+      "words": [
+        {
+          "start": 315.42,
+          "end": 316.04,
+          "word": " Built"
+        },
+        {
+          "start": 316.04,
+          "end": 316.3,
+          "word": " to"
+        },
+        {
+          "start": 316.3,
+          "end": 316.6,
+          "word": " survive"
+        },
+        {
+          "start": 316.6,
+          "end": 316.88,
+          "word": " the"
+        },
+        {
+          "start": 316.88,
+          "end": 317.2,
+          "word": " one"
+        },
+        {
+          "start": 317.2,
+          "end": 317.52,
+          "word": " thing"
+        },
+        {
+          "start": 317.52,
+          "end": 317.74,
+          "word": " that"
+        },
+        {
+          "start": 317.74,
+          "end": 317.9,
+          "word": " should"
+        },
+        {
+          "start": 317.9,
+          "end": 318.04,
+          "word": " have"
+        },
+        {
+          "start": 318.04,
+          "end": 318.26,
+          "word": " ended"
+        },
+        {
+          "start": 318.26,
+          "end": 318.48,
+          "word": " it"
+        },
+        {
+          "start": 318.48,
+          "end": 318.92,
+          "word": " decades"
+        },
+        {
+          "start": 318.92,
+          "end": 319.44,
+          "word": " ago."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "start": 320.42,
+      "end": 324.06,
+      "text": "An economy that never should have been able to pay for any of this.",
+      "words": [
+        {
+          "start": 320.42,
+          "end": 320.6,
+          "word": " An"
+        },
+        {
+          "start": 320.6,
+          "end": 320.98,
+          "word": " economy"
+        },
+        {
+          "start": 320.98,
+          "end": 321.32,
+          "word": " that"
+        },
+        {
+          "start": 321.32,
+          "end": 321.68,
+          "word": " never"
+        },
+        {
+          "start": 321.68,
+          "end": 321.92,
+          "word": " should"
+        },
+        {
+          "start": 321.92,
+          "end": 322.04,
+          "word": " have"
+        },
+        {
+          "start": 322.04,
+          "end": 322.2,
+          "word": " been"
+        },
+        {
+          "start": 322.2,
+          "end": 322.4,
+          "word": " able"
+        },
+        {
+          "start": 322.4,
+          "end": 322.56,
+          "word": " to"
+        },
+        {
+          "start": 322.56,
+          "end": 322.88,
+          "word": " pay"
+        },
+        {
+          "start": 322.88,
+          "end": 323.24,
+          "word": " for"
+        },
+        {
+          "start": 323.24,
+          "end": 323.6,
+          "word": " any"
+        },
+        {
+          "start": 323.6,
+          "end": 323.78,
+          "word": " of"
+        },
+        {
+          "start": 323.78,
+          "end": 324.06,
+          "word": " this."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "start": 325.2,
+      "end": 326.52,
+      "text": "And it still does.",
+      "words": [
+        {
+          "start": 325.2,
+          "end": 325.54,
+          "word": " And"
+        },
+        {
+          "start": 325.54,
+          "end": 325.66,
+          "word": " it"
+        },
+        {
+          "start": 325.66,
+          "end": 326.1,
+          "word": " still"
+        },
+        {
+          "start": 326.1,
+          "end": 326.52,
+          "word": " does."
+        }
+      ]
+    }
+  ]
+}
