@@ -1,38 +1,65 @@
 import React from 'react';
-import {AbsoluteFill, Sequence, staticFile} from 'remotion';
-import {FPS} from './Root';
-import shotlist from './data/shotlist.json';
+import {AbsoluteFill, Audio, Sequence, staticFile} from 'remotion';
+import overlays from './data/overlays.json';
+import {buildTimeline, frameRangeFor, OVERLAP_FRAMES} from './timeline';
 import {KenBurns} from './components/KenBurns';
+import {ParallaxImage} from './components/ParallaxImage';
 import {Grade} from './components/Grade';
 import {Captions} from './components/Captions';
+import {SceneFade} from './components/SceneFade';
+import {SfxCues} from './components/SfxCues';
+import {
+  ChapterCards,
+  StatCallouts,
+  LowerThirds,
+  MapPings,
+  KineticLines,
+  EndCard,
+} from './components/Overlays';
 import {TitleReveal, ThreeOffices, OldToNewTools, ThreeGenerations} from './components/MotionGraphics';
 
 const CORNERS = ['tl', 'tr', 'bl', 'br'] as const;
+const PARALLAX_IDS = new Set(overlays.parallaxSceneIds);
 
 export const Room39Video: React.FC = () => {
+  const timeline = buildTimeline();
+
   return (
     <AbsoluteFill style={{backgroundColor: 'black'}}>
-      {shotlist.scenes.map((scene, i) => {
-        const from = Math.round(scene.start * FPS);
-        const durationInFrames = Math.max(1, Math.round((scene.end - scene.start) * FPS));
+      <Audio src={staticFile('audio/narration.mp3')} />
+
+      {timeline.map((item, i) => {
+        const {seqFrom, seqDuration, isFirst, isLast} = frameRangeFor(item, i, timeline.length);
 
         return (
-          <Sequence key={scene.id} from={from} durationInFrames={durationInFrames}>
-            {scene.imageType === 'M' ? (
-              <MotionGraphicFor id={scene.id} durationInFrames={durationInFrames} />
-            ) : (
-              <KenBurns
-                src={staticFile(`images/${scene.file}`)}
-                durationInFrames={durationInFrames}
-                corner={CORNERS[i % CORNERS.length]}
-              />
-            )}
+          <Sequence key={i} from={seqFrom} durationInFrames={seqDuration}>
+            <SceneFade durationInFrames={seqDuration} overlapFrames={OVERLAP_FRAMES} isFirst={isFirst} isLast={isLast}>
+              {item.kind === 'endcard' ? (
+                <EndCard durationInFrames={seqDuration} />
+              ) : item.scene.imageType === 'M' ? (
+                <MotionGraphicFor id={item.scene.id} durationInFrames={seqDuration} />
+              ) : PARALLAX_IDS.has(item.scene.id) ? (
+                <ParallaxImage src={staticFile(`images/${item.scene.file}`)} durationInFrames={seqDuration} />
+              ) : (
+                <KenBurns
+                  src={staticFile(`images/${item.scene.file}`)}
+                  durationInFrames={seqDuration}
+                  corner={CORNERS[i % CORNERS.length]}
+                />
+              )}
+            </SceneFade>
           </Sequence>
         );
       })}
 
       <Grade />
+      <ChapterCards />
+      <MapPings />
+      <StatCallouts />
+      <LowerThirds />
+      <KineticLines />
       <Captions />
+      <SfxCues />
     </AbsoluteFill>
   );
 };

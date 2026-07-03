@@ -1,0 +1,32 @@
+{
+  "notes": "All times in seconds, matching transcripts/Room_39/Room_39.json. These are overlay layers rendered on top of the scene timeline in Remotion — they do not change scene Sequence timing, so narration/caption sync is untouched.",
+  "crossfadeSeconds": 0.4,
+  "chapters": [
+    {"title": "THE FRONT COMPANIES", "start": 68.9, "end": 70.5},
+    {"title": "THE COUNTERFEITS", "start": 117.5, "end": 119.0},
+    {"title": "THE HUMAN COST", "start": 191.9, "end": 193.3},
+    {"title": "GOING DIGITAL", "start": 238.9, "end": 240.4}
+  ],
+  "stats": [
+    {"text": "~50% OF GDP", "start": 16.86, "end": 19.88},
+    {"text": "$500M / YEAR", "start": 96.28, "end": 100.34},
+    {"text": "95% SETTLED", "start": 187.26, "end": 191.82},
+    {"text": "$1B+ / YEAR", "start": 230.84, "end": 234.82}
+  ],
+  "lowerThirds": [
+    {"name": "KIM JONG IL", "role": "HEIR APPARENT — 1972", "start": 24.58, "end": 31.0},
+    {"name": "RI JONG-HO", "role": "DEFECTOR — 2014", "start": 259.94, "end": 268.9}
+  ],
+  "mapPings": [
+    {"label": "EUROPE", "start": 161.0, "end": 165.5},
+    {"label": "UNITED STATES", "start": 243.9, "end": 249.1},
+    {"label": "SOUTH KOREA", "start": 259.94, "end": 264.7},
+    {"label": "CHINA", "start": 269.6, "end": 275.5}
+  ],
+  "kineticLines": [
+    {"text": "THAT'S NOT THE EXCEPTION HERE.\nTHAT'S THE PATTERN.", "start": 114.66, "end": 117.48},
+    {"text": "AND IT STILL DOES.", "start": 325.2, "end": 326.52}
+  ],
+  "parallaxSceneIds": [1, 7, 15, 19, 22],
+  "endCard": {"durationSeconds": 4.0, "title": "ROOM 39", "subtitle": "The room with no sign on the door."}
+}

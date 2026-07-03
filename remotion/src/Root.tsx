@@ -1,13 +1,9 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {Room39Video} from './Room39Video';
-import shotlist from './data/shotlist.json';
+import {FPS, totalDurationInFrames} from './timeline';
 
-export const FPS = 30;
-
-const lastScene = shotlist.scenes[shotlist.scenes.length - 1];
-const totalSeconds = lastScene.end + 0.5; // half a second of tail padding
-export const DURATION_IN_FRAMES = Math.ceil(totalSeconds * FPS);
+export const DURATION_IN_FRAMES = totalDurationInFrames();
 
 export const Root: React.FC = () => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
 import captions from '../data/captions.json';
+import overlays from '../data/overlays.json';
 
 type Segment = {start: number; end: number; text: string};
 
@@ -10,6 +11,10 @@ export const Captions: React.FC = () => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
+
+  // Kinetic lines take over the punchiest moments — don't double up with a caption.
+  const kineticActive = overlays.kineticLines.some((k) => t >= k.start && t < k.end);
+  if (kineticActive) return null;
 
   const active = segments.find((s) => t >= s.start && t < s.end);
   if (!active) return null;
