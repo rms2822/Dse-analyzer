@@ -1,0 +1,1282 @@
+{
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.2,
+      "text": "Dubai has almost no oil left.",
+      "words": [
+        {
+          "word": " Dubai",
+          "start": 0.0,
+          "end": 0.32,
+          "prob": 0.8600257039070129
+        },
+        {
+          "word": " has",
+          "start": 0.32,
+          "end": 0.72,
+          "prob": 0.9915046095848083
+        },
+        {
+          "word": " almost",
+          "start": 0.72,
+          "end": 1.04,
+          "prob": 0.9895110726356506
+        },
+        {
+          "word": " no",
+          "start": 1.04,
+          "end": 1.4,
+          "prob": 0.9921095967292786
+        },
+        {
+          "word": " oil",
+          "start": 1.4,
+          "end": 1.74,
+          "prob": 0.9984112977981567
+        },
+        {
+          "word": " left.",
+          "start": 1.74,
+          "end": 2.2,
+          "prob": 0.9986183643341064
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.98,
+      "end": 5.74,
+      "text": "Less than 1% of its economy runs on it.",
+      "words": [
+        {
+          "word": " Less",
+          "start": 2.98,
+          "end": 3.14,
+          "prob": 0.9831261038780212
+        },
+        {
+          "word": " than",
+          "start": 3.14,
+          "end": 3.34,
+          "prob": 0.9933913946151733
+        },
+        {
+          "word": " 1",
+          "start": 3.34,
+          "end": 3.66,
+          "prob": 0.6263852715492249
+        },
+        {
+          "word": "%",
+          "start": 3.66,
+          "end": 4.04,
+          "prob": 0.8670357465744019
+        },
+        {
+          "word": " of",
+          "start": 4.04,
+          "end": 4.26,
+          "prob": 0.9939828515052795
+        },
+        {
+          "word": " its",
+          "start": 4.26,
+          "end": 4.38,
+          "prob": 0.9794477820396423
+        },
+        {
+          "word": " economy",
+          "start": 4.38,
+          "end": 4.88,
+          "prob": 0.9982348680496216
+        },
+        {
+          "word": " runs",
+          "start": 4.88,
+          "end": 5.32,
+          "prob": 0.9960667490959167
+        },
+        {
+          "word": " on",
+          "start": 5.32,
+          "end": 5.56,
+          "prob": 0.9967697858810425
+        },
+        {
+          "word": " it.",
+          "start": 5.56,
+          "end": 5.74,
+          "prob": 0.9973908066749573
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 6.5,
+      "end": 10.14,
+      "text": "So how does a desert city pull in 30 million tourists a year",
+      "words": [
+        {
+          "word": " So",
+          "start": 6.5,
+          "end": 6.7,
+          "prob": 0.9851321578025818
+        },
+        {
+          "word": " how",
+          "start": 6.7,
+          "end": 6.86,
+          "prob": 0.9035888314247131
+        },
+        {
+          "word": " does",
+          "start": 6.86,
+          "end": 7.02,
+          "prob": 0.99676114320755
+        },
+        {
+          "word": " a",
+          "start": 7.02,
+          "end": 7.18,
+          "prob": 0.9904666543006897
+        },
+        {
+          "word": " desert",
+          "start": 7.18,
+          "end": 7.38,
+          "prob": 0.9679154753684998
+        },
+        {
+          "word": " city",
+          "start": 7.38,
+          "end": 7.82,
+          "prob": 0.9946054816246033
+        },
+        {
+          "word": " pull",
+          "start": 7.82,
+          "end": 8.2,
+          "prob": 0.9644310474395752
+        },
+        {
+          "word": " in",
+          "start": 8.2,
+          "end": 8.34,
+          "prob": 0.9957616925239563
+        },
+        {
+          "word": " 30",
+          "start": 8.34,
+          "end": 8.74,
+          "prob": 0.9705052971839905
+        },
+        {
+          "word": " million",
+          "start": 8.74,
+          "end": 9.06,
+          "prob": 0.9829186201095581
+        },
+        {
+          "word": " tourists",
+          "start": 9.06,
+          "end": 9.58,
+          "prob": 0.9639791250228882
+        },
+        {
+          "word": " a",
+          "start": 9.58,
+          "end": 9.8,
+          "prob": 0.9946244359016418
+        },
+        {
+          "word": " year",
+          "start": 9.8,
+          "end": 10.14,
+          "prob": 0.9994496703147888
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 10.14,
+      "end": 12.94,
+      "text": "and host more billionaires than most countries?",
+      "words": [
+        {
+          "word": " and",
+          "start": 10.14,
+          "end": 10.76,
+          "prob": 0.7634809017181396
+        },
+        {
+          "word": " host",
+          "start": 10.76,
+          "end": 11.02,
+          "prob": 0.9969598054885864
+        },
+        {
+          "word": " more",
+          "start": 11.02,
+          "end": 11.36,
+          "prob": 0.9977512955665588
+        },
+        {
+          "word": " billionaires",
+          "start": 11.36,
+          "end": 12.08,
+          "prob": 0.9972501695156097
+        },
+        {
+          "word": " than",
+          "start": 12.08,
+          "end": 12.26,
+          "prob": 0.9918911457061768
+        },
+        {
+          "word": " most",
+          "start": 12.26,
+          "end": 12.52,
+          "prob": 0.99657142162323
+        },
+        {
+          "word": " countries?",
+          "start": 12.52,
+          "end": 12.94,
+          "prob": 0.9969989061355591
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 13.9,
+      "end": 16.32,
+      "text": "It starts with zero income tax.",
+      "words": [
+        {
+          "word": " It",
+          "start": 13.9,
+          "end": 14.22,
+          "prob": 0.9922507405281067
+        },
+        {
+          "word": " starts",
+          "start": 14.22,
+          "end": 14.56,
+          "prob": 0.9963721036911011
+        },
+        {
+          "word": " with",
+          "start": 14.56,
+          "end": 15.04,
+          "prob": 0.9967545866966248
+        },
+        {
+          "word": " zero",
+          "start": 15.04,
+          "end": 15.4,
+          "prob": 0.9452387094497681
+        },
+        {
+          "word": " income",
+          "start": 15.4,
+          "end": 15.9,
+          "prob": 0.9322080016136169
+        },
+        {
+          "word": " tax.",
+          "start": 15.9,
+          "end": 16.32,
+          "prob": 0.9976800084114075
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 16.92,
+      "end": 21.04,
+      "text": "For individuals and until recently, most businesses too.",
+      "words": [
+        {
+          "word": " For",
+          "start": 16.92,
+          "end": 17.18,
+          "prob": 0.9956854581832886
+        },
+        {
+          "word": " individuals",
+          "start": 17.18,
+          "end": 17.64,
+          "prob": 0.998830258846283
+        },
+        {
+          "word": " and",
+          "start": 17.64,
+          "end": 18.34,
+          "prob": 0.4646304249763489
+        },
+        {
+          "word": " until",
+          "start": 18.34,
+          "end": 18.74,
+          "prob": 0.7913447618484497
+        },
+        {
+          "word": " recently,",
+          "start": 18.74,
+          "end": 19.26,
+          "prob": 0.9981472492218018
+        },
+        {
+          "word": " most",
+          "start": 19.8,
+          "end": 20.1,
+          "prob": 0.99671471118927
+        },
+        {
+          "word": " businesses",
+          "start": 20.1,
+          "end": 20.62,
+          "prob": 0.9881545305252075
+        },
+        {
+          "word": " too.",
+          "start": 20.62,
+          "end": 21.04,
+          "prob": 0.830466628074646
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 21.9,
+      "end": 25.24,
+      "text": "That single policy turned Dubai into a magnet",
+      "words": [
+        {
+          "word": " That",
+          "start": 21.9,
+          "end": 22.22,
+          "prob": 0.9950674772262573
+        },
+        {
+          "word": " single",
+          "start": 22.22,
+          "end": 22.64,
+          "prob": 0.9113550782203674
+        },
+        {
+          "word": " policy",
+          "start": 22.64,
+          "end": 23.24,
+          "prob": 0.9965584874153137
+        },
+        {
+          "word": " turned",
+          "start": 23.24,
+          "end": 23.72,
+          "prob": 0.978996753692627
+        },
+        {
+          "word": " Dubai",
+          "start": 23.72,
+          "end": 24.16,
+          "prob": 0.9935134053230286
+        },
+        {
+          "word": " into",
+          "start": 24.16,
+          "end": 24.58,
+          "prob": 0.9939287900924683
+        },
+        {
+          "word": " a",
+          "start": 24.58,
+          "end": 24.76,
+          "prob": 0.9964873790740967
+        },
+        {
+          "word": " magnet",
+          "start": 24.76,
+          "end": 25.24,
+          "prob": 0.9907770156860352
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 25.24,
+      "end": 26.36,
+      "text": "for global wealth.",
+      "words": [
+        {
+          "word": " for",
+          "start": 25.24,
+          "end": 25.58,
+          "prob": 0.9980702996253967
+        },
+        {
+          "word": " global",
+          "start": 25.58,
+          "end": 25.9,
+          "prob": 0.9942200183868408
+        },
+        {
+          "word": " wealth.",
+          "start": 25.9,
+          "end": 26.36,
+          "prob": 0.9977524876594543
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 27.17,
+      "end": 30.5,
+      "text": "Add over 30 free trade zones where foreign companies",
+      "words": [
+        {
+          "word": " Add",
+          "start": 27.17,
+          "end": 27.52,
+          "prob": 0.39769473671913147
+        },
+        {
+          "word": " over",
+          "start": 27.52,
+          "end": 27.86,
+          "prob": 0.984831690788269
+        },
+        {
+          "word": " 30",
+          "start": 27.86,
+          "end": 28.26,
+          "prob": 0.9647188782691956
+        },
+        {
+          "word": " free",
+          "start": 28.26,
+          "end": 28.62,
+          "prob": 0.9862209558486938
+        },
+        {
+          "word": " trade",
+          "start": 28.62,
+          "end": 28.96,
+          "prob": 0.9704508185386658
+        },
+        {
+          "word": " zones",
+          "start": 28.96,
+          "end": 29.32,
+          "prob": 0.9765446186065674
+        },
+        {
+          "word": " where",
+          "start": 29.32,
+          "end": 29.62,
+          "prob": 0.7701172232627869
+        },
+        {
+          "word": " foreign",
+          "start": 29.62,
+          "end": 29.98,
+          "prob": 0.9959767460823059
+        },
+        {
+          "word": " companies",
+          "start": 29.98,
+          "end": 30.5,
+          "prob": 0.9966310858726501
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 30.5,
+      "end": 34.94,
+      "text": "can own 100% of their business, pay no corporate tax,",
+      "words": [
+        {
+          "word": " can",
+          "start": 30.5,
+          "end": 30.78,
+          "prob": 0.9932819604873657
+        },
+        {
+          "word": " own",
+          "start": 30.78,
+          "end": 30.96,
+          "prob": 0.9853577613830566
+        },
+        {
+          "word": " 100",
+          "start": 30.96,
+          "end": 31.6,
+          "prob": 0.9478282332420349
+        },
+        {
+          "word": "%",
+          "start": 31.6,
+          "end": 32.1,
+          "prob": 0.8724496960639954
+        },
+        {
+          "word": " of",
+          "start": 32.1,
+          "end": 32.28,
+          "prob": 0.9952764511108398
+        },
+        {
+          "word": " their",
+          "start": 32.28,
+          "end": 32.42,
+          "prob": 0.9966697096824646
+        },
+        {
+          "word": " business,",
+          "start": 32.42,
+          "end": 32.84,
+          "prob": 0.9908092021942139
+        },
+        {
+          "word": " pay",
+          "start": 33.5,
+          "end": 33.8,
+          "prob": 0.8591803908348083
+        },
+        {
+          "word": " no",
+          "start": 33.8,
+          "end": 34.1,
+          "prob": 0.9961399435997009
+        },
+        {
+          "word": " corporate",
+          "start": 34.1,
+          "end": 34.44,
+          "prob": 0.994090735912323
+        },
+        {
+          "word": " tax,",
+          "start": 34.44,
+          "end": 34.94,
+          "prob": 0.9948244094848633
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 35.5,
+      "end": 36.82,
+      "text": "and move profits freely,",
+      "words": [
+        {
+          "word": " and",
+          "start": 35.5,
+          "end": 35.66,
+          "prob": 0.9761372208595276
+        },
+        {
+          "word": " move",
+          "start": 35.66,
+          "end": 35.88,
+          "prob": 0.9974174499511719
+        },
+        {
+          "word": " profits",
+          "start": 35.88,
+          "end": 36.34,
+          "prob": 0.995419979095459
+        },
+        {
+          "word": " freely,",
+          "start": 36.34,
+          "end": 36.82,
+          "prob": 0.9961967468261719
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 37.58,
+      "end": 40.64,
+      "text": "and you've built the easiest place on earth to park money.",
+      "words": [
+        {
+          "word": " and",
+          "start": 37.58,
+          "end": 37.78,
+          "prob": 0.9790971875190735
+        },
+        {
+          "word": " you've",
+          "start": 37.78,
+          "end": 38.06,
+          "prob": 0.9798160195350647
+        },
+        {
+          "word": " built",
+          "start": 38.06,
+          "end": 38.32,
+          "prob": 0.9928768277168274
+        },
+        {
+          "word": " the",
+          "start": 38.32,
+          "end": 38.52,
+          "prob": 0.9984466433525085
+        },
+        {
+          "word": " easiest",
+          "start": 38.52,
+          "end": 38.9,
+          "prob": 0.9929211735725403
+        },
+        {
+          "word": " place",
+          "start": 38.9,
+          "end": 39.22,
+          "prob": 0.9976444840431213
+        },
+        {
+          "word": " on",
+          "start": 39.22,
+          "end": 39.5,
+          "prob": 0.9938138723373413
+        },
+        {
+          "word": " earth",
+          "start": 39.5,
+          "end": 39.82,
+          "prob": 0.7904566526412964
+        },
+        {
+          "word": " to",
+          "start": 39.82,
+          "end": 40.1,
+          "prob": 0.9981299042701721
+        },
+        {
+          "word": " park",
+          "start": 40.1,
+          "end": 40.32,
+          "prob": 0.9884833693504333
+        },
+        {
+          "word": " money.",
+          "start": 40.32,
+          "end": 40.64,
+          "prob": 0.996086597442627
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 41.56,
+      "end": 42.66,
+      "text": "Then there's the port.",
+      "words": [
+        {
+          "word": " Then",
+          "start": 41.56,
+          "end": 41.94,
+          "prob": 0.9755516648292542
+        },
+        {
+          "word": " there's",
+          "start": 41.94,
+          "end": 42.26,
+          "prob": 0.8866298198699951
+        },
+        {
+          "word": " the",
+          "start": 42.26,
+          "end": 42.38,
+          "prob": 0.9919684529304504
+        },
+        {
+          "word": " port.",
+          "start": 42.38,
+          "end": 42.66,
+          "prob": 0.750567615032196
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 43.74,
+      "end": 46.22,
+      "text": "Jebel Ali is the busiest in the Middle East,",
+      "words": [
+        {
+          "word": " Jebel",
+          "start": 43.74,
+          "end": 43.98,
+          "prob": 0.8960475325584412
+        },
+        {
+          "word": " Ali",
+          "start": 43.98,
+          "end": 44.34,
+          "prob": 0.8754113912582397
+        },
+        {
+          "word": " is",
+          "start": 44.34,
+          "end": 44.7,
+          "prob": 0.9926652312278748
+        },
+        {
+          "word": " the",
+          "start": 44.7,
+          "end": 44.84,
+          "prob": 0.9952850937843323
+        },
+        {
+          "word": " busiest",
+          "start": 44.84,
+          "end": 45.32,
+          "prob": 0.9872681498527527
+        },
+        {
+          "word": " in",
+          "start": 45.32,
+          "end": 45.5,
+          "prob": 0.9944362640380859
+        },
+        {
+          "word": " the",
+          "start": 45.5,
+          "end": 45.58,
+          "prob": 0.998157799243927
+        },
+        {
+          "word": " Middle",
+          "start": 45.58,
+          "end": 45.76,
+          "prob": 0.8672967553138733
+        },
+        {
+          "word": " East,",
+          "start": 45.76,
+          "end": 46.22,
+          "prob": 0.9920215010643005
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 46.62,
+      "end": 49.54,
+      "text": "moving cargo between Asia, Europe, and Africa.",
+      "words": [
+        {
+          "word": " moving",
+          "start": 46.62,
+          "end": 46.98,
+          "prob": 0.9941814541816711
+        },
+        {
+          "word": " cargo",
+          "start": 46.98,
+          "end": 47.34,
+          "prob": 0.9975639581680298
+        },
+        {
+          "word": " between",
+          "start": 47.34,
+          "end": 47.76,
+          "prob": 0.9982417821884155
+        },
+        {
+          "word": " Asia,",
+          "start": 47.76,
+          "end": 48.18,
+          "prob": 0.998314619064331
+        },
+        {
+          "word": " Europe,",
+          "start": 48.54,
+          "end": 48.84,
+          "prob": 0.9989026784896851
+        },
+        {
+          "word": " and",
+          "start": 49.06,
+          "end": 49.16,
+          "prob": 0.9981244206428528
+        },
+        {
+          "word": " Africa.",
+          "start": 49.16,
+          "end": 49.54,
+          "prob": 0.9986068606376648
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 50.38,
+      "end": 53.66,
+      "text": "Emirates and Dubai International Airport turn the city",
+      "words": [
+        {
+          "word": " Emirates",
+          "start": 50.38,
+          "end": 51.06,
+          "prob": 0.9960314333438873
+        },
+        {
+          "word": " and",
+          "start": 51.06,
+          "end": 51.24,
+          "prob": 0.9814945459365845
+        },
+        {
+          "word": " Dubai",
+          "start": 51.24,
+          "end": 51.5,
+          "prob": 0.9989185333251953
+        },
+        {
+          "word": " International",
+          "start": 51.5,
+          "end": 52.1,
+          "prob": 0.8918285369873047
+        },
+        {
+          "word": " Airport",
+          "start": 52.1,
+          "end": 52.74,
+          "prob": 0.967002809047699
+        },
+        {
+          "word": " turn",
+          "start": 52.74,
+          "end": 53.22,
+          "prob": 0.9536741971969604
+        },
+        {
+          "word": " the",
+          "start": 53.22,
+          "end": 53.4,
+          "prob": 0.9954056739807129
+        },
+        {
+          "word": " city",
+          "start": 53.4,
+          "end": 53.66,
+          "prob": 0.995596706867218
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 53.66,
+      "end": 55.5,
+      "text": "into the world's connecting hub.",
+      "words": [
+        {
+          "word": " into",
+          "start": 53.66,
+          "end": 53.96,
+          "prob": 0.9911823272705078
+        },
+        {
+          "word": " the",
+          "start": 53.96,
+          "end": 54.1,
+          "prob": 0.9967679977416992
+        },
+        {
+          "word": " world's",
+          "start": 54.1,
+          "end": 54.58,
+          "prob": 0.9930455684661865
+        },
+        {
+          "word": " connecting",
+          "start": 54.58,
+          "end": 55.02,
+          "prob": 0.9732409715652466
+        },
+        {
+          "word": " hub.",
+          "start": 55.02,
+          "end": 55.5,
+          "prob": 0.9995284080505371
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 56.31,
+      "end": 59.26,
+      "text": "80% of the planet is under eight hours away.",
+      "words": [
+        {
+          "word": " 80",
+          "start": 56.31,
+          "end": 56.66,
+          "prob": 0.8562412858009338
+        },
+        {
+          "word": "%",
+          "start": 56.66,
+          "end": 57.06,
+          "prob": 0.8906522989273071
+        },
+        {
+          "word": " of",
+          "start": 57.06,
+          "end": 57.22,
+          "prob": 0.9964765906333923
+        },
+        {
+          "word": " the",
+          "start": 57.22,
+          "end": 57.3,
+          "prob": 0.9975922703742981
+        },
+        {
+          "word": " planet",
+          "start": 57.3,
+          "end": 57.7,
+          "prob": 0.9971373081207275
+        },
+        {
+          "word": " is",
+          "start": 57.7,
+          "end": 57.98,
+          "prob": 0.9950946569442749
+        },
+        {
+          "word": " under",
+          "start": 57.98,
+          "end": 58.22,
+          "prob": 0.9866994619369507
+        },
+        {
+          "word": " eight",
+          "start": 58.22,
+          "end": 58.54,
+          "prob": 0.5235634446144104
+        },
+        {
+          "word": " hours",
+          "start": 58.54,
+          "end": 58.88,
+          "prob": 0.997001588344574
+        },
+        {
+          "word": " away.",
+          "start": 58.88,
+          "end": 59.26,
+          "prob": 0.9970109462738037
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 60.2,
+      "end": 61.9,
+      "text": "Real estate did the rest.",
+      "words": [
+        {
+          "word": " Real",
+          "start": 60.2,
+          "end": 60.68,
+          "prob": 0.9592278599739075
+        },
+        {
+          "word": " estate",
+          "start": 60.68,
+          "end": 61.0,
+          "prob": 0.7821112871170044
+        },
+        {
+          "word": " did",
+          "start": 61.0,
+          "end": 61.32,
+          "prob": 0.9817848205566406
+        },
+        {
+          "word": " the",
+          "start": 61.32,
+          "end": 61.46,
+          "prob": 0.9973946809768677
+        },
+        {
+          "word": " rest.",
+          "start": 61.46,
+          "end": 61.9,
+          "prob": 0.9925127029418945
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 62.86,
+      "end": 67.26,
+      "text": "The Burj Khalifa, Palm Jumeirah, entire artificial islands",
+      "words": [
+        {
+          "word": " The",
+          "start": 62.86,
+          "end": 62.92,
+          "prob": 0.9826430082321167
+        },
+        {
+          "word": " Burj",
+          "start": 62.92,
+          "end": 63.24,
+          "prob": 0.8274652063846588
+        },
+        {
+          "word": " Khalifa,",
+          "start": 63.24,
+          "end": 63.7,
+          "prob": 0.9538442194461823
+        },
+        {
+          "word": " Palm",
+          "start": 64.28,
+          "end": 64.5,
+          "prob": 0.93733149766922
+        },
+        {
+          "word": " Jumeirah,",
+          "start": 64.5,
+          "end": 65.16,
+          "prob": 0.7147067785263062
+        },
+        {
+          "word": " entire",
+          "start": 65.56,
+          "end": 66.04,
+          "prob": 0.9800642132759094
+        },
+        {
+          "word": " artificial",
+          "start": 66.04,
+          "end": 66.6,
+          "prob": 0.9856919646263123
+        },
+        {
+          "word": " islands",
+          "start": 66.6,
+          "end": 67.26,
+          "prob": 0.9888049364089966
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 67.79,
+      "end": 71.36,
+      "text": "built to attract the ultra-rich, then sold to them,",
+      "words": [
+        {
+          "word": " built",
+          "start": 67.79,
+          "end": 68.14,
+          "prob": 0.21758916974067688
+        },
+        {
+          "word": " to",
+          "start": 68.14,
+          "end": 68.42,
+          "prob": 0.9984548091888428
+        },
+        {
+          "word": " attract",
+          "start": 68.42,
+          "end": 68.78,
+          "prob": 0.9935478568077087
+        },
+        {
+          "word": " the",
+          "start": 68.78,
+          "end": 68.96,
+          "prob": 0.9982849955558777
+        },
+        {
+          "word": " ultra",
+          "start": 68.96,
+          "end": 69.32,
+          "prob": 0.9742147922515869
+        },
+        {
+          "word": "-rich,",
+          "start": 69.32,
+          "end": 69.64,
+          "prob": 0.7491902709007263
+        },
+        {
+          "word": " then",
+          "start": 70.36,
+          "end": 70.5,
+          "prob": 0.9876495003700256
+        },
+        {
+          "word": " sold",
+          "start": 70.5,
+          "end": 70.86,
+          "prob": 0.9968801736831665
+        },
+        {
+          "word": " to",
+          "start": 70.86,
+          "end": 71.1,
+          "prob": 0.9977442026138306
+        },
+        {
+          "word": " them,",
+          "start": 71.1,
+          "end": 71.36,
+          "prob": 0.9982189536094666
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 72.0,
+      "end": 74.26,
+      "text": "then taxed through fees, not income.",
+      "words": [
+        {
+          "word": " then",
+          "start": 72.0,
+          "end": 72.14,
+          "prob": 0.9849315881729126
+        },
+        {
+          "word": " taxed",
+          "start": 72.14,
+          "end": 72.64,
+          "prob": 0.9851832687854767
+        },
+        {
+          "word": " through",
+          "start": 72.64,
+          "end": 72.78,
+          "prob": 0.9826065897941589
+        },
+        {
+          "word": " fees,",
+          "start": 72.78,
+          "end": 73.28,
+          "prob": 0.9902854561805725
+        },
+        {
+          "word": " not",
+          "start": 73.74,
+          "end": 73.82,
+          "prob": 0.9968552589416504
+        },
+        {
+          "word": " income.",
+          "start": 73.82,
+          "end": 74.26,
+          "prob": 0.996455192565918
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 75.2,
+      "end": 76.46,
+      "text": "Oil built the roads.",
+      "words": [
+        {
+          "word": " Oil",
+          "start": 75.2,
+          "end": 75.5,
+          "prob": 0.9936621189117432
+        },
+        {
+          "word": " built",
+          "start": 75.5,
+          "end": 75.9,
+          "prob": 0.9890674948692322
+        },
+        {
+          "word": " the",
+          "start": 75.9,
+          "end": 76.1,
+          "prob": 0.9964401125907898
+        },
+        {
+          "word": " roads.",
+          "start": 76.1,
+          "end": 76.46,
+          "prob": 0.996198832988739
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 77.2,
+      "end": 80.1,
+      "text": "Everything after that is what actually pays the bills.",
+      "words": [
+        {
+          "word": " Everything",
+          "start": 77.2,
+          "end": 77.54,
+          "prob": 0.9929947257041931
+        },
+        {
+          "word": " after",
+          "start": 77.54,
+          "end": 77.88,
+          "prob": 0.9974933862686157
+        },
+        {
+          "word": " that",
+          "start": 77.88,
+          "end": 78.22,
+          "prob": 0.9985164999961853
+        },
+        {
+          "word": " is",
+          "start": 78.22,
+          "end": 78.64,
+          "prob": 0.9584455490112305
+        },
+        {
+          "word": " what",
+          "start": 78.64,
+          "end": 78.8,
+          "prob": 0.9976255297660828
+        },
+        {
+          "word": " actually",
+          "start": 78.8,
+          "end": 79.3,
+          "prob": 0.9953880906105042
+        },
+        {
+          "word": " pays",
+          "start": 79.3,
+          "end": 79.62,
+          "prob": 0.9979068040847778
+        },
+        {
+          "word": " the",
+          "start": 79.62,
+          "end": 79.82,
+          "prob": 0.9919806718826294
+        },
+        {
+          "word": " bills.",
+          "start": 79.82,
+          "end": 80.1,
+          "prob": 0.9984527826309204
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,9 @@
   "scripts": {
     "start": "remotion studio src/index.ts",
     "build": "remotion render src/index.ts Room39 out/room-39.mp4",
-    "still": "remotion still src/index.ts Room39 out/thumbnail.png"
+    "still": "remotion still src/index.ts Room39 out/thumbnail.png",
+    "build:dubai-money": "remotion render src/index.ts DubaiMoney out/dubai-money.mp4",
+    "still:dubai-money": "remotion still src/index.ts DubaiMoney out/dubai-money-thumbnail.png"
   },
   "dependencies": {
     "@remotion/cli": "4.0.290",

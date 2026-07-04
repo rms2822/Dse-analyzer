@@ -1,0 +1,15 @@
+{
+  "notes": "All times in seconds, matching transcripts/dubai-money/Dubai.json. Overlay layers rendered on top of the scene timeline in Remotion — they do not change scene Sequence timing. No chapters/lowerThirds/mapPings for this short: too brief for chapter breaks, no named people, and the two motion-graphic map scenes already cover geography.",
+  "crossfadeSeconds": 0.3,
+  "stats": [
+    {"text": "<1% OF GDP", "start": 2.98, "end": 5.74},
+    {"text": "0% INCOME TAX", "start": 13.9, "end": 16.32},
+    {"text": "100% FOREIGN OWNED", "start": 30.5, "end": 34.94},
+    {"text": "80% OF EARTH <8HRS", "start": 56.31, "end": 59.26}
+  ],
+  "kineticLines": [
+    {"text": "EVERYTHING AFTER THAT\nIS WHAT PAYS THE BILLS.", "start": 77.2, "end": 80.1}
+  ],
+  "parallaxSceneIds": [2, 5, 7, 8],
+  "endCard": {"durationSeconds": 3.0, "title": "DUBAI", "subtitle": "Built on more than oil."}
+}

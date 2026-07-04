@@ -1,0 +1,45 @@
+{
+  "notes": "start/end are seconds from transcripts/dubai-money/Dubai.json. imageType A = character/conceptual cel-shaded illustration suffix, B = painterly establishing suffix, M = built in Remotion (no generated image needed). Vertical 9:16 short — generate images at 1024x1792 (DALL-E 3 portrait) using the suffixes in production/dubai-money/STYLE_GUIDE.md, then drop them at remotion/public/images/<file>.",
+  "scenes": [
+    {
+      "id": 1, "start": 0.0, "end": 5.74, "segments": [1, 2],
+      "file": "01-idle-oil-pump.png", "imageType": "B",
+      "description": "A single rusting, mostly idle oil pump jack alone in an empty stretch of desert at dawn, sparse and quiet, with the faint glittering silhouette of a distant futuristic skyline barely visible on the horizon — subtle visual contrast between the old economy and what's coming."
+    },
+    {
+      "id": 2, "start": 6.5, "end": 12.94, "segments": [3, 4],
+      "file": "02-dubai-skyline-glam.png", "imageType": "B",
+      "description": "A sweeping golden-hour view of Dubai's skyline from the marina, glass skyscrapers, a row of docked superyachts and luxury cars glimpsed along the waterfront promenade, tourists strolling in the foreground, opulent and glittering."
+    },
+    {
+      "id": 3, "start": 13.9, "end": 26.36, "segments": [5, 6, 7, 8],
+      "file": "03-tax-free-magnet.png", "imageType": "A",
+      "description": "Conceptual close scene: a glowing skyscraper tower acting as a magnet, pulling in streams of gold coins and folded currency from around a faintly rendered globe in the background, warm golden light emanating from the tower's peak, dark surrounding sky."
+    },
+    {
+      "id": 4, "start": 27.17, "end": 40.64, "segments": [9, 10, 11, 12],
+      "file": "04-free-zones-map.png", "imageType": "M",
+      "description": "Motion graphic built in Remotion: a dark satellite-style map of the UAE, several glowing markers pulse on labeled 'FREE ZONE' with small icons (shipping container, skyscraper, factory) appearing at each, camera slowly pushes in across the cluster near Dubai."
+    },
+    {
+      "id": 5, "start": 41.56, "end": 49.54, "segments": [13, 14, 15],
+      "file": "05-jebel-ali-port.png", "imageType": "B",
+      "description": "A vast container port at dusk, gantry cranes loading stacks of shipping containers onto a massive cargo vessel, rows of containers stretching to the horizon, warm sodium work-lights against a cooling sky."
+    },
+    {
+      "id": 6, "start": 50.38, "end": 59.26, "segments": [16, 17, 18],
+      "file": "06-flight-hub-map.png", "imageType": "M",
+      "description": "Motion graphic built in Remotion: a dark world map centered on Dubai, a glowing arc/radius ring expands outward from a pulsing dot over Dubai to cover most of Asia, Europe, and Africa, a small airplane icon animates along one arc, '8 HRS' label fades in."
+    },
+    {
+      "id": 7, "start": 60.2, "end": 74.26, "segments": [19, 20, 21, 22],
+      "file": "07-burj-palm-aerial.png", "imageType": "B",
+      "description": "A dramatic aerial-angle view of the Burj Khalifa piercing through low clouds at golden hour with Palm Jumeirah's artificial island fronds visible in the sea beyond, ultra-luxury waterfront villas dotting the palm's edges, glittering and vast."
+    },
+    {
+      "id": 8, "start": 75.2, "end": 80.32, "segments": [23, 24],
+      "file": "08-oil-pump-skyline-bookend.png", "imageType": "B",
+      "description": "Return to the same rusting oil pump jack from scene 1, camera now pulled back wider, revealing Dubai's glittering skyline filling the horizon behind it at dusk — the old economy in the foreground, the new one glowing behind it."
+    }
+  ]
+}
