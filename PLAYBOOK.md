@@ -15,9 +15,17 @@ remotion/                    one Remotion project, reused across videos —
 deliverables/<slug>.mp4      final render for direct GitHub download
 ```
 
+**Known drift**: `Room_39` predates this convention — its production files sit
+directly under `production/` (not `production/Room_39/`). Move them into
+`production/<slug>/` before starting a second video, or the next video's files
+will collide with these.
+
 The first time through, `remotion/` itself is the template — after a video ships,
 either branch it per-project or treat `src/data/*.json` + `public/images/` as the
 only things that change between videos and keep one Remotion project long-term.
+`src/data/*.json` (shotlist, overlays, captions) are plain copies, not symlinks —
+nothing enforces that they match `production/*.json` / the transcript, so re-copy
+by hand every time you edit the source and don't assume they're in sync.
 
 ## 1. Transcribe with accurate timestamps
 
@@ -123,6 +131,10 @@ Core pieces (see `remotion/src/`):
   no dependency on a sample library.
 - Narration audio is an `<Audio>` element inside the composition (not muxed on
   after the fact) so `npm run build` alone produces the finished file.
+- After editing `production/shotlist.json`, `production/overlays.json`, or the
+  transcript, re-copy them into `src/data/shotlist.json`, `src/data/overlays.json`,
+  `src/data/captions.json` respectively — these are hand-maintained copies (see
+  step 0), not read live from `production/`/`transcripts/`.
 
 ## 6. Render, compress, QA
 
@@ -137,6 +149,12 @@ grade — grain inflates bitrate under a quality-target encode far more than it
 looks like it should; without recompressing, files land 5-6x larger for no visible
 gain.
 
+**Not currently wired in**: `package.json`'s `build` script is just
+`remotion render src/index.ts Room39 out/room-39.mp4` with no CRF flag, and the
+shipped `deliverables/room-39.mp4` shows no evidence this recompress step was
+actually run. Treat the two-command sequence above as required, run it by hand
+every time, and don't rely on `npm run build` alone to produce the final file.
+
 Before calling it done, pull stills at: a chapter-card frame, a stat-callout frame,
 a lower-third frame, a kinetic-line frame, a frame mid-crossfade between two scenes
 (confirms no black gap), and a parallax scene frame. Cheaper to catch a broken
@@ -146,10 +164,12 @@ overlay or a stray black flash from 6 stills than from scrubbing the full render
 
 Use the Canva MCP `generate-design` tool with `design_type: youtube_thumbnail`
 and a prompt built from the same style guide (bold title text, high contrast,
-the moodboard's palette). Export at `1280x720`. **Check for letterboxing** in the
-export — generated thumbnail designs sometimes render with black bars baked into
-the canvas; if so, crop to the actual content bounds and resize back up rather
-than shipping with bars.
+the moodboard's palette). Export at `1280x720`. Generate a couple of concept
+variants and let the user pick rather than shipping the first result. **Check
+each candidate for**: letterboxing/pillarboxing (generated designs sometimes
+render with black bars baked into the canvas — crop to content bounds and
+resize back up rather than shipping with bars) and garbled text on any
+map/label graphic (a common generation artifact, easy to miss at a glance).
 
 ## 8. Metadata
 
@@ -165,7 +185,10 @@ if the overlay chapters were spaced sensibly in step 5).
 - [ ] Build `shotlist.json` scenes from the transcript
 - [ ] Generate images one at a time, in order, verifying each before moving on
 - [ ] Point the Remotion project at the new `shotlist.json` / `captions.json` /
-      `overlays.json` / `public/images/`
-- [ ] Render → compress → still-frame QA (crossfades, overlays, parallax)
-- [ ] Thumbnail via Canva, check for letterboxing
+      `overlays.json` / `public/images/`, re-copying each into `src/data/` (they
+      are manual copies, not read live from `production/`/`transcripts/`)
+- [ ] Render → compress with the ffmpeg CRF 26 pass (not currently automated by
+      `npm run build`) → still-frame QA (crossfades, overlays, parallax)
+- [ ] Thumbnail via Canva: generate a few candidates, check each for
+      letterboxing/pillarboxing and garbled map/label text before picking one
 - [ ] Metadata with chapters pulled from `overlays.json`
