@@ -10,6 +10,7 @@ import {SceneFade} from './components/SceneFade';
 import {SfxCuesDubai} from './components/SfxCuesDubai';
 import {StatCalloutsDubai, KineticLinesDubai, EndCardDubai} from './components/OverlaysDubai';
 import {FreeZonesMap, FlightHubMap} from './components/MotionGraphicsDubai';
+import {SceneAccentFor} from './components/SceneAccentsDubai';
 
 const CORNERS = ['tl', 'tr', 'bl', 'br'] as const;
 const PARALLAX_IDS = new Set(overlays.parallaxSceneIds);
@@ -32,13 +33,19 @@ export const DubaiMoneyVideo: React.FC = () => {
               ) : item.scene.imageType === 'M' ? (
                 <MotionGraphicFor id={item.scene.id} durationInFrames={seqDuration} />
               ) : PARALLAX_IDS.has(item.scene.id) ? (
-                <ParallaxImage src={staticFile(`images/${item.scene.file}`)} durationInFrames={seqDuration} />
+                <>
+                  <ParallaxImage src={staticFile(`images/${item.scene.file}`)} durationInFrames={seqDuration} />
+                  <SceneAccentFor id={item.scene.id} durationInFrames={seqDuration} />
+                </>
               ) : (
-                <KenBurns
-                  src={staticFile(`images/${item.scene.file}`)}
-                  durationInFrames={seqDuration}
-                  corner={CORNERS[i % CORNERS.length]}
-                />
+                <>
+                  <KenBurns
+                    src={staticFile(`images/${item.scene.file}`)}
+                    durationInFrames={seqDuration}
+                    corner={CORNERS[i % CORNERS.length]}
+                  />
+                  <SceneAccentFor id={item.scene.id} durationInFrames={seqDuration} />
+                </>
               )}
             </SceneFade>
           </Sequence>

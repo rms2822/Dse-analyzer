@@ -8,10 +8,10 @@ export const FreeZonesMap: React.FC<{durationInFrames: number}> = ({durationInFr
   const frame = useCurrentFrame();
   const scale = interpolate(frame, [0, durationInFrames], [1, 1.12], {extrapolateRight: 'clamp'});
   const markers = [
-    {x: 540, y: 640, label: 'FREE ZONE', delay: 0},
-    {x: 660, y: 760, label: 'FREE ZONE', delay: 10},
-    {x: 460, y: 820, label: 'FREE ZONE', delay: 20},
-    {x: 600, y: 900, label: 'FREE ZONE', delay: 30},
+    {x: 540, y: 640, label: 'DMCC', delay: 0},
+    {x: 660, y: 760, label: 'JAFZA', delay: 10},
+    {x: 460, y: 820, label: 'DIFC', delay: 20},
+    {x: 600, y: 900, label: 'DUBAI INTERNET CITY', delay: 30},
   ];
 
   return (
@@ -57,6 +57,12 @@ export const FlightHubMap: React.FC<{durationInFrames: number}> = ({durationInFr
   const planeX = cx + radius * Math.cos((planeAngle * Math.PI) / 180);
   const planeY = cy + radius * 0.6 * Math.sin((planeAngle * Math.PI) / 180);
 
+  const destinations = [
+    {angle: 200, label: 'LONDON', delay: 20},
+    {angle: 30, label: 'SINGAPORE', delay: 35},
+    {angle: 260, label: 'CAPE TOWN', delay: 50},
+  ];
+
   return (
     <AbsoluteFill style={{background: gradeBg, alignItems: 'center', justifyContent: 'center'}}>
       <svg width={1080} height={1400} viewBox="0 0 1080 1400">
@@ -69,6 +75,29 @@ export const FlightHubMap: React.FC<{durationInFrames: number}> = ({durationInFr
         <circle cx={cx} cy={cy} r={radius} fill="none" stroke="#5fb3e0" strokeWidth={3} opacity={0.6} />
         <circle cx={cx} cy={cy} r={8} fill="#8fd3f4" />
         <circle cx={planeX} cy={planeY} r={7} fill="#f2d998" opacity={radiusProgress} />
+
+        {destinations.map((dest, i) => {
+          const local = frame - dest.delay;
+          const pop = interpolate(local, [0, 15], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+          const dx = cx + radius * Math.cos((dest.angle * Math.PI) / 180);
+          const dy = cy + radius * 0.6 * Math.sin((dest.angle * Math.PI) / 180);
+          return (
+            <g key={i} opacity={pop}>
+              <circle cx={dx} cy={dy} r={6} fill="#5fb3e0" />
+              <text
+                x={dx}
+                y={dy - 14}
+                fill="#cfeaf9"
+                fontFamily="Arial, sans-serif"
+                fontSize={20}
+                fontWeight={700}
+                textAnchor="middle"
+              >
+                {dest.label}
+              </text>
+            </g>
+          );
+        })}
       </svg>
     </AbsoluteFill>
   );
