@@ -37,10 +37,10 @@ files: `.json` (segments + word timestamps, feeds captions/overlay timing), `.sr
 **Checkpoint**: skim the `.txt` output for obvious mis-transcriptions before
 building anything downstream from it — everything else keys off these timestamps.
 
-## 2. (Optional) Decode a reference video's visual style
+## 2. (Optional) Decode a reference video's visual style and narration style
 
-If replicating another video's look: pull its storyboard sprite sheet instead of
-the full video (much lighter, and sidesteps most download/auth issues):
+If replicating another video's look and voice: pull its storyboard sprite sheet
+instead of the full video (much lighter, and sidesteps most download/auth issues):
 
 ```bash
 pip install yt-dlp
@@ -50,14 +50,65 @@ yt-dlp -f sb0 -o "sb0.%(ext)s" "<youtube-url>"
 The `.mhtml` result is a MIME multipart file of JPEG sprite sheets — extract with
 Python's `email` module, tile each sheet into individual frames with Pillow, then
 sample ~15–20 frames evenly across the timeline and look at them (the `Read` tool
-renders images directly). From that, write a `STYLE_GUIDE.md` documenting:
+renders images directly).
+
+**Known failure mode**: some videos' storyboard JPEGs are themselves corrupted at
+the source (confirmed on the `strait-of-hormuz-reference` decode — two independent
+downloads were byte-identical and `ffmpeg` logged matching decode errors on both,
+so it wasn't a fetch problem). `googlevideo.com` — the CDN that serves actual
+video/audio streams — also returns HTTP 403 for every format in this environment
+regardless of resolution, so `yt-dlp` can't fall back to a real download either.
+**If the user can supply the actual video file** (downloaded locally, e.g. via a
+browser extension, then added to the repo/branch), always prefer decoding real
+frames from it with `ffmpeg -vf fps=1/3` over storyboard sprites — much higher
+fidelity, and it catches things a blocky/corrupted sprite can misread (a
+storyboard-only pass on the Hormuz reference misread a literal insurance-office
+scene as a health-insurance *analogy*, purely from lack of detail). Grab a few
+native-framerate 2–3s bursts too (`ffmpeg -ss <t> -t 3 -vf fps=10`) at a handful of
+representative moments — a single evenly-sampled frame per shot can't tell a Ken
+Burns pan from a locked-off shot with a looping secondary animation (a waving
+flag, a sonar sweep) from a talking-head mouth-swap, and those are different
+Remotion components.
+
+From the frames, write `production/<slug>/STYLE_GUIDE.md` documenting:
 - the asset types in play (illustration style / painterly establishing shots / real
   photo inserts / motion graphics) and how they're differentiated,
-- the animation approach (usually just Ken Burns pans + occasional parallax — full
-  frame-by-frame animation is rare in this genre),
-- the color grade that unifies everything (grain, vignette, split-tone),
+- the animation approach — check for more than one technique before assuming Ken
+  Burns everywhere: locked-off shots with a looped secondary motion, talking-head
+  viseme/mouth-swap holds, and narration-paced progressive reveals (on-screen text
+  or a diagram building up word-by-word) are all common and each needs a different
+  component,
+- whether any composition (a map, a character lineup, a symbolic vignette) is
+  reused as a template across multiple scenes with only labels/costumes swapped —
+  if so, that's the cheapest asset to replicate and worth building as a
+  data-driven component rather than regenerating per scene,
+- the color grade — a single continuous grade (Room_39's grain+vignette+split-tone)
+  and a chapter-switched grade (two or more distinct palettes swapped at chapter
+  boundaries, e.g. a bright "explainer" grade vs. a dark "crisis" grade) are both
+  common; check whether it's constant or switches before writing the Remotion
+  grade component,
 - two ready-to-paste ChatGPT image-generation prompt templates (one per asset
   type) ending in an identical style suffix so every generated image matches.
+
+Separately, pull the caption track for the narration-style half of this
+study — auto-captions are enough, word-level timestamps aren't needed for this:
+
+```bash
+yt-dlp --skip-download --write-auto-subs --sub-langs en --sub-format vtt \
+  -o "transcript.%(ext)s" "<youtube-url>"
+```
+
+Read the full cleaned transcript (strip VTT timing/tags) and write a narration
+section (in the same `STYLE_GUIDE.md` or a sibling file) covering: the opening
+hook technique, any single extended metaphor the whole script hangs on, recurring
+rhetorical devices (relatable-scale comparisons, naming ordinary people in
+unrelated places, staging an abstract mechanism as a literal scene rather than a
+chart), the act structure (does it set up an expected solution and then subvert
+it?), whether dramatized quotes use a second voice/character, and how it closes
+(circular/thematic vs. a separate summary) — end with a reusable technique
+checklist a future script in the same genre can follow. See
+`production/strait-of-hormuz-reference/STYLE_GUIDE.md` for a full worked example
+of both halves of this step.
 
 ## 3. Build the shot list from the transcript
 
@@ -161,7 +212,12 @@ if the overlay chapters were spaced sensibly in step 5).
 ## Reuse checklist for the next video
 
 - [ ] Transcribe with faster-whisper, skim the `.txt` for errors
-- [ ] (If replicating a style) pull storyboard sprites, decode style guide
+- [ ] (If replicating a style) pull storyboard sprites — or a real video file if
+      the user can supply one, it's higher fidelity and avoids storyboard
+      corruption — and decode a visual `STYLE_GUIDE.md`
+- [ ] (If replicating a voice) pull auto-captions and decode a narration-style
+      section: hook, central metaphor, recurring rhetorical devices, act
+      structure, dramatized-quote handling, closing technique, reusable checklist
 - [ ] Build `shotlist.json` scenes from the transcript
 - [ ] Generate images one at a time, in order, verifying each before moving on
 - [ ] Point the Remotion project at the new `shotlist.json` / `captions.json` /
