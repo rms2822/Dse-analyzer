@@ -60,6 +60,10 @@
 [350.59 --> 356.25] from permit to output, takes the better part of a decade. Nobody budgets for a choke point
 [356.25 --> 361.87] that hasn't closed yet. And the choke point doesn't need to physically close to work.
 [362.49 --> 364.77] It just needs a form to sit on a desk.
+[365.55 --> 367.75] The shipment's ready. It's sitting at the port.
+[368.23 --> 369.85] Is the export license signed?
+[370.69 --> 371.57] Not yet.
+[372.17 --> 375.53] Then it's not moving. Doesn't matter what's in the container.
 [375.87 --> 382.05] This is the trap, and it's the same one every resource choke point eventually teaches its owner.
 [382.81 --> 387.93] You don't need to block the material, you need to control one signature the material can't move
 [387.93 --> 393.23] without. A licensing office in Beijing can do more to an American factory floor

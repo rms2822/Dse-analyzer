@@ -247,126 +247,142 @@ that hasn't closed yet. And the choke point doesn't need to physically close to 
 It just needs a form to sit on a desk.
 
 63
+00:06:05,547 --> 00:06:07,747
+The shipment's ready. It's sitting at the port.
+
+64
+00:06:08,226 --> 00:06:09,846
+Is the export license signed?
+
+65
+00:06:10,687 --> 00:06:11,567
+Not yet.
+
+66
+00:06:12,166 --> 00:06:15,526
+Then it's not moving. Doesn't matter what's in the container.
+
+67
 00:06:15,867 --> 00:06:22,047
 This is the trap, and it's the same one every resource choke point eventually teaches its owner.
 
-64
+68
 00:06:22,807 --> 00:06:27,927
 You don't need to block the material, you need to control one signature the material can't move
 
-65
+69
 00:06:27,927 --> 00:06:33,226
 without. A licensing office in Beijing can do more to an American factory floor
 
-66
+70
 00:06:33,226 --> 00:06:37,927
 than a naval blockade ever could, and it never has to fire a shot to do it.
 
-67
+71
 00:06:38,237 --> 00:06:44,456
 In April 2025, China added seven rare earth elements and the magnets made from them to
 
-68
+72
 00:06:44,456 --> 00:06:49,276
 its export control list, timed almost exactly to a new round of American tariffs.
 
-69
+73
 00:06:49,956 --> 00:06:56,317
 In October 2025, it went further, then suspended the new controls for one year as part of
 
-70
+74
 00:06:56,317 --> 00:07:01,596
 a trade truce, but kept the April restrictions and the licensing infrastructure fully in
 
-71
+75
 00:07:01,596 --> 00:07:01,956
 place.
 
-72
+76
 00:07:02,757 --> 00:07:04,596
 Restraint, not retreat.
 
-73
+77
 00:07:06,016 --> 00:07:12,656
 Then, on June 22nd, 2026, it added 10 more American companies straight to the list,
 
-74
+78
 00:07:13,036 --> 00:07:15,956
 including two of the biggest rare earth names in the country.
 
-75
+79
 00:07:16,497 --> 00:07:19,617
 Prices on some of these materials have already spiked sixfold.
 
-76
+80
 00:07:20,177 --> 00:07:24,997
 European manufacturers report export license approval rates below one in four,
 
-77
+81
 00:07:25,177 --> 00:07:31,096
 and that one year suspension from October runs out on November 10th, 2026,
 
-78
+82
 00:07:31,757 --> 00:07:32,857
 a few months from now.
 
-79
+83
 00:07:33,346 --> 00:07:39,016
 If it isn't renewed, five more rare earth elements snap back under full control, all at
 
-80
+84
 00:07:39,016 --> 00:07:44,476
 once, on companies and supply chains that haven't had time to prepare for the first round, let
 
-81
+85
 00:07:44,476 --> 00:07:45,177
 alone a second.
 
-82
+86
 00:07:45,817 --> 00:07:48,797
 Nobody knows yet whether that deadline gets extended again.
 
-83
+87
 00:07:49,476 --> 00:07:52,456
 That's not an oversight in this story, that's the story.
 
-84
+88
 00:07:53,076 --> 00:07:55,137
 The leverage was never a one-time event.
 
-85
+89
 00:07:55,737 --> 00:08:00,737
 It's a switch China can flip, loosen and flip again, watching exactly how much
 
-86
+90
 00:08:00,737 --> 00:08:04,036
 pressure the rest of the world can absorb before flipping it back.
 
-87
+91
 00:08:04,877 --> 00:08:05,776
 The mines can reopen.
 
-88
+92
 00:08:06,557 --> 00:08:06,956
 They have.
 
-89
+93
 00:08:07,536 --> 00:08:10,137
 The ore is still down there, same as it always was.
 
-90
+94
 00:08:10,776 --> 00:08:13,757
 Digging it up was never the hard part, and it never will be.
 
-91
+95
 00:08:14,357 --> 00:08:18,036
 Learning to finish it, that's the part nobody else built in time.
 
-92
+96
 00:08:19,317 --> 00:08:22,956
 Until that changes, it doesn't matter whose flag is on the hill.
 
-93
+97
 00:08:23,476 --> 00:08:25,297
 The stamp still says Beijing.
 

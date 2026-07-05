@@ -5774,6 +5774,38 @@
     },
     {
       "chapter": "THE TRAP",
+      "start": 365.547,
+      "end": 367.747,
+      "text": "The shipment's ready. It's sitting at the port.",
+      "words": [],
+      "speaker": "Factory Manager"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 368.227,
+      "end": 369.847,
+      "text": "Is the export license signed?",
+      "words": [],
+      "speaker": "Export Official"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 370.687,
+      "end": 371.567,
+      "text": "Not yet.",
+      "words": [],
+      "speaker": "Factory Manager"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 372.167,
+      "end": 375.527,
+      "text": "Then it's not moving. Doesn't matter what's in the container.",
+      "words": [],
+      "speaker": "Export Official"
+    },
+    {
+      "chapter": "THE TRAP",
       "start": 375.867,
       "end": 382.047,
       "text": "This is the trap, and it's the same one every resource choke point eventually teaches its owner.",
