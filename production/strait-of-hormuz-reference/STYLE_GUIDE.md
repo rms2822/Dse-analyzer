@@ -90,10 +90,23 @@ this isn't uniformly Ken Burns. Four techniques are used, chosen per shot type:
    title cards ("500 Years" resolving into "HOSTAGE SITUATION" / "FIVE
    HUNDRED YEARS OF THE SAME FIGHT").
 
-**Cuts**: the one transition sampled directly (map scene → hilltop
-flag-planting scene) was a hard cut with no crossfade — consistent with a
-generally hard-cut-driven edit rather than the occasional-crossfade approach
-documented for Room_39.
+**Cut rate, measured (not eyeballed)**: a calibrated frame-difference pass
+(0.5s-resolution frames, downsampled grayscale, mean-abs-diff between
+consecutive frames, threshold tuned against a hard cut confirmed by eye) puts
+this video at **133 distinct cuts over 9:30 — 14.0 cuts/minute, average shot
+length 4.3s (median 3.5s, range 1-12s)**. Running the identical method on our
+own rendered `deliverables/room-39.mp4` gives 22 cuts over 5:31 — 4.0
+cuts/minute, average shot length 14.4s. That's a **3.5x gap**: this video
+cuts to a new composition roughly every 4 seconds on average (with rapid
+1-2s-per-shot stretches during consequence-montage beats like the
+oil-barrel/price-shock sequence), while our existing recipe holds each image
+2-4x longer than that. A recreation aiming for "exactly this style" needs to
+close that gap in cut *rate*, not necessarily in unique-art volume — see
+"Recreating this style" below for how the template-reuse technique already
+documented makes that affordable. The one transition sampled at
+native framerate (map scene → hilltop flag-planting scene) was a hard cut
+with no crossfade, consistent with a generally hard-cut-driven edit rather
+than the occasional-crossfade approach documented for Room_39.
 
 **Template reuse across eras/actors** is a deliberate, load-bearing technique,
 not a shortcut taken once: the identical hilltop-with-flagpole composition is
@@ -226,9 +239,13 @@ flat vector rather than raster illustration — flat shapes are cheap to
 generate consistently and cheap to animate with code instead of pre-rendered
 motion.
 
-**Image generation** (one scene at a time, same loop as step 4 of
-`PLAYBOOK.md`): use two prompt suffixes, kept identical across every
-generation so the whole episode matches:
+**Image generation** targets the ~15-25-entry `asset-library.json`, not one
+image per shot (see step 3/4 of `PLAYBOOK.md`) — the measured 14 cuts/min
+above only stays affordable if most of the ~125 shots a 9-minute video needs
+at that rate reference a reused asset with a swapped label/pin/costume rather
+than a fresh generation. Generate one asset at a time, same approval loop as
+before, using two prompt suffixes kept identical across every generation so
+the whole episode matches:
 
 ```
 Character/dramatized scenes:

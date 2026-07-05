@@ -16,6 +16,14 @@ mine history are all real, current, and cited in `SOURCES.md` in this folder.
 
 Word count: ~1,240 spoken words. At 150-160 wpm that's ~7:45-8:15.
 
+**Chapter timestamps below are word-count estimates at 155wpm (65s / 105s /
+96s / 108s / 108s per chapter), not the actual recording** — the first draft
+copied Hormuz's absolute chapter times directly, which was wrong once this
+script came out ~90s shorter overall; corrected to proportional estimates.
+Replace with real timestamps from the transcript once the narration is
+recorded (playbook step 1) — everything downstream (shotlist, overlays,
+chapter metadata) keys off the real ones, not these.
+
 ---
 
 ## 0:00 — Opening
@@ -42,7 +50,7 @@ This is a story about the stamp. About how the world built its entire
 technological future on top of a paperwork chokepoint, and pretended it was a
 mining problem.
 
-## 1:05 — THE RECIPE
+## ~1:05 — THE RECIPE
 
 Rare earths aren't actually rare. They're scattered through the Earth's crust
 almost everywhere, in tiny concentrations, always mixed together, never
@@ -72,7 +80,7 @@ All of them are one stamp away from a shutdown.
 There is no meaningful alternative supply chain. Not because the rock is
 scarce. Because almost nobody else ever learned to finish it.
 
-## 3:30 — THE GRUDGE THAT BECAME A STRATEGY
+## ~2:50 — THE GRUDGE THAT BECAME A STRATEGY
 
 In 1992, Deng Xiaoping toured southern China and said something that Beijing
 never stopped repeating internally: the Middle East has oil, China has rare
@@ -99,7 +107,7 @@ mine came back before the refinery did. Same hill. Same rock. A different
 flag flying over it changes nothing if the finishing plant is still eight
 thousand miles away.
 
-## 5:15 — THE TRAP
+## ~4:25 — THE TRAP
 
 So surely this fixes itself. America has its mine back. Allied countries are
 opening new ones. Australia, in particular, has real deposits. Give it a few
@@ -133,7 +141,7 @@ one signature the material can't move without. A licensing office in Beijing
 can do more to an American factory floor than a naval blockade ever could,
 and it never has to fire a shot to do it.
 
-## 8:00 — THE CLOCK
+## ~6:15 — THE CLOCK
 
 In April 2025, China added seven rare earth elements and the magnets made
 from them to its export control list, timed almost exactly to a new round of
@@ -166,5 +174,6 @@ says Beijing.
 
 ---
 
-*(End card / chapter recap for overlays.json: 0:00 Opening · 1:05 THE RECIPE ·
-3:30 THE GRUDGE THAT BECAME A STRATEGY · 5:15 THE TRAP · 8:00 THE CLOCK)*
+*(End card / chapter recap for overlays.json — replace with real timestamps
+after transcription: 0:00 Opening · ~1:05 THE RECIPE · ~2:50 THE GRUDGE THAT
+BECAME A STRATEGY · ~4:25 THE TRAP · ~6:15 THE CLOCK)*
