@@ -4,16 +4,23 @@ import captions from '../data/captions.json';
 import overlays from '../data/overlays.json';
 
 type Segment = {start: number; end: number; text: string};
+type KineticWindow = {start: number; end: number};
 
-const segments: Segment[] = captions.segments;
+const defaultSegments: Segment[] = captions.segments;
 
-export const Captions: React.FC = () => {
+// Optional overrides so a second project (rare-earths) can point this at its
+// own captions/kinetic-lines data without forking the file — omit both props
+// and behavior is exactly what it was before (Room_39's own data).
+export const Captions: React.FC<{segments?: Segment[]; kineticLines?: KineticWindow[]}> = ({
+  segments = defaultSegments,
+  kineticLines = overlays.kineticLines,
+}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
 
   // Kinetic lines take over the punchiest moments — don't double up with a caption.
-  const kineticActive = overlays.kineticLines.some((k) => t >= k.start && t < k.end);
+  const kineticActive = kineticLines.some((k) => t >= k.start && t < k.end);
   if (kineticActive) return null;
 
   const active = segments.find((s) => t >= s.start && t < s.end);

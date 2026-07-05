@@ -5,8 +5,15 @@ import {useActiveWindow} from './useActiveWindow';
 
 const FONT = 'Arial, Helvetica, sans-serif';
 
-export const ChapterCards: React.FC = () => {
-  const active = useActiveWindow(overlays.chapters);
+// Every component below takes an optional data override so a second project
+// (rare-earths) can point these at its own overlays.json without forking the
+// file or touching Room_39's rendering at all -- omit the prop and behavior
+// is exactly what it was before (Room_39's own overlays.json).
+
+export const ChapterCards: React.FC<{chapters?: typeof overlays.chapters}> = ({
+  chapters = overlays.chapters,
+}) => {
+  const active = useActiveWindow(chapters);
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   if (!active) return null;
@@ -49,8 +56,8 @@ export const ChapterCards: React.FC = () => {
   );
 };
 
-export const StatCallouts: React.FC = () => {
-  const active = useActiveWindow(overlays.stats);
+export const StatCallouts: React.FC<{stats?: typeof overlays.stats}> = ({stats = overlays.stats}) => {
+  const active = useActiveWindow(stats);
   const {fps} = useVideoConfig();
   if (!active) return null;
   const localFrame = Math.round(active.localSeconds * fps);
@@ -89,8 +96,10 @@ export const StatCallouts: React.FC = () => {
   );
 };
 
-export const LowerThirds: React.FC = () => {
-  const active = useActiveWindow(overlays.lowerThirds);
+export const LowerThirds: React.FC<{lowerThirds?: typeof overlays.lowerThirds}> = ({
+  lowerThirds = overlays.lowerThirds,
+}) => {
+  const active = useActiveWindow(lowerThirds);
   const {fps} = useVideoConfig();
   if (!active) return null;
   const localFrame = Math.round(active.localSeconds * fps);
@@ -128,8 +137,10 @@ export const LowerThirds: React.FC = () => {
   );
 };
 
-export const MapPings: React.FC = () => {
-  const active = useActiveWindow(overlays.mapPings);
+export const MapPings: React.FC<{mapPings?: typeof overlays.mapPings}> = ({
+  mapPings = overlays.mapPings,
+}) => {
+  const active = useActiveWindow(mapPings);
   const {fps} = useVideoConfig();
   if (!active) return null;
   const localFrame = Math.round(active.localSeconds * fps);
@@ -170,8 +181,10 @@ export const MapPings: React.FC = () => {
   );
 };
 
-export const KineticLines: React.FC = () => {
-  const active = useActiveWindow(overlays.kineticLines);
+export const KineticLines: React.FC<{kineticLines?: typeof overlays.kineticLines}> = ({
+  kineticLines = overlays.kineticLines,
+}) => {
+  const active = useActiveWindow(kineticLines);
   const {fps} = useVideoConfig();
   if (!active) return null;
   const localFrame = Math.round(active.localSeconds * fps);
@@ -211,7 +224,11 @@ export const KineticLines: React.FC = () => {
   );
 };
 
-export const EndCard: React.FC<{durationInFrames: number}> = ({durationInFrames}) => {
+export const EndCard: React.FC<{durationInFrames: number; title?: string; subtitle?: string}> = ({
+  durationInFrames,
+  title = overlays.endCard.title,
+  subtitle = overlays.endCard.subtitle,
+}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const inSpring = spring({frame, fps, config: {damping: 200}});
@@ -231,11 +248,9 @@ export const EndCard: React.FC<{durationInFrames: number}> = ({durationInFrames}
     >
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 22}}>
         <div style={{fontFamily: 'Georgia, serif', fontSize: 96, letterSpacing: 8, color: 'white'}}>
-          {overlays.endCard.title}
+          {title}
         </div>
-        <div style={{fontFamily: FONT, fontSize: 26, color: '#9aa0a6'}}>
-          {overlays.endCard.subtitle}
-        </div>
+        <div style={{fontFamily: FONT, fontSize: 26, color: '#9aa0a6'}}>{subtitle}</div>
       </div>
     </AbsoluteFill>
   );

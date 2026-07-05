@@ -1,0 +1,1299 @@
+{
+  "_comment": "High-cut-rate shotlist per PLAYBOOK.md step 3. asset refs asset-library.json ids. variant: A=character/dramatized, B=painterly/establishing, M=pure-Remotion motion graphic. technique: KenBurns (default)/LoopedIdle/TalkingCharacter/ProgressiveReveal/SplitPhoneCall. Built from transcripts/rare-earths/rare-earths.json real word timestamps.",
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 5.56,
+      "chapter": "Opening",
+      "text": "On June 22nd, 2026, China's Ministry of Commerce published a short list.",
+      "asset": "export-official",
+      "variant": "A",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "note": "paper shuffle idle"
+      }
+    },
+    {
+      "id": 2,
+      "start": 6.62,
+      "end": 10.6,
+      "chapter": "Opening",
+      "text": "10 American companies, no press conference, no warships,",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "ProgressiveReveal",
+      "overlay": {
+        "note": "word RESTRICTED stamps down"
+      }
+    },
+    {
+      "id": 3,
+      "start": 11.18,
+      "end": 13.62,
+      "chapter": "Opening",
+      "text": "no missiles, just 10 names,",
+      "asset": "product-silhouettes",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "crop": "MRI/missile montage"
+      }
+    },
+    {
+      "id": 4,
+      "start": 14.1,
+      "end": 20.68,
+      "chapter": "Opening",
+      "text": "and one word next to them. Restricted. Two of those companies mine and process the",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "ProgressiveReveal",
+      "overlay": {
+        "note": "word RESTRICTED stamps down"
+      }
+    },
+    {
+      "id": 5,
+      "start": 20.68,
+      "end": 25.36,
+      "chapter": "Opening",
+      "text": "material inside American fighter jets, wind turbines, and electric motors.",
+      "asset": "product-silhouettes",
+      "variant": "M",
+      "technique": "ProgressiveReveal"
+    },
+    {
+      "id": 6,
+      "start": 26.1,
+      "end": 26.86,
+      "chapter": "Opening",
+      "text": "Within days,",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "pin": "refining region"
+      }
+    },
+    {
+      "id": 7,
+      "start": 26.86,
+      "end": 31.94,
+      "chapter": "Opening",
+      "text": "the one country that turns their raw material into something a factory can actually use",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "pin": "refining region"
+      }
+    },
+    {
+      "id": 8,
+      "start": 31.94,
+      "end": 37.28,
+      "chapter": "Opening",
+      "text": "simply stopped signing their paperwork. China didn't invade anyone,",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "stamp withheld/hovering"
+      }
+    },
+    {
+      "id": 9,
+      "start": 37.62,
+      "end": 38.62,
+      "chapter": "Opening",
+      "text": "it didn't need to,",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "stamp withheld/hovering [continued]"
+      }
+    },
+    {
+      "id": 10,
+      "start": 39.2,
+      "end": 44.92,
+      "chapter": "Opening",
+      "text": "it just stopped stamping a form. Every phone in your pocket,",
+      "asset": "export-official",
+      "variant": "A",
+      "technique": "TalkingCharacter"
+    },
+    {
+      "id": 11,
+      "start": 45.5,
+      "end": 47.32,
+      "chapter": "Opening",
+      "text": "every wind turbine spinning over",
+      "asset": "export-official",
+      "variant": "A",
+      "technique": "TalkingCharacter",
+      "overlay": {
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 12,
+      "start": 47.32,
+      "end": 51.86,
+      "chapter": "Opening",
+      "text": "the North Sea, every MRI machine, every electric motor,",
+      "asset": "product-silhouettes",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "crop": "wind turbine establishing"
+      }
+    },
+    {
+      "id": 13,
+      "start": 52.34,
+      "end": 53.68,
+      "chapter": "Opening",
+      "text": "every precision-guided",
+      "asset": "product-silhouettes",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "crop": "MRI/missile montage"
+      }
+    },
+    {
+      "id": 14,
+      "start": 53.68,
+      "end": 59.52,
+      "chapter": "Opening",
+      "text": "missile built in the last 20 years. All of it depends on 17 elements almost nobody",
+      "asset": "product-silhouettes",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "crop": "MRI/missile montage"
+      }
+    },
+    {
+      "id": 15,
+      "start": 59.52,
+      "end": 64.92,
+      "chapter": "Opening",
+      "text": "outside a chemistry classroom can name, and on one country's willingness to keep processing them.",
+      "asset": "world-map-base",
+      "variant": "M",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "note": "cloud drift"
+      }
+    },
+    {
+      "id": 16,
+      "start": 66.16,
+      "end": 72.06,
+      "chapter": "Opening",
+      "text": "This is a story about the stamp, about how the world built its entire technological future",
+      "asset": "narrator-analyst",
+      "variant": "A",
+      "technique": "TalkingCharacter"
+    },
+    {
+      "id": 17,
+      "start": 72.06,
+      "end": 76.86,
+      "chapter": "Opening",
+      "text": "on top of a paperwork choke point, and pretended it was a mining problem.",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 18,
+      "start": 77.24,
+      "end": 82.26,
+      "chapter": "THE RECIPE",
+      "text": "Rare Earths aren't actually rare. They're scattered through the Earth's crust almost everywhere,",
+      "asset": "ore-rock-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 19,
+      "start": 82.8,
+      "end": 86.44,
+      "chapter": "THE RECIPE",
+      "text": "in tiny concentrations, always mixed together, never alone.",
+      "asset": "ore-rock-icon",
+      "variant": "B",
+      "technique": "LoopedIdle"
+    },
+    {
+      "id": 20,
+      "start": 87.42,
+      "end": 92.5,
+      "chapter": "THE RECIPE",
+      "text": "Seventeen elements, chemically almost identical, clumped at the bottom of the periodic table",
+      "asset": "periodic-table-strip",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 21,
+      "start": 92.5,
+      "end": 97.42,
+      "chapter": "THE RECIPE",
+      "text": "where most people's eyes glaze over. Digging them up is the easy part,",
+      "asset": "ore-rock-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 22,
+      "start": 97.96,
+      "end": 103.72,
+      "chapter": "THE RECIPE",
+      "text": "separating one from the other is not. Think less mining and more baking a souffle",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "wry beat"
+      }
+    },
+    {
+      "id": 23,
+      "start": 103.72,
+      "end": 109.66,
+      "chapter": "THE RECIPE",
+      "text": "at industrial scale, in acid 500 times in a row without ruining a single batch.",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "LoopedIdle"
+    },
+    {
+      "id": 24,
+      "start": 110.56,
+      "end": 116.08,
+      "chapter": "THE RECIPE",
+      "text": "That's what it takes to turn a shovel of mixed ore into one pure element, pure enough to build",
+      "asset": "magnet-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 25,
+      "start": 116.08,
+      "end": 121.4,
+      "chapter": "THE RECIPE",
+      "text": "anything with. China mines about 60% of the world's rare Earth ore.",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "stat": "60% mining"
+      }
+    },
+    {
+      "id": 26,
+      "start": 121.88,
+      "end": 123.34,
+      "chapter": "THE RECIPE",
+      "text": "That's the part most people picture.",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "stat": "60% mining",
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 27,
+      "start": 123.98,
+      "end": 128.16,
+      "chapter": "THE RECIPE",
+      "text": "It's not the part that matters. China refines close to 90% of it,",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "stat": "90% refining"
+      }
+    },
+    {
+      "id": 28,
+      "start": 128.52,
+      "end": 129.76,
+      "chapter": "THE RECIPE",
+      "text": "the step that turns rock",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "stat": "90% refining",
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 29,
+      "start": 129.76,
+      "end": 135.1,
+      "chapter": "THE RECIPE",
+      "text": "into raw material. And when that raw material becomes the strongest magnets on Earth,",
+      "asset": "magnet-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 30,
+      "start": 135.52,
+      "end": 141.08,
+      "chapter": "THE RECIPE",
+      "text": "the kind small enough for a phone and strong enough for a fighter jet, 94% of that final step",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "stat": "94% magnets"
+      }
+    },
+    {
+      "id": 31,
+      "start": 141.08,
+      "end": 146.08,
+      "chapter": "THE RECIPE",
+      "text": "happens in China too. Twenty years ago it was half that.",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "stat": "94% magnets"
+      }
+    },
+    {
+      "id": 32,
+      "start": 146.74,
+      "end": 148.44,
+      "chapter": "THE RECIPE",
+      "text": "Nobody declared war to get there,",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "stat": "94% magnets",
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 33,
+      "start": 148.84,
+      "end": 153.7,
+      "chapter": "THE RECIPE",
+      "text": "they just kept building refineries while everyone else kept mining rocks and shipping them east.",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 34,
+      "start": 154.5,
+      "end": 160.0,
+      "chapter": "THE RECIPE",
+      "text": "An auto worker in Michigan building electric motors, a wind turbine technician in Denmark,",
+      "asset": "factory-worker-lineup",
+      "variant": "A",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 35,
+      "start": 160.66,
+      "end": 165.32,
+      "chapter": "THE RECIPE",
+      "text": "a radiologist in Sao Paulo waiting on a replacement part for an MRI machine.",
+      "asset": "factory-worker-lineup",
+      "variant": "A",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 36,
+      "start": 166.26,
+      "end": 168.58,
+      "chapter": "THE RECIPE",
+      "text": "None of them have ever seen a rare Earth refinery.",
+      "asset": "factory-worker-lineup",
+      "variant": "A",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 37,
+      "start": 169.64,
+      "end": 176.0,
+      "chapter": "THE RECIPE",
+      "text": "All of them are one stamp away from a shutdown. There is no meaningful alternative supply chain,",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 38,
+      "start": 176.46,
+      "end": 181.16,
+      "chapter": "THE RECIPE",
+      "text": "not because the rock is scarce, because almost nobody else ever learned to finish it.",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 39,
+      "start": 181.37,
+      "end": 184.85,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "In 1992, Deng Xiaoping toured southern China",
+      "asset": "deng-era-figure",
+      "variant": "A",
+      "technique": "TalkingCharacter"
+    },
+    {
+      "id": 40,
+      "start": 184.85,
+      "end": 188.65,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "and said something that Beijing never stopped repeating internally.",
+      "asset": "deng-era-figure",
+      "variant": "A",
+      "technique": "TalkingCharacter",
+      "overlay": {
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 41,
+      "start": 189.97,
+      "end": 193.57,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "The Middle East has oil, China has rare earths.",
+      "asset": "deng-era-figure",
+      "variant": "A",
+      "technique": "TalkingCharacter",
+      "overlay": {
+        "note": "quote beat"
+      }
+    },
+    {
+      "id": 42,
+      "start": 194.43,
+      "end": 198.17,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "At the time it sounded almost like a joke, the United States,",
+      "asset": "us-map-base",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 43,
+      "start": 198.39,
+      "end": 200.35,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "not China, dominated this industry.",
+      "asset": "us-map-base",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 44,
+      "start": 201.23,
+      "end": 204.55,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "A single mine in the California desert called Mountain Pass",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "era": "1950s-80s boom"
+      }
+    },
+    {
+      "id": 45,
+      "start": 205.13,
+      "end": 210.85,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "supplied practically the entire non-communist world with rare earths for three straight decades.",
+      "asset": "mountain-pass-worker-1980s",
+      "variant": "A",
+      "technique": "LoopedIdle"
+    },
+    {
+      "id": 46,
+      "start": 211.37,
+      "end": 214.35,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "From the 1950s into the 1980s.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "era": "boom"
+      }
+    },
+    {
+      "id": 47,
+      "start": 215.05,
+      "end": 220.05,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "America built the modern magnet industry and barely noticed it had a chokehold on it.",
+      "asset": "magnet-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 48,
+      "start": 221.17,
+      "end": 227.23,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "Then China undercut the price, not by a little, by enough that mining and refining rare earths",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 49,
+      "start": 227.23,
+      "end": 232.63,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "in America stopped being profitable at all. Environmental rules that didn't apply the",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "grade": "undercut, dimmer"
+      }
+    },
+    {
+      "id": 50,
+      "start": 232.63,
+      "end": 239.51,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "same way in China made the math even easier. Through the 1990s and into the 2000s,",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 51,
+      "start": 239.51,
+      "end": 243.55,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "the industry didn't get stolen. It got outcompeted, quietly,",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "grade": "decline"
+      }
+    },
+    {
+      "id": 52,
+      "start": 243.99,
+      "end": 245.37,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "one contract at a time.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "grade": "decline",
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 53,
+      "start": 246.31,
+      "end": 250.09,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "Until Mountain Pass' own refining line shut down in 1998,",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "era": "1950s-80s boom"
+      }
+    },
+    {
+      "id": 54,
+      "start": 250.93,
+      "end": 252.69,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "a toxic spill closed the whole",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "era": "closure 1998/2002",
+        "grade": "desaturated/dim"
+      }
+    },
+    {
+      "id": 55,
+      "start": 252.69,
+      "end": 257.21,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "site in 2002 and nobody in Washington thought it was worth reopening.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "era": "closure 1998/2002",
+        "grade": "desaturated/dim",
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 56,
+      "start": 258.25,
+      "end": 262.75,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "Mountain Pass did reopen in 2018. It's mining again.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "era": "1950s-80s boom"
+      }
+    },
+    {
+      "id": 57,
+      "start": 263.51,
+      "end": 265.25,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "It produces roughly a tenth of the",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "era": "1950s-80s boom",
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 58,
+      "start": 265.25,
+      "end": 269.55,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "world's raw rare earth ore today. But for years afterward,",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "LoopedIdle"
+    },
+    {
+      "id": 59,
+      "start": 270.09,
+      "end": 271.53,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "a lot of that ore still got shipped",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 60,
+      "start": 271.53,
+      "end": 276.47,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "to China to actually be refined, because the mine came back before the refinery did.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "note": "[continued] [continued]"
+      }
+    },
+    {
+      "id": 61,
+      "start": 277.63,
+      "end": 282.81,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "Same hill, same rock. A different flag flying over it changes nothing if the",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "closing callback of the era-cycle"
+      }
+    },
+    {
+      "id": 62,
+      "start": 282.81,
+      "end": 285.47,
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "text": "finishing plant is still 8,000 miles away.",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 63,
+      "start": 285.73,
+      "end": 289.75,
+      "chapter": "THE TRAP",
+      "text": "So surely this fixes itself, America has its mine back,",
+      "asset": "us-map-base",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 64,
+      "start": 290.25,
+      "end": 292.25,
+      "chapter": "THE TRAP",
+      "text": "allied countries are opening new ones,",
+      "asset": "us-map-base",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 65,
+      "start": 292.91,
+      "end": 298.63,
+      "chapter": "THE TRAP",
+      "text": "Australia in particular has real deposits, give it a few years and the choke point disappears.",
+      "asset": "world-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "pin": "Australia"
+      }
+    },
+    {
+      "id": 66,
+      "start": 300.03,
+      "end": 304.09,
+      "chapter": "THE TRAP",
+      "text": "So why hasn't it? Because the mine was never the choke point,",
+      "asset": "narrator-analyst",
+      "variant": "A",
+      "technique": "TalkingCharacter",
+      "overlay": {
+        "note": "the turn \u2014 held beat"
+      }
+    },
+    {
+      "id": 67,
+      "start": 304.65,
+      "end": 305.67,
+      "chapter": "THE TRAP",
+      "text": "the refinery is.",
+      "asset": "narrator-analyst",
+      "variant": "A",
+      "technique": "TalkingCharacter",
+      "overlay": {
+        "note": "the turn \u2014 held beat [continued]"
+      }
+    },
+    {
+      "id": 68,
+      "start": 306.43,
+      "end": 311.37,
+      "chapter": "THE TRAP",
+      "text": "And building one from scratch isn't a supply chain decision, it's closer to building a",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 69,
+      "start": 311.37,
+      "end": 318.33,
+      "chapter": "THE TRAP",
+      "text": "chemical weapons plants worth of infrastructure. Hundreds of precise separation stages, extreme heat",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "LoopedIdle"
+    },
+    {
+      "id": 70,
+      "start": 318.33,
+      "end": 324.45,
+      "chapter": "THE TRAP",
+      "text": "and acid at every step. And because most rare earth ore comes bundled with thorium and uranium,",
+      "asset": "ore-rock-icon",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "radioactive waste stream"
+      }
+    },
+    {
+      "id": 71,
+      "start": 325.11,
+      "end": 330.51,
+      "chapter": "THE TRAP",
+      "text": "a radioactive waste stream that has to be handled by design, not as an afterthought.",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 72,
+      "start": 331.59,
+      "end": 338.59,
+      "chapter": "THE TRAP",
+      "text": "Today, real industrial scale rare earth refining exists in exactly three places outside China.",
+      "asset": "world-map-base",
+      "variant": "M",
+      "technique": "ProgressiveReveal",
+      "overlay": {
+        "pins": [
+          "Malaysia"
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "start": 339.31,
+      "end": 344.13,
+      "chapter": "THE TRAP",
+      "text": "Malaysia, a small facility in the United States, and one plant in Estonia.",
+      "asset": "world-map-base",
+      "variant": "M",
+      "technique": "ProgressiveReveal",
+      "overlay": {
+        "pins": [
+          "Malaysia",
+          "United States",
+          "Estonia"
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "start": 345.21,
+      "end": 350.33,
+      "chapter": "THE TRAP",
+      "text": "That's the entire non-Chinese refining capacity on earth. Building a new one,",
+      "asset": "world-map-base",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 75,
+      "start": 350.59,
+      "end": 356.25,
+      "chapter": "THE TRAP",
+      "text": "from permit to output, takes the better part of a decade. Nobody budgets for a choke point",
+      "asset": "countdown-clock",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 76,
+      "start": 356.25,
+      "end": 361.87,
+      "chapter": "THE TRAP",
+      "text": "that hasn't closed yet. And the choke point doesn't need to physically close to work.",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 77,
+      "start": 362.49,
+      "end": 364.77,
+      "chapter": "THE TRAP",
+      "text": "It just needs a form to sit on a desk.",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 78,
+      "start": 365.55,
+      "end": 367.75,
+      "chapter": "THE TRAP",
+      "text": "The shipment's ready. It's sitting at the port.",
+      "asset": "factory-manager",
+      "variant": "A",
+      "technique": "SplitPhoneCall",
+      "speaker": "Factory Manager",
+      "overlay": {
+        "pane": "A",
+        "note": "urgent"
+      }
+    },
+    {
+      "id": 79,
+      "start": 368.23,
+      "end": 369.85,
+      "chapter": "THE TRAP",
+      "text": "Is the export license signed?",
+      "asset": "export-official",
+      "variant": "A",
+      "technique": "SplitPhoneCall",
+      "speaker": "Export Official",
+      "overlay": {
+        "pane": "B",
+        "note": "flat, bureaucratic"
+      }
+    },
+    {
+      "id": 80,
+      "start": 370.69,
+      "end": 371.57,
+      "chapter": "THE TRAP",
+      "text": "Not yet.",
+      "asset": "factory-manager",
+      "variant": "A",
+      "technique": "SplitPhoneCall",
+      "speaker": "Factory Manager",
+      "overlay": {
+        "pane": "A",
+        "note": "tense, hesitant"
+      }
+    },
+    {
+      "id": 81,
+      "start": 372.17,
+      "end": 375.53,
+      "chapter": "THE TRAP",
+      "text": "Then it's not moving. Doesn't matter what's in the container.",
+      "asset": "export-official",
+      "variant": "A",
+      "technique": "SplitPhoneCall",
+      "speaker": "Export Official",
+      "overlay": {
+        "pane": "B",
+        "note": "matter-of-fact"
+      }
+    },
+    {
+      "id": 82,
+      "start": 375.87,
+      "end": 382.05,
+      "chapter": "THE TRAP",
+      "text": "This is the trap, and it's the same one every resource choke point eventually teaches its owner.",
+      "asset": "narrator-analyst",
+      "variant": "A",
+      "technique": "TalkingCharacter"
+    },
+    {
+      "id": 83,
+      "start": 382.81,
+      "end": 387.93,
+      "chapter": "THE TRAP",
+      "text": "You don't need to block the material, you need to control one signature the material can't move",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 84,
+      "start": 387.93,
+      "end": 393.23,
+      "chapter": "THE TRAP",
+      "text": "without. A licensing office in Beijing can do more to an American factory floor",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 85,
+      "start": 393.23,
+      "end": 397.93,
+      "chapter": "THE TRAP",
+      "text": "than a naval blockade ever could, and it never has to fire a shot to do it.",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 86,
+      "start": 398.24,
+      "end": 404.46,
+      "chapter": "THE CLOCK",
+      "text": "In April 2025, China added seven rare earth elements and the magnets made from them to",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "label": "April 2025 controls"
+      }
+    },
+    {
+      "id": 87,
+      "start": 404.46,
+      "end": 409.28,
+      "chapter": "THE CLOCK",
+      "text": "its export control list, timed almost exactly to a new round of American tariffs.",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 88,
+      "start": 409.96,
+      "end": 416.32,
+      "chapter": "THE CLOCK",
+      "text": "In October 2025, it went further, then suspended the new controls for one year as part of",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "label": "Oct 2025 suspended"
+      }
+    },
+    {
+      "id": 89,
+      "start": 416.32,
+      "end": 421.96,
+      "chapter": "THE CLOCK",
+      "text": "a trade truce, but kept the April restrictions and the licensing infrastructure fully in place.",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "label": "Oct 2025 suspended",
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 90,
+      "start": 422.76,
+      "end": 424.6,
+      "chapter": "THE CLOCK",
+      "text": "Restraint, not retreat.",
+      "asset": "narrator-analyst",
+      "variant": "A",
+      "technique": "TalkingCharacter"
+    },
+    {
+      "id": 91,
+      "start": 426.02,
+      "end": 432.66,
+      "chapter": "THE CLOCK",
+      "text": "Then, on June 22nd, 2026, it added 10 more American companies straight to the list,",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "label": "10 companies added"
+      }
+    },
+    {
+      "id": 92,
+      "start": 433.04,
+      "end": 435.96,
+      "chapter": "THE CLOCK",
+      "text": "including two of the biggest rare earth names in the country.",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 93,
+      "start": 436.5,
+      "end": 439.62,
+      "chapter": "THE CLOCK",
+      "text": "Prices on some of these materials have already spiked sixfold.",
+      "asset": "price-spike-chart",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 94,
+      "start": 440.18,
+      "end": 445.0,
+      "chapter": "THE CLOCK",
+      "text": "European manufacturers report export license approval rates below one in four,",
+      "asset": "price-spike-chart",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 95,
+      "start": 445.18,
+      "end": 451.1,
+      "chapter": "THE CLOCK",
+      "text": "and that one year suspension from October runs out on November 10th, 2026,",
+      "asset": "countdown-clock",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "the ticking-clock beat"
+      }
+    },
+    {
+      "id": 96,
+      "start": 451.76,
+      "end": 452.86,
+      "chapter": "THE CLOCK",
+      "text": "a few months from now.",
+      "asset": "countdown-clock",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 97,
+      "start": 453.35,
+      "end": 458.34,
+      "chapter": "THE CLOCK",
+      "text": "If it isn't renewed, five more rare earth elements snap back under full control,",
+      "asset": "china-map-base",
+      "variant": "M",
+      "technique": "ProgressiveReveal"
+    },
+    {
+      "id": 98,
+      "start": 458.72,
+      "end": 465.18,
+      "chapter": "THE CLOCK",
+      "text": "all at once, on companies and supply chains that haven't had time to prepare for the first round, let alone a second.",
+      "asset": "countdown-clock",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 99,
+      "start": 465.82,
+      "end": 468.8,
+      "chapter": "THE CLOCK",
+      "text": "Nobody knows yet whether that deadline gets extended again.",
+      "asset": "countdown-clock",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 100,
+      "start": 469.48,
+      "end": 472.46,
+      "chapter": "THE CLOCK",
+      "text": "That's not an oversight in this story, that's the story.",
+      "asset": "narrator-analyst",
+      "variant": "A",
+      "technique": "TalkingCharacter"
+    },
+    {
+      "id": 101,
+      "start": 473.08,
+      "end": 475.14,
+      "chapter": "THE CLOCK",
+      "text": "The leverage was never a one-time event.",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 102,
+      "start": 475.74,
+      "end": 480.74,
+      "chapter": "THE CLOCK",
+      "text": "It's a switch China can flip, loosen and flip again, watching exactly how much",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "LoopedIdle"
+    },
+    {
+      "id": 103,
+      "start": 480.74,
+      "end": 484.04,
+      "chapter": "THE CLOCK",
+      "text": "pressure the rest of the world can absorb before flipping it back.",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "LoopedIdle",
+      "overlay": {
+        "note": "[continued]"
+      }
+    },
+    {
+      "id": 104,
+      "start": 484.88,
+      "end": 485.78,
+      "chapter": "THE CLOCK",
+      "text": "The mines can reopen.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 105,
+      "start": 486.56,
+      "end": 486.96,
+      "chapter": "THE CLOCK",
+      "text": "They have.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 106,
+      "start": 487.54,
+      "end": 490.14,
+      "chapter": "THE CLOCK",
+      "text": "The ore is still down there, same as it always was.",
+      "asset": "ore-rock-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 107,
+      "start": 490.78,
+      "end": 493.76,
+      "chapter": "THE CLOCK",
+      "text": "Digging it up was never the hard part, and it never will be.",
+      "asset": "ore-rock-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 108,
+      "start": 494.36,
+      "end": 498.04,
+      "chapter": "THE CLOCK",
+      "text": "Learning to finish it, that's the part nobody else built in time.",
+      "asset": "refinery-icon",
+      "variant": "B",
+      "technique": "KenBurns"
+    },
+    {
+      "id": 109,
+      "start": 499.32,
+      "end": 502.96,
+      "chapter": "THE CLOCK",
+      "text": "Until that changes, it doesn't matter whose flag is on the hill.",
+      "asset": "mountain-pass-mine",
+      "variant": "B",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "closing callback"
+      }
+    },
+    {
+      "id": 110,
+      "start": 503.48,
+      "end": 505.3,
+      "chapter": "THE CLOCK",
+      "text": "The stamp still says Beijing.",
+      "asset": "stamp-signature-anim",
+      "variant": "M",
+      "technique": "KenBurns",
+      "overlay": {
+        "note": "closing line \u2014 final stamp image"
+      }
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "language": "en",
+  "duration": 505.297,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.56,
+      "text": "On June 22nd, 2026, China's Ministry of Commerce published a short list.",
+      "chapter": "Opening"
+    },
+    {
+      "start": 6.62,
+      "end": 13.62,
+      "text": "10 American companies, no press conference, no warships, no missiles, just 10 names,",
+      "chapter": "Opening"
+    },
+    {
+      "start": 14.1,
+      "end": 20.68,
+      "text": "and one word next to them. Restricted. Two of those companies mine and process the",
+      "chapter": "Opening"
+    },
+    {
+      "start": 20.68,
+      "end": 26.86,
+      "text": "material inside American fighter jets, wind turbines, and electric motors. Within days,",
+      "chapter": "Opening"
+    },
+    {
+      "start": 26.86,
+      "end": 31.94,
+      "text": "the one country that turns their raw material into something a factory can actually use",
+      "chapter": "Opening"
+    },
+    {
+      "start": 31.94,
+      "end": 38.62,
+      "text": "simply stopped signing their paperwork. China didn't invade anyone, it didn't need to,",
+      "chapter": "Opening"
+    },
+    {
+      "start": 39.2,
+      "end": 47.32,
+      "text": "it just stopped stamping a form. Every phone in your pocket, every wind turbine spinning over",
+      "chapter": "Opening"
+    },
+    {
+      "start": 47.32,
+      "end": 53.68,
+      "text": "the North Sea, every MRI machine, every electric motor, every precision-guided",
+      "chapter": "Opening"
+    },
+    {
+      "start": 53.68,
+      "end": 59.52,
+      "text": "missile built in the last 20 years. All of it depends on 17 elements almost nobody",
+      "chapter": "Opening"
+    },
+    {
+      "start": 59.52,
+      "end": 64.92,
+      "text": "outside a chemistry classroom can name, and on one country's willingness to keep processing them.",
+      "chapter": "Opening"
+    },
+    {
+      "start": 66.16,
+      "end": 72.06,
+      "text": "This is a story about the stamp, about how the world built its entire technological future",
+      "chapter": "Opening"
+    },
+    {
+      "start": 72.06,
+      "end": 76.86,
+      "text": "on top of a paperwork choke point, and pretended it was a mining problem.",
+      "chapter": "Opening"
+    },
+    {
+      "start": 77.244,
+      "end": 82.264,
+      "text": "Rare Earths aren't actually rare. They're scattered through the Earth's crust almost everywhere,",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 82.804,
+      "end": 86.444,
+      "text": "in tiny concentrations, always mixed together, never alone.",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 87.424,
+      "end": 92.504,
+      "text": "Seventeen elements, chemically almost identical, clumped at the bottom of the periodic table",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 92.504,
+      "end": 97.424,
+      "text": "where most people's eyes glaze over. Digging them up is the easy part,",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 97.964,
+      "end": 103.724,
+      "text": "separating one from the other is not. Think less mining and more baking a souffle",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 103.724,
+      "end": 109.664,
+      "text": "at industrial scale, in acid 500 times in a row without ruining a single batch.",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 110.564,
+      "end": 116.084,
+      "text": "That's what it takes to turn a shovel of mixed ore into one pure element, pure enough to build",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 116.084,
+      "end": 123.344,
+      "text": "anything with. China mines about 60% of the world's rare Earth ore. That's the part most people picture.",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 123.984,
+      "end": 129.764,
+      "text": "It's not the part that matters. China refines close to 90% of it, the step that turns rock",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 129.764,
+      "end": 135.104,
+      "text": "into raw material. And when that raw material becomes the strongest magnets on Earth,",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 135.524,
+      "end": 141.084,
+      "text": "the kind small enough for a phone and strong enough for a fighter jet, 94% of that final step",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 141.084,
+      "end": 148.444,
+      "text": "happens in China too. Twenty years ago it was half that. Nobody declared war to get there,",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 148.844,
+      "end": 153.704,
+      "text": "they just kept building refineries while everyone else kept mining rocks and shipping them east.",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 154.504,
+      "end": 160.004,
+      "text": "An auto worker in Michigan building electric motors, a wind turbine technician in Denmark,",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 160.664,
+      "end": 165.324,
+      "text": "a radiologist in Sao Paulo waiting on a replacement part for an MRI machine.",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 166.264,
+      "end": 168.584,
+      "text": "None of them have ever seen a rare Earth refinery.",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 169.644,
+      "end": 176.004,
+      "text": "All of them are one stamp away from a shutdown. There is no meaningful alternative supply chain,",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 176.464,
+      "end": 181.164,
+      "text": "not because the rock is scarce, because almost nobody else ever learned to finish it.",
+      "chapter": "THE RECIPE"
+    },
+    {
+      "start": 181.368,
+      "end": 184.848,
+      "text": "In 1992, Deng Xiaoping toured southern China",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 184.848,
+      "end": 188.648,
+      "text": "and said something that Beijing never stopped repeating internally.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 189.968,
+      "end": 193.568,
+      "text": "The Middle East has oil, China has rare earths.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 194.428,
+      "end": 200.348,
+      "text": "At the time it sounded almost like a joke, the United States, not China, dominated this industry.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 201.228,
+      "end": 204.548,
+      "text": "A single mine in the California desert called Mountain Pass",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 205.128,
+      "end": 210.848,
+      "text": "supplied practically the entire non-communist world with rare earths for three straight decades.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 211.368,
+      "end": 214.348,
+      "text": "From the 1950s into the 1980s.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 215.048,
+      "end": 220.048,
+      "text": "America built the modern magnet industry and barely noticed it had a chokehold on it.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 221.168,
+      "end": 227.228,
+      "text": "Then China undercut the price, not by a little, by enough that mining and refining rare earths",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 227.228,
+      "end": 232.628,
+      "text": "in America stopped being profitable at all. Environmental rules that didn't apply the",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 232.628,
+      "end": 239.508,
+      "text": "same way in China made the math even easier. Through the 1990s and into the 2000s,",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 239.508,
+      "end": 245.368,
+      "text": "the industry didn't get stolen. It got outcompeted, quietly, one contract at a time.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 246.308,
+      "end": 252.688,
+      "text": "Until Mountain Pass' own refining line shut down in 1998, a toxic spill closed the whole",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 252.688,
+      "end": 257.208,
+      "text": "site in 2002 and nobody in Washington thought it was worth reopening.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 258.248,
+      "end": 265.248,
+      "text": "Mountain Pass did reopen in 2018. It's mining again. It produces roughly a tenth of the",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 265.248,
+      "end": 271.528,
+      "text": "world's raw rare earth ore today. But for years afterward, a lot of that ore still got shipped",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 271.528,
+      "end": 276.468,
+      "text": "to China to actually be refined, because the mine came back before the refinery did.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 277.628,
+      "end": 282.808,
+      "text": "Same hill, same rock. A different flag flying over it changes nothing if the",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 282.808,
+      "end": 285.468,
+      "text": "finishing plant is still 8,000 miles away.",
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY"
+    },
+    {
+      "start": 285.727,
+      "end": 292.247,
+      "text": "So surely this fixes itself, America has its mine back, allied countries are opening new ones,",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 292.907,
+      "end": 298.627,
+      "text": "Australia in particular has real deposits, give it a few years and the choke point disappears.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 300.027,
+      "end": 305.667,
+      "text": "So why hasn't it? Because the mine was never the choke point, the refinery is.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 306.427,
+      "end": 311.367,
+      "text": "And building one from scratch isn't a supply chain decision, it's closer to building a",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 311.367,
+      "end": 318.327,
+      "text": "chemical weapons plants worth of infrastructure. Hundreds of precise separation stages, extreme heat",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 318.327,
+      "end": 324.447,
+      "text": "and acid at every step. And because most rare earth ore comes bundled with thorium and uranium,",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 325.107,
+      "end": 330.507,
+      "text": "a radioactive waste stream that has to be handled by design, not as an afterthought.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 331.587,
+      "end": 338.587,
+      "text": "Today, real industrial scale rare earth refining exists in exactly three places outside China.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 339.307,
+      "end": 344.127,
+      "text": "Malaysia, a small facility in the United States, and one plant in Estonia.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 345.207,
+      "end": 350.327,
+      "text": "That's the entire non-Chinese refining capacity on earth. Building a new one,",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 350.587,
+      "end": 356.247,
+      "text": "from permit to output, takes the better part of a decade. Nobody budgets for a choke point",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 356.247,
+      "end": 361.867,
+      "text": "that hasn't closed yet. And the choke point doesn't need to physically close to work.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 362.487,
+      "end": 364.767,
+      "text": "It just needs a form to sit on a desk.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 365.547,
+      "end": 367.747,
+      "text": "The shipment's ready. It's sitting at the port.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 368.227,
+      "end": 369.847,
+      "text": "Is the export license signed?",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 370.687,
+      "end": 371.567,
+      "text": "Not yet.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 372.167,
+      "end": 375.527,
+      "text": "Then it's not moving. Doesn't matter what's in the container.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 375.867,
+      "end": 382.047,
+      "text": "This is the trap, and it's the same one every resource choke point eventually teaches its owner.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 382.807,
+      "end": 387.927,
+      "text": "You don't need to block the material, you need to control one signature the material can't move",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 387.927,
+      "end": 393.227,
+      "text": "without. A licensing office in Beijing can do more to an American factory floor",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 393.227,
+      "end": 397.927,
+      "text": "than a naval blockade ever could, and it never has to fire a shot to do it.",
+      "chapter": "THE TRAP"
+    },
+    {
+      "start": 398.237,
+      "end": 404.457,
+      "text": "In April 2025, China added seven rare earth elements and the magnets made from them to",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 404.457,
+      "end": 409.277,
+      "text": "its export control list, timed almost exactly to a new round of American tariffs.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 409.957,
+      "end": 416.317,
+      "text": "In October 2025, it went further, then suspended the new controls for one year as part of",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 416.317,
+      "end": 421.597,
+      "text": "a trade truce, but kept the April restrictions and the licensing infrastructure fully in",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 421.597,
+      "end": 421.957,
+      "text": "place.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 422.757,
+      "end": 424.597,
+      "text": "Restraint, not retreat.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 426.017,
+      "end": 432.657,
+      "text": "Then, on June 22nd, 2026, it added 10 more American companies straight to the list,",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 433.037,
+      "end": 435.957,
+      "text": "including two of the biggest rare earth names in the country.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 436.497,
+      "end": 439.617,
+      "text": "Prices on some of these materials have already spiked sixfold.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 440.177,
+      "end": 444.997,
+      "text": "European manufacturers report export license approval rates below one in four,",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 445.177,
+      "end": 451.097,
+      "text": "and that one year suspension from October runs out on November 10th, 2026,",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 451.757,
+      "end": 452.857,
+      "text": "a few months from now.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 453.347,
+      "end": 459.017,
+      "text": "If it isn't renewed, five more rare earth elements snap back under full control, all at",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 459.017,
+      "end": 464.477,
+      "text": "once, on companies and supply chains that haven't had time to prepare for the first round, let",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 464.477,
+      "end": 465.177,
+      "text": "alone a second.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 465.817,
+      "end": 468.797,
+      "text": "Nobody knows yet whether that deadline gets extended again.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 469.477,
+      "end": 472.457,
+      "text": "That's not an oversight in this story, that's the story.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 473.077,
+      "end": 475.137,
+      "text": "The leverage was never a one-time event.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 475.737,
+      "end": 480.737,
+      "text": "It's a switch China can flip, loosen and flip again, watching exactly how much",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 480.737,
+      "end": 484.037,
+      "text": "pressure the rest of the world can absorb before flipping it back.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 484.877,
+      "end": 485.777,
+      "text": "The mines can reopen.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 486.557,
+      "end": 486.957,
+      "text": "They have.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 487.537,
+      "end": 490.137,
+      "text": "The ore is still down there, same as it always was.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 490.777,
+      "end": 493.757,
+      "text": "Digging it up was never the hard part, and it never will be.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 494.357,
+      "end": 498.037,
+      "text": "Learning to finish it, that's the part nobody else built in time.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 499.317,
+      "end": 502.957,
+      "text": "Until that changes, it doesn't matter whose flag is on the hill.",
+      "chapter": "THE CLOCK"
+    },
+    {
+      "start": 503.477,
+      "end": 505.297,
+      "text": "The stamp still says Beijing.",
+      "chapter": "THE CLOCK"
+    }
+  ]
+}
