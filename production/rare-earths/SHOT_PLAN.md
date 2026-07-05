@@ -6,25 +6,28 @@ average shot ~4.3s (median 3.5s, range 1-12s)** — not the ~4 cuts/min /
 `production/strait-of-hormuz-reference/STYLE_GUIDE.md`'s "Cut rate, measured"
 note for where these numbers came from.
 
-**This is a plan, not the final `shotlist.json`.** Real shot boundaries have
-to key off the actual transcript once the narration is recorded (playbook
-step 1) — the timings and word-boundaries here are estimated from
-`script.md`'s word counts at 155wpm and will shift once real timestamps
-exist. What should carry over unchanged: the shot *count* per chapter (the
-density target), which asset each shot reuses, and which Remotion technique
-(Ken Burns / `LoopedIdle` / `TalkingCharacter` / `ProgressiveReveal` /
-`SplitPhoneCall`) each shot uses.
+**Update 2026-07-05: narration is recorded and transcribed** —
+`transcripts/rare-earths/rare-earths.json` has real word-level timestamps
+now. The table below is updated to the real per-chapter durations (word-count
+estimates undershot by a little across the board, consistent with a
+documentary pace running slower than a flat wpm estimate). The exact shot
+*boundaries* within each chapter (the worked Opening example below) still
+used estimated sub-chapter timing and should be re-cut against the real
+per-word timestamps in `rare-earths.json` before finalizing `shotlist.json` —
+what should carry over unchanged is the shot count per chapter, which asset
+each shot reuses, and which Remotion technique (Ken Burns / `LoopedIdle` /
+`TalkingCharacter` / `ProgressiveReveal` / `SplitPhoneCall`) each shot uses.
 
-## Budget per chapter (at 14 cuts/min)
+## Budget per chapter (at 14 cuts/min) — real durations
 
-| Chapter | Est. duration | Target shot count |
-|---|---|---|
-| Opening | 65s | ~15 |
-| THE RECIPE | 105s | ~24 |
-| THE GRUDGE THAT BECAME A STRATEGY | 96s | ~22 |
-| THE TRAP | 108s | ~25 |
-| THE CLOCK | 108s | ~25 |
-| **Total** | **~482s (8:02)** | **~111** |
+| Chapter | Real duration | Real start | Target shot count |
+|---|---|---|---|
+| Opening | 77.2s | 0:00 | ~18 |
+| THE RECIPE | 104.1s | 1:17 | ~24 |
+| THE GRUDGE THAT BECAME A STRATEGY | 104.4s | 3:01 | ~24 |
+| THE TRAP | 112.5s | 4:46 | ~26 |
+| THE CLOCK | 107.5s | 6:38 | ~25 |
+| **Total** | **505.8s (8:26)** | | **~117** |
 
 That's ~111 shots against a ~15-asset image library (plus 4 pure-Remotion
 motion graphics that need no generation) — roughly a 7:1 shot-to-asset ratio,
