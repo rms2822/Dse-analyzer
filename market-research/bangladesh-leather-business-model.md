@@ -1,6 +1,41 @@
 # Business Model: Bangladesh Compliant Leather Finishing & Goods Export
 *Deep-dive on opportunity #1 from the export analysis — July 2026*
 
+## Who's already buying — confirmed brands sourcing leather/leather goods/footwear from Bangladesh
+
+These are the concrete "Phase 0" conversations to have — brands and retailers already documented as sourcing from Bangladeshi leather/footwear manufacturers, which local supplier serves them where known.
+
+| Brand / retailer | Segment | Known Bangladeshi supplier / notes |
+|---|---|---|
+| Deichmann (Germany, Europe's largest shoe retailer) | Footwear | Apex Footwear |
+| Macy's, J.C. Penney (US) | Footwear | Apex Footwear |
+| ABC Mart (Japan) | Footwear | Apex Footwear |
+| Timberland | Footwear | Multiple BD manufacturers |
+| Clarks | Footwear | Multiple BD manufacturers |
+| Caterpillar (CAT Footwear) | Footwear | Multiple BD manufacturers |
+| Merrell | Footwear | Multiple BD manufacturers |
+| Steve Madden | Footwear | Multiple BD manufacturers |
+| R.M. Williams | Footwear | Multiple BD manufacturers |
+| PUMA | Footwear | Multiple BD manufacturers |
+| ALDO | Footwear | Multiple BD manufacturers |
+| Fila | Footwear | Multiple BD manufacturers |
+| Wolverine (Wolverine Worldwide) | Footwear | Multiple BD manufacturers |
+| s.Oliver | Footwear | Multiple BD manufacturers |
+| Marks & Spencer | Footwear (+ some leather accessories) | Multiple BD manufacturers |
+| Sears | Footwear | Multiple BD manufacturers |
+| Hugo Boss | Footwear/leather goods | Sourced from BD per industry reporting |
+| Decathlon | Footwear (sport) | Sourced from BD per industry reporting |
+| H&M | Footwear — **but PU/synthetic only** | H&M has a specific internal ban on leather sourced from Bangladesh, reportedly over tannery environmental/compliance concerns — worth noting since it shows some major brands treat "Bangladesh leather" as reputationally risky until certification improves, which is exactly the gap this business model closes |
+| PICARD (Germany) | Leather goods (bags, small leather goods) | Picard Bangladesh Ltd — a dedicated 1997 Bangladesh–Germany joint venture, 1,500 employees, ~25,000 bags + 27,000 small leather goods/month, holds Sustainable Leather Foundation / BSCI / Sedex / OHSAS certifications |
+| Unnamed brands in Australia, Germany, Italy, Japan, Singapore | Leather goods | Also produced by Picard Bangladesh alongside the Picard-brand line |
+| Stella International Holdings (Hong Kong) | Footwear (JV partner, not just buyer) | Bay Footwear Ltd is a joint venture with Stella International, a major global footwear/leather goods group — Bay Footwear also supplies European designer/fashion-comfort shoe lines |
+| UK, Canada, Japan, Australia retailers (unnamed) | Footwear | Jennys Shoes |
+| Bata (global) | Footwear | Bata Shoe Co. Bangladesh Ltd — Bata operates its own Bangladesh manufacturing subsidiary rather than buying from third-party BD manufacturers, a slightly different model worth noting separately |
+
+**Reading this list for the business model:** Deichmann/Macy's/J.C. Penney/ABC Mart via Apex, and the Australia/Germany/Italy/Japan/Singapore brands via Picard, are the strongest evidence that **global buyers already have active Bangladesh sourcing relationships and would plausibly extend a pilot order to a new, certified supplier** rather than needing to be convinced Bangladesh is viable at all. The H&M leather ban is the single most useful data point in the other direction — it's a real, named example of a major brand explicitly avoiding Bangladesh-origin leather specifically because of the compliance gap this business model is built to close, which doubles as a ready-made pitch: "get LWG-certified, and H&M-style objections disappear."
+
+Caveat: some of the above (Nike, Reebok, Asics also appear in Bangladesh-related searches) turned out on closer check to be brands **sold in Apex's own domestic retail stores** under license/distribution, not necessarily manufactured for export by Apex — they're excluded here to keep this list to confirmed sourcing/export relationships rather than retail distribution deals.
+
 ## The 5-year-old version
 
 Imagine your town has lots of cows. When you skin a cow, you get a plain, un-baked "cookie" of leather — smelly, not pretty, not worth much. This is called "wet-blue" leather.
