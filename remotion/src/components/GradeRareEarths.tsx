@@ -19,12 +19,15 @@ export const GradeRareEarths: React.FC = () => {
   const active = windows.find((w) => t >= w.start && t < w.end) ?? windows[windows.length - 1];
 
   if (active.grade === 'day') {
+    // Vox graphics-layer restyle: neutral/cool clarity boost instead of
+    // Room_39-style warm-gold cast, to match the bold flat-color Vox palette
+    // used by the maps and overlay layer rather than an ivory undertone.
     return (
       <AbsoluteFill
         style={{
           pointerEvents: 'none',
           background:
-            'linear-gradient(135deg, rgba(255,250,235,0.05) 0%, rgba(0,0,0,0) 50%, rgba(120,170,210,0.04) 100%)',
+            'linear-gradient(135deg, rgba(255,255,255,0.04) 0%, rgba(0,0,0,0) 50%, rgba(0,180,216,0.05) 100%)',
         }}
       />
     );

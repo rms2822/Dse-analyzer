@@ -16,9 +16,9 @@ import {StampSignatureAnim} from './components/StampSignatureAnim';
 import {PriceSpikeChart} from './components/PriceSpikeChart';
 import {CountdownClock} from './components/CountdownClock';
 import {GradeRareEarths} from './components/GradeRareEarths';
-import {Captions} from './components/Captions';
+import {VoxCaptions} from './components/VoxCaptions';
 import {SceneFade} from './components/SceneFade';
-import {ChapterCards, StatCallouts, MapPings, KineticLines, EndCard} from './components/Overlays';
+import {ChapterCards, StatCallouts, MapPings, KineticLines, EndCard} from './components/VoxOverlays';
 
 type Scene = (typeof shotlist.scenes)[number];
 
@@ -62,7 +62,7 @@ export const RareEarthsVideo: React.FC = () => {
       <MapPings mapPings={overlays.mapPings} />
       <StatCallouts stats={overlays.stats} />
       <KineticLines kineticLines={overlays.kineticLines} />
-      <Captions segments={captions.segments} kineticLines={overlays.kineticLines} />
+      <VoxCaptions segments={captions.segments} kineticLines={overlays.kineticLines} />
     </AbsoluteFill>
   );
 };

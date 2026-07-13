@@ -1,5 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {VOX} from '../voxTheme';
 
 // The throughline metaphor's payoff, built as pure Remotion motion graphic --
 // no generated image, per asset-library.json (stamp-signature-anim is listed
@@ -50,15 +51,15 @@ export const StampSignatureAnim: React.FC<{
           <div
             style={{
               opacity: labelOpacity,
-              fontFamily: 'Arial, Helvetica, sans-serif',
+              fontFamily: VOX.font,
               fontWeight: 900,
               fontSize: 46,
-              color: '#b23b2e',
-              border: '6px solid #b23b2e',
-              borderRadius: 10,
+              color: VOX.red,
+              border: `6px solid ${VOX.red}`,
               padding: '10px 26px',
               transform: 'rotate(-8deg)',
               letterSpacing: 2,
+              textTransform: 'uppercase',
             }}
           >
             {label}

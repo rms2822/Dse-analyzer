@@ -1,5 +1,14 @@
 # ChatGPT image prompts — rare-earths asset library
 
+**Superseded.** The asset library was ultimately produced by
+`production/rare-earths/tools/render-assets.mjs` (hand-authored flat-vector
+SVG, rasterized headless) rather than through this ChatGPT prompt flow, and
+the maps were restyled to the Vox-explainer palette in that pass rather than
+the cream/green style prompted below. Left in place as prompt reference in
+case any asset needs a redo via image generation instead of code.
+
+---
+
 15 assets, in the order they first appear in `shotlist.json` (generate in this
 order — catches a mismatched/wrong-looking asset early instead of after
 you've made 10 more). Each combines that asset's `asset-library.json`

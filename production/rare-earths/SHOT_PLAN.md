@@ -52,11 +52,41 @@ metaphor payoff), `refinery-icon` (9), `narrator-analyst` (6),
 `mountain-pass-worker-1980s` (1) — 18 assets covering 110 shots, a ~6:1
 reuse ratio, in line with the reference's own pattern.
 
-## Next step
+## Asset production — how the art actually got made
 
-Generate the asset library images (per `PLAYBOOK.md` step 4 / the two prompt
-templates in the Hormuz `STYLE_GUIDE.md`'s "Recreating this style" section),
-one at a time, in the order they first appear in `shotlist.json`.
+Superseding the "Next step" below: rather than image-generation prompts
+(Adobe Stock search hit a persistent tool-approval block; ChatGPT prompts
+were drafted in `CHATGPT_PROMPTS.md` but not ultimately used), the full
+15-asset library (23 files incl. mouth/blink layers) was produced as
+hand-authored flat-vector SVG and rasterized headless via
+`production/rare-earths/tools/render-assets.mjs` (Playwright/Chromium,
+1792x1024 PNG per asset). A reusable parameterized character rig
+(`headRig`/`deskCharacter`/`standingCharacter`) guarantees the mouth-open/
+mouth-closed/blink layers for `export-official`, `narrator-analyst`, and
+`factory-manager` are pixel-identical except for the swapped facial feature —
+solving the layer-consistency problem that made the ChatGPT same-thread-edit
+approach fragile.
+
+**Vox graphics-layer restyle**: per user direction, the Remotion-native
+overlay/infographic layer (chapter cards, stat callouts, lower thirds, map
+pins, kinetic lines, captions, end card) and the 3 base maps
+(`world-map-base`, `china-map-base`, `us-map-base`) were restyled to a
+Vox-explainer look — bold sans-serif, sharp corners, solid
+red/yellow/cyan-on-ink color blocks (`remotion/src/voxTheme.ts`,
+`components/VoxOverlays.tsx`, `components/VoxCaptions.tsx`) — while the
+illustrated characters, establishing shots, and icons keep the original
+Capital-Case flat-vector palette from the Hormuz `STYLE_GUIDE.md`. Room_39's
+`Overlays.tsx`/`Captions.tsx` are untouched; RareEarths points at the Vox
+versions instead.
+
+## Next step (superseded — see above)
+
+~~Generate the asset library images (per `PLAYBOOK.md` step 4 / the two
+prompt templates in the Hormuz `STYLE_GUIDE.md`'s "Recreating this style"
+section), one at a time, in the order they first appear in
+`shotlist.json`.~~ Done via the code-rendered path above. Remaining: full
+render + compress (`PLAYBOOK.md` step 6), thumbnail (step 7), metadata
+(step 8).
 
 ## Pre-recording planning (superseded)
 

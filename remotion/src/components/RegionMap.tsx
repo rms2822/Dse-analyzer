@@ -1,5 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Img, interpolate, spring, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
+import {VOX} from '../voxTheme';
 
 // One base map image (world-map-base / china-map-base / us-map-base) reused
 // across many shots per STYLE_GUIDE.md's template-reuse finding -- only the
@@ -45,20 +46,20 @@ export const RegionMap: React.FC<{
             gap: 10,
           }}
         >
-          <svg width={18} height={18}>
-            <circle cx={9} cy={9} r={7} fill="none" stroke="#5fb3e0" strokeWidth={2} />
-            <circle cx={9} cy={9} r={3} fill="#8fd3f4" />
+          <svg width={20} height={20}>
+            <circle cx={10} cy={10} r={10} fill={VOX.cyan} opacity={0.3} />
+            <circle cx={10} cy={10} r={5} fill={VOX.cyan} />
           </svg>
           <div
             style={{
-              fontFamily: 'Arial, Helvetica, sans-serif',
+              fontFamily: VOX.font,
               fontSize: 26,
-              fontWeight: 700,
-              color: '#eef6fb',
-              background: 'rgba(10,12,14,0.55)',
-              borderRadius: 6,
-              padding: '4px 10px',
+              fontWeight: 800,
+              color: VOX.white,
+              background: VOX.ink,
+              padding: '5px 12px',
               letterSpacing: 1,
+              textTransform: 'uppercase',
             }}
           >
             {label}
@@ -71,15 +72,13 @@ export const RegionMap: React.FC<{
             style={{
               transform: `scale(${0.8 + pop * 0.2})`,
               opacity: pop,
-              background: 'rgba(10,12,14,0.72)',
-              border: '2px solid #c9a24a',
-              borderRadius: 10,
-              padding: '14px 30px',
-              fontFamily: 'Arial, Helvetica, sans-serif',
+              background: VOX.yellow,
+              padding: '16px 34px',
+              fontFamily: VOX.font,
               fontSize: 38,
-              fontWeight: 800,
-              color: '#f2d998',
-              letterSpacing: 1,
+              fontWeight: 900,
+              color: VOX.ink,
+              letterSpacing: 0.5,
             }}
           >
             {chipText}

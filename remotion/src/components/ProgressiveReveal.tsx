@@ -1,5 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Img, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {VOX} from '../voxTheme';
 
 // Narration-paced reveal: items appear one at a time, evenly spaced across the
 // shot's duration -- per STYLE_GUIDE.md's "progressive on-screen reveal" note
@@ -30,14 +31,13 @@ export const ProgressiveReveal: React.FC<{
               style={{
                 transform: `scale(${0.8 + pop * 0.2})`,
                 opacity: pop,
-                background: 'rgba(10,12,14,0.72)',
-                border: '2px solid #c9a24a',
-                borderRadius: 10,
-                padding: '14px 26px',
-                fontFamily: 'Arial, Helvetica, sans-serif',
+                background: VOX.yellow,
+                padding: '14px 28px',
+                fontFamily: VOX.font,
                 fontSize: 32,
-                fontWeight: 800,
-                color: '#f2d998',
+                fontWeight: 900,
+                color: VOX.ink,
+                textTransform: 'uppercase',
               }}
             >
               {label}
