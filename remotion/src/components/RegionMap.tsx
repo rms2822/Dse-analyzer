@@ -32,23 +32,32 @@ export const RegionMap: React.FC<{
         src={src}
         style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${scale})`}}
       />
-      {pinList.map((label, i) => (
+      {pinList.map((label, i) => {
+        // staggered drop-in: each pin lands a few frames after the previous,
+        // with a springy overshoot, rather than all pins fading in together
+        const pinPop = spring({
+          frame: Math.max(0, frame - i * 6),
+          fps,
+          config: {damping: 11, stiffness: 180, mass: 0.6},
+        });
+        const pinY = interpolate(pinPop, [0, 1], [-56, 0]);
+        return (
         <div
           key={label + i}
           style={{
             position: 'absolute',
             top: `${28 + i * 12}%`,
             left: `${30 + i * 18}%`,
-            transform: `scale(${0.85 + pop * 0.15})`,
-            opacity: pop,
+            transform: `translateY(${pinY}px)`,
+            opacity: Math.min(pinPop * 1.4, 1),
             display: 'flex',
             alignItems: 'center',
             gap: 10,
           }}
         >
           <svg width={20} height={20}>
-            <circle cx={10} cy={10} r={10} fill={VOX.cyan} opacity={0.3} />
-            <circle cx={10} cy={10} r={5} fill={VOX.cyan} />
+            <circle cx={10} cy={10} r={10} fill={VOX.red} opacity={0.3} />
+            <circle cx={10} cy={10} r={5} fill={VOX.red} />
           </svg>
           <div
             style={{
@@ -65,14 +74,15 @@ export const RegionMap: React.FC<{
             {label}
           </div>
         </div>
-      ))}
+        );
+      })}
       {chipText && pinList.length === 0 && (
         <AbsoluteFill style={{alignItems: 'flex-end', justifyContent: 'flex-start', padding: 60}}>
           <div
             style={{
               transform: `scale(${0.8 + pop * 0.2})`,
               opacity: pop,
-              background: VOX.yellow,
+              background: VOX.gold,
               padding: '16px 34px',
               fontFamily: VOX.font,
               fontSize: 38,

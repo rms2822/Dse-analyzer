@@ -32,7 +32,7 @@ export const CountdownClock: React.FC<{
           y1={180}
           x2={180 + Math.sin((minuteAngle * Math.PI) / 180) * 95}
           y2={180 - Math.cos((minuteAngle * Math.PI) / 180) * 95}
-          stroke={VOX.yellow}
+          stroke={VOX.gold}
           strokeWidth={7}
           strokeLinecap="round"
         />
@@ -45,7 +45,7 @@ export const CountdownClock: React.FC<{
           strokeWidth={3}
           strokeLinecap="round"
         />
-        <circle cx={180} cy={180} r={8} fill={VOX.yellow} />
+        <circle cx={180} cy={180} r={8} fill={VOX.gold} />
       </svg>
       {dateLabel && (
         <div
@@ -55,7 +55,7 @@ export const CountdownClock: React.FC<{
             fontFamily: VOX.font,
             fontWeight: 800,
             fontSize: 40,
-            color: VOX.yellow,
+            color: VOX.gold,
             letterSpacing: 2,
           }}
         >

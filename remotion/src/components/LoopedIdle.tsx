@@ -12,13 +12,18 @@ export const LoopedIdle: React.FC<{
   loopSeconds?: number; // one full wobble cycle
   amplitudeDeg?: number; // rotation amplitude
   amplitudeScale?: number; // scale pulse amplitude, e.g. 0.01 = +/-1%
+  bobPx?: number; // vertical bob amplitude -- gentle breathing lift
   fps?: number;
-}> = ({src, loopSeconds = 3.2, amplitudeDeg = 1.1, amplitudeScale = 0.012, fps = 30}) => {
+}> = ({src, loopSeconds = 3.2, amplitudeDeg = 1.1, amplitudeScale = 0.012, bobPx = 5, fps = 30}) => {
   const frame = useCurrentFrame();
   const period = loopSeconds * fps;
   const phase = (frame / period) * Math.PI * 2;
   const rotate = Math.sin(phase) * amplitudeDeg;
-  const scale = 1 + Math.sin(phase * 0.5) * amplitudeScale;
+  // 1.03 base overscan keeps the bob/wobble from ever exposing the frame edge
+  const scale = 1.03 + Math.sin(phase * 0.5) * amplitudeScale;
+  // offset phase so the bob doesn't sync with the rotation -- reads as
+  // ambient drift rather than a mechanical loop
+  const bob = Math.sin(phase * 0.8 + 1.3) * bobPx;
 
   return (
     <AbsoluteFill style={{overflow: 'hidden'}}>
@@ -28,7 +33,7 @@ export const LoopedIdle: React.FC<{
           width: '100%',
           height: '100%',
           objectFit: 'cover',
-          transform: `scale(${scale}) rotate(${rotate}deg)`,
+          transform: `translateY(${bob}px) scale(${scale}) rotate(${rotate}deg)`,
           transformOrigin: 'center center',
         }}
       />

@@ -1,18 +1,18 @@
 {
-  "_comment": "Per PLAYBOOK.md step 3 (high-cut-rate recipe), reworked to drop every human-character asset in favor of infographics -- no talking-mouth characters anywhere in this video. 12 single-file image assets + 6 pure-code (no image) motion graphics, each reused across many shots in shotlist.json with a different overlay/variant rather than regenerated per shot. imageType suffix (A/B) refers to the two prompt templates in production/strait-of-hormuz-reference/STYLE_GUIDE.md (A = character/dramatized scene template -- now unused; B = map/establishing/infographic template, used by everything below).",
+  "_comment": "Per PLAYBOOK.md step 3 (high-cut-rate recipe), reworked to drop every human-character asset in favor of infographics -- no talking-mouth characters anywhere in this video. Per STYLE_DECODE_v2.md's real-frame decode: maps are real recognizable geography (build_map_paths.py, Natural Earth 110m data) colored by the China-vs-rest-of-world bloc technique, and several assets carry a plain generic stick figure (stickFigure() in render-assets.mjs) for human scale/presence -- deliberately far simpler than the removed talking characters, matching the reference's featureless blob-person. 12 single-file image assets + 6 pure-code (no image) motion graphics, each reused across many shots in shotlist.json with a different overlay/variant rather than regenerated per shot.",
   "assets": [
     {
       "id": "ministry-document-icon",
       "type": "icon",
       "imageType": "B",
-      "description": "flat vector official document/form with a letterhead bar and a wax-seal stamp, no character -- replaces the export-official clerk for establishing/idle beats",
+      "description": "flat vector official document/form with a letterhead bar and a wax-seal stamp, plus a plain stick figure standing beside it for scale -- replaces the export-official clerk for establishing/idle beats",
       "used_in": ["Opening cold open"]
     },
     {
       "id": "whiteboard-icon",
       "type": "icon",
       "imageType": "B",
-      "description": "flat vector blank whiteboard on a stand with a marker tray, no character -- replaces the narrator-analyst figure for the ProgressiveReveal text-build beats",
+      "description": "flat vector blank whiteboard on a stand with a marker tray, plus a plain stick figure standing beside it -- replaces the narrator-analyst figure for the ProgressiveReveal text-build beats",
       "used_in": ["THE RECIPE whiteboard/periodic-table reveal"]
     },
     {
@@ -26,28 +26,28 @@
       "id": "world-map-base",
       "type": "map",
       "imageType": "B",
-      "description": "flat vector world map, Vox bold-data-viz palette (ink ocean, red/yellow landmasses), no labels baked in (labels/pins added as Remotion overlay)",
+      "description": "real world landmass geometry (Natural Earth 110m, equirectangular), cream ocean/background, neutral slate-gray countries with China highlighted red -- no labels baked in (labels/pins added as Remotion overlay)",
       "used_in": ["Opening scale montage", "THE RECIPE global-dependency map beat", "THE CLOCK global price-spike beat"]
     },
     {
       "id": "china-map-base",
       "type": "map",
       "imageType": "B",
-      "description": "flat vector map of China, Vox bold-data-viz palette, no labels baked in",
+      "description": "real China mainland silhouette (Natural Earth 110m), solid red fill on cream background, no labels baked in",
       "used_in": ["THE RECIPE refining-share beat", "THE GRUDGE Deng-tour beat", "THE TRAP export-control beat"]
     },
     {
       "id": "us-map-base",
       "type": "map",
       "imageType": "B",
-      "description": "flat vector map of the continental United States with California region distinguishable, Vox bold-data-viz palette, no labels baked in",
+      "description": "real contiguous-48 US silhouette (Natural Earth 110m), solid navy fill on cream background, a small red accent dot marking the California region, no labels baked in",
       "used_in": ["THE GRUDGE Mountain Pass beat"]
     },
     {
       "id": "periodic-table-strip",
       "type": "icon",
       "imageType": "B",
-      "description": "flat vector isolated lanthanide row of the periodic table, 17 plain element tiles, no chemical symbols needed at establishing distance",
+      "description": "flat vector isolated lanthanide row of the periodic table, 17 tiles each with an atomic number and real chemical symbol (Sc, Y, La...Lu)",
       "used_in": ["THE RECIPE '17 elements' beat"]
     },
     {
@@ -61,21 +61,21 @@
       "id": "product-silhouettes",
       "type": "icon",
       "imageType": "B",
-      "description": "flat vector icon set: EV motor cutaway, wind turbine, MRI machine, fighter jet, smartphone -- simple single-color silhouettes, one image with 5 sub-icons to crop from",
+      "description": "flat vector icon set: spoked-ring EV motor, 3-blade wind turbine, donut-bore MRI scanner, delta-wing fighter jet, smartphone, plus a plain stick figure -- five sharpened, unambiguous pictograms to crop from one image",
       "used_in": ["Opening scale montage", "THE RECIPE dependency beat"]
     },
     {
       "id": "mountain-pass-mine",
       "type": "establishing",
       "imageType": "B",
-      "description": "flat vector bird's-eye terraced open-pit mine illustration (concentric rings + mining trucks), California desert setting, wide establishing shot",
+      "description": "flat vector bird's-eye terraced open-pit mine illustration (concentric rings, mining trucks, a plain stick figure for scale), California desert setting, wide establishing shot",
       "used_in": ["THE GRUDGE boom/bust/reopen beats (reused 3x with different color grade/era dressing + stat overlay)"]
     },
     {
       "id": "refinery-icon",
       "type": "establishing",
       "imageType": "B",
-      "description": "flat vector industrial chemical-refining plant illustration, tanks, pipes, and scale piping -- no character",
+      "description": "flat vector industrial chemical-refining plant illustration, tanks, pipes, and scale piping, plus two plain stick figures for human scale -- no named/talking character",
       "used_in": ["THE RECIPE refining beat", "THE TRAP refining-bottleneck beat"]
     },
     {
@@ -90,8 +90,8 @@
     { "id": "stamp-signature-anim", "description": "rubber-stamp/signature graphic that stamps down or withholds, built in Remotion (SVG + interpolate) -- the central 'stamp' metaphor payoff. Used at the Opening, end of THE TRAP, and the closing line." },
     { "id": "price-spike-chart", "description": "line chart climbing, for the 'prices spiked sixfold' beat in THE CLOCK" },
     { "id": "countdown-clock", "description": "countdown/calendar graphic ticking toward Nov 10 2026, for THE CLOCK's ticking-deadline beat" },
-    { "id": "chapter-card", "description": "reusable black title-card template with progressive word-by-word reveal, reuse Overlays.tsx / ProgressiveReveal.tsx, one per chapter boundary" },
-    { "id": "text-card", "description": "Vox-styled full-screen text card, no character -- 'quote' variant (big quotation marks + attribution chip) replaces the deng-era-figure quote beat; 'statement' variant (bold centered line) replaces narrator-analyst's direct-address beats. Built in TextCard.tsx." },
-    { "id": "dialogue-cards", "description": "two-pane message/transcript infographic (labeled speaker cards, active side highlighted) replacing the SplitPhoneCall two-character exchange -- no faces, just Vox-styled text cards. Built in DialogueCards.tsx." }
+    { "id": "chapter-card", "description": "reusable full-bleed navy title-card template with progressive word-by-word reveal, reuse Overlays.tsx / ProgressiveReveal.tsx, one per chapter boundary" },
+    { "id": "text-card", "description": "full-screen text card, no character -- 'quote' variant (big quotation marks + gold attribution chip) replaces the deng-era-figure quote beat; 'statement' variant (bold centered line) replaces narrator-analyst's direct-address beats. Built in TextCard.tsx." },
+    { "id": "dialogue-cards", "description": "two-pane message/transcript infographic (labeled speaker cards, active side highlighted) replacing the SplitPhoneCall two-character exchange -- no faces, just labeled text cards. Built in DialogueCards.tsx." }
   ]
 }

@@ -27,6 +27,26 @@ export const PriceSpikeChart: React.FC<{
   ];
   const pathD = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p[0]} ${p[1]}`).join(' ');
 
+  // position of the line's leading tip at the current progress, so a marker
+  // dot can ride the line as it draws on
+  const segLens = points.slice(1).map((p, i) => Math.hypot(p[0] - points[i][0], p[1] - points[i][1]));
+  const totalLen = segLens.reduce((a, b) => a + b, 0);
+  let remaining = progress * totalLen;
+  let tip = points[0];
+  for (let i = 0; i < segLens.length; i++) {
+    if (remaining <= segLens[i]) {
+      const t = segLens[i] === 0 ? 0 : remaining / segLens[i];
+      tip = [
+        points[i][0] + (points[i + 1][0] - points[i][0]) * t,
+        points[i][1] + (points[i + 1][1] - points[i][1]) * t,
+      ];
+      break;
+    }
+    remaining -= segLens[i];
+    tip = points[i + 1];
+  }
+  const tipPulse = 1 + 0.25 * Math.sin(frame / 3);
+
   return (
     <AbsoluteFill style={{background: VOX.ink, alignItems: 'center', justifyContent: 'center'}}>
       <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
@@ -41,6 +61,8 @@ export const PriceSpikeChart: React.FC<{
           strokeDasharray={2000}
           strokeDashoffset={2000 * (1 - progress)}
         />
+        <circle cx={tip[0]} cy={tip[1]} r={16 * tipPulse} fill={VOX.red} opacity={0.25} />
+        <circle cx={tip[0]} cy={tip[1]} r={9} fill={VOX.red} stroke={VOX.white} strokeWidth={3} />
       </svg>
       <div
         style={{
@@ -50,7 +72,7 @@ export const PriceSpikeChart: React.FC<{
           fontFamily: VOX.font,
           fontWeight: 900,
           fontSize: 88,
-          color: VOX.yellow,
+          color: VOX.gold,
           opacity: interpolate(progress, [0.6, 1], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}),
         }}
       >

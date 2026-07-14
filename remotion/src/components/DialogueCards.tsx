@@ -36,7 +36,7 @@ export const DialogueCards: React.FC<{
             fontSize: 22,
             fontWeight: 800,
             letterSpacing: 2,
-            color: active ? VOX.yellow : VOX.gray,
+            color: active ? VOX.gold : VOX.gray,
             marginBottom: 24,
           }}
         >
@@ -45,8 +45,9 @@ export const DialogueCards: React.FC<{
         {active && (
           <div
             style={{
-              transform: `scale(${0.85 + pop * 0.15})`,
-              opacity: pop,
+              // slide-up + springy settle, like a message bubble landing
+              transform: `translateY(${interpolate(pop, [0, 1], [34, 0])}px) scale(${0.85 + pop * 0.15})`,
+              opacity: Math.min(pop * 1.4, 1),
               background: VOX.white,
               padding: '22px 30px',
               maxWidth: '90%',

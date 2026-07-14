@@ -15,19 +15,25 @@ export const TextCard: React.FC<{
 }> = ({durationInFrames, variant, text, attribution}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const pop = spring({frame, fps, config: {damping: 200}});
+  // comic slam-in: oversized + slightly tilted, springs down into place --
+  // livelier than the old near-static fade, matching the reference's
+  // smash-cut title energy
+  const pop = spring({frame, fps, config: {damping: 13, stiffness: 130, mass: 0.7}});
   const outOpacity = interpolate(frame, [durationInFrames - 10, durationInFrames], [1, 0], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
   });
-  const opacity = Math.min(pop, outOpacity);
+  const opacity = Math.min(pop * 1.5, 1, outOpacity);
+  const slamScale = interpolate(pop, [0, 1], [1.35, 1]);
+  const slamTilt = interpolate(pop, [0, 1], [-3, 0]);
+  const quotePop = spring({frame: Math.max(0, frame - 4), fps, config: {damping: 9, stiffness: 200, mass: 0.5}});
 
   return (
     <AbsoluteFill style={{background: VOX.ink, alignItems: 'center', justifyContent: 'center'}}>
       <div
         style={{
           opacity,
-          transform: `scale(${0.94 + pop * 0.06})`,
+          transform: `scale(${slamScale}) rotate(${slamTilt}deg)`,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
@@ -36,7 +42,17 @@ export const TextCard: React.FC<{
         }}
       >
         {variant === 'quote' && (
-          <div style={{fontFamily: VOX.font, fontSize: 160, fontWeight: 900, color: VOX.red, lineHeight: 0.5}}>
+          <div
+            style={{
+              fontFamily: VOX.font,
+              fontSize: 160,
+              fontWeight: 900,
+              color: VOX.red,
+              lineHeight: 0.5,
+              transform: `scale(${0.4 + quotePop * 0.6})`,
+              opacity: quotePop,
+            }}
+          >
             &ldquo;
           </div>
         )}
@@ -53,7 +69,7 @@ export const TextCard: React.FC<{
           {text.trim()}
         </div>
         {attribution && (
-          <div style={{background: VOX.yellow, padding: '10px 26px', marginTop: 8}}>
+          <div style={{background: VOX.gold, padding: '10px 26px', marginTop: 8}}>
             <div style={{fontFamily: VOX.font, fontSize: 24, fontWeight: 800, color: VOX.ink, letterSpacing: 1}}>
               {attribution}
             </div>

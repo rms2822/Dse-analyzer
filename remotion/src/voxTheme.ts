@@ -1,15 +1,27 @@
-// Shared color/type tokens for the rare-earths graphics layer (charts, maps,
-// lower-thirds, captions, chapter cards) restyled to a Vox-explainer-style
-// bold-sans/high-contrast-accent look, distinct from Room_39's warm
-// gold/navy noir theme. RareEarths-only -- Room_39's Overlays.tsx/Captions.tsx
-// are untouched.
+// Shared color/type tokens for the rare-earths graphics layer, rebuilt per
+// STYLE_DECODE_v2.md's real (storyboard) decode of the user's reference video
+// ("OverSimplified - The Cold War Part 1"): cream/white is the default
+// background, not dark ink; deep red/navy are dramatic accent blocks, not the
+// constant canvas; text carries legibility through a bold black outline
+// rather than a solid chip behind it. RareEarths-only -- Room_39's
+// Overlays.tsx/Captions.tsx are untouched.
 export const VOX = {
-  ink: '#0B0F14',
-  paper: '#F5F1E8',
+  ink: '#14140F',
+  paper: '#F7F3E8',
   white: '#FFFFFF',
-  red: '#FF3D1F',
-  yellow: '#FFC700',
-  cyan: '#00B4D8',
-  gray: '#8A9199',
+  red: '#B3222E',
+  navy: '#1C2B45',
+  gold: '#C9A227',
+  gray: '#6B6A63',
   font: '"Helvetica Neue", Helvetica, Arial, sans-serif',
 } as const;
+
+// Bold outlined-text look (the "1917" title-card technique): a solid fill
+// plus a thick same-weight stroke, so labels stay legible directly over a
+// busy illustrated scene without needing a solid box behind them.
+export function voxOutline(strokeColor: string, width = 3) {
+  return {
+    WebkitTextStroke: `${width}px ${strokeColor}`,
+    paintOrder: 'stroke fill' as const,
+  };
+}

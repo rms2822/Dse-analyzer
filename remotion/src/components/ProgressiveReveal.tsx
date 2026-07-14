@@ -31,7 +31,7 @@ export const ProgressiveReveal: React.FC<{
               style={{
                 transform: `scale(${0.8 + pop * 0.2})`,
                 opacity: pop,
-                background: VOX.yellow,
+                background: VOX.gold,
                 padding: '14px 28px',
                 fontFamily: VOX.font,
                 fontSize: 32,

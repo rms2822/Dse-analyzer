@@ -2,13 +2,15 @@ import React from 'react';
 import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import overlays from '../data/rare-earths/overlays.json';
 import {useActiveWindow} from './useActiveWindow';
-import {VOX} from '../voxTheme';
+import {VOX, voxOutline} from '../voxTheme';
 
-// Vox-explainer-style graphics layer for RareEarths: bold sans, sharp corners,
-// solid high-contrast color blocks instead of Room_39's rounded
-// gold-hairline/translucent-navy noir chips. Same data shapes as
-// components/Overlays.tsx (chapters/stats/lowerThirds/mapPings/kineticLines/
-// endCard) so this is a drop-in swap, not a schema change.
+// Graphics layer for RareEarths, per STYLE_DECODE_v2.md's real decode: bold
+// outlined type carries legibility (no solid chip behind it for in-scene
+// labels), and full-bleed cards use a deep navy/red dramatic color block
+// rather than the near-black "ink" canvas the whole layer used to default to.
+// Same data shapes as components/Overlays.tsx (chapters/stats/lowerThirds/
+// mapPings/kineticLines/endCard) so this is a drop-in swap, not a schema
+// change.
 
 export const ChapterCards: React.FC<{chapters?: typeof overlays.chapters}> = ({
   chapters = overlays.chapters,
@@ -30,7 +32,7 @@ export const ChapterCards: React.FC<{chapters?: typeof overlays.chapters}> = ({
   return (
     <AbsoluteFill
       style={{
-        background: VOX.ink,
+        background: VOX.navy,
         opacity: Math.min(inSpring, outFade),
         alignItems: 'flex-start',
         justifyContent: 'center',
@@ -42,10 +44,11 @@ export const ChapterCards: React.FC<{chapters?: typeof overlays.chapters}> = ({
         <div
           style={{
             fontFamily: VOX.font,
-            fontSize: 88,
+            fontSize: 92,
             fontWeight: 900,
             letterSpacing: 1,
             color: VOX.white,
+            ...voxOutline(VOX.ink, 4),
             textTransform: 'uppercase',
             lineHeight: 1.05,
           }}
@@ -76,21 +79,16 @@ export const StatCallouts: React.FC<{stats?: typeof overlays.stats}> = ({stats =
           transform: `scale(${0.7 + pop * 0.3})`,
           transformOrigin: 'top left',
           opacity: Math.min(pop, outOpacity),
-          background: VOX.yellow,
-          padding: '16px 36px',
+          fontFamily: VOX.font,
+          fontSize: 64,
+          fontWeight: 900,
+          color: VOX.white,
+          ...voxOutline(VOX.ink, 4),
+          letterSpacing: 0.5,
+          textShadow: '0 4px 18px rgba(0,0,0,0.5)',
         }}
       >
-        <div
-          style={{
-            fontFamily: VOX.font,
-            fontSize: 58,
-            fontWeight: 900,
-            color: VOX.ink,
-            letterSpacing: 0.5,
-          }}
-        >
-          {active.item.text}
-        </div>
+        {active.item.text}
       </div>
     </AbsoluteFill>
   );
@@ -126,11 +124,11 @@ export const LowerThirds: React.FC<{lowerThirds?: LowerThirdItem[]}> = ({
         }}
       >
         <div style={{width: 10, background: VOX.red}} />
-        <div style={{background: VOX.ink, padding: '14px 26px'}}>
-          <div style={{fontFamily: VOX.font, fontSize: 30, fontWeight: 900, color: VOX.white, textTransform: 'uppercase'}}>
+        <div style={{background: VOX.paper, padding: '14px 26px'}}>
+          <div style={{fontFamily: VOX.font, fontSize: 30, fontWeight: 900, color: VOX.ink, textTransform: 'uppercase'}}>
             {active.item.name}
           </div>
-          <div style={{fontFamily: VOX.font, fontSize: 20, fontWeight: 700, color: VOX.yellow, marginTop: 2}}>
+          <div style={{fontFamily: VOX.font, fontSize: 20, fontWeight: 700, color: VOX.red, marginTop: 2}}>
             {active.item.role}
           </div>
         </div>
@@ -146,7 +144,9 @@ export const MapPings: React.FC<{mapPings?: typeof overlays.mapPings}> = ({
   const {fps} = useVideoConfig();
   if (!active) return null;
   const localFrame = Math.round(active.localSeconds * fps);
-  const pop = spring({frame: localFrame, fps, config: {damping: 14, stiffness: 160, mass: 0.5}});
+  // drop-in with a springy overshoot settle, livelier than a plain scale pop
+  const pop = spring({frame: localFrame, fps, config: {damping: 11, stiffness: 170, mass: 0.6}});
+  const dropY = interpolate(pop, [0, 1], [-70, 0]);
   const totalFrames = Math.round((active.item.end - active.item.start) * fps);
   const outOpacity = interpolate(localFrame, [totalFrames - 6, totalFrames], [1, 0], {
     extrapolateLeft: 'clamp',
@@ -158,22 +158,31 @@ export const MapPings: React.FC<{mapPings?: typeof overlays.mapPings}> = ({
     <AbsoluteFill style={{alignItems: 'flex-end', justifyContent: 'flex-start'}}>
       <div
         style={{
-          opacity: Math.min(pop, outOpacity),
-          transform: `scale(${0.8 + pop * 0.2})`,
+          opacity: Math.min(pop * 1.4, 1, outOpacity),
+          transform: `translateY(${dropY}px)`,
           marginTop: 70,
           marginRight: 90,
           display: 'flex',
           alignItems: 'center',
           gap: 12,
-          background: VOX.ink,
-          padding: '10px 22px',
         }}
       >
-        <svg width={18} height={18}>
-          <circle cx={9} cy={9} r={9 * pulse} fill={VOX.cyan} opacity={0.35} />
-          <circle cx={9} cy={9} r={5} fill={VOX.cyan} />
+        <svg width={20} height={20}>
+          <circle cx={10} cy={10} r={10 * pulse} fill={VOX.red} opacity={0.3} />
+          <circle cx={10} cy={10} r={6} fill={VOX.red} stroke={VOX.ink} strokeWidth={2} />
         </svg>
-        <div style={{fontFamily: VOX.font, fontSize: 22, fontWeight: 800, color: VOX.white, letterSpacing: 1, textTransform: 'uppercase'}}>
+        <div
+          style={{
+            fontFamily: VOX.font,
+            fontSize: 26,
+            fontWeight: 900,
+            color: VOX.white,
+            ...voxOutline(VOX.ink, 3),
+            letterSpacing: 1,
+            textTransform: 'uppercase',
+            textShadow: '0 3px 14px rgba(0,0,0,0.5)',
+          }}
+        >
           {active.item.label}
         </div>
       </div>
@@ -200,7 +209,7 @@ export const KineticLines: React.FC<{kineticLines?: typeof overlays.kineticLines
       style={{
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'rgba(0,0,0,0.55)',
+        background: VOX.navy,
       }}
     >
       <div
@@ -208,9 +217,10 @@ export const KineticLines: React.FC<{kineticLines?: typeof overlays.kineticLines
           opacity: Math.min(pop, outOpacity),
           transform: `scale(${0.92 + pop * 0.08})`,
           fontFamily: VOX.font,
-          fontSize: 70,
+          fontSize: 72,
           fontWeight: 900,
           color: VOX.white,
+          ...voxOutline(VOX.ink, 3),
           textAlign: 'center',
           lineHeight: 1.15,
           maxWidth: '82%',
@@ -240,28 +250,28 @@ export const EndCard: React.FC<{durationInFrames: number; title?: string; subtit
   return (
     <AbsoluteFill
       style={{
-        background: VOX.ink,
+        background: VOX.red,
         alignItems: 'center',
         justifyContent: 'center',
         opacity: Math.min(inSpring, outOpacity),
       }}
     >
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
-        <div style={{width: 120, height: 14, background: VOX.red}} />
         <div
           style={{
             fontFamily: VOX.font,
-            fontSize: 92,
+            fontSize: 96,
             fontWeight: 900,
             letterSpacing: 1,
             color: VOX.white,
+            ...voxOutline(VOX.ink, 4),
             textTransform: 'uppercase',
             textAlign: 'center',
           }}
         >
           {title}
         </div>
-        <div style={{fontFamily: VOX.font, fontSize: 26, fontWeight: 600, color: VOX.gray}}>{subtitle}</div>
+        <div style={{fontFamily: VOX.font, fontSize: 26, fontWeight: 700, color: VOX.paper}}>{subtitle}</div>
       </div>
     </AbsoluteFill>
   );
