@@ -52,6 +52,54 @@ metaphor payoff), `refinery-icon` (9), `narrator-analyst` (6),
 `mountain-pass-worker-1980s` (1) — 18 assets covering 110 shots, a ~6:1
 reuse ratio, in line with the reference's own pattern.
 
+## Rework: no human characters, higher cut rate (2026-07-14)
+
+Superseding the chapter/reuse tables above: per user direction, every
+human-character shot (export-official / narrator-analyst / factory-worker-
+lineup / deng-era-figure / mountain-pass-worker-1980s / factory-manager, and
+the `TalkingCharacter` / `SplitPhoneCall` techniques that animated them) was
+removed and replaced with infographic techniques — reused maps with pins,
+whiteboard/document icons, stat-label chips, a new 3-stage `supply-chain-flow`
+diagram, and two new pure-code components (`TextCard` for quotes/statements,
+`DialogueCards` for the phone-call exchange) — built by
+`production/rare-earths/tools/rebuild_shotlist.py`. The same pass also raised
+the cut rate by splitting every remaining plain KenBurns/LoopedIdle hold over
+5.5s into two shots (alternating Ken Burns corner, or switching LoopedIdle to
+KenBurns on the second half), so a real visual change lands at the new cut
+point rather than just re-timing the same static frame.
+
+**New totals**: 126 shots (was 110) / 505.3s, **14.96 cuts/min** (was 13.0) —
+now *past* the Hormuz reference's measured 14.0/min, not just close to it.
+
+| Chapter | Duration | Start | Shot count | Cuts/min |
+|---|---|---|---|---|
+| Opening | 76.9s | 0:00 | 21 | 16.4 |
+| THE RECIPE | 103.9s | 1:17 | 25 | 14.4 |
+| THE GRUDGE THAT BECAME A STRATEGY | 104.1s | 3:01 | 26 | 15.0 |
+| THE TRAP | 112.2s | 4:46 | 26 | 13.9 |
+| THE CLOCK | 107.1s | 6:38 | 28 | 15.7 |
+| **Total** | **505.3s (8:25)** | | **126** | **14.96** |
+
+Asset reuse across the 126 shots: `china-map-base` (27), `mountain-pass-mine`
+(18), `stamp-signature-anim` (16), `refinery-icon` (12), `product-silhouettes`
+(9), `world-map-base` (8), `ore-rock-icon` (7), `text-card` (5),
+`countdown-clock` (5), `magnet-icon` (4), `us-map-base` (4), `dialogue-cards`
+(4), `whiteboard-icon` (2), `price-spike-chart` (2), `ministry-document-icon`
+(1), `periodic-table-strip` (1), `supply-chain-flow` (1) — 17 assets/
+components covering 126 shots, a ~7.4:1 reuse ratio, higher than the
+character-era 6:1 since the character assets were the least-reused entries in
+the old library.
+
+One fix applied alongside the rework: `VoxCaptions`' suppression list (which
+already hid the caption bar during `KineticLines` windows) now also folds in
+every `text-card`/`dialogue-cards` shot window — those components render
+their own on-screen sentence, and without the fix the independently-timed
+caption track stacked a duplicate of the same line underneath it. Also moved
+`RegionMap`'s stat/label chip from bottom-right to top-right, since several of
+the new map/diagram label overlays (e.g. `supply-chain-flow`'s "THE
+BOTTLENECK" chip, `mountain-pass-mine`'s "~100% SUPPLY" chip) were landing
+directly on top of the caption bar at the old position.
+
 ## Asset production — how the art actually got made
 
 Superseding the "Next step" below: rather than image-generation prompts

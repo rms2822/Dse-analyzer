@@ -1,8 +1,12 @@
-// Renders the 15-asset rare-earths asset-library (23 files incl. mouth/blink
-// layers) as hand-authored flat-vector SVG, rasterized via the pre-installed
-// Chromium (Playwright). Characters/icons/establishing shots use the
-// Capital-Case palette from STYLE_GUIDE.md; the 3 base maps use the Vox
-// bold-data-viz palette per the "Vox graphics layer" restyle decision.
+// Renders the rare-earths asset-library's 12 single-file image assets as
+// hand-authored flat-vector SVG, rasterized via the pre-installed Chromium
+// (Playwright). No human characters -- per the "remake with infographics"
+// rework, every beat that used to be a talking-mouth character is now a
+// map/icon/diagram (this file) or a pure-code component (TextCard.tsx,
+// DialogueCards.tsx -- no image needed, see RareEarthsVideo.tsx). Icons/
+// establishing shots use the Capital-Case palette from STYLE_GUIDE.md; the 3
+// base maps use the Vox bold-data-viz palette per the "Vox graphics layer"
+// restyle decision.
 //
 // Run: NODE_PATH=$(npm root -g) node production/rare-earths/tools/render-assets.mjs
 import {writeFileSync, mkdirSync} from 'fs';
@@ -82,284 +86,11 @@ const rrect = (x, y, w, h, r, fill, stroke = C.ink, sw = 8) =>
 const circ = (cx, cy, r, fill, stroke = C.ink, sw = 8) =>
   `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`;
 
-// -------------------------------------------------------- character rig --
-// One reusable "peg doll" rig: head + neck + optional hair/hat + face state.
-// Mouth/eye state swap is the entire mechanism behind TalkingCharacter's
-// viseme cycling, so base/mouth_open/mouth_closed/blink must be pixel-identical
-// except for that one feature.
-function headRig(cx, cy, r, skin, {mouth, eyes, hair} = {}) {
-  let s = '';
-  s += rrect(cx - 34, cy + r - 30, 68, 60, 14, skin); // neck
-  s += circ(cx - r + 4, cy + 16, 20, skin); // left ear
-  s += circ(cx + r - 4, cy + 16, 20, skin); // right ear
-  s += circ(cx, cy, r, skin); // head
-  if (hair) s += hair(cx, cy, r);
-  // brows
-  s += `<path d="M ${cx - 46} ${cy - 34} q 16 -10 30 -2" fill="none" stroke="${C.ink}" stroke-width="6" stroke-linecap="round"/>`;
-  s += `<path d="M ${cx + 16} ${cy - 36} q 14 -8 30 2" fill="none" stroke="${C.ink}" stroke-width="6" stroke-linecap="round"/>`;
-  // eyes
-  if (eyes === 'blink') {
-    s += `<line x1="${cx - 42}" y1="${cy - 8}" x2="${cx - 14}" y2="${cy - 8}" stroke="${C.ink}" stroke-width="7" stroke-linecap="round"/>`;
-    s += `<line x1="${cx + 14}" y1="${cy - 8}" x2="${cx + 42}" y2="${cy - 8}" stroke="${C.ink}" stroke-width="7" stroke-linecap="round"/>`;
-  } else {
-    s += circ(cx - 28, cy - 8, 9, C.ink, 'none', 0);
-    s += circ(cx + 28, cy - 8, 9, C.ink, 'none', 0);
-  }
-  // nose
-  s += `<path d="M ${cx - 6} ${cy + 4} q -8 20 0 26 l 12 0" fill="none" stroke="${C.ink}" stroke-width="5" stroke-linecap="round"/>`;
-  // mouth
-  if (mouth === 'open') {
-    s += `<ellipse cx="${cx}" cy="${cy + 48}" rx="24" ry="18" fill="${C.ink}"/>`;
-    s += `<ellipse cx="${cx}" cy="${cy + 43}" rx="17" ry="8" fill="#C4614A"/>`;
-  } else {
-    s += `<path d="M ${cx - 26} ${cy + 48} Q ${cx} ${cy + 58} ${cx + 26} ${cy + 48}" fill="none" stroke="${C.ink}" stroke-width="7" stroke-linecap="round"/>`;
-  }
-  return s;
-}
-
-const hairCap = (color) => (cx, cy, r) =>
-  `<path d="M ${cx - r} ${cy - 6} a ${r} ${r} 0 0 1 ${r * 2} 0 l 0 -14 a ${r} ${r} 0 0 0 -${r * 2} 0 Z" fill="${color}" stroke="${C.ink}" stroke-width="8" stroke-linejoin="round"/>`;
-
-const hairCombover = (color) => (cx, cy, r) =>
-  `<path d="M ${cx - r + 10} ${cy - r + 30} q ${r} -50 ${2 * r - 20} 0 q -10 -34 -${r} -30 q -${r - 10} -4 -${r - 10} 30 Z" fill="${color}" stroke="${C.ink}" stroke-width="7" stroke-linejoin="round"/>`;
-
-const fedora = (color) => (cx, cy, r) => `
-  ${rrect(cx - r - 26, cy - r + 4, 2 * r + 52, 20, 8, color)}
-  ${poly([[cx - r + 10, cy - r + 4], [cx + r - 10, cy - r + 4], [cx + r - 26, cy - r - 46], [cx - r + 26, cy - r - 46]], color)}
-  ${rrect(cx - r + 6, cy - r - 14, 2 * r - 12, 14, 4, '#1B1815')}
-`;
-
-const hardhat = (color) => (cx, cy, r) => `
-  <path d="M ${cx - r - 4} ${cy - 4} a ${r + 4} ${r + 4} 0 0 1 ${2 * (r + 4)} 0 Z" fill="${color}" stroke="${C.ink}" stroke-width="8"/>
-  ${rrect(cx - r - 16, cy - 10, 2 * r + 32, 16, 8, color)}
-`;
-
-// seated-at-desk bust: head + shoulders behind a desk edge, used for the two
-// "talking head over a phone/paper" characters.
-function deskCharacter({bg, skin, outfit, outfitAccent, hair, deskColor, mouth, eyes, extra = ''}) {
-  const cx = W / 2;
-  const cy = H / 2 - 90;
-  let s = '';
-  s += `<rect width="${W}" height="${H}" fill="${bg}"/>`;
-  // window/back wall accent
-  s += rrect(W - 420, 80, 300, 380, 16, '#00000012', 'none', 0);
-  // shoulders/torso
-  s += poly(
-    [
-      [cx - 300, H - 40],
-      [cx - 220, cy + 120],
-      [cx - 90, cy + 60],
-      [cx + 90, cy + 60],
-      [cx + 220, cy + 120],
-      [cx + 300, H - 40],
-    ],
-    outfit,
-  );
-  s += rrect(cx - 44, cy + 40, 88, 40, 10, outfitAccent);
-  s += headRig(cx, cy, 120, skin, {mouth, eyes, hair});
-  s += extra;
-  // desk
-  s += rrect(0, H - 210, W, 210, 0, deskColor);
-  s += rrect(0, H - 220, W, 18, 0, '#00000022', 'none', 0);
-  return s;
-}
-
-// full-standing character: head + torso + simple legs, plain background.
-function standingCharacter({bg, skin, outfit, outfitAccent, hair, mouth, eyes, pantsColor = '#33302A', extra = ''}) {
-  const cx = W / 2;
-  const cy = 300;
-  let s = `<rect width="${W}" height="${H}" fill="${bg}"/>`;
-  s += rrect(cx - 40, 780, 34, 200, 12, pantsColor); // legs
-  s += rrect(cx + 6, 780, 34, 200, 12, pantsColor);
-  s += rrect(cx - 60, 960, 76, 30, 8, '#2A2622'); // shoes
-  s += poly(
-    [
-      [cx - 190, 800],
-      [cx - 150, 430],
-      [cx + 150, 430],
-      [cx + 190, 800],
-    ],
-    outfit,
-  ); // torso
-  s += rrect(cx - 46, 480, 92, 46, 10, outfitAccent);
-  // arms
-  s += rrect(cx - 230, 460, 60, 260, 26, outfit);
-  s += rrect(cx + 170, 460, 60, 260, 26, outfit);
-  s += circ(cx - 200, 720, 32, skin); // hands
-  s += circ(cx + 200, 720, 32, skin);
-  s += headRig(cx, cy, 120, skin, {mouth, eyes, hair});
-  s += extra;
-  return s;
-}
-
 // -------------------------------------------------------------- write PNG --
 const jobs = [];
 function add(name, bg, bodyFn) {
   jobs.push({name, html: page(svg(bg, bodyFn()))});
 }
-
-// ===================================================== 1. export-official =
-{
-  const hair = hairCombover('#141210');
-  const extra = (mouth, eyes) => {
-    let s = '';
-    // stamp in raised right hand
-    s += circ(W / 2 + 300, H / 2 - 40, 46, C.rust);
-    s += circ(W / 2 + 300, H / 2 - 40, 22, '#7A2E1C');
-    s += rrect(W / 2 + 285, H / 2 - 4, 30, 60, 6, '#5C4530');
-    // paper form under left hand
-    s += rrect(W / 2 - 360, H / 2 + 40, 220, 150, 6, C.white);
-    for (let i = 0; i < 4; i++) {
-      s += `<line x1="${W / 2 - 340}" y1="${H / 2 + 70 + i * 26}" x2="${W / 2 - 170}" y2="${H / 2 + 70 + i * 26}" stroke="#C9C2AC" stroke-width="4"/>`;
-    }
-    return s;
-  };
-  for (const [layer, mouth, eyes] of [
-    ['base', 'closed', 'open'],
-    ['mouth-open', 'open', 'open'],
-    ['mouth-closed', 'closed', 'open'],
-    ['blink', 'closed', 'blink'],
-  ]) {
-    add(`export-official-${layer}`, C.bgOffice, () =>
-      deskCharacter({
-        bg: C.bgOffice,
-        skin: C.skin2,
-        outfit: C.navy,
-        outfitAccent: C.rust,
-        hair,
-        deskColor: '#6B5A3E',
-        mouth,
-        eyes,
-        extra: extra(mouth, eyes),
-      }),
-    );
-  }
-}
-
-// =================================================== 5. narrator-analyst =
-{
-  const hair = fedora('#2B2622');
-  const extra = () => `
-    ${rrect(140, 260, 420, 560, 10, '#EDEAE0')}
-    ${rrect(140, 260, 420, 560, 10, 'none', C.ink, 10)}
-  `;
-  for (const [layer, mouth, eyes] of [
-    ['base', 'closed', 'open'],
-    ['mouth-open', 'open', 'open'],
-    ['mouth-closed', 'closed', 'open'],
-    ['blink', 'closed', 'blink'],
-  ]) {
-    add(`narrator-analyst-${layer}`, C.bgPlain, () =>
-      standingCharacter({
-        bg: C.bgPlain,
-        skin: C.skin1,
-        outfit: '#5A5148',
-        outfitAccent: C.denimBlue,
-        hair,
-        mouth,
-        eyes,
-        extra: extra(),
-      }),
-    );
-  }
-}
-
-// ===================================================== 15. factory-manager =
-{
-  const hair = hairCap('#3A3128');
-  const extra = () => `
-    ${rrect(W - 430, 70, 340, 320, 14, '#BFD0D6')}
-    ${rrect(W - 430, 70, 340, 320, 14, 'none', C.ink, 8)}
-    ${Array.from({length: 3}).map((_, i) => rrect(W - 400 + i * 100, 120, 60, 90, 6, '#8FA6AC')).join('')}
-    ${rrect(W / 2 + 40, H / 2 + 10, 90, 130, 10, '#3B322A')}
-  `;
-  for (const [layer, mouth, eyes] of [
-    ['base', 'closed', 'open'],
-    ['mouth-open', 'open', 'open'],
-    ['mouth-closed', 'closed', 'open'],
-  ]) {
-    add(`factory-manager-${layer}`, C.bgWarehouse, () =>
-      deskCharacter({
-        bg: C.bgWarehouse,
-        skin: C.skin3,
-        outfit: C.slate,
-        outfitAccent: C.hiviz,
-        hair,
-        deskColor: '#8A8378',
-        mouth,
-        eyes,
-        extra: extra(),
-      }),
-    );
-  }
-}
-
-// =============================================== 10. factory-worker-lineup =
-add('factory-worker-lineup', C.bgPlain, () => {
-  const rows = [
-    {cx: 480, skin: C.skin1, outfit: C.denim, accent: '#B7C4CC', hat: null},
-    {cx: 896, skin: C.skin2, outfit: C.hiviz, accent: '#3A3A3A', hat: hardhat('#E2A324')},
-    {cx: 1312, skin: C.skin3, outfit: C.scrubs, accent: '#F4F1E8', hat: null},
-  ];
-  return rows
-    .map(({cx, skin, outfit, accent, hat}) => {
-      const cy = 300;
-      let s = '';
-      s += rrect(cx - 40, 780, 34, 190, 12, '#33302A');
-      s += rrect(cx + 6, 780, 34, 190, 12, '#33302A');
-      s += poly(
-        [
-          [cx - 170, 790],
-          [cx - 135, 440],
-          [cx + 135, 440],
-          [cx + 170, 790],
-        ],
-        outfit,
-      );
-      s += rrect(cx - 100, 480, 200, 50, 10, accent);
-      s += rrect(cx - 210, 460, 56, 240, 24, outfit);
-      s += rrect(cx + 154, 460, 56, 240, 24, outfit);
-      s += circ(cx - 182, 700, 30, skin);
-      s += circ(cx + 182, 700, 30, skin);
-      s += headRig(cx, cy, 110, skin, {mouth: 'closed', eyes: 'open', hair: hat});
-      return s;
-    })
-    .join('');
-});
-
-// ===================================================== 11. deng-era-figure =
-add('deng-era-figure', C.bgOutdoorTour, () => `
-  ${rrect(0, 620, W, 404, 0, '#B7CDBB')}
-  ${circ(300, 700, 90, '#7C9C82', 'none', 0)}
-  ${circ(1500, 660, 70, '#7C9C82', 'none', 0)}
-  ${standingCharacter({
-    bg: 'none',
-    skin: C.skin2,
-    outfit: '#4B4B4B',
-    outfitAccent: '#8A1F1F',
-    hair: hairCombover('#111'),
-    mouth: 'open',
-    eyes: 'open',
-    extra: `<path d="M ${W / 2 + 200} 560 q 60 -20 90 20" fill="none" stroke="${C.ink}" stroke-width="10" stroke-linecap="round"/>`,
-  })}
-`);
-
-// ============================================ 14. mountain-pass-worker-1980s =
-add('mountain-pass-worker-1980s', C.bgDesert, () => `
-  ${rrect(0, 640, W, 384, 0, '#D8C182')}
-  ${poly([[1200,640],[1340,420],[1460,640]], '#B7A06A')}
-  ${rrect(1500, 500, 40, 200, 6, C.metal)}
-  ${rrect(1440, 470, 160, 40, 6, C.metal)}
-  ${standingCharacter({
-    bg: 'none',
-    skin: C.skin1,
-    outfit: C.hiviz,
-    outfitAccent: '#4A4A4A',
-    hair: hardhat('#F4C430'),
-    mouth: 'closed',
-    eyes: 'open',
-  })}
-`);
 
 // ============================================================= icons/etc =
 add('product-silhouettes', C.bgPlain, () => {
@@ -402,8 +133,7 @@ add('refinery-icon', C.bgOutdoorTour, () => `
   ${rrect(0, 660, W, 364, 0, '#AEBFC2')}
   ${[260, 520, 780].map((x) => `${rrect(x, 380, 120, 320, 8, C.metal)}${circ(x + 60, 380, 60, C.metal)}`).join('')}
   ${[900, 1080, 1260].map((x, i) => rrect(x, 300 + i * 20, 40, 400 - i * 20, 6, '#8B98A0')).join('')}
-  ${standingCharacter({bg:'none', skin: C.skin1, outfit: C.hiviz, outfitAccent:'#4A4A4A', hair: hardhat('#F4C430'), mouth:'closed', eyes:'open'})
-    .replace(`<rect width="${W}" height="${H}" fill="none"/>`, '')}
+  ${[1420, 1470, 1520].map((x) => `<line x1="${x}" y1="700" x2="${x}" y2="600" stroke="${C.metal}" stroke-width="10" stroke-linecap="round"/>`).join('')}
 `);
 
 add('mountain-pass-mine', C.bgDesert, () => {
@@ -436,11 +166,65 @@ add('mountain-pass-mine', C.bgDesert, () => {
   `;
 });
 
-// =============================================================== VOX maps =
-function voxLabelBadge() {
-  return ''; // labels come from RegionMap overlay, not baked in
-}
+// ============================================= new infographic replacements
+// (replacing the removed export-official / narrator-analyst / factory-manager
+// character assets per the "no human characters" rework)
+add('ministry-document-icon', C.bgOffice, () => {
+  const cx = W / 2;
+  const cy = H / 2;
+  let s = '';
+  s += rrect(cx - 260, cy - 320, 520, 640, 10, C.white);
+  s += rrect(cx - 260, cy - 320, 520, 90, 10, C.navy);
+  for (let i = 0; i < 6; i++) {
+    s += `<line x1="${cx - 190}" y1="${cy - 160 + i * 60}" x2="${cx + 190}" y2="${cy - 160 + i * 60}" stroke="#C9C2AC" stroke-width="6"/>`;
+  }
+  // wax-seal / stamp circle, bottom right of the document
+  s += circ(cx + 150, cy + 260, 70, C.rust);
+  s += circ(cx + 150, cy + 260, 40, '#7A2E1C');
+  return s;
+});
 
+add('whiteboard-icon', C.bgPlain, () => {
+  const cx = W / 2;
+  return `
+    ${rrect(cx - 460, 160, 920, 620, 12, '#F5F3EA')}
+    ${rrect(cx - 460, 160, 920, 620, 12, 'none', C.ink, 10)}
+    ${rrect(cx - 500, 780, 1000, 26, 6, '#8A8378')}
+    ${circ(cx - 420, 793, 12, C.rust)}
+    ${circ(cx - 380, 793, 12, C.navy)}
+    ${circ(cx - 340, 793, 12, C.olive)}
+  `;
+});
+
+add('supply-chain-flow', C.bgPlain, () => {
+  const cy = H / 2 + 20;
+  const arrow = (x1, x2) => `
+    <line x1="${x1}" y1="${cy}" x2="${x2}" y2="${cy}" stroke="${C.ink}" stroke-width="10" stroke-linecap="round"/>
+    ${poly([[x2, cy - 24], [x2 + 34, cy], [x2, cy + 24]], C.ink)}
+  `;
+  return `
+    ${circ(300, cy, 150, '#F0EADA', C.ink, 8)}
+    ${poly([[300,cy-90],[380,cy-10],[360,cy+90],[280,cy+120],[210,cy+60],[220,cy-10]], C.slate)}
+
+    ${arrow(480, 660)}
+
+    ${circ(896, cy, 160, '#F6D9CE', C.rust, 16)}
+    ${rrect(826, cy - 90, 140, 180, 16, C.teal)}
+    ${rrect(858, cy - 140, 76, 60, 10, C.teal)}
+
+    ${arrow(1096, 1276)}
+
+    ${circ(1492, cy, 150, '#F0EADA', C.ink, 8)}
+    <path d="M ${1492 - 100} ${cy - 100} a 100 100 0 0 1 200 0 l 0 120 l -66 0 l 0 -100 a 36 36 0 0 0 -68 0 l 0 100 l -66 0 Z"
+      fill="${C.metal}" stroke="${C.ink}" stroke-width="8" stroke-linejoin="round"/>
+
+    <text x="896" y="${cy + 250}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="34" fill="${C.ink}">REFINING</text>
+  `;
+});
+
+// =============================================================== VOX maps =
+// (labels/pins come from RegionMap's overlay prop at render time, not baked
+// into these base images)
 add('world-map-base', VOX.ocean, () => `
   ${poly([[120,520],[260,380],[420,420],[380,600],[220,660]], VOX.land)}
   ${poly([[380,600],[520,560],[560,760],[400,820]], VOX.landAlt)}

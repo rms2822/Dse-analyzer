@@ -1,70 +1,46 @@
 {
-  "_comment": "Per PLAYBOOK.md step 3 (high-cut-rate recipe). ~18 assets total, matching the Hormuz reference's reuse pattern: each gets referenced by many shots in shotlist.json with a different overlay/variant rather than regenerated per shot. imageType suffix (A/B) refers to the two prompt templates in production/strait-of-hormuz-reference/STYLE_GUIDE.md.",
+  "_comment": "Per PLAYBOOK.md step 3 (high-cut-rate recipe), reworked to drop every human-character asset in favor of infographics -- no talking-mouth characters anywhere in this video. 12 single-file image assets + 6 pure-code (no image) motion graphics, each reused across many shots in shotlist.json with a different overlay/variant rather than regenerated per shot. imageType suffix (A/B) refers to the two prompt templates in production/strait-of-hormuz-reference/STYLE_GUIDE.md (A = character/dramatized scene template -- now unused; B = map/establishing/infographic template, used by everything below).",
   "assets": [
     {
-      "id": "export-official",
-      "type": "character",
-      "imageType": "A",
-      "files": { "base": "export-official-base.png", "mouth_closed": "export-official-mouth-closed.png", "mouth_open": "export-official-mouth-open.png", "blink": "export-official-blink.png" },
-      "description": "flat 2D vector Chinese ministry export-control clerk at a desk, holding a stamp and a paper form, plain office background",
-      "used_in": ["Opening cold open", "THE TRAP export-office scene", "SplitPhoneCall pane B"]
+      "id": "ministry-document-icon",
+      "type": "icon",
+      "imageType": "B",
+      "description": "flat vector official document/form with a letterhead bar and a wax-seal stamp, no character -- replaces the export-official clerk for establishing/idle beats",
+      "used_in": ["Opening cold open"]
     },
     {
-      "id": "narrator-analyst",
-      "type": "character",
-      "imageType": "A",
-      "files": { "base": "narrator-analyst-base.png", "mouth_closed": "narrator-analyst-mouth-closed.png", "mouth_open": "narrator-analyst-mouth-open.png", "blink": "narrator-analyst-blink.png" },
-      "description": "flat 2D vector trenchcoat-and-fedora narrator-proxy figure standing beside a blank whiteboard, mirrors the Hormuz reference's detective character",
-      "used_in": ["THE RECIPE whiteboard/periodic-table reveal", "chapter-card companion shots"]
+      "id": "whiteboard-icon",
+      "type": "icon",
+      "imageType": "B",
+      "description": "flat vector blank whiteboard on a stand with a marker tray, no character -- replaces the narrator-analyst figure for the ProgressiveReveal text-build beats",
+      "used_in": ["THE RECIPE whiteboard/periodic-table reveal"]
     },
     {
-      "id": "factory-worker-lineup",
-      "type": "character",
-      "imageType": "A",
-      "description": "flat 2D vector lineup of three ordinary workers in different national dress (US autoworker in coveralls, European wind-turbine technician in hi-vis, South American hospital technician in scrubs), plain background",
-      "used_in": ["THE RECIPE 'autoworker in Michigan...' beat"]
-    },
-    {
-      "id": "deng-era-figure",
-      "type": "character",
-      "imageType": "A",
-      "description": "flat 2D vector 1990s-era Chinese official in a plain suit, mid-speech pose, outdoor tour setting, muted period color palette",
-      "used_in": ["THE GRUDGE 1992 quote beat"]
-    },
-    {
-      "id": "mountain-pass-worker-1980s",
-      "type": "character",
-      "imageType": "A",
-      "description": "flat 2D vector 1980s mining worker in a hardhat beside period-appropriate mining equipment, desert background",
-      "used_in": ["THE GRUDGE Mountain Pass boom beat"]
-    },
-    {
-      "id": "factory-manager",
-      "type": "character",
-      "imageType": "A",
-      "files": { "base": "factory-manager-base.png", "mouth_closed": "factory-manager-mouth-closed.png", "mouth_open": "factory-manager-mouth-open.png" },
-      "description": "flat 2D vector factory manager at a desk on the phone, warehouse visible through a window behind, mirrors the Hormuz reference's naval-officer phone character",
-      "used_in": ["THE TRAP SplitPhoneCall pane A"]
+      "id": "supply-chain-flow",
+      "type": "icon",
+      "imageType": "B",
+      "description": "flat vector 3-stage flow diagram: ore rock -> refining flask (highlighted in accent color as the bottleneck, labeled REFINING) -> magnet, connected by arrows",
+      "used_in": ["THE RECIPE refining-bottleneck beat", "THE TRAP mine-is-not-the-constraint beat"]
     },
     {
       "id": "world-map-base",
       "type": "map",
       "imageType": "B",
-      "description": "flat vector world map, green continents, white ocean, thin gray borders, no labels baked in (labels/pins added as Remotion overlay)",
-      "used_in": ["Opening scale montage", "THE CLOCK global price-spike beat"]
+      "description": "flat vector world map, Vox bold-data-viz palette (ink ocean, red/yellow landmasses), no labels baked in (labels/pins added as Remotion overlay)",
+      "used_in": ["Opening scale montage", "THE RECIPE global-dependency map beat", "THE CLOCK global price-spike beat"]
     },
     {
       "id": "china-map-base",
       "type": "map",
       "imageType": "B",
-      "description": "flat vector map of China with neighboring countries in pale outline, no labels baked in",
-      "used_in": ["THE RECIPE refining-share beat", "THE TRAP export-control beat"]
+      "description": "flat vector map of China, Vox bold-data-viz palette, no labels baked in",
+      "used_in": ["THE RECIPE refining-share beat", "THE GRUDGE Deng-tour beat", "THE TRAP export-control beat"]
     },
     {
       "id": "us-map-base",
       "type": "map",
       "imageType": "B",
-      "description": "flat vector map of the continental United States with California region distinguishable, no labels baked in",
+      "description": "flat vector map of the continental United States with California region distinguishable, Vox bold-data-viz palette, no labels baked in",
       "used_in": ["THE GRUDGE Mountain Pass beat"]
     },
     {
@@ -85,21 +61,21 @@
       "id": "product-silhouettes",
       "type": "icon",
       "imageType": "B",
-      "description": "flat vector icon set: EV motor cutaway, wind turbine, MRI machine, fighter jet, smartphone -- simple single-color silhouettes on transparent background, one image with 5 sub-icons to crop from",
+      "description": "flat vector icon set: EV motor cutaway, wind turbine, MRI machine, fighter jet, smartphone -- simple single-color silhouettes, one image with 5 sub-icons to crop from",
       "used_in": ["Opening scale montage", "THE RECIPE dependency beat"]
     },
     {
       "id": "mountain-pass-mine",
       "type": "establishing",
       "imageType": "B",
-      "description": "flat vector open-pit mine illustration, California desert setting, wide establishing shot",
-      "used_in": ["THE GRUDGE boom/bust/reopen beats (reused 3x with different color grade/era dressing)"]
+      "description": "flat vector bird's-eye terraced open-pit mine illustration (concentric rings + mining trucks), California desert setting, wide establishing shot",
+      "used_in": ["THE GRUDGE boom/bust/reopen beats (reused 3x with different color grade/era dressing + stat overlay)"]
     },
     {
       "id": "refinery-icon",
       "type": "establishing",
       "imageType": "B",
-      "description": "flat vector industrial chemical-refining plant illustration, tanks and pipes, workers in hard hats and hi-vis for scale, mirrors the Hormuz reference's pipeline-worker establishing shot",
+      "description": "flat vector industrial chemical-refining plant illustration, tanks, pipes, and scale piping -- no character",
       "used_in": ["THE RECIPE refining beat", "THE TRAP refining-bottleneck beat"]
     },
     {
@@ -111,9 +87,11 @@
     }
   ],
   "motion_graphics_no_generation_needed": [
-    { "id": "stamp-signature-anim", "description": "rubber-stamp/signature graphic that stamps down or withholds, built in Remotion (SVG + interpolate) -- the central 'stamp' metaphor payoff, mirrors the Hormuz door/lock motif. Used at the Opening, end of THE TRAP, and the closing line." },
-    { "id": "price-spike-chart", "description": "line chart or gauge dial climbing, mirrors the Hormuz fuel-reserve gauge, for the 'prices spiked sixfold' beat in THE CLOCK" },
+    { "id": "stamp-signature-anim", "description": "rubber-stamp/signature graphic that stamps down or withholds, built in Remotion (SVG + interpolate) -- the central 'stamp' metaphor payoff. Used at the Opening, end of THE TRAP, and the closing line." },
+    { "id": "price-spike-chart", "description": "line chart climbing, for the 'prices spiked sixfold' beat in THE CLOCK" },
     { "id": "countdown-clock", "description": "countdown/calendar graphic ticking toward Nov 10 2026, for THE CLOCK's ticking-deadline beat" },
-    { "id": "chapter-card", "description": "reusable black title-card template with progressive word-by-word reveal, reuse Overlays.tsx / ProgressiveReveal.tsx, one per chapter boundary" }
+    { "id": "chapter-card", "description": "reusable black title-card template with progressive word-by-word reveal, reuse Overlays.tsx / ProgressiveReveal.tsx, one per chapter boundary" },
+    { "id": "text-card", "description": "Vox-styled full-screen text card, no character -- 'quote' variant (big quotation marks + attribution chip) replaces the deng-era-figure quote beat; 'statement' variant (bold centered line) replaces narrator-analyst's direct-address beats. Built in TextCard.tsx." },
+    { "id": "dialogue-cards", "description": "two-pane message/transcript infographic (labeled speaker cards, active side highlighted) replacing the SplitPhoneCall two-character exchange -- no faces, just Vox-styled text cards. Built in DialogueCards.tsx." }
   ]
 }

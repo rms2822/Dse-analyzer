@@ -67,7 +67,7 @@ export const RegionMap: React.FC<{
         </div>
       ))}
       {chipText && pinList.length === 0 && (
-        <AbsoluteFill style={{alignItems: 'flex-end', justifyContent: 'flex-end', padding: 60}}>
+        <AbsoluteFill style={{alignItems: 'flex-end', justifyContent: 'flex-start', padding: 60}}>
           <div
             style={{
               transform: `scale(${0.8 + pop * 0.2})`,

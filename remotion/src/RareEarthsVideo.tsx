@@ -7,14 +7,14 @@ import {buildTimelineFor, frameRangeFor, totalDurationInFramesFor, OVERLAP_FRAME
 import {resolveAssetSrc} from './rareEarthsAssets';
 import {KenBurns} from './components/KenBurns';
 import {ParallaxImage} from './components/ParallaxImage';
-import {TalkingCharacter} from './components/TalkingCharacter';
 import {LoopedIdle} from './components/LoopedIdle';
 import {RegionMap} from './components/RegionMap';
 import {ProgressiveReveal} from './components/ProgressiveReveal';
-import {SplitPhoneCall} from './components/SplitPhoneCall';
 import {StampSignatureAnim} from './components/StampSignatureAnim';
 import {PriceSpikeChart} from './components/PriceSpikeChart';
 import {CountdownClock} from './components/CountdownClock';
+import {TextCard} from './components/TextCard';
+import {DialogueCards} from './components/DialogueCards';
 import {GradeRareEarths} from './components/GradeRareEarths';
 import {VoxCaptions} from './components/VoxCaptions';
 import {SceneFade} from './components/SceneFade';
@@ -23,6 +23,17 @@ import {ChapterCards, StatCallouts, MapPings, KineticLines, EndCard} from './com
 type Scene = (typeof shotlist.scenes)[number];
 
 const PARALLAX_IDS = new Set(overlays.parallaxSceneIds);
+
+// text-card/dialogue-cards render their own on-screen text (a quote,
+// statement, or dialogue line) -- the independently-timed caption track would
+// otherwise stack a duplicate of the same sentence underneath it, so these
+// windows get folded into VoxCaptions' suppression list alongside kinetic
+// lines.
+const TEXT_OVERLAY_ASSETS = new Set(['text-card', 'dialogue-cards']);
+const textOverlayWindows = shotlist.scenes
+  .filter((s) => TEXT_OVERLAY_ASSETS.has(s.asset))
+  .map((s) => ({start: s.start, end: s.end}));
+const captionSuppressWindows = [...overlays.kineticLines, ...textOverlayWindows];
 
 export function rareEarthsTimeline() {
   return buildTimelineFor(shotlist.scenes, overlays.endCard.durationSeconds);
@@ -62,17 +73,24 @@ export const RareEarthsVideo: React.FC = () => {
       <MapPings mapPings={overlays.mapPings} />
       <StatCallouts stats={overlays.stats} />
       <KineticLines kineticLines={overlays.kineticLines} />
-      <VoxCaptions segments={captions.segments} kineticLines={overlays.kineticLines} />
+      <VoxCaptions segments={captions.segments} kineticLines={captionSuppressWindows} />
     </AbsoluteFill>
   );
 };
 
-// asset-library.json's motion_graphics_no_generation_needed: these three ids
-// have no image file at all -- they must always render as pure Remotion
-// graphics regardless of the shot's tagged technique, checked before
-// anything else so a KenBurns/LoopedIdle-tagged shot referencing one of them
-// doesn't try (and fail) to load a nonexistent PNG.
-const MOTION_GRAPHIC_ASSETS = new Set(['stamp-signature-anim', 'price-spike-chart', 'countdown-clock']);
+// asset-library.json's motion_graphics_no_generation_needed: these ids have
+// no image file at all -- they must always render as pure Remotion graphics
+// regardless of the shot's tagged technique, checked before anything else so
+// a KenBurns-tagged shot referencing one of them doesn't try (and fail) to
+// load a nonexistent PNG. text-card/dialogue-cards are the two "no human
+// characters" replacements (quotes/statements, and the phone-call exchange).
+const MOTION_GRAPHIC_ASSETS = new Set([
+  'stamp-signature-anim',
+  'price-spike-chart',
+  'countdown-clock',
+  'text-card',
+  'dialogue-cards',
+]);
 
 const renderMotionGraphic = (scene: Scene, durationInFrames: number): React.ReactElement => {
   const overlay: any = (scene as any).overlay ?? {};
@@ -94,6 +112,27 @@ const renderMotionGraphic = (scene: Scene, durationInFrames: number): React.Reac
       return <PriceSpikeChart durationInFrames={durationInFrames} multiplierLabel={label || '6x'} />;
     case 'countdown-clock':
       return <CountdownClock durationInFrames={durationInFrames} dateLabel={label || undefined} />;
+    case 'text-card':
+      return (
+        <TextCard
+          durationInFrames={durationInFrames}
+          variant={overlay.variant === 'quote' ? 'quote' : 'statement'}
+          text={scene.text}
+          attribution={overlay.attribution}
+        />
+      );
+    case 'dialogue-cards': {
+      const pane = overlay.pane === 'B' ? 'B' : 'A';
+      return (
+        <DialogueCards
+          durationInFrames={durationInFrames}
+          leftLabel="FACTORY MANAGER"
+          rightLabel="EXPORT OFFICIAL"
+          activePane={pane}
+          activeText={scene.text}
+        />
+      );
+    }
     default:
       // unreachable given MOTION_GRAPHIC_ASSETS.has(scene.asset) guarded the call site
       return <AbsoluteFill style={{background: 'black'}} />;
@@ -101,19 +140,17 @@ const renderMotionGraphic = (scene: Scene, durationInFrames: number): React.Reac
 };
 
 // Dispatches a shot to the right animation technique, per STYLE_GUIDE.md's
-// four measured techniques (KenBurns default, LoopedIdle, TalkingCharacter,
-// ProgressiveReveal) plus SplitPhoneCall for the one dramatized exchange.
-// `asset`/`variant`/`technique`/`overlay`/`speaker` all come straight from
-// shotlist.json -- see production/rare-earths/shotlist.json's _comment.
+// measured techniques (KenBurns default, LoopedIdle, ProgressiveReveal) plus
+// the pure-code motion graphics above (which cover every beat that used to
+// be a human character -- see MOTION_GRAPHIC_ASSETS). `asset`/`variant`/
+// `technique`/`overlay`/`speaker` all come straight from shotlist.json -- see
+// production/rare-earths/shotlist.json's _comment.
 const ShotRenderer: React.FC<{scene: Scene; durationInFrames: number}> = ({scene, durationInFrames}) => {
   if (MOTION_GRAPHIC_ASSETS.has(scene.asset)) {
     return renderMotionGraphic(scene, durationInFrames);
   }
 
   switch (scene.technique) {
-    case 'TalkingCharacter':
-      return <TalkingCharacter assetId={scene.asset} durationInFrames={durationInFrames} />;
-
     case 'LoopedIdle':
       return <LoopedIdle src={resolveAssetSrc(scene.asset, 'base')} />;
 
@@ -125,18 +162,6 @@ const ShotRenderer: React.FC<{scene: Scene; durationInFrames: number}> = ({scene
       }
       return (
         <ProgressiveReveal src={resolveAssetSrc(scene.asset, 'base')} durationInFrames={durationInFrames} items={items} />
-      );
-    }
-
-    case 'SplitPhoneCall': {
-      const pane = (scene as any).overlay?.pane === 'B' ? 'B' : 'A';
-      return (
-        <SplitPhoneCall
-          leftAssetId="factory-manager"
-          rightAssetId="export-official"
-          speakingPane={pane}
-          durationInFrames={durationInFrames}
-        />
       );
     }
 

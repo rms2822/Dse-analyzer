@@ -1,11 +1,19 @@
 # ChatGPT image prompts — rare-earths asset library
 
-**Superseded.** The asset library was ultimately produced by
+**Superseded, and the 6 character prompts below are now obsolete.** The asset
+library was ultimately produced by
 `production/rare-earths/tools/render-assets.mjs` (hand-authored flat-vector
-SVG, rasterized headless) rather than through this ChatGPT prompt flow, and
-the maps were restyled to the Vox-explainer palette in that pass rather than
-the cream/green style prompted below. Left in place as prompt reference in
-case any asset needs a redo via image generation instead of code.
+SVG, rasterized headless) rather than through this ChatGPT prompt flow, the
+maps were restyled to the Vox-explainer palette rather than the cream/green
+style prompted below, and — per a later rework — **every human-character shot
+was removed from the video entirely** (export-official, narrator-analyst,
+factory-worker-lineup, deng-era-figure, mountain-pass-worker-1980s,
+factory-manager: prompts #1, #5, #10, #11, #14, #15 below) in favor of
+infographic techniques and two new pure-code components (`TextCard.tsx`,
+`DialogueCards.tsx`) — see `SHOT_PLAN.md`'s "Rework: no human characters,
+higher cut rate" section. Left in place only as historical prompt reference
+for the 9 still-current icon/map assets, in case one needs a redo via image
+generation instead of code.
 
 ---
 
