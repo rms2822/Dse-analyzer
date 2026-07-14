@@ -22,6 +22,10 @@ import {ChapterCards, StatCallouts, MapPings, KineticLines, EndCard} from './com
 
 type Scene = (typeof shotlist.scenes)[number];
 
+// overlays.json's parallaxSceneIds are raw shot ids -- rebuild_shotlist.py
+// renumbers every id whenever the shotlist changes, so these must be
+// re-picked (and re-checked against MOTION_GRAPHIC_ASSETS, see the ternary
+// below) any time the shotlist is regenerated, not carried over blindly.
 const PARALLAX_IDS = new Set(overlays.parallaxSceneIds);
 
 // text-card/dialogue-cards render their own on-screen text (a quote,
@@ -58,7 +62,7 @@ export const RareEarthsVideo: React.FC = () => {
             <SceneFade durationInFrames={seqDuration} overlapFrames={OVERLAP_FRAMES} isFirst={isFirst} isLast={isLast}>
               {item.kind === 'endcard' ? (
                 <EndCardRareEarths durationInFrames={seqDuration} />
-              ) : PARALLAX_IDS.has(item.scene.id) ? (
+              ) : PARALLAX_IDS.has(item.scene.id) && !MOTION_GRAPHIC_ASSETS.has(item.scene.asset) ? (
                 <ParallaxImage src={resolveAssetSrc(item.scene.asset, 'base')} durationInFrames={seqDuration} />
               ) : (
                 <ShotRenderer scene={item.scene} durationInFrames={seqDuration} />
