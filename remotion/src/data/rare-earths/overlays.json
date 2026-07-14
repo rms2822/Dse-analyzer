@@ -1,0 +1,129 @@
+{
+  "notes": "All times in seconds, matching transcripts/rare-earths/rare-earths.json. Overlay layers rendered on top of the scene timeline in Remotion -- they do not change scene Sequence timing, so narration/caption sync is untouched. Two named chapters ('Opening' isn't card-announced, matching the Hormuz reference's convention of no card before the cold open) plus a chapter-aware grade key per chapter (day/crisis-night) so THE TRAP and THE CLOCK render darker/cooler than the other three, per STYLE_GUIDE.md's measured two-grade finding.",
+  "crossfadeSeconds": 0.4,
+  "chapterGrades": {
+    "Opening": "day",
+    "THE RECIPE": "day",
+    "THE GRUDGE THAT BECAME A STRATEGY": "day",
+    "THE TRAP": "crisis-night",
+    "THE CLOCK": "crisis-night"
+  },
+  "chapterWindows": [
+    {
+      "chapter": "Opening",
+      "start": 0.0,
+      "end": 77.244,
+      "grade": "day"
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 77.244,
+      "end": 181.368,
+      "grade": "day"
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 181.368,
+      "end": 285.727,
+      "grade": "day"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 285.727,
+      "end": 398.237,
+      "grade": "crisis-night"
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 398.237,
+      "end": 505.783,
+      "grade": "crisis-night"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "THE RECIPE",
+      "start": 77.244,
+      "end": 79.044
+    },
+    {
+      "title": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 181.368,
+      "end": 183.368
+    },
+    {
+      "title": "THE TRAP",
+      "start": 285.727,
+      "end": 287.527
+    },
+    {
+      "title": "THE CLOCK",
+      "start": 398.237,
+      "end": 400.037
+    }
+  ],
+  "stats": [
+    {
+      "text": "60% MINING",
+      "start": 119.5,
+      "end": 123.34
+    },
+    {
+      "text": "90% REFINING",
+      "start": 126.0,
+      "end": 129.76
+    },
+    {
+      "text": "94% MAGNETS",
+      "start": 138.0,
+      "end": 141.08
+    },
+    {
+      "text": "6x PRICE SPIKE",
+      "start": 436.5,
+      "end": 439.62
+    },
+    {
+      "text": "NOV 10, 2026",
+      "start": 447.0,
+      "end": 451.1
+    }
+  ],
+  "lowerThirds": [],
+  "mapPings": [
+    {
+      "label": "CALIFORNIA",
+      "start": 201.23,
+      "end": 204.55
+    },
+    {
+      "label": "MALAYSIA",
+      "start": 339.31,
+      "end": 342.5
+    }
+  ],
+  "kineticLines": [
+    {
+      "text": "THIS IS THE TRAP.",
+      "start": 375.87,
+      "end": 377.49
+    },
+    {
+      "text": "THE STAMP STILL SAYS BEIJING.",
+      "start": 503.48,
+      "end": 505.3
+    }
+  ],
+  "parallaxSceneIds": [
+    11,
+    26,
+    32,
+    42,
+    52
+  ],
+  "endCard": {
+    "durationSeconds": 4.0,
+    "title": "RARE EARTHS",
+    "subtitle": "The stamp still says Beijing."
+  }
+}

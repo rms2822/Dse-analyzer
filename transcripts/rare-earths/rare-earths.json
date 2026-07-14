@@ -1,0 +1,8115 @@
+{
+  "chapters": [
+    {
+      "chapter": "Opening",
+      "start": 0.0,
+      "end": 77.244,
+      "voice": "unlabeled (Opening.mp3 filename has no voice metadata)"
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 77.244,
+      "end": 181.368,
+      "voice": "unlabeled (The_recipe.mp3 filename has no voice metadata)"
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 181.368,
+      "end": 285.727,
+      "voice": "James (Energetic, Charismatic)"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 285.727,
+      "end": 398.237,
+      "voice": "unlabeled (The_Trap.mp3 filename has no voice metadata)"
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 398.237,
+      "end": 505.783,
+      "voice": "Professor Nathaniel Mandrake (Sardonic Academic, Bitter Wit)"
+    }
+  ],
+  "segments": [
+    {
+      "chapter": "Opening",
+      "start": 0.0,
+      "end": 5.56,
+      "text": "On June 22nd, 2026, China's Ministry of Commerce published a short list.",
+      "words": [
+        {
+          "word": " On",
+          "start": 0.0,
+          "end": 0.24,
+          "prob": 0.84
+        },
+        {
+          "word": " June",
+          "start": 0.24,
+          "end": 0.5,
+          "prob": 0.982
+        },
+        {
+          "word": " 22nd,",
+          "start": 0.5,
+          "end": 1.44,
+          "prob": 0.873
+        },
+        {
+          "word": " 2026,",
+          "start": 1.5,
+          "end": 2.3,
+          "prob": 0.868
+        },
+        {
+          "word": " China's",
+          "start": 3.02,
+          "end": 3.4,
+          "prob": 0.995
+        },
+        {
+          "word": " Ministry",
+          "start": 3.4,
+          "end": 3.76,
+          "prob": 0.961
+        },
+        {
+          "word": " of",
+          "start": 3.76,
+          "end": 3.94,
+          "prob": 0.995
+        },
+        {
+          "word": " Commerce",
+          "start": 3.94,
+          "end": 4.3,
+          "prob": 0.994
+        },
+        {
+          "word": " published",
+          "start": 4.3,
+          "end": 4.74,
+          "prob": 0.993
+        },
+        {
+          "word": " a",
+          "start": 4.74,
+          "end": 4.98,
+          "prob": 0.999
+        },
+        {
+          "word": " short",
+          "start": 4.98,
+          "end": 5.22,
+          "prob": 0.998
+        },
+        {
+          "word": " list.",
+          "start": 5.22,
+          "end": 5.56,
+          "prob": 0.598
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 6.62,
+      "end": 13.62,
+      "text": "10 American companies, no press conference, no warships, no missiles, just 10 names,",
+      "words": [
+        {
+          "word": " 10",
+          "start": 6.62,
+          "end": 6.74,
+          "prob": 0.261
+        },
+        {
+          "word": " American",
+          "start": 6.74,
+          "end": 7.06,
+          "prob": 0.985
+        },
+        {
+          "word": " companies,",
+          "start": 7.06,
+          "end": 7.7,
+          "prob": 0.957
+        },
+        {
+          "word": " no",
+          "start": 8.22,
+          "end": 8.48,
+          "prob": 0.953
+        },
+        {
+          "word": " press",
+          "start": 8.48,
+          "end": 8.76,
+          "prob": 0.995
+        },
+        {
+          "word": " conference,",
+          "start": 8.76,
+          "end": 9.14,
+          "prob": 0.989
+        },
+        {
+          "word": " no",
+          "start": 9.82,
+          "end": 10.04,
+          "prob": 0.989
+        },
+        {
+          "word": " warships,",
+          "start": 10.04,
+          "end": 10.6,
+          "prob": 0.991
+        },
+        {
+          "word": " no",
+          "start": 11.18,
+          "end": 11.34,
+          "prob": 0.997
+        },
+        {
+          "word": " missiles,",
+          "start": 11.34,
+          "end": 11.8,
+          "prob": 0.996
+        },
+        {
+          "word": " just",
+          "start": 12.66,
+          "end": 12.86,
+          "prob": 0.982
+        },
+        {
+          "word": " 10",
+          "start": 12.86,
+          "end": 13.18,
+          "prob": 0.815
+        },
+        {
+          "word": " names,",
+          "start": 13.18,
+          "end": 13.62,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 14.1,
+      "end": 20.68,
+      "text": "and one word next to them. Restricted. Two of those companies mine and process the",
+      "words": [
+        {
+          "word": " and",
+          "start": 14.1,
+          "end": 14.28,
+          "prob": 0.99
+        },
+        {
+          "word": " one",
+          "start": 14.28,
+          "end": 14.54,
+          "prob": 0.98
+        },
+        {
+          "word": " word",
+          "start": 14.54,
+          "end": 14.82,
+          "prob": 0.999
+        },
+        {
+          "word": " next",
+          "start": 14.82,
+          "end": 15.1,
+          "prob": 0.993
+        },
+        {
+          "word": " to",
+          "start": 15.1,
+          "end": 15.3,
+          "prob": 0.998
+        },
+        {
+          "word": " them.",
+          "start": 15.3,
+          "end": 15.48,
+          "prob": 0.999
+        },
+        {
+          "word": " Restricted.",
+          "start": 16.0,
+          "end": 16.66,
+          "prob": 0.983
+        },
+        {
+          "word": " Two",
+          "start": 17.8,
+          "end": 18.56,
+          "prob": 0.935
+        },
+        {
+          "word": " of",
+          "start": 18.56,
+          "end": 18.68,
+          "prob": 0.998
+        },
+        {
+          "word": " those",
+          "start": 18.68,
+          "end": 18.86,
+          "prob": 0.988
+        },
+        {
+          "word": " companies",
+          "start": 18.86,
+          "end": 19.26,
+          "prob": 0.998
+        },
+        {
+          "word": " mine",
+          "start": 19.26,
+          "end": 19.68,
+          "prob": 0.972
+        },
+        {
+          "word": " and",
+          "start": 19.68,
+          "end": 19.94,
+          "prob": 0.994
+        },
+        {
+          "word": " process",
+          "start": 19.94,
+          "end": 20.42,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 20.42,
+          "end": 20.68,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 20.68,
+      "end": 26.86,
+      "text": "material inside American fighter jets, wind turbines, and electric motors. Within days,",
+      "words": [
+        {
+          "word": " material",
+          "start": 20.68,
+          "end": 21.12,
+          "prob": 0.993
+        },
+        {
+          "word": " inside",
+          "start": 21.12,
+          "end": 21.5,
+          "prob": 0.998
+        },
+        {
+          "word": " American",
+          "start": 21.5,
+          "end": 22.0,
+          "prob": 0.995
+        },
+        {
+          "word": " fighter",
+          "start": 22.0,
+          "end": 22.4,
+          "prob": 0.996
+        },
+        {
+          "word": " jets,",
+          "start": 22.4,
+          "end": 22.82,
+          "prob": 0.994
+        },
+        {
+          "word": " wind",
+          "start": 23.32,
+          "end": 23.54,
+          "prob": 0.998
+        },
+        {
+          "word": " turbines,",
+          "start": 23.54,
+          "end": 23.94,
+          "prob": 0.999
+        },
+        {
+          "word": " and",
+          "start": 24.48,
+          "end": 24.6,
+          "prob": 0.995
+        },
+        {
+          "word": " electric",
+          "start": 24.6,
+          "end": 24.94,
+          "prob": 0.999
+        },
+        {
+          "word": " motors.",
+          "start": 24.94,
+          "end": 25.36,
+          "prob": 0.995
+        },
+        {
+          "word": " Within",
+          "start": 26.1,
+          "end": 26.48,
+          "prob": 0.991
+        },
+        {
+          "word": " days,",
+          "start": 26.48,
+          "end": 26.86,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 26.86,
+      "end": 31.94,
+      "text": "the one country that turns their raw material into something a factory can actually use",
+      "words": [
+        {
+          "word": " the",
+          "start": 26.86,
+          "end": 27.44,
+          "prob": 0.179
+        },
+        {
+          "word": " one",
+          "start": 27.44,
+          "end": 27.66,
+          "prob": 0.976
+        },
+        {
+          "word": " country",
+          "start": 27.66,
+          "end": 28.04,
+          "prob": 0.993
+        },
+        {
+          "word": " that",
+          "start": 28.04,
+          "end": 28.24,
+          "prob": 0.991
+        },
+        {
+          "word": " turns",
+          "start": 28.24,
+          "end": 28.56,
+          "prob": 0.994
+        },
+        {
+          "word": " their",
+          "start": 28.56,
+          "end": 28.78,
+          "prob": 0.983
+        },
+        {
+          "word": " raw",
+          "start": 28.78,
+          "end": 29.02,
+          "prob": 0.998
+        },
+        {
+          "word": " material",
+          "start": 29.02,
+          "end": 29.5,
+          "prob": 0.987
+        },
+        {
+          "word": " into",
+          "start": 29.5,
+          "end": 29.82,
+          "prob": 0.991
+        },
+        {
+          "word": " something",
+          "start": 29.82,
+          "end": 30.16,
+          "prob": 0.997
+        },
+        {
+          "word": " a",
+          "start": 30.16,
+          "end": 30.34,
+          "prob": 0.996
+        },
+        {
+          "word": " factory",
+          "start": 30.34,
+          "end": 30.66,
+          "prob": 0.994
+        },
+        {
+          "word": " can",
+          "start": 30.66,
+          "end": 30.98,
+          "prob": 0.993
+        },
+        {
+          "word": " actually",
+          "start": 30.98,
+          "end": 31.44,
+          "prob": 0.991
+        },
+        {
+          "word": " use",
+          "start": 31.44,
+          "end": 31.94,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 31.94,
+      "end": 38.62,
+      "text": "simply stopped signing their paperwork. China didn't invade anyone, it didn't need to,",
+      "words": [
+        {
+          "word": " simply",
+          "start": 31.94,
+          "end": 32.62,
+          "prob": 0.672
+        },
+        {
+          "word": " stopped",
+          "start": 32.62,
+          "end": 33.06,
+          "prob": 0.988
+        },
+        {
+          "word": " signing",
+          "start": 33.06,
+          "end": 33.44,
+          "prob": 0.989
+        },
+        {
+          "word": " their",
+          "start": 33.44,
+          "end": 33.7,
+          "prob": 0.994
+        },
+        {
+          "word": " paperwork.",
+          "start": 33.7,
+          "end": 34.22,
+          "prob": 0.982
+        },
+        {
+          "word": " China",
+          "start": 35.42,
+          "end": 36.1,
+          "prob": 0.963
+        },
+        {
+          "word": " didn't",
+          "start": 36.1,
+          "end": 36.5,
+          "prob": 0.993
+        },
+        {
+          "word": " invade",
+          "start": 36.5,
+          "end": 36.84,
+          "prob": 0.995
+        },
+        {
+          "word": " anyone,",
+          "start": 36.84,
+          "end": 37.28,
+          "prob": 0.986
+        },
+        {
+          "word": " it",
+          "start": 37.62,
+          "end": 37.94,
+          "prob": 0.983
+        },
+        {
+          "word": " didn't",
+          "start": 37.94,
+          "end": 38.18,
+          "prob": 0.998
+        },
+        {
+          "word": " need",
+          "start": 38.18,
+          "end": 38.4,
+          "prob": 0.997
+        },
+        {
+          "word": " to,",
+          "start": 38.4,
+          "end": 38.62,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 39.2,
+      "end": 47.32,
+      "text": "it just stopped stamping a form. Every phone in your pocket, every wind turbine spinning over",
+      "words": [
+        {
+          "word": " it",
+          "start": 39.2,
+          "end": 39.4,
+          "prob": 0.979
+        },
+        {
+          "word": " just",
+          "start": 39.4,
+          "end": 39.74,
+          "prob": 0.996
+        },
+        {
+          "word": " stopped",
+          "start": 39.74,
+          "end": 41.0,
+          "prob": 0.639
+        },
+        {
+          "word": " stamping",
+          "start": 41.0,
+          "end": 41.48,
+          "prob": 0.988
+        },
+        {
+          "word": " a",
+          "start": 41.48,
+          "end": 41.68,
+          "prob": 0.989
+        },
+        {
+          "word": " form.",
+          "start": 41.68,
+          "end": 42.02,
+          "prob": 0.998
+        },
+        {
+          "word": " Every",
+          "start": 43.66,
+          "end": 44.0,
+          "prob": 0.967
+        },
+        {
+          "word": " phone",
+          "start": 44.0,
+          "end": 44.32,
+          "prob": 0.989
+        },
+        {
+          "word": " in",
+          "start": 44.32,
+          "end": 44.48,
+          "prob": 0.998
+        },
+        {
+          "word": " your",
+          "start": 44.48,
+          "end": 44.62,
+          "prob": 0.997
+        },
+        {
+          "word": " pocket,",
+          "start": 44.62,
+          "end": 44.92,
+          "prob": 0.998
+        },
+        {
+          "word": " every",
+          "start": 45.5,
+          "end": 45.82,
+          "prob": 0.986
+        },
+        {
+          "word": " wind",
+          "start": 45.82,
+          "end": 46.12,
+          "prob": 0.998
+        },
+        {
+          "word": " turbine",
+          "start": 46.12,
+          "end": 46.6,
+          "prob": 0.951
+        },
+        {
+          "word": " spinning",
+          "start": 46.6,
+          "end": 47.02,
+          "prob": 0.974
+        },
+        {
+          "word": " over",
+          "start": 47.02,
+          "end": 47.32,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 47.32,
+      "end": 53.68,
+      "text": "the North Sea, every MRI machine, every electric motor, every precision-guided",
+      "words": [
+        {
+          "word": " the",
+          "start": 47.32,
+          "end": 47.46,
+          "prob": 0.995
+        },
+        {
+          "word": " North",
+          "start": 47.46,
+          "end": 47.66,
+          "prob": 0.985
+        },
+        {
+          "word": " Sea,",
+          "start": 47.66,
+          "end": 48.04,
+          "prob": 0.975
+        },
+        {
+          "word": " every",
+          "start": 48.62,
+          "end": 49.06,
+          "prob": 0.964
+        },
+        {
+          "word": " MRI",
+          "start": 49.06,
+          "end": 49.64,
+          "prob": 0.975
+        },
+        {
+          "word": " machine,",
+          "start": 49.64,
+          "end": 50.12,
+          "prob": 0.989
+        },
+        {
+          "word": " every",
+          "start": 50.64,
+          "end": 50.96,
+          "prob": 0.988
+        },
+        {
+          "word": " electric",
+          "start": 50.96,
+          "end": 51.44,
+          "prob": 0.984
+        },
+        {
+          "word": " motor,",
+          "start": 51.44,
+          "end": 51.86,
+          "prob": 0.998
+        },
+        {
+          "word": " every",
+          "start": 52.34,
+          "end": 52.66,
+          "prob": 0.993
+        },
+        {
+          "word": " precision",
+          "start": 52.66,
+          "end": 53.14,
+          "prob": 0.992
+        },
+        {
+          "word": "-guided",
+          "start": 53.14,
+          "end": 53.68,
+          "prob": 0.819
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 53.68,
+      "end": 59.52,
+      "text": "missile built in the last 20 years. All of it depends on 17 elements almost nobody",
+      "words": [
+        {
+          "word": " missile",
+          "start": 53.68,
+          "end": 54.12,
+          "prob": 0.901
+        },
+        {
+          "word": " built",
+          "start": 54.12,
+          "end": 54.44,
+          "prob": 0.964
+        },
+        {
+          "word": " in",
+          "start": 54.44,
+          "end": 54.64,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 54.64,
+          "end": 54.74,
+          "prob": 0.994
+        },
+        {
+          "word": " last",
+          "start": 54.74,
+          "end": 55.0,
+          "prob": 0.996
+        },
+        {
+          "word": " 20",
+          "start": 55.0,
+          "end": 55.3,
+          "prob": 0.684
+        },
+        {
+          "word": " years.",
+          "start": 55.3,
+          "end": 55.72,
+          "prob": 0.996
+        },
+        {
+          "word": " All",
+          "start": 56.52,
+          "end": 56.74,
+          "prob": 0.989
+        },
+        {
+          "word": " of",
+          "start": 56.74,
+          "end": 56.86,
+          "prob": 0.994
+        },
+        {
+          "word": " it",
+          "start": 56.86,
+          "end": 56.96,
+          "prob": 0.991
+        },
+        {
+          "word": " depends",
+          "start": 56.96,
+          "end": 57.28,
+          "prob": 0.995
+        },
+        {
+          "word": " on",
+          "start": 57.28,
+          "end": 57.58,
+          "prob": 0.996
+        },
+        {
+          "word": " 17",
+          "start": 57.58,
+          "end": 58.1,
+          "prob": 0.946
+        },
+        {
+          "word": " elements",
+          "start": 58.1,
+          "end": 58.56,
+          "prob": 0.997
+        },
+        {
+          "word": " almost",
+          "start": 58.56,
+          "end": 58.94,
+          "prob": 0.992
+        },
+        {
+          "word": " nobody",
+          "start": 58.94,
+          "end": 59.52,
+          "prob": 0.991
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 59.52,
+      "end": 64.92,
+      "text": "outside a chemistry classroom can name, and on one country's willingness to keep processing them.",
+      "words": [
+        {
+          "word": " outside",
+          "start": 59.52,
+          "end": 59.94,
+          "prob": 0.988
+        },
+        {
+          "word": " a",
+          "start": 59.94,
+          "end": 60.16,
+          "prob": 0.967
+        },
+        {
+          "word": " chemistry",
+          "start": 60.16,
+          "end": 60.52,
+          "prob": 0.978
+        },
+        {
+          "word": " classroom",
+          "start": 60.52,
+          "end": 61.1,
+          "prob": 0.968
+        },
+        {
+          "word": " can",
+          "start": 61.1,
+          "end": 61.3,
+          "prob": 0.99
+        },
+        {
+          "word": " name,",
+          "start": 61.3,
+          "end": 61.7,
+          "prob": 0.996
+        },
+        {
+          "word": " and",
+          "start": 62.1,
+          "end": 62.44,
+          "prob": 0.998
+        },
+        {
+          "word": " on",
+          "start": 62.44,
+          "end": 62.56,
+          "prob": 0.992
+        },
+        {
+          "word": " one",
+          "start": 62.56,
+          "end": 62.78,
+          "prob": 0.992
+        },
+        {
+          "word": " country's",
+          "start": 62.78,
+          "end": 63.32,
+          "prob": 0.98
+        },
+        {
+          "word": " willingness",
+          "start": 63.32,
+          "end": 63.64,
+          "prob": 0.999
+        },
+        {
+          "word": " to",
+          "start": 63.64,
+          "end": 63.96,
+          "prob": 0.999
+        },
+        {
+          "word": " keep",
+          "start": 63.96,
+          "end": 64.16,
+          "prob": 0.993
+        },
+        {
+          "word": " processing",
+          "start": 64.16,
+          "end": 64.62,
+          "prob": 0.99
+        },
+        {
+          "word": " them.",
+          "start": 64.62,
+          "end": 64.92,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 66.16,
+      "end": 72.06,
+      "text": "This is a story about the stamp, about how the world built its entire technological future",
+      "words": [
+        {
+          "word": " This",
+          "start": 66.16,
+          "end": 66.56,
+          "prob": 0.983
+        },
+        {
+          "word": " is",
+          "start": 66.56,
+          "end": 66.78,
+          "prob": 0.995
+        },
+        {
+          "word": " a",
+          "start": 66.78,
+          "end": 66.9,
+          "prob": 0.99
+        },
+        {
+          "word": " story",
+          "start": 66.9,
+          "end": 67.28,
+          "prob": 0.999
+        },
+        {
+          "word": " about",
+          "start": 67.28,
+          "end": 67.7,
+          "prob": 0.991
+        },
+        {
+          "word": " the",
+          "start": 67.7,
+          "end": 67.92,
+          "prob": 0.963
+        },
+        {
+          "word": " stamp,",
+          "start": 67.92,
+          "end": 68.24,
+          "prob": 0.804
+        },
+        {
+          "word": " about",
+          "start": 68.92,
+          "end": 69.12,
+          "prob": 0.994
+        },
+        {
+          "word": " how",
+          "start": 69.12,
+          "end": 69.38,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 69.38,
+          "end": 69.54,
+          "prob": 0.994
+        },
+        {
+          "word": " world",
+          "start": 69.54,
+          "end": 69.88,
+          "prob": 0.992
+        },
+        {
+          "word": " built",
+          "start": 69.88,
+          "end": 70.2,
+          "prob": 0.995
+        },
+        {
+          "word": " its",
+          "start": 70.2,
+          "end": 70.42,
+          "prob": 0.971
+        },
+        {
+          "word": " entire",
+          "start": 70.42,
+          "end": 70.88,
+          "prob": 0.996
+        },
+        {
+          "word": " technological",
+          "start": 70.88,
+          "end": 71.5,
+          "prob": 0.99
+        },
+        {
+          "word": " future",
+          "start": 71.5,
+          "end": 72.06,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "start": 72.06,
+      "end": 76.86,
+      "text": "on top of a paperwork choke point, and pretended it was a mining problem.",
+      "words": [
+        {
+          "word": " on",
+          "start": 72.06,
+          "end": 72.72,
+          "prob": 0.98
+        },
+        {
+          "word": " top",
+          "start": 72.72,
+          "end": 72.94,
+          "prob": 0.992
+        },
+        {
+          "word": " of",
+          "start": 72.94,
+          "end": 73.1,
+          "prob": 0.993
+        },
+        {
+          "word": " a",
+          "start": 73.1,
+          "end": 73.18,
+          "prob": 0.99
+        },
+        {
+          "word": " paperwork",
+          "start": 73.18,
+          "end": 73.62,
+          "prob": 0.934
+        },
+        {
+          "word": " choke",
+          "start": 73.62,
+          "end": 73.98,
+          "prob": 0.936
+        },
+        {
+          "word": " point,",
+          "start": 73.98,
+          "end": 74.32,
+          "prob": 0.649
+        },
+        {
+          "word": " and",
+          "start": 74.98,
+          "end": 75.2,
+          "prob": 0.997
+        },
+        {
+          "word": " pretended",
+          "start": 75.2,
+          "end": 75.66,
+          "prob": 0.969
+        },
+        {
+          "word": " it",
+          "start": 75.66,
+          "end": 75.92,
+          "prob": 0.988
+        },
+        {
+          "word": " was",
+          "start": 75.92,
+          "end": 76.06,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 76.06,
+          "end": 76.16,
+          "prob": 0.994
+        },
+        {
+          "word": " mining",
+          "start": 76.16,
+          "end": 76.44,
+          "prob": 0.994
+        },
+        {
+          "word": " problem.",
+          "start": 76.44,
+          "end": 76.86,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 77.244,
+      "end": 82.264,
+      "text": "Rare Earths aren't actually rare. They're scattered through the Earth's crust almost everywhere,",
+      "words": [
+        {
+          "word": " Rare",
+          "start": 77.244,
+          "end": 77.504,
+          "prob": 0.981
+        },
+        {
+          "word": " Earths",
+          "start": 77.504,
+          "end": 78.104,
+          "prob": 0.812
+        },
+        {
+          "word": " aren't",
+          "start": 78.104,
+          "end": 78.464,
+          "prob": 0.98
+        },
+        {
+          "word": " actually",
+          "start": 78.464,
+          "end": 78.784,
+          "prob": 0.993
+        },
+        {
+          "word": " rare.",
+          "start": 78.784,
+          "end": 79.104,
+          "prob": 0.981
+        },
+        {
+          "word": " They're",
+          "start": 79.684,
+          "end": 79.924,
+          "prob": 0.966
+        },
+        {
+          "word": " scattered",
+          "start": 79.924,
+          "end": 80.284,
+          "prob": 0.999
+        },
+        {
+          "word": " through",
+          "start": 80.284,
+          "end": 80.544,
+          "prob": 0.994
+        },
+        {
+          "word": " the",
+          "start": 80.544,
+          "end": 80.704,
+          "prob": 0.975
+        },
+        {
+          "word": " Earth's",
+          "start": 80.704,
+          "end": 81.004,
+          "prob": 0.958
+        },
+        {
+          "word": " crust",
+          "start": 81.004,
+          "end": 81.284,
+          "prob": 0.999
+        },
+        {
+          "word": " almost",
+          "start": 81.284,
+          "end": 81.704,
+          "prob": 0.972
+        },
+        {
+          "word": " everywhere,",
+          "start": 81.704,
+          "end": 82.264,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 82.804,
+      "end": 86.444,
+      "text": "in tiny concentrations, always mixed together, never alone.",
+      "words": [
+        {
+          "word": " in",
+          "start": 82.804,
+          "end": 82.944,
+          "prob": 0.966
+        },
+        {
+          "word": " tiny",
+          "start": 82.944,
+          "end": 83.264,
+          "prob": 0.997
+        },
+        {
+          "word": " concentrations,",
+          "start": 83.264,
+          "end": 84.024,
+          "prob": 0.998
+        },
+        {
+          "word": " always",
+          "start": 84.404,
+          "end": 84.744,
+          "prob": 0.997
+        },
+        {
+          "word": " mixed",
+          "start": 84.744,
+          "end": 85.104,
+          "prob": 0.988
+        },
+        {
+          "word": " together,",
+          "start": 85.104,
+          "end": 85.544,
+          "prob": 0.999
+        },
+        {
+          "word": " never",
+          "start": 85.844,
+          "end": 86.044,
+          "prob": 0.998
+        },
+        {
+          "word": " alone.",
+          "start": 86.044,
+          "end": 86.444,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 87.424,
+      "end": 92.504,
+      "text": "Seventeen elements, chemically almost identical, clumped at the bottom of the periodic table",
+      "words": [
+        {
+          "word": " Seventeen",
+          "start": 87.424,
+          "end": 87.904,
+          "prob": 0.759
+        },
+        {
+          "word": " elements,",
+          "start": 87.904,
+          "end": 88.284,
+          "prob": 0.957
+        },
+        {
+          "word": " chemically",
+          "start": 88.704,
+          "end": 89.124,
+          "prob": 0.997
+        },
+        {
+          "word": " almost",
+          "start": 89.124,
+          "end": 89.464,
+          "prob": 0.996
+        },
+        {
+          "word": " identical,",
+          "start": 89.464,
+          "end": 90.124,
+          "prob": 0.997
+        },
+        {
+          "word": " clumped",
+          "start": 90.624,
+          "end": 90.884,
+          "prob": 0.99
+        },
+        {
+          "word": " at",
+          "start": 90.884,
+          "end": 90.964,
+          "prob": 0.989
+        },
+        {
+          "word": " the",
+          "start": 90.964,
+          "end": 91.064,
+          "prob": 0.996
+        },
+        {
+          "word": " bottom",
+          "start": 91.064,
+          "end": 91.324,
+          "prob": 0.998
+        },
+        {
+          "word": " of",
+          "start": 91.324,
+          "end": 91.524,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 91.524,
+          "end": 91.624,
+          "prob": 0.994
+        },
+        {
+          "word": " periodic",
+          "start": 91.624,
+          "end": 92.024,
+          "prob": 0.987
+        },
+        {
+          "word": " table",
+          "start": 92.024,
+          "end": 92.504,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 92.504,
+      "end": 97.424,
+      "text": "where most people's eyes glaze over. Digging them up is the easy part,",
+      "words": [
+        {
+          "word": " where",
+          "start": 92.504,
+          "end": 92.964,
+          "prob": 0.777
+        },
+        {
+          "word": " most",
+          "start": 92.964,
+          "end": 93.204,
+          "prob": 0.999
+        },
+        {
+          "word": " people's",
+          "start": 93.204,
+          "end": 93.724,
+          "prob": 0.979
+        },
+        {
+          "word": " eyes",
+          "start": 93.724,
+          "end": 93.924,
+          "prob": 0.992
+        },
+        {
+          "word": " glaze",
+          "start": 93.924,
+          "end": 94.264,
+          "prob": 0.969
+        },
+        {
+          "word": " over.",
+          "start": 94.264,
+          "end": 94.624,
+          "prob": 0.994
+        },
+        {
+          "word": " Digging",
+          "start": 95.764,
+          "end": 96.124,
+          "prob": 0.98
+        },
+        {
+          "word": " them",
+          "start": 96.124,
+          "end": 96.264,
+          "prob": 0.998
+        },
+        {
+          "word": " up",
+          "start": 96.264,
+          "end": 96.444,
+          "prob": 0.997
+        },
+        {
+          "word": " is",
+          "start": 96.444,
+          "end": 96.664,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 96.664,
+          "end": 96.824,
+          "prob": 0.998
+        },
+        {
+          "word": " easy",
+          "start": 96.824,
+          "end": 97.124,
+          "prob": 0.993
+        },
+        {
+          "word": " part,",
+          "start": 97.124,
+          "end": 97.424,
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 97.964,
+      "end": 103.724,
+      "text": "separating one from the other is not. Think less mining and more baking a souffle",
+      "words": [
+        {
+          "word": " separating",
+          "start": 97.964,
+          "end": 98.384,
+          "prob": 0.996
+        },
+        {
+          "word": " one",
+          "start": 98.384,
+          "end": 98.824,
+          "prob": 0.997
+        },
+        {
+          "word": " from",
+          "start": 98.824,
+          "end": 99.044,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 99.044,
+          "end": 99.244,
+          "prob": 0.991
+        },
+        {
+          "word": " other",
+          "start": 99.244,
+          "end": 99.504,
+          "prob": 0.998
+        },
+        {
+          "word": " is",
+          "start": 99.504,
+          "end": 99.784,
+          "prob": 0.973
+        },
+        {
+          "word": " not.",
+          "start": 99.784,
+          "end": 100.024,
+          "prob": 0.991
+        },
+        {
+          "word": " Think",
+          "start": 101.244,
+          "end": 101.544,
+          "prob": 0.989
+        },
+        {
+          "word": " less",
+          "start": 101.544,
+          "end": 101.784,
+          "prob": 0.998
+        },
+        {
+          "word": " mining",
+          "start": 101.784,
+          "end": 102.164,
+          "prob": 0.992
+        },
+        {
+          "word": " and",
+          "start": 102.164,
+          "end": 102.504,
+          "prob": 0.968
+        },
+        {
+          "word": " more",
+          "start": 102.504,
+          "end": 102.704,
+          "prob": 0.998
+        },
+        {
+          "word": " baking",
+          "start": 102.704,
+          "end": 103.084,
+          "prob": 0.958
+        },
+        {
+          "word": " a",
+          "start": 103.084,
+          "end": 103.324,
+          "prob": 0.966
+        },
+        {
+          "word": " souffle",
+          "start": 103.324,
+          "end": 103.724,
+          "prob": 0.881
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 103.724,
+      "end": 109.664,
+      "text": "at industrial scale, in acid 500 times in a row without ruining a single batch.",
+      "words": [
+        {
+          "word": " at",
+          "start": 103.724,
+          "end": 104.024,
+          "prob": 0.778
+        },
+        {
+          "word": " industrial",
+          "start": 104.024,
+          "end": 104.484,
+          "prob": 0.92
+        },
+        {
+          "word": " scale,",
+          "start": 104.484,
+          "end": 105.044,
+          "prob": 0.988
+        },
+        {
+          "word": " in",
+          "start": 105.424,
+          "end": 105.544,
+          "prob": 0.994
+        },
+        {
+          "word": " acid",
+          "start": 105.544,
+          "end": 105.904,
+          "prob": 0.985
+        },
+        {
+          "word": " 500",
+          "start": 105.904,
+          "end": 106.584,
+          "prob": 0.263
+        },
+        {
+          "word": " times",
+          "start": 106.584,
+          "end": 107.084,
+          "prob": 0.96
+        },
+        {
+          "word": " in",
+          "start": 107.084,
+          "end": 107.304,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 107.304,
+          "end": 107.424,
+          "prob": 0.998
+        },
+        {
+          "word": " row",
+          "start": 107.424,
+          "end": 107.624,
+          "prob": 0.999
+        },
+        {
+          "word": " without",
+          "start": 107.624,
+          "end": 108.164,
+          "prob": 0.616
+        },
+        {
+          "word": " ruining",
+          "start": 108.164,
+          "end": 108.604,
+          "prob": 0.994
+        },
+        {
+          "word": " a",
+          "start": 108.604,
+          "end": 108.924,
+          "prob": 0.997
+        },
+        {
+          "word": " single",
+          "start": 108.924,
+          "end": 109.244,
+          "prob": 0.993
+        },
+        {
+          "word": " batch.",
+          "start": 109.244,
+          "end": 109.664,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 110.564,
+      "end": 116.084,
+      "text": "That's what it takes to turn a shovel of mixed ore into one pure element, pure enough to build",
+      "words": [
+        {
+          "word": " That's",
+          "start": 110.564,
+          "end": 111.064,
+          "prob": 0.975
+        },
+        {
+          "word": " what",
+          "start": 111.064,
+          "end": 111.164,
+          "prob": 0.999
+        },
+        {
+          "word": " it",
+          "start": 111.164,
+          "end": 111.284,
+          "prob": 0.997
+        },
+        {
+          "word": " takes",
+          "start": 111.284,
+          "end": 111.544,
+          "prob": 0.996
+        },
+        {
+          "word": " to",
+          "start": 111.544,
+          "end": 111.744,
+          "prob": 0.996
+        },
+        {
+          "word": " turn",
+          "start": 111.744,
+          "end": 111.944,
+          "prob": 0.996
+        },
+        {
+          "word": " a",
+          "start": 111.944,
+          "end": 112.064,
+          "prob": 0.996
+        },
+        {
+          "word": " shovel",
+          "start": 112.064,
+          "end": 112.364,
+          "prob": 0.984
+        },
+        {
+          "word": " of",
+          "start": 112.364,
+          "end": 112.544,
+          "prob": 0.995
+        },
+        {
+          "word": " mixed",
+          "start": 112.544,
+          "end": 112.824,
+          "prob": 0.995
+        },
+        {
+          "word": " ore",
+          "start": 112.824,
+          "end": 113.184,
+          "prob": 0.934
+        },
+        {
+          "word": " into",
+          "start": 113.184,
+          "end": 113.704,
+          "prob": 0.991
+        },
+        {
+          "word": " one",
+          "start": 113.704,
+          "end": 114.024,
+          "prob": 0.994
+        },
+        {
+          "word": " pure",
+          "start": 114.024,
+          "end": 114.384,
+          "prob": 0.99
+        },
+        {
+          "word": " element,",
+          "start": 114.384,
+          "end": 114.844,
+          "prob": 0.996
+        },
+        {
+          "word": " pure",
+          "start": 115.144,
+          "end": 115.404,
+          "prob": 0.993
+        },
+        {
+          "word": " enough",
+          "start": 115.404,
+          "end": 115.624,
+          "prob": 0.997
+        },
+        {
+          "word": " to",
+          "start": 115.624,
+          "end": 115.844,
+          "prob": 0.998
+        },
+        {
+          "word": " build",
+          "start": 115.844,
+          "end": 116.084,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 116.084,
+      "end": 123.344,
+      "text": "anything with. China mines about 60% of the world's rare Earth ore. That's the part most people picture.",
+      "words": [
+        {
+          "word": " anything",
+          "start": 116.084,
+          "end": 116.504,
+          "prob": 0.997
+        },
+        {
+          "word": " with.",
+          "start": 116.504,
+          "end": 116.784,
+          "prob": 0.994
+        },
+        {
+          "word": " China",
+          "start": 117.844,
+          "end": 118.444,
+          "prob": 0.991
+        },
+        {
+          "word": " mines",
+          "start": 118.444,
+          "end": 118.744,
+          "prob": 0.881
+        },
+        {
+          "word": " about",
+          "start": 118.744,
+          "end": 118.984,
+          "prob": 0.995
+        },
+        {
+          "word": " 60",
+          "start": 118.984,
+          "end": 119.364,
+          "prob": 0.949
+        },
+        {
+          "word": "%",
+          "start": 119.364,
+          "end": 119.704,
+          "prob": 0.838
+        },
+        {
+          "word": " of",
+          "start": 119.704,
+          "end": 119.924,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 119.924,
+          "end": 120.024,
+          "prob": 0.999
+        },
+        {
+          "word": " world's",
+          "start": 120.024,
+          "end": 120.424,
+          "prob": 0.997
+        },
+        {
+          "word": " rare",
+          "start": 120.424,
+          "end": 120.664,
+          "prob": 0.984
+        },
+        {
+          "word": " Earth",
+          "start": 120.664,
+          "end": 121.104,
+          "prob": 0.456
+        },
+        {
+          "word": " ore.",
+          "start": 121.104,
+          "end": 121.404,
+          "prob": 0.961
+        },
+        {
+          "word": " That's",
+          "start": 121.884,
+          "end": 122.164,
+          "prob": 0.991
+        },
+        {
+          "word": " the",
+          "start": 122.164,
+          "end": 122.264,
+          "prob": 0.997
+        },
+        {
+          "word": " part",
+          "start": 122.264,
+          "end": 122.464,
+          "prob": 0.998
+        },
+        {
+          "word": " most",
+          "start": 122.464,
+          "end": 122.684,
+          "prob": 0.995
+        },
+        {
+          "word": " people",
+          "start": 122.684,
+          "end": 122.964,
+          "prob": 0.999
+        },
+        {
+          "word": " picture.",
+          "start": 122.964,
+          "end": 123.344,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 123.984,
+      "end": 129.764,
+      "text": "It's not the part that matters. China refines close to 90% of it, the step that turns rock",
+      "words": [
+        {
+          "word": " It's",
+          "start": 123.984,
+          "end": 124.264,
+          "prob": 0.991
+        },
+        {
+          "word": " not",
+          "start": 124.264,
+          "end": 124.404,
+          "prob": 1.0
+        },
+        {
+          "word": " the",
+          "start": 124.404,
+          "end": 124.524,
+          "prob": 0.993
+        },
+        {
+          "word": " part",
+          "start": 124.524,
+          "end": 124.764,
+          "prob": 0.999
+        },
+        {
+          "word": " that",
+          "start": 124.764,
+          "end": 124.904,
+          "prob": 0.998
+        },
+        {
+          "word": " matters.",
+          "start": 124.904,
+          "end": 125.204,
+          "prob": 0.999
+        },
+        {
+          "word": " China",
+          "start": 125.864,
+          "end": 126.264,
+          "prob": 0.999
+        },
+        {
+          "word": " refines",
+          "start": 126.264,
+          "end": 126.704,
+          "prob": 0.98
+        },
+        {
+          "word": " close",
+          "start": 126.704,
+          "end": 126.964,
+          "prob": 0.985
+        },
+        {
+          "word": " to",
+          "start": 126.964,
+          "end": 127.184,
+          "prob": 0.999
+        },
+        {
+          "word": " 90",
+          "start": 127.184,
+          "end": 127.524,
+          "prob": 0.996
+        },
+        {
+          "word": "%",
+          "start": 127.524,
+          "end": 127.844,
+          "prob": 0.982
+        },
+        {
+          "word": " of",
+          "start": 127.844,
+          "end": 128.064,
+          "prob": 0.996
+        },
+        {
+          "word": " it,",
+          "start": 128.064,
+          "end": 128.164,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 128.524,
+          "end": 128.704,
+          "prob": 0.995
+        },
+        {
+          "word": " step",
+          "start": 128.704,
+          "end": 128.964,
+          "prob": 0.995
+        },
+        {
+          "word": " that",
+          "start": 128.964,
+          "end": 129.124,
+          "prob": 0.998
+        },
+        {
+          "word": " turns",
+          "start": 129.124,
+          "end": 129.404,
+          "prob": 0.998
+        },
+        {
+          "word": " rock",
+          "start": 129.404,
+          "end": 129.764,
+          "prob": 0.984
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 129.764,
+      "end": 135.104,
+      "text": "into raw material. And when that raw material becomes the strongest magnets on Earth,",
+      "words": [
+        {
+          "word": " into",
+          "start": 129.764,
+          "end": 130.064,
+          "prob": 0.334
+        },
+        {
+          "word": " raw",
+          "start": 130.064,
+          "end": 130.324,
+          "prob": 0.932
+        },
+        {
+          "word": " material.",
+          "start": 130.324,
+          "end": 130.764,
+          "prob": 0.994
+        },
+        {
+          "word": " And",
+          "start": 131.804,
+          "end": 132.044,
+          "prob": 0.914
+        },
+        {
+          "word": " when",
+          "start": 132.044,
+          "end": 132.224,
+          "prob": 0.986
+        },
+        {
+          "word": " that",
+          "start": 132.224,
+          "end": 132.444,
+          "prob": 0.99
+        },
+        {
+          "word": " raw",
+          "start": 132.444,
+          "end": 132.684,
+          "prob": 0.993
+        },
+        {
+          "word": " material",
+          "start": 132.684,
+          "end": 133.084,
+          "prob": 0.999
+        },
+        {
+          "word": " becomes",
+          "start": 133.084,
+          "end": 133.464,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 133.464,
+          "end": 133.704,
+          "prob": 0.998
+        },
+        {
+          "word": " strongest",
+          "start": 133.704,
+          "end": 134.084,
+          "prob": 0.997
+        },
+        {
+          "word": " magnets",
+          "start": 134.084,
+          "end": 134.564,
+          "prob": 0.969
+        },
+        {
+          "word": " on",
+          "start": 134.564,
+          "end": 134.804,
+          "prob": 0.996
+        },
+        {
+          "word": " Earth,",
+          "start": 134.804,
+          "end": 135.104,
+          "prob": 0.466
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 135.524,
+      "end": 141.084,
+      "text": "the kind small enough for a phone and strong enough for a fighter jet, 94% of that final step",
+      "words": [
+        {
+          "word": " the",
+          "start": 135.524,
+          "end": 135.564,
+          "prob": 0.984
+        },
+        {
+          "word": " kind",
+          "start": 135.564,
+          "end": 135.784,
+          "prob": 0.952
+        },
+        {
+          "word": " small",
+          "start": 135.784,
+          "end": 136.104,
+          "prob": 0.994
+        },
+        {
+          "word": " enough",
+          "start": 136.104,
+          "end": 136.384,
+          "prob": 0.998
+        },
+        {
+          "word": " for",
+          "start": 136.384,
+          "end": 136.604,
+          "prob": 0.997
+        },
+        {
+          "word": " a",
+          "start": 136.604,
+          "end": 136.704,
+          "prob": 0.995
+        },
+        {
+          "word": " phone",
+          "start": 136.704,
+          "end": 136.984,
+          "prob": 0.996
+        },
+        {
+          "word": " and",
+          "start": 136.984,
+          "end": 137.164,
+          "prob": 0.887
+        },
+        {
+          "word": " strong",
+          "start": 137.164,
+          "end": 137.424,
+          "prob": 0.998
+        },
+        {
+          "word": " enough",
+          "start": 137.424,
+          "end": 137.664,
+          "prob": 0.999
+        },
+        {
+          "word": " for",
+          "start": 137.664,
+          "end": 137.844,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 137.844,
+          "end": 137.984,
+          "prob": 0.992
+        },
+        {
+          "word": " fighter",
+          "start": 137.984,
+          "end": 138.204,
+          "prob": 0.998
+        },
+        {
+          "word": " jet,",
+          "start": 138.204,
+          "end": 138.544,
+          "prob": 0.98
+        },
+        {
+          "word": " 94",
+          "start": 139.044,
+          "end": 139.504,
+          "prob": 0.904
+        },
+        {
+          "word": "%",
+          "start": 139.504,
+          "end": 139.984,
+          "prob": 0.888
+        },
+        {
+          "word": " of",
+          "start": 139.984,
+          "end": 140.204,
+          "prob": 0.996
+        },
+        {
+          "word": " that",
+          "start": 140.204,
+          "end": 140.344,
+          "prob": 0.993
+        },
+        {
+          "word": " final",
+          "start": 140.344,
+          "end": 140.684,
+          "prob": 0.996
+        },
+        {
+          "word": " step",
+          "start": 140.684,
+          "end": 141.084,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 141.084,
+      "end": 148.444,
+      "text": "happens in China too. Twenty years ago it was half that. Nobody declared war to get there,",
+      "words": [
+        {
+          "word": " happens",
+          "start": 141.084,
+          "end": 141.644,
+          "prob": 0.98
+        },
+        {
+          "word": " in",
+          "start": 141.644,
+          "end": 141.884,
+          "prob": 0.999
+        },
+        {
+          "word": " China",
+          "start": 141.884,
+          "end": 142.244,
+          "prob": 0.997
+        },
+        {
+          "word": " too.",
+          "start": 142.244,
+          "end": 142.564,
+          "prob": 0.726
+        },
+        {
+          "word": " Twenty",
+          "start": 144.344,
+          "end": 144.604,
+          "prob": 0.48
+        },
+        {
+          "word": " years",
+          "start": 144.604,
+          "end": 144.884,
+          "prob": 0.998
+        },
+        {
+          "word": " ago",
+          "start": 144.884,
+          "end": 145.184,
+          "prob": 0.998
+        },
+        {
+          "word": " it",
+          "start": 145.184,
+          "end": 145.404,
+          "prob": 0.528
+        },
+        {
+          "word": " was",
+          "start": 145.404,
+          "end": 145.584,
+          "prob": 0.999
+        },
+        {
+          "word": " half",
+          "start": 145.584,
+          "end": 145.824,
+          "prob": 0.996
+        },
+        {
+          "word": " that.",
+          "start": 145.824,
+          "end": 146.084,
+          "prob": 0.995
+        },
+        {
+          "word": " Nobody",
+          "start": 146.744,
+          "end": 147.044,
+          "prob": 0.996
+        },
+        {
+          "word": " declared",
+          "start": 147.044,
+          "end": 147.484,
+          "prob": 0.999
+        },
+        {
+          "word": " war",
+          "start": 147.484,
+          "end": 147.844,
+          "prob": 0.998
+        },
+        {
+          "word": " to",
+          "start": 147.844,
+          "end": 148.024,
+          "prob": 0.998
+        },
+        {
+          "word": " get",
+          "start": 148.024,
+          "end": 148.164,
+          "prob": 0.999
+        },
+        {
+          "word": " there,",
+          "start": 148.164,
+          "end": 148.444,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 148.844,
+      "end": 153.704,
+      "text": "they just kept building refineries while everyone else kept mining rocks and shipping them east.",
+      "words": [
+        {
+          "word": " they",
+          "start": 148.844,
+          "end": 149.004,
+          "prob": 0.992
+        },
+        {
+          "word": " just",
+          "start": 149.004,
+          "end": 149.184,
+          "prob": 0.997
+        },
+        {
+          "word": " kept",
+          "start": 149.184,
+          "end": 149.364,
+          "prob": 0.996
+        },
+        {
+          "word": " building",
+          "start": 149.364,
+          "end": 149.704,
+          "prob": 0.998
+        },
+        {
+          "word": " refineries",
+          "start": 149.704,
+          "end": 150.484,
+          "prob": 0.989
+        },
+        {
+          "word": " while",
+          "start": 150.484,
+          "end": 150.904,
+          "prob": 0.606
+        },
+        {
+          "word": " everyone",
+          "start": 150.904,
+          "end": 151.264,
+          "prob": 0.991
+        },
+        {
+          "word": " else",
+          "start": 151.264,
+          "end": 151.504,
+          "prob": 0.99
+        },
+        {
+          "word": " kept",
+          "start": 151.504,
+          "end": 151.784,
+          "prob": 0.998
+        },
+        {
+          "word": " mining",
+          "start": 151.784,
+          "end": 152.104,
+          "prob": 0.989
+        },
+        {
+          "word": " rocks",
+          "start": 152.104,
+          "end": 152.504,
+          "prob": 0.989
+        },
+        {
+          "word": " and",
+          "start": 152.504,
+          "end": 152.824,
+          "prob": 0.985
+        },
+        {
+          "word": " shipping",
+          "start": 152.824,
+          "end": 153.124,
+          "prob": 0.998
+        },
+        {
+          "word": " them",
+          "start": 153.124,
+          "end": 153.344,
+          "prob": 0.998
+        },
+        {
+          "word": " east.",
+          "start": 153.344,
+          "end": 153.704,
+          "prob": 0.896
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 154.504,
+      "end": 160.004,
+      "text": "An auto worker in Michigan building electric motors, a wind turbine technician in Denmark,",
+      "words": [
+        {
+          "word": " An",
+          "start": 154.504,
+          "end": 155.084,
+          "prob": 0.717
+        },
+        {
+          "word": " auto",
+          "start": 155.084,
+          "end": 155.384,
+          "prob": 0.817
+        },
+        {
+          "word": " worker",
+          "start": 155.384,
+          "end": 155.764,
+          "prob": 0.851
+        },
+        {
+          "word": " in",
+          "start": 155.764,
+          "end": 155.964,
+          "prob": 0.997
+        },
+        {
+          "word": " Michigan",
+          "start": 155.964,
+          "end": 156.304,
+          "prob": 0.99
+        },
+        {
+          "word": " building",
+          "start": 156.304,
+          "end": 156.704,
+          "prob": 0.983
+        },
+        {
+          "word": " electric",
+          "start": 156.704,
+          "end": 157.144,
+          "prob": 0.996
+        },
+        {
+          "word": " motors,",
+          "start": 157.144,
+          "end": 157.584,
+          "prob": 0.993
+        },
+        {
+          "word": " a",
+          "start": 158.204,
+          "end": 158.344,
+          "prob": 0.974
+        },
+        {
+          "word": " wind",
+          "start": 158.344,
+          "end": 158.584,
+          "prob": 0.991
+        },
+        {
+          "word": " turbine",
+          "start": 158.584,
+          "end": 159.004,
+          "prob": 0.958
+        },
+        {
+          "word": " technician",
+          "start": 159.004,
+          "end": 159.464,
+          "prob": 0.998
+        },
+        {
+          "word": " in",
+          "start": 159.464,
+          "end": 159.684,
+          "prob": 0.998
+        },
+        {
+          "word": " Denmark,",
+          "start": 159.684,
+          "end": 160.004,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 160.664,
+      "end": 165.324,
+      "text": "a radiologist in Sao Paulo waiting on a replacement part for an MRI machine.",
+      "words": [
+        {
+          "word": " a",
+          "start": 160.664,
+          "end": 160.784,
+          "prob": 0.992
+        },
+        {
+          "word": " radiologist",
+          "start": 160.784,
+          "end": 161.464,
+          "prob": 0.995
+        },
+        {
+          "word": " in",
+          "start": 161.464,
+          "end": 161.644,
+          "prob": 0.998
+        },
+        {
+          "word": " Sao",
+          "start": 161.644,
+          "end": 161.904,
+          "prob": 0.793
+        },
+        {
+          "word": " Paulo",
+          "start": 161.904,
+          "end": 162.244,
+          "prob": 0.833
+        },
+        {
+          "word": " waiting",
+          "start": 162.244,
+          "end": 162.904,
+          "prob": 0.814
+        },
+        {
+          "word": " on",
+          "start": 162.904,
+          "end": 163.124,
+          "prob": 0.995
+        },
+        {
+          "word": " a",
+          "start": 163.124,
+          "end": 163.244,
+          "prob": 0.997
+        },
+        {
+          "word": " replacement",
+          "start": 163.244,
+          "end": 163.624,
+          "prob": 0.99
+        },
+        {
+          "word": " part",
+          "start": 163.624,
+          "end": 164.024,
+          "prob": 0.989
+        },
+        {
+          "word": " for",
+          "start": 164.024,
+          "end": 164.224,
+          "prob": 0.993
+        },
+        {
+          "word": " an",
+          "start": 164.224,
+          "end": 164.344,
+          "prob": 0.961
+        },
+        {
+          "word": " MRI",
+          "start": 164.344,
+          "end": 164.844,
+          "prob": 0.989
+        },
+        {
+          "word": " machine.",
+          "start": 164.844,
+          "end": 165.324,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 166.264,
+      "end": 168.584,
+      "text": "None of them have ever seen a rare Earth refinery.",
+      "words": [
+        {
+          "word": " None",
+          "start": 166.264,
+          "end": 166.444,
+          "prob": 0.991
+        },
+        {
+          "word": " of",
+          "start": 166.444,
+          "end": 166.584,
+          "prob": 0.994
+        },
+        {
+          "word": " them",
+          "start": 166.584,
+          "end": 166.764,
+          "prob": 0.999
+        },
+        {
+          "word": " have",
+          "start": 166.764,
+          "end": 166.944,
+          "prob": 0.991
+        },
+        {
+          "word": " ever",
+          "start": 166.944,
+          "end": 167.144,
+          "prob": 0.97
+        },
+        {
+          "word": " seen",
+          "start": 167.144,
+          "end": 167.384,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 167.384,
+          "end": 167.484,
+          "prob": 0.995
+        },
+        {
+          "word": " rare",
+          "start": 167.484,
+          "end": 167.704,
+          "prob": 0.944
+        },
+        {
+          "word": " Earth",
+          "start": 167.704,
+          "end": 168.044,
+          "prob": 0.347
+        },
+        {
+          "word": " refinery.",
+          "start": 168.044,
+          "end": 168.584,
+          "prob": 0.973
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 169.644,
+      "end": 176.004,
+      "text": "All of them are one stamp away from a shutdown. There is no meaningful alternative supply chain,",
+      "words": [
+        {
+          "word": " All",
+          "start": 169.644,
+          "end": 169.904,
+          "prob": 0.995
+        },
+        {
+          "word": " of",
+          "start": 169.904,
+          "end": 170.044,
+          "prob": 0.998
+        },
+        {
+          "word": " them",
+          "start": 170.044,
+          "end": 170.264,
+          "prob": 0.998
+        },
+        {
+          "word": " are",
+          "start": 170.264,
+          "end": 170.444,
+          "prob": 0.989
+        },
+        {
+          "word": " one",
+          "start": 170.444,
+          "end": 170.704,
+          "prob": 0.992
+        },
+        {
+          "word": " stamp",
+          "start": 170.704,
+          "end": 171.024,
+          "prob": 0.868
+        },
+        {
+          "word": " away",
+          "start": 171.024,
+          "end": 171.344,
+          "prob": 0.997
+        },
+        {
+          "word": " from",
+          "start": 171.344,
+          "end": 171.584,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 171.584,
+          "end": 171.724,
+          "prob": 0.997
+        },
+        {
+          "word": " shutdown.",
+          "start": 171.724,
+          "end": 172.004,
+          "prob": 0.945
+        },
+        {
+          "word": " There",
+          "start": 172.964,
+          "end": 173.464,
+          "prob": 0.991
+        },
+        {
+          "word": " is",
+          "start": 173.464,
+          "end": 173.604,
+          "prob": 0.996
+        },
+        {
+          "word": " no",
+          "start": 173.604,
+          "end": 173.824,
+          "prob": 0.998
+        },
+        {
+          "word": " meaningful",
+          "start": 173.824,
+          "end": 174.404,
+          "prob": 0.996
+        },
+        {
+          "word": " alternative",
+          "start": 174.404,
+          "end": 175.064,
+          "prob": 0.988
+        },
+        {
+          "word": " supply",
+          "start": 175.064,
+          "end": 175.544,
+          "prob": 0.996
+        },
+        {
+          "word": " chain,",
+          "start": 175.544,
+          "end": 176.004,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "chapter": "THE RECIPE",
+      "start": 176.464,
+      "end": 181.164,
+      "text": "not because the rock is scarce, because almost nobody else ever learned to finish it.",
+      "words": [
+        {
+          "word": " not",
+          "start": 176.464,
+          "end": 176.684,
+          "prob": 0.996
+        },
+        {
+          "word": " because",
+          "start": 176.684,
+          "end": 176.944,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 176.944,
+          "end": 177.144,
+          "prob": 0.983
+        },
+        {
+          "word": " rock",
+          "start": 177.144,
+          "end": 177.344,
+          "prob": 0.928
+        },
+        {
+          "word": " is",
+          "start": 177.344,
+          "end": 177.504,
+          "prob": 0.999
+        },
+        {
+          "word": " scarce,",
+          "start": 177.504,
+          "end": 177.844,
+          "prob": 0.997
+        },
+        {
+          "word": " because",
+          "start": 178.524,
+          "end": 178.784,
+          "prob": 0.975
+        },
+        {
+          "word": " almost",
+          "start": 178.784,
+          "end": 179.184,
+          "prob": 0.999
+        },
+        {
+          "word": " nobody",
+          "start": 179.184,
+          "end": 179.564,
+          "prob": 0.988
+        },
+        {
+          "word": " else",
+          "start": 179.564,
+          "end": 179.864,
+          "prob": 0.989
+        },
+        {
+          "word": " ever",
+          "start": 179.864,
+          "end": 180.204,
+          "prob": 0.978
+        },
+        {
+          "word": " learned",
+          "start": 180.204,
+          "end": 180.504,
+          "prob": 0.955
+        },
+        {
+          "word": " to",
+          "start": 180.504,
+          "end": 180.684,
+          "prob": 0.998
+        },
+        {
+          "word": " finish",
+          "start": 180.684,
+          "end": 180.904,
+          "prob": 0.999
+        },
+        {
+          "word": " it.",
+          "start": 180.904,
+          "end": 181.164,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 181.368,
+      "end": 184.848,
+      "text": "In 1992, Deng Xiaoping toured southern China",
+      "words": [
+        {
+          "word": " In",
+          "start": 181.368,
+          "end": 181.628,
+          "prob": 0.969
+        },
+        {
+          "word": " 1992,",
+          "start": 181.628,
+          "end": 182.448,
+          "prob": 0.997
+        },
+        {
+          "word": " Deng",
+          "start": 182.868,
+          "end": 183.148,
+          "prob": 0.969
+        },
+        {
+          "word": " Xiaoping",
+          "start": 183.148,
+          "end": 183.608,
+          "prob": 0.928
+        },
+        {
+          "word": " toured",
+          "start": 183.608,
+          "end": 184.128,
+          "prob": 0.978
+        },
+        {
+          "word": " southern",
+          "start": 184.128,
+          "end": 184.448,
+          "prob": 0.881
+        },
+        {
+          "word": " China",
+          "start": 184.448,
+          "end": 184.848,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 184.848,
+      "end": 188.648,
+      "text": "and said something that Beijing never stopped repeating internally.",
+      "words": [
+        {
+          "word": " and",
+          "start": 184.848,
+          "end": 185.488,
+          "prob": 0.847
+        },
+        {
+          "word": " said",
+          "start": 185.488,
+          "end": 185.708,
+          "prob": 0.998
+        },
+        {
+          "word": " something",
+          "start": 185.708,
+          "end": 186.068,
+          "prob": 0.997
+        },
+        {
+          "word": " that",
+          "start": 186.068,
+          "end": 186.308,
+          "prob": 0.99
+        },
+        {
+          "word": " Beijing",
+          "start": 186.308,
+          "end": 186.648,
+          "prob": 0.99
+        },
+        {
+          "word": " never",
+          "start": 186.648,
+          "end": 187.248,
+          "prob": 0.902
+        },
+        {
+          "word": " stopped",
+          "start": 187.248,
+          "end": 187.548,
+          "prob": 0.996
+        },
+        {
+          "word": " repeating",
+          "start": 187.548,
+          "end": 188.048,
+          "prob": 0.999
+        },
+        {
+          "word": " internally.",
+          "start": 188.048,
+          "end": 188.648,
+          "prob": 0.99
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 189.968,
+      "end": 193.568,
+      "text": "The Middle East has oil, China has rare earths.",
+      "words": [
+        {
+          "word": " The",
+          "start": 189.968,
+          "end": 190.108,
+          "prob": 0.495
+        },
+        {
+          "word": " Middle",
+          "start": 190.108,
+          "end": 190.308,
+          "prob": 0.922
+        },
+        {
+          "word": " East",
+          "start": 190.308,
+          "end": 190.588,
+          "prob": 0.989
+        },
+        {
+          "word": " has",
+          "start": 190.588,
+          "end": 190.848,
+          "prob": 0.993
+        },
+        {
+          "word": " oil,",
+          "start": 190.848,
+          "end": 191.208,
+          "prob": 0.987
+        },
+        {
+          "word": " China",
+          "start": 191.808,
+          "end": 192.208,
+          "prob": 0.996
+        },
+        {
+          "word": " has",
+          "start": 192.208,
+          "end": 192.648,
+          "prob": 0.997
+        },
+        {
+          "word": " rare",
+          "start": 192.648,
+          "end": 192.928,
+          "prob": 0.972
+        },
+        {
+          "word": " earths.",
+          "start": 192.928,
+          "end": 193.568,
+          "prob": 0.892
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 194.428,
+      "end": 200.348,
+      "text": "At the time it sounded almost like a joke, the United States, not China, dominated this industry.",
+      "words": [
+        {
+          "word": " At",
+          "start": 194.428,
+          "end": 194.688,
+          "prob": 0.991
+        },
+        {
+          "word": " the",
+          "start": 194.688,
+          "end": 194.768,
+          "prob": 0.985
+        },
+        {
+          "word": " time",
+          "start": 194.768,
+          "end": 195.128,
+          "prob": 0.999
+        },
+        {
+          "word": " it",
+          "start": 195.128,
+          "end": 195.268,
+          "prob": 0.637
+        },
+        {
+          "word": " sounded",
+          "start": 195.268,
+          "end": 195.528,
+          "prob": 0.994
+        },
+        {
+          "word": " almost",
+          "start": 195.528,
+          "end": 195.948,
+          "prob": 0.988
+        },
+        {
+          "word": " like",
+          "start": 195.948,
+          "end": 196.208,
+          "prob": 0.996
+        },
+        {
+          "word": " a",
+          "start": 196.208,
+          "end": 196.308,
+          "prob": 0.998
+        },
+        {
+          "word": " joke,",
+          "start": 196.308,
+          "end": 196.548,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 197.308,
+          "end": 197.448,
+          "prob": 0.953
+        },
+        {
+          "word": " United",
+          "start": 197.448,
+          "end": 197.608,
+          "prob": 0.975
+        },
+        {
+          "word": " States,",
+          "start": 197.608,
+          "end": 198.168,
+          "prob": 0.992
+        },
+        {
+          "word": " not",
+          "start": 198.388,
+          "end": 198.608,
+          "prob": 0.992
+        },
+        {
+          "word": " China,",
+          "start": 198.608,
+          "end": 199.008,
+          "prob": 0.996
+        },
+        {
+          "word": " dominated",
+          "start": 199.288,
+          "end": 199.648,
+          "prob": 0.998
+        },
+        {
+          "word": " this",
+          "start": 199.648,
+          "end": 199.968,
+          "prob": 0.988
+        },
+        {
+          "word": " industry.",
+          "start": 199.968,
+          "end": 200.348,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 201.228,
+      "end": 204.548,
+      "text": "A single mine in the California desert called Mountain Pass",
+      "words": [
+        {
+          "word": " A",
+          "start": 201.228,
+          "end": 201.408,
+          "prob": 0.995
+        },
+        {
+          "word": " single",
+          "start": 201.408,
+          "end": 201.688,
+          "prob": 0.998
+        },
+        {
+          "word": " mine",
+          "start": 201.688,
+          "end": 202.008,
+          "prob": 0.993
+        },
+        {
+          "word": " in",
+          "start": 202.008,
+          "end": 202.208,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 202.208,
+          "end": 202.288,
+          "prob": 0.99
+        },
+        {
+          "word": " California",
+          "start": 202.288,
+          "end": 202.708,
+          "prob": 0.994
+        },
+        {
+          "word": " desert",
+          "start": 202.708,
+          "end": 203.088,
+          "prob": 0.928
+        },
+        {
+          "word": " called",
+          "start": 203.088,
+          "end": 203.748,
+          "prob": 0.638
+        },
+        {
+          "word": " Mountain",
+          "start": 203.748,
+          "end": 204.188,
+          "prob": 0.577
+        },
+        {
+          "word": " Pass",
+          "start": 204.188,
+          "end": 204.548,
+          "prob": 0.98
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 205.128,
+      "end": 210.848,
+      "text": "supplied practically the entire non-communist world with rare earths for three straight decades.",
+      "words": [
+        {
+          "word": " supplied",
+          "start": 205.128,
+          "end": 205.588,
+          "prob": 0.831
+        },
+        {
+          "word": " practically",
+          "start": 205.588,
+          "end": 206.208,
+          "prob": 0.99
+        },
+        {
+          "word": " the",
+          "start": 206.208,
+          "end": 206.468,
+          "prob": 0.997
+        },
+        {
+          "word": " entire",
+          "start": 206.468,
+          "end": 206.948,
+          "prob": 0.999
+        },
+        {
+          "word": " non",
+          "start": 206.948,
+          "end": 207.248,
+          "prob": 0.99
+        },
+        {
+          "word": "-communist",
+          "start": 207.248,
+          "end": 207.828,
+          "prob": 0.933
+        },
+        {
+          "word": " world",
+          "start": 207.828,
+          "end": 208.208,
+          "prob": 0.999
+        },
+        {
+          "word": " with",
+          "start": 208.208,
+          "end": 208.668,
+          "prob": 0.99
+        },
+        {
+          "word": " rare",
+          "start": 208.668,
+          "end": 208.928,
+          "prob": 0.997
+        },
+        {
+          "word": " earths",
+          "start": 208.928,
+          "end": 209.508,
+          "prob": 0.953
+        },
+        {
+          "word": " for",
+          "start": 209.508,
+          "end": 209.748,
+          "prob": 0.994
+        },
+        {
+          "word": " three",
+          "start": 209.748,
+          "end": 210.068,
+          "prob": 0.926
+        },
+        {
+          "word": " straight",
+          "start": 210.068,
+          "end": 210.448,
+          "prob": 0.997
+        },
+        {
+          "word": " decades.",
+          "start": 210.448,
+          "end": 210.848,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 211.368,
+      "end": 214.348,
+      "text": "From the 1950s into the 1980s.",
+      "words": [
+        {
+          "word": " From",
+          "start": 211.368,
+          "end": 211.588,
+          "prob": 0.04
+        },
+        {
+          "word": " the",
+          "start": 211.588,
+          "end": 211.688,
+          "prob": 0.995
+        },
+        {
+          "word": " 1950s",
+          "start": 211.688,
+          "end": 212.628,
+          "prob": 0.962
+        },
+        {
+          "word": " into",
+          "start": 212.628,
+          "end": 212.928,
+          "prob": 0.937
+        },
+        {
+          "word": " the",
+          "start": 212.928,
+          "end": 213.068,
+          "prob": 0.995
+        },
+        {
+          "word": " 1980s.",
+          "start": 213.068,
+          "end": 214.348,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 215.048,
+      "end": 220.048,
+      "text": "America built the modern magnet industry and barely noticed it had a chokehold on it.",
+      "words": [
+        {
+          "word": " America",
+          "start": 215.048,
+          "end": 215.648,
+          "prob": 0.991
+        },
+        {
+          "word": " built",
+          "start": 215.648,
+          "end": 216.028,
+          "prob": 0.993
+        },
+        {
+          "word": " the",
+          "start": 216.028,
+          "end": 216.208,
+          "prob": 0.995
+        },
+        {
+          "word": " modern",
+          "start": 216.208,
+          "end": 216.508,
+          "prob": 0.978
+        },
+        {
+          "word": " magnet",
+          "start": 216.508,
+          "end": 216.868,
+          "prob": 0.87
+        },
+        {
+          "word": " industry",
+          "start": 216.868,
+          "end": 217.388,
+          "prob": 0.994
+        },
+        {
+          "word": " and",
+          "start": 217.388,
+          "end": 218.048,
+          "prob": 0.613
+        },
+        {
+          "word": " barely",
+          "start": 218.048,
+          "end": 218.328,
+          "prob": 0.996
+        },
+        {
+          "word": " noticed",
+          "start": 218.328,
+          "end": 218.748,
+          "prob": 0.996
+        },
+        {
+          "word": " it",
+          "start": 218.748,
+          "end": 218.968,
+          "prob": 0.99
+        },
+        {
+          "word": " had",
+          "start": 218.968,
+          "end": 219.108,
+          "prob": 0.996
+        },
+        {
+          "word": " a",
+          "start": 219.108,
+          "end": 219.208,
+          "prob": 0.99
+        },
+        {
+          "word": " chokehold",
+          "start": 219.208,
+          "end": 219.708,
+          "prob": 0.863
+        },
+        {
+          "word": " on",
+          "start": 219.708,
+          "end": 219.868,
+          "prob": 0.997
+        },
+        {
+          "word": " it.",
+          "start": 219.868,
+          "end": 220.048,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 221.168,
+      "end": 227.228,
+      "text": "Then China undercut the price, not by a little, by enough that mining and refining rare earths",
+      "words": [
+        {
+          "word": " Then",
+          "start": 221.168,
+          "end": 221.468,
+          "prob": 0.989
+        },
+        {
+          "word": " China",
+          "start": 221.468,
+          "end": 221.848,
+          "prob": 0.914
+        },
+        {
+          "word": " undercut",
+          "start": 221.848,
+          "end": 222.388,
+          "prob": 0.99
+        },
+        {
+          "word": " the",
+          "start": 222.388,
+          "end": 222.548,
+          "prob": 0.997
+        },
+        {
+          "word": " price,",
+          "start": 222.548,
+          "end": 222.888,
+          "prob": 0.998
+        },
+        {
+          "word": " not",
+          "start": 223.528,
+          "end": 223.688,
+          "prob": 0.97
+        },
+        {
+          "word": " by",
+          "start": 223.688,
+          "end": 223.908,
+          "prob": 0.997
+        },
+        {
+          "word": " a",
+          "start": 223.908,
+          "end": 224.028,
+          "prob": 0.955
+        },
+        {
+          "word": " little,",
+          "start": 224.028,
+          "end": 224.208,
+          "prob": 0.998
+        },
+        {
+          "word": " by",
+          "start": 224.768,
+          "end": 224.928,
+          "prob": 0.977
+        },
+        {
+          "word": " enough",
+          "start": 224.928,
+          "end": 225.208,
+          "prob": 0.996
+        },
+        {
+          "word": " that",
+          "start": 225.208,
+          "end": 225.368,
+          "prob": 0.998
+        },
+        {
+          "word": " mining",
+          "start": 225.368,
+          "end": 225.708,
+          "prob": 0.997
+        },
+        {
+          "word": " and",
+          "start": 225.708,
+          "end": 225.968,
+          "prob": 0.996
+        },
+        {
+          "word": " refining",
+          "start": 225.968,
+          "end": 226.408,
+          "prob": 0.998
+        },
+        {
+          "word": " rare",
+          "start": 226.408,
+          "end": 226.748,
+          "prob": 0.991
+        },
+        {
+          "word": " earths",
+          "start": 226.748,
+          "end": 227.228,
+          "prob": 0.859
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 227.228,
+      "end": 232.628,
+      "text": "in America stopped being profitable at all. Environmental rules that didn't apply the",
+      "words": [
+        {
+          "word": " in",
+          "start": 227.228,
+          "end": 227.248,
+          "prob": 0.999
+        },
+        {
+          "word": " America",
+          "start": 227.248,
+          "end": 227.628,
+          "prob": 0.99
+        },
+        {
+          "word": " stopped",
+          "start": 227.628,
+          "end": 228.368,
+          "prob": 0.958
+        },
+        {
+          "word": " being",
+          "start": 228.368,
+          "end": 228.688,
+          "prob": 0.998
+        },
+        {
+          "word": " profitable",
+          "start": 228.688,
+          "end": 229.068,
+          "prob": 0.998
+        },
+        {
+          "word": " at",
+          "start": 229.068,
+          "end": 229.368,
+          "prob": 0.995
+        },
+        {
+          "word": " all.",
+          "start": 229.368,
+          "end": 229.608,
+          "prob": 1.0
+        },
+        {
+          "word": " Environmental",
+          "start": 230.628,
+          "end": 231.128,
+          "prob": 0.996
+        },
+        {
+          "word": " rules",
+          "start": 231.128,
+          "end": 231.648,
+          "prob": 0.998
+        },
+        {
+          "word": " that",
+          "start": 231.648,
+          "end": 231.928,
+          "prob": 0.998
+        },
+        {
+          "word": " didn't",
+          "start": 231.928,
+          "end": 232.168,
+          "prob": 0.991
+        },
+        {
+          "word": " apply",
+          "start": 232.168,
+          "end": 232.428,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 232.428,
+          "end": 232.628,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 232.628,
+      "end": 239.508,
+      "text": "same way in China made the math even easier. Through the 1990s and into the 2000s,",
+      "words": [
+        {
+          "word": " same",
+          "start": 232.628,
+          "end": 232.928,
+          "prob": 0.996
+        },
+        {
+          "word": " way",
+          "start": 232.928,
+          "end": 233.088,
+          "prob": 0.991
+        },
+        {
+          "word": " in",
+          "start": 233.088,
+          "end": 233.208,
+          "prob": 0.998
+        },
+        {
+          "word": " China",
+          "start": 233.208,
+          "end": 233.588,
+          "prob": 0.993
+        },
+        {
+          "word": " made",
+          "start": 233.588,
+          "end": 234.208,
+          "prob": 0.959
+        },
+        {
+          "word": " the",
+          "start": 234.208,
+          "end": 234.368,
+          "prob": 0.993
+        },
+        {
+          "word": " math",
+          "start": 234.368,
+          "end": 234.748,
+          "prob": 0.989
+        },
+        {
+          "word": " even",
+          "start": 234.748,
+          "end": 235.088,
+          "prob": 0.986
+        },
+        {
+          "word": " easier.",
+          "start": 235.088,
+          "end": 235.508,
+          "prob": 0.998
+        },
+        {
+          "word": " Through",
+          "start": 236.608,
+          "end": 236.948,
+          "prob": 0.991
+        },
+        {
+          "word": " the",
+          "start": 236.948,
+          "end": 237.108,
+          "prob": 1.0
+        },
+        {
+          "word": " 1990s",
+          "start": 237.108,
+          "end": 238.108,
+          "prob": 0.987
+        },
+        {
+          "word": " and",
+          "start": 238.108,
+          "end": 238.268,
+          "prob": 0.971
+        },
+        {
+          "word": " into",
+          "start": 238.268,
+          "end": 238.448,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 238.448,
+          "end": 238.548,
+          "prob": 0.997
+        },
+        {
+          "word": " 2000s,",
+          "start": 238.548,
+          "end": 239.508,
+          "prob": 0.984
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 239.508,
+      "end": 245.368,
+      "text": "the industry didn't get stolen. It got outcompeted, quietly, one contract at a time.",
+      "words": [
+        {
+          "word": " the",
+          "start": 239.508,
+          "end": 239.828,
+          "prob": 0.129
+        },
+        {
+          "word": " industry",
+          "start": 239.828,
+          "end": 240.228,
+          "prob": 0.997
+        },
+        {
+          "word": " didn't",
+          "start": 240.228,
+          "end": 240.588,
+          "prob": 0.992
+        },
+        {
+          "word": " get",
+          "start": 240.588,
+          "end": 240.728,
+          "prob": 0.999
+        },
+        {
+          "word": " stolen.",
+          "start": 240.728,
+          "end": 241.128,
+          "prob": 0.997
+        },
+        {
+          "word": " It",
+          "start": 241.728,
+          "end": 241.808,
+          "prob": 0.982
+        },
+        {
+          "word": " got",
+          "start": 241.808,
+          "end": 241.988,
+          "prob": 0.998
+        },
+        {
+          "word": " outcompeted,",
+          "start": 241.988,
+          "end": 242.788,
+          "prob": 0.891
+        },
+        {
+          "word": " quietly,",
+          "start": 243.068,
+          "end": 243.548,
+          "prob": 0.992
+        },
+        {
+          "word": " one",
+          "start": 243.988,
+          "end": 244.228,
+          "prob": 0.989
+        },
+        {
+          "word": " contract",
+          "start": 244.228,
+          "end": 244.688,
+          "prob": 0.99
+        },
+        {
+          "word": " at",
+          "start": 244.688,
+          "end": 244.948,
+          "prob": 0.997
+        },
+        {
+          "word": " a",
+          "start": 244.948,
+          "end": 245.028,
+          "prob": 0.997
+        },
+        {
+          "word": " time.",
+          "start": 245.028,
+          "end": 245.368,
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 246.308,
+      "end": 252.688,
+      "text": "Until Mountain Pass' own refining line shut down in 1998, a toxic spill closed the whole",
+      "words": [
+        {
+          "word": " Until",
+          "start": 246.308,
+          "end": 246.668,
+          "prob": 0.973
+        },
+        {
+          "word": " Mountain",
+          "start": 246.668,
+          "end": 247.028,
+          "prob": 0.807
+        },
+        {
+          "word": " Pass'",
+          "start": 247.028,
+          "end": 247.328,
+          "prob": 0.93
+        },
+        {
+          "word": " own",
+          "start": 247.568,
+          "end": 247.828,
+          "prob": 0.995
+        },
+        {
+          "word": " refining",
+          "start": 247.828,
+          "end": 248.308,
+          "prob": 0.991
+        },
+        {
+          "word": " line",
+          "start": 248.308,
+          "end": 248.668,
+          "prob": 0.989
+        },
+        {
+          "word": " shut",
+          "start": 248.668,
+          "end": 248.948,
+          "prob": 0.987
+        },
+        {
+          "word": " down",
+          "start": 248.948,
+          "end": 249.248,
+          "prob": 0.994
+        },
+        {
+          "word": " in",
+          "start": 249.248,
+          "end": 249.408,
+          "prob": 0.999
+        },
+        {
+          "word": " 1998,",
+          "start": 249.408,
+          "end": 250.088,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 250.928,
+          "end": 251.088,
+          "prob": 0.995
+        },
+        {
+          "word": " toxic",
+          "start": 251.088,
+          "end": 251.388,
+          "prob": 0.956
+        },
+        {
+          "word": " spill",
+          "start": 251.388,
+          "end": 251.868,
+          "prob": 0.998
+        },
+        {
+          "word": " closed",
+          "start": 251.868,
+          "end": 252.288,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 252.288,
+          "end": 252.468,
+          "prob": 0.997
+        },
+        {
+          "word": " whole",
+          "start": 252.468,
+          "end": 252.688,
+          "prob": 0.994
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 252.688,
+      "end": 257.208,
+      "text": "site in 2002 and nobody in Washington thought it was worth reopening.",
+      "words": [
+        {
+          "word": " site",
+          "start": 252.688,
+          "end": 253.008,
+          "prob": 0.99
+        },
+        {
+          "word": " in",
+          "start": 253.008,
+          "end": 253.208,
+          "prob": 0.998
+        },
+        {
+          "word": " 2002",
+          "start": 253.208,
+          "end": 254.008,
+          "prob": 0.996
+        },
+        {
+          "word": " and",
+          "start": 254.008,
+          "end": 254.848,
+          "prob": 0.411
+        },
+        {
+          "word": " nobody",
+          "start": 254.848,
+          "end": 255.168,
+          "prob": 0.992
+        },
+        {
+          "word": " in",
+          "start": 255.168,
+          "end": 255.348,
+          "prob": 0.997
+        },
+        {
+          "word": " Washington",
+          "start": 255.348,
+          "end": 255.708,
+          "prob": 0.997
+        },
+        {
+          "word": " thought",
+          "start": 255.708,
+          "end": 256.088,
+          "prob": 0.997
+        },
+        {
+          "word": " it",
+          "start": 256.088,
+          "end": 256.248,
+          "prob": 0.995
+        },
+        {
+          "word": " was",
+          "start": 256.248,
+          "end": 256.368,
+          "prob": 0.992
+        },
+        {
+          "word": " worth",
+          "start": 256.368,
+          "end": 256.668,
+          "prob": 0.999
+        },
+        {
+          "word": " reopening.",
+          "start": 256.668,
+          "end": 257.208,
+          "prob": 0.979
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 258.248,
+      "end": 265.248,
+      "text": "Mountain Pass did reopen in 2018. It's mining again. It produces roughly a tenth of the",
+      "words": [
+        {
+          "word": " Mountain",
+          "start": 258.248,
+          "end": 258.928,
+          "prob": 0.947
+        },
+        {
+          "word": " Pass",
+          "start": 258.928,
+          "end": 259.328,
+          "prob": 0.961
+        },
+        {
+          "word": " did",
+          "start": 259.328,
+          "end": 259.548,
+          "prob": 0.978
+        },
+        {
+          "word": " reopen",
+          "start": 259.548,
+          "end": 259.948,
+          "prob": 0.987
+        },
+        {
+          "word": " in",
+          "start": 259.948,
+          "end": 260.468,
+          "prob": 0.934
+        },
+        {
+          "word": " 2018.",
+          "start": 260.468,
+          "end": 261.068,
+          "prob": 0.994
+        },
+        {
+          "word": " It's",
+          "start": 261.908,
+          "end": 262.168,
+          "prob": 0.986
+        },
+        {
+          "word": " mining",
+          "start": 262.168,
+          "end": 262.388,
+          "prob": 0.992
+        },
+        {
+          "word": " again.",
+          "start": 262.388,
+          "end": 262.748,
+          "prob": 0.998
+        },
+        {
+          "word": " It",
+          "start": 263.508,
+          "end": 263.668,
+          "prob": 0.995
+        },
+        {
+          "word": " produces",
+          "start": 263.668,
+          "end": 264.048,
+          "prob": 0.998
+        },
+        {
+          "word": " roughly",
+          "start": 264.048,
+          "end": 264.468,
+          "prob": 0.989
+        },
+        {
+          "word": " a",
+          "start": 264.468,
+          "end": 264.668,
+          "prob": 0.927
+        },
+        {
+          "word": " tenth",
+          "start": 264.668,
+          "end": 264.888,
+          "prob": 0.936
+        },
+        {
+          "word": " of",
+          "start": 264.888,
+          "end": 265.128,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 265.128,
+          "end": 265.248,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 265.248,
+      "end": 271.528,
+      "text": "world's raw rare earth ore today. But for years afterward, a lot of that ore still got shipped",
+      "words": [
+        {
+          "word": " world's",
+          "start": 265.248,
+          "end": 265.708,
+          "prob": 0.844
+        },
+        {
+          "word": " raw",
+          "start": 265.708,
+          "end": 265.988,
+          "prob": 0.784
+        },
+        {
+          "word": " rare",
+          "start": 265.988,
+          "end": 266.388,
+          "prob": 0.533
+        },
+        {
+          "word": " earth",
+          "start": 266.388,
+          "end": 266.828,
+          "prob": 0.649
+        },
+        {
+          "word": " ore",
+          "start": 266.828,
+          "end": 267.068,
+          "prob": 0.908
+        },
+        {
+          "word": " today.",
+          "start": 267.068,
+          "end": 267.428,
+          "prob": 0.984
+        },
+        {
+          "word": " But",
+          "start": 268.528,
+          "end": 268.728,
+          "prob": 0.986
+        },
+        {
+          "word": " for",
+          "start": 268.728,
+          "end": 268.888,
+          "prob": 0.983
+        },
+        {
+          "word": " years",
+          "start": 268.888,
+          "end": 269.108,
+          "prob": 0.999
+        },
+        {
+          "word": " afterward,",
+          "start": 269.108,
+          "end": 269.548,
+          "prob": 0.94
+        },
+        {
+          "word": " a",
+          "start": 270.088,
+          "end": 270.128,
+          "prob": 0.998
+        },
+        {
+          "word": " lot",
+          "start": 270.128,
+          "end": 270.288,
+          "prob": 0.999
+        },
+        {
+          "word": " of",
+          "start": 270.288,
+          "end": 270.388,
+          "prob": 0.999
+        },
+        {
+          "word": " that",
+          "start": 270.388,
+          "end": 270.508,
+          "prob": 0.993
+        },
+        {
+          "word": " ore",
+          "start": 270.508,
+          "end": 270.768,
+          "prob": 0.998
+        },
+        {
+          "word": " still",
+          "start": 270.768,
+          "end": 271.068,
+          "prob": 0.981
+        },
+        {
+          "word": " got",
+          "start": 271.068,
+          "end": 271.268,
+          "prob": 0.997
+        },
+        {
+          "word": " shipped",
+          "start": 271.268,
+          "end": 271.528,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 271.528,
+      "end": 276.468,
+      "text": "to China to actually be refined, because the mine came back before the refinery did.",
+      "words": [
+        {
+          "word": " to",
+          "start": 271.528,
+          "end": 271.708,
+          "prob": 0.999
+        },
+        {
+          "word": " China",
+          "start": 271.708,
+          "end": 272.068,
+          "prob": 0.989
+        },
+        {
+          "word": " to",
+          "start": 272.068,
+          "end": 272.288,
+          "prob": 0.997
+        },
+        {
+          "word": " actually",
+          "start": 272.288,
+          "end": 272.648,
+          "prob": 0.975
+        },
+        {
+          "word": " be",
+          "start": 272.648,
+          "end": 272.848,
+          "prob": 0.998
+        },
+        {
+          "word": " refined,",
+          "start": 272.848,
+          "end": 273.288,
+          "prob": 0.992
+        },
+        {
+          "word": " because",
+          "start": 273.888,
+          "end": 274.208,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 274.208,
+          "end": 274.388,
+          "prob": 0.997
+        },
+        {
+          "word": " mine",
+          "start": 274.388,
+          "end": 274.628,
+          "prob": 0.984
+        },
+        {
+          "word": " came",
+          "start": 274.628,
+          "end": 274.908,
+          "prob": 0.999
+        },
+        {
+          "word": " back",
+          "start": 274.908,
+          "end": 275.168,
+          "prob": 0.998
+        },
+        {
+          "word": " before",
+          "start": 275.168,
+          "end": 275.488,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 275.488,
+          "end": 275.688,
+          "prob": 0.996
+        },
+        {
+          "word": " refinery",
+          "start": 275.688,
+          "end": 276.148,
+          "prob": 0.991
+        },
+        {
+          "word": " did.",
+          "start": 276.148,
+          "end": 276.468,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 277.628,
+      "end": 282.808,
+      "text": "Same hill, same rock. A different flag flying over it changes nothing if the",
+      "words": [
+        {
+          "word": " Same",
+          "start": 277.628,
+          "end": 277.908,
+          "prob": 0.985
+        },
+        {
+          "word": " hill,",
+          "start": 277.908,
+          "end": 278.188,
+          "prob": 0.983
+        },
+        {
+          "word": " same",
+          "start": 278.668,
+          "end": 278.848,
+          "prob": 0.999
+        },
+        {
+          "word": " rock.",
+          "start": 278.848,
+          "end": 279.108,
+          "prob": 0.998
+        },
+        {
+          "word": " A",
+          "start": 279.748,
+          "end": 279.908,
+          "prob": 0.992
+        },
+        {
+          "word": " different",
+          "start": 279.908,
+          "end": 280.148,
+          "prob": 0.999
+        },
+        {
+          "word": " flag",
+          "start": 280.148,
+          "end": 280.568,
+          "prob": 0.987
+        },
+        {
+          "word": " flying",
+          "start": 280.568,
+          "end": 280.948,
+          "prob": 0.989
+        },
+        {
+          "word": " over",
+          "start": 280.948,
+          "end": 281.268,
+          "prob": 0.999
+        },
+        {
+          "word": " it",
+          "start": 281.268,
+          "end": 281.428,
+          "prob": 0.987
+        },
+        {
+          "word": " changes",
+          "start": 281.428,
+          "end": 281.728,
+          "prob": 0.993
+        },
+        {
+          "word": " nothing",
+          "start": 281.728,
+          "end": 282.188,
+          "prob": 0.997
+        },
+        {
+          "word": " if",
+          "start": 282.188,
+          "end": 282.688,
+          "prob": 0.959
+        },
+        {
+          "word": " the",
+          "start": 282.688,
+          "end": 282.808,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE GRUDGE THAT BECAME A STRATEGY",
+      "start": 282.808,
+      "end": 285.468,
+      "text": "finishing plant is still 8,000 miles away.",
+      "words": [
+        {
+          "word": " finishing",
+          "start": 282.808,
+          "end": 283.148,
+          "prob": 0.997
+        },
+        {
+          "word": " plant",
+          "start": 283.148,
+          "end": 283.508,
+          "prob": 0.995
+        },
+        {
+          "word": " is",
+          "start": 283.508,
+          "end": 283.748,
+          "prob": 0.999
+        },
+        {
+          "word": " still",
+          "start": 283.748,
+          "end": 284.008,
+          "prob": 0.998
+        },
+        {
+          "word": " 8",
+          "start": 284.008,
+          "end": 284.308,
+          "prob": 0.955
+        },
+        {
+          "word": ",000",
+          "start": 284.308,
+          "end": 284.808,
+          "prob": 0.884
+        },
+        {
+          "word": " miles",
+          "start": 284.808,
+          "end": 285.068,
+          "prob": 0.991
+        },
+        {
+          "word": " away.",
+          "start": 285.068,
+          "end": 285.468,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 285.727,
+      "end": 292.247,
+      "text": "So surely this fixes itself, America has its mine back, allied countries are opening new ones,",
+      "words": [
+        {
+          "word": " So",
+          "start": 285.727,
+          "end": 286.107,
+          "prob": 0.948
+        },
+        {
+          "word": " surely",
+          "start": 286.107,
+          "end": 286.447,
+          "prob": 0.885
+        },
+        {
+          "word": " this",
+          "start": 286.447,
+          "end": 286.667,
+          "prob": 0.955
+        },
+        {
+          "word": " fixes",
+          "start": 286.667,
+          "end": 286.987,
+          "prob": 0.991
+        },
+        {
+          "word": " itself,",
+          "start": 286.987,
+          "end": 287.507,
+          "prob": 0.985
+        },
+        {
+          "word": " America",
+          "start": 288.147,
+          "end": 288.607,
+          "prob": 0.989
+        },
+        {
+          "word": " has",
+          "start": 288.607,
+          "end": 288.987,
+          "prob": 0.996
+        },
+        {
+          "word": " its",
+          "start": 288.987,
+          "end": 289.167,
+          "prob": 0.953
+        },
+        {
+          "word": " mine",
+          "start": 289.167,
+          "end": 289.407,
+          "prob": 0.973
+        },
+        {
+          "word": " back,",
+          "start": 289.407,
+          "end": 289.747,
+          "prob": 0.903
+        },
+        {
+          "word": " allied",
+          "start": 290.247,
+          "end": 290.607,
+          "prob": 0.29
+        },
+        {
+          "word": " countries",
+          "start": 290.607,
+          "end": 291.167,
+          "prob": 0.997
+        },
+        {
+          "word": " are",
+          "start": 291.167,
+          "end": 291.387,
+          "prob": 0.995
+        },
+        {
+          "word": " opening",
+          "start": 291.387,
+          "end": 291.627,
+          "prob": 0.996
+        },
+        {
+          "word": " new",
+          "start": 291.627,
+          "end": 291.987,
+          "prob": 0.995
+        },
+        {
+          "word": " ones,",
+          "start": 291.987,
+          "end": 292.247,
+          "prob": 0.955
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 292.907,
+      "end": 298.627,
+      "text": "Australia in particular has real deposits, give it a few years and the choke point disappears.",
+      "words": [
+        {
+          "word": " Australia",
+          "start": 292.907,
+          "end": 293.367,
+          "prob": 0.998
+        },
+        {
+          "word": " in",
+          "start": 293.367,
+          "end": 293.707,
+          "prob": 0.926
+        },
+        {
+          "word": " particular",
+          "start": 293.707,
+          "end": 294.107,
+          "prob": 0.997
+        },
+        {
+          "word": " has",
+          "start": 294.107,
+          "end": 294.687,
+          "prob": 0.943
+        },
+        {
+          "word": " real",
+          "start": 294.687,
+          "end": 295.007,
+          "prob": 0.997
+        },
+        {
+          "word": " deposits,",
+          "start": 295.007,
+          "end": 295.507,
+          "prob": 0.995
+        },
+        {
+          "word": " give",
+          "start": 296.067,
+          "end": 296.247,
+          "prob": 0.971
+        },
+        {
+          "word": " it",
+          "start": 296.247,
+          "end": 296.347,
+          "prob": 0.997
+        },
+        {
+          "word": " a",
+          "start": 296.347,
+          "end": 296.447,
+          "prob": 0.991
+        },
+        {
+          "word": " few",
+          "start": 296.447,
+          "end": 296.607,
+          "prob": 0.998
+        },
+        {
+          "word": " years",
+          "start": 296.607,
+          "end": 296.947,
+          "prob": 0.997
+        },
+        {
+          "word": " and",
+          "start": 296.947,
+          "end": 297.467,
+          "prob": 0.753
+        },
+        {
+          "word": " the",
+          "start": 297.467,
+          "end": 297.567,
+          "prob": 0.988
+        },
+        {
+          "word": " choke",
+          "start": 297.567,
+          "end": 297.767,
+          "prob": 0.878
+        },
+        {
+          "word": " point",
+          "start": 297.767,
+          "end": 298.067,
+          "prob": 0.832
+        },
+        {
+          "word": " disappears.",
+          "start": 298.067,
+          "end": 298.627,
+          "prob": 0.994
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 300.027,
+      "end": 305.667,
+      "text": "So why hasn't it? Because the mine was never the choke point, the refinery is.",
+      "words": [
+        {
+          "word": " So",
+          "start": 300.027,
+          "end": 300.667,
+          "prob": 0.979
+        },
+        {
+          "word": " why",
+          "start": 300.667,
+          "end": 300.927,
+          "prob": 0.959
+        },
+        {
+          "word": " hasn't",
+          "start": 300.927,
+          "end": 301.407,
+          "prob": 0.99
+        },
+        {
+          "word": " it?",
+          "start": 301.407,
+          "end": 301.587,
+          "prob": 0.997
+        },
+        {
+          "word": " Because",
+          "start": 302.187,
+          "end": 302.387,
+          "prob": 0.976
+        },
+        {
+          "word": " the",
+          "start": 302.387,
+          "end": 302.607,
+          "prob": 0.988
+        },
+        {
+          "word": " mine",
+          "start": 302.607,
+          "end": 302.887,
+          "prob": 0.992
+        },
+        {
+          "word": " was",
+          "start": 302.887,
+          "end": 303.087,
+          "prob": 0.996
+        },
+        {
+          "word": " never",
+          "start": 303.087,
+          "end": 303.387,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 303.387,
+          "end": 303.547,
+          "prob": 0.995
+        },
+        {
+          "word": " choke",
+          "start": 303.547,
+          "end": 303.767,
+          "prob": 0.932
+        },
+        {
+          "word": " point,",
+          "start": 303.767,
+          "end": 304.087,
+          "prob": 0.956
+        },
+        {
+          "word": " the",
+          "start": 304.647,
+          "end": 304.787,
+          "prob": 0.983
+        },
+        {
+          "word": " refinery",
+          "start": 304.787,
+          "end": 305.247,
+          "prob": 0.993
+        },
+        {
+          "word": " is.",
+          "start": 305.247,
+          "end": 305.667,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 306.427,
+      "end": 311.367,
+      "text": "And building one from scratch isn't a supply chain decision, it's closer to building a",
+      "words": [
+        {
+          "word": " And",
+          "start": 306.427,
+          "end": 306.607,
+          "prob": 0.984
+        },
+        {
+          "word": " building",
+          "start": 306.607,
+          "end": 306.887,
+          "prob": 0.996
+        },
+        {
+          "word": " one",
+          "start": 306.887,
+          "end": 307.167,
+          "prob": 0.995
+        },
+        {
+          "word": " from",
+          "start": 307.167,
+          "end": 307.367,
+          "prob": 0.997
+        },
+        {
+          "word": " scratch",
+          "start": 307.367,
+          "end": 307.667,
+          "prob": 0.998
+        },
+        {
+          "word": " isn't",
+          "start": 307.667,
+          "end": 308.227,
+          "prob": 0.991
+        },
+        {
+          "word": " a",
+          "start": 308.227,
+          "end": 308.347,
+          "prob": 0.995
+        },
+        {
+          "word": " supply",
+          "start": 308.347,
+          "end": 308.627,
+          "prob": 0.998
+        },
+        {
+          "word": " chain",
+          "start": 308.627,
+          "end": 308.907,
+          "prob": 0.928
+        },
+        {
+          "word": " decision,",
+          "start": 308.907,
+          "end": 309.387,
+          "prob": 0.997
+        },
+        {
+          "word": " it's",
+          "start": 310.007,
+          "end": 310.247,
+          "prob": 0.96
+        },
+        {
+          "word": " closer",
+          "start": 310.247,
+          "end": 310.587,
+          "prob": 0.997
+        },
+        {
+          "word": " to",
+          "start": 310.587,
+          "end": 310.767,
+          "prob": 0.999
+        },
+        {
+          "word": " building",
+          "start": 310.767,
+          "end": 311.047,
+          "prob": 0.997
+        },
+        {
+          "word": " a",
+          "start": 311.047,
+          "end": 311.367,
+          "prob": 0.986
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 311.367,
+      "end": 318.327,
+      "text": "chemical weapons plants worth of infrastructure. Hundreds of precise separation stages, extreme heat",
+      "words": [
+        {
+          "word": " chemical",
+          "start": 311.367,
+          "end": 311.807,
+          "prob": 0.021
+        },
+        {
+          "word": " weapons",
+          "start": 311.807,
+          "end": 312.427,
+          "prob": 0.962
+        },
+        {
+          "word": " plants",
+          "start": 312.427,
+          "end": 312.787,
+          "prob": 0.857
+        },
+        {
+          "word": " worth",
+          "start": 312.787,
+          "end": 313.147,
+          "prob": 0.596
+        },
+        {
+          "word": " of",
+          "start": 313.147,
+          "end": 313.327,
+          "prob": 0.996
+        },
+        {
+          "word": " infrastructure.",
+          "start": 313.327,
+          "end": 313.827,
+          "prob": 0.996
+        },
+        {
+          "word": " Hundreds",
+          "start": 314.727,
+          "end": 315.087,
+          "prob": 0.985
+        },
+        {
+          "word": " of",
+          "start": 315.087,
+          "end": 315.327,
+          "prob": 0.999
+        },
+        {
+          "word": " precise",
+          "start": 315.327,
+          "end": 315.767,
+          "prob": 0.984
+        },
+        {
+          "word": " separation",
+          "start": 315.767,
+          "end": 316.327,
+          "prob": 0.982
+        },
+        {
+          "word": " stages,",
+          "start": 316.327,
+          "end": 316.887,
+          "prob": 0.996
+        },
+        {
+          "word": " extreme",
+          "start": 317.487,
+          "end": 317.927,
+          "prob": 0.992
+        },
+        {
+          "word": " heat",
+          "start": 317.927,
+          "end": 318.327,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 318.327,
+      "end": 324.447,
+      "text": "and acid at every step. And because most rare earth ore comes bundled with thorium and uranium,",
+      "words": [
+        {
+          "word": " and",
+          "start": 318.327,
+          "end": 318.527,
+          "prob": 0.991
+        },
+        {
+          "word": " acid",
+          "start": 318.527,
+          "end": 318.907,
+          "prob": 0.995
+        },
+        {
+          "word": " at",
+          "start": 318.907,
+          "end": 319.087,
+          "prob": 0.984
+        },
+        {
+          "word": " every",
+          "start": 319.087,
+          "end": 319.347,
+          "prob": 0.998
+        },
+        {
+          "word": " step.",
+          "start": 319.347,
+          "end": 319.707,
+          "prob": 0.999
+        },
+        {
+          "word": " And",
+          "start": 320.147,
+          "end": 320.487,
+          "prob": 0.969
+        },
+        {
+          "word": " because",
+          "start": 320.487,
+          "end": 321.087,
+          "prob": 0.504
+        },
+        {
+          "word": " most",
+          "start": 321.087,
+          "end": 321.407,
+          "prob": 0.995
+        },
+        {
+          "word": " rare",
+          "start": 321.407,
+          "end": 321.727,
+          "prob": 0.899
+        },
+        {
+          "word": " earth",
+          "start": 321.727,
+          "end": 322.107,
+          "prob": 0.748
+        },
+        {
+          "word": " ore",
+          "start": 322.107,
+          "end": 322.347,
+          "prob": 0.968
+        },
+        {
+          "word": " comes",
+          "start": 322.347,
+          "end": 322.627,
+          "prob": 0.991
+        },
+        {
+          "word": " bundled",
+          "start": 322.627,
+          "end": 323.127,
+          "prob": 0.999
+        },
+        {
+          "word": " with",
+          "start": 323.127,
+          "end": 323.327,
+          "prob": 0.997
+        },
+        {
+          "word": " thorium",
+          "start": 323.327,
+          "end": 323.807,
+          "prob": 0.987
+        },
+        {
+          "word": " and",
+          "start": 323.807,
+          "end": 324.027,
+          "prob": 0.994
+        },
+        {
+          "word": " uranium,",
+          "start": 324.027,
+          "end": 324.447,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 325.107,
+      "end": 330.507,
+      "text": "a radioactive waste stream that has to be handled by design, not as an afterthought.",
+      "words": [
+        {
+          "word": " a",
+          "start": 325.107,
+          "end": 325.247,
+          "prob": 0.985
+        },
+        {
+          "word": " radioactive",
+          "start": 325.247,
+          "end": 325.727,
+          "prob": 0.985
+        },
+        {
+          "word": " waste",
+          "start": 325.727,
+          "end": 326.287,
+          "prob": 0.976
+        },
+        {
+          "word": " stream",
+          "start": 326.287,
+          "end": 326.707,
+          "prob": 0.977
+        },
+        {
+          "word": " that",
+          "start": 326.707,
+          "end": 327.227,
+          "prob": 0.987
+        },
+        {
+          "word": " has",
+          "start": 327.227,
+          "end": 327.407,
+          "prob": 0.997
+        },
+        {
+          "word": " to",
+          "start": 327.407,
+          "end": 327.527,
+          "prob": 0.999
+        },
+        {
+          "word": " be",
+          "start": 327.527,
+          "end": 327.627,
+          "prob": 0.996
+        },
+        {
+          "word": " handled",
+          "start": 327.627,
+          "end": 327.967,
+          "prob": 0.998
+        },
+        {
+          "word": " by",
+          "start": 327.967,
+          "end": 328.247,
+          "prob": 0.997
+        },
+        {
+          "word": " design,",
+          "start": 328.247,
+          "end": 328.707,
+          "prob": 0.999
+        },
+        {
+          "word": " not",
+          "start": 329.227,
+          "end": 329.607,
+          "prob": 0.98
+        },
+        {
+          "word": " as",
+          "start": 329.607,
+          "end": 329.927,
+          "prob": 0.995
+        },
+        {
+          "word": " an",
+          "start": 329.927,
+          "end": 330.067,
+          "prob": 0.995
+        },
+        {
+          "word": " afterthought.",
+          "start": 330.067,
+          "end": 330.507,
+          "prob": 0.973
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 331.587,
+      "end": 338.587,
+      "text": "Today, real industrial scale rare earth refining exists in exactly three places outside China.",
+      "words": [
+        {
+          "word": " Today,",
+          "start": 331.587,
+          "end": 332.387,
+          "prob": 0.992
+        },
+        {
+          "word": " real",
+          "start": 332.867,
+          "end": 333.267,
+          "prob": 0.951
+        },
+        {
+          "word": " industrial",
+          "start": 333.267,
+          "end": 333.767,
+          "prob": 0.942
+        },
+        {
+          "word": " scale",
+          "start": 333.767,
+          "end": 334.267,
+          "prob": 0.796
+        },
+        {
+          "word": " rare",
+          "start": 334.267,
+          "end": 334.667,
+          "prob": 0.899
+        },
+        {
+          "word": " earth",
+          "start": 334.667,
+          "end": 335.027,
+          "prob": 0.938
+        },
+        {
+          "word": " refining",
+          "start": 335.027,
+          "end": 335.487,
+          "prob": 0.998
+        },
+        {
+          "word": " exists",
+          "start": 335.487,
+          "end": 335.987,
+          "prob": 0.981
+        },
+        {
+          "word": " in",
+          "start": 335.987,
+          "end": 336.367,
+          "prob": 0.996
+        },
+        {
+          "word": " exactly",
+          "start": 336.367,
+          "end": 336.767,
+          "prob": 0.996
+        },
+        {
+          "word": " three",
+          "start": 336.767,
+          "end": 337.167,
+          "prob": 0.896
+        },
+        {
+          "word": " places",
+          "start": 337.167,
+          "end": 337.667,
+          "prob": 0.997
+        },
+        {
+          "word": " outside",
+          "start": 337.667,
+          "end": 338.087,
+          "prob": 0.996
+        },
+        {
+          "word": " China.",
+          "start": 338.087,
+          "end": 338.587,
+          "prob": 0.975
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 339.307,
+      "end": 344.127,
+      "text": "Malaysia, a small facility in the United States, and one plant in Estonia.",
+      "words": [
+        {
+          "word": " Malaysia,",
+          "start": 339.307,
+          "end": 339.647,
+          "prob": 0.805
+        },
+        {
+          "word": " a",
+          "start": 340.207,
+          "end": 340.427,
+          "prob": 0.988
+        },
+        {
+          "word": " small",
+          "start": 340.427,
+          "end": 340.627,
+          "prob": 0.998
+        },
+        {
+          "word": " facility",
+          "start": 340.627,
+          "end": 341.007,
+          "prob": 0.997
+        },
+        {
+          "word": " in",
+          "start": 341.007,
+          "end": 341.307,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 341.307,
+          "end": 341.407,
+          "prob": 0.996
+        },
+        {
+          "word": " United",
+          "start": 341.407,
+          "end": 341.607,
+          "prob": 0.956
+        },
+        {
+          "word": " States,",
+          "start": 341.607,
+          "end": 342.107,
+          "prob": 0.996
+        },
+        {
+          "word": " and",
+          "start": 342.567,
+          "end": 342.787,
+          "prob": 0.993
+        },
+        {
+          "word": " one",
+          "start": 342.787,
+          "end": 343.007,
+          "prob": 0.994
+        },
+        {
+          "word": " plant",
+          "start": 343.007,
+          "end": 343.347,
+          "prob": 0.989
+        },
+        {
+          "word": " in",
+          "start": 343.347,
+          "end": 343.667,
+          "prob": 0.998
+        },
+        {
+          "word": " Estonia.",
+          "start": 343.667,
+          "end": 344.127,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 345.207,
+      "end": 350.327,
+      "text": "That's the entire non-Chinese refining capacity on earth. Building a new one,",
+      "words": [
+        {
+          "word": " That's",
+          "start": 345.207,
+          "end": 345.487,
+          "prob": 0.988
+        },
+        {
+          "word": " the",
+          "start": 345.487,
+          "end": 345.607,
+          "prob": 0.998
+        },
+        {
+          "word": " entire",
+          "start": 345.607,
+          "end": 346.127,
+          "prob": 0.996
+        },
+        {
+          "word": " non",
+          "start": 346.127,
+          "end": 346.467,
+          "prob": 0.81
+        },
+        {
+          "word": "-Chinese",
+          "start": 346.467,
+          "end": 346.987,
+          "prob": 0.979
+        },
+        {
+          "word": " refining",
+          "start": 346.987,
+          "end": 347.527,
+          "prob": 0.996
+        },
+        {
+          "word": " capacity",
+          "start": 347.527,
+          "end": 348.067,
+          "prob": 0.998
+        },
+        {
+          "word": " on",
+          "start": 348.067,
+          "end": 348.387,
+          "prob": 0.996
+        },
+        {
+          "word": " earth.",
+          "start": 348.387,
+          "end": 348.687,
+          "prob": 0.251
+        },
+        {
+          "word": " Building",
+          "start": 349.427,
+          "end": 349.687,
+          "prob": 0.993
+        },
+        {
+          "word": " a",
+          "start": 349.687,
+          "end": 349.907,
+          "prob": 0.998
+        },
+        {
+          "word": " new",
+          "start": 349.907,
+          "end": 350.047,
+          "prob": 0.998
+        },
+        {
+          "word": " one,",
+          "start": 350.047,
+          "end": 350.327,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 350.587,
+      "end": 356.247,
+      "text": "from permit to output, takes the better part of a decade. Nobody budgets for a choke point",
+      "words": [
+        {
+          "word": " from",
+          "start": 350.587,
+          "end": 350.827,
+          "prob": 0.996
+        },
+        {
+          "word": " permit",
+          "start": 350.827,
+          "end": 351.187,
+          "prob": 0.907
+        },
+        {
+          "word": " to",
+          "start": 351.187,
+          "end": 351.367,
+          "prob": 0.985
+        },
+        {
+          "word": " output,",
+          "start": 351.367,
+          "end": 351.727,
+          "prob": 0.998
+        },
+        {
+          "word": " takes",
+          "start": 352.227,
+          "end": 352.487,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 352.487,
+          "end": 352.667,
+          "prob": 0.998
+        },
+        {
+          "word": " better",
+          "start": 352.667,
+          "end": 352.887,
+          "prob": 0.998
+        },
+        {
+          "word": " part",
+          "start": 352.887,
+          "end": 353.207,
+          "prob": 0.998
+        },
+        {
+          "word": " of",
+          "start": 353.207,
+          "end": 353.327,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 353.327,
+          "end": 353.447,
+          "prob": 0.997
+        },
+        {
+          "word": " decade.",
+          "start": 353.447,
+          "end": 353.727,
+          "prob": 0.999
+        },
+        {
+          "word": " Nobody",
+          "start": 354.567,
+          "end": 354.927,
+          "prob": 0.99
+        },
+        {
+          "word": " budgets",
+          "start": 354.927,
+          "end": 355.347,
+          "prob": 0.991
+        },
+        {
+          "word": " for",
+          "start": 355.347,
+          "end": 355.647,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 355.647,
+          "end": 355.787,
+          "prob": 0.998
+        },
+        {
+          "word": " choke",
+          "start": 355.787,
+          "end": 355.967,
+          "prob": 0.96
+        },
+        {
+          "word": " point",
+          "start": 355.967,
+          "end": 356.247,
+          "prob": 0.747
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 356.247,
+      "end": 361.867,
+      "text": "that hasn't closed yet. And the choke point doesn't need to physically close to work.",
+      "words": [
+        {
+          "word": " that",
+          "start": 356.247,
+          "end": 356.707,
+          "prob": 0.99
+        },
+        {
+          "word": " hasn't",
+          "start": 356.707,
+          "end": 357.047,
+          "prob": 0.997
+        },
+        {
+          "word": " closed",
+          "start": 357.047,
+          "end": 357.327,
+          "prob": 0.997
+        },
+        {
+          "word": " yet.",
+          "start": 357.327,
+          "end": 357.687,
+          "prob": 0.997
+        },
+        {
+          "word": " And",
+          "start": 358.487,
+          "end": 359.027,
+          "prob": 0.986
+        },
+        {
+          "word": " the",
+          "start": 359.027,
+          "end": 359.127,
+          "prob": 0.988
+        },
+        {
+          "word": " choke",
+          "start": 359.127,
+          "end": 359.387,
+          "prob": 0.991
+        },
+        {
+          "word": " point",
+          "start": 359.387,
+          "end": 359.707,
+          "prob": 0.975
+        },
+        {
+          "word": " doesn't",
+          "start": 359.707,
+          "end": 360.087,
+          "prob": 0.999
+        },
+        {
+          "word": " need",
+          "start": 360.087,
+          "end": 360.307,
+          "prob": 0.998
+        },
+        {
+          "word": " to",
+          "start": 360.307,
+          "end": 360.447,
+          "prob": 0.999
+        },
+        {
+          "word": " physically",
+          "start": 360.447,
+          "end": 360.807,
+          "prob": 0.994
+        },
+        {
+          "word": " close",
+          "start": 360.807,
+          "end": 361.267,
+          "prob": 0.995
+        },
+        {
+          "word": " to",
+          "start": 361.267,
+          "end": 361.547,
+          "prob": 0.996
+        },
+        {
+          "word": " work.",
+          "start": 361.547,
+          "end": 361.867,
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 362.487,
+      "end": 364.767,
+      "text": "It just needs a form to sit on a desk.",
+      "words": [
+        {
+          "word": " It",
+          "start": 362.487,
+          "end": 362.727,
+          "prob": 0.994
+        },
+        {
+          "word": " just",
+          "start": 362.727,
+          "end": 362.927,
+          "prob": 0.998
+        },
+        {
+          "word": " needs",
+          "start": 362.927,
+          "end": 363.147,
+          "prob": 0.998
+        },
+        {
+          "word": " a",
+          "start": 363.147,
+          "end": 363.307,
+          "prob": 0.996
+        },
+        {
+          "word": " form",
+          "start": 363.307,
+          "end": 363.647,
+          "prob": 0.996
+        },
+        {
+          "word": " to",
+          "start": 363.647,
+          "end": 363.887,
+          "prob": 0.997
+        },
+        {
+          "word": " sit",
+          "start": 363.887,
+          "end": 364.107,
+          "prob": 0.995
+        },
+        {
+          "word": " on",
+          "start": 364.107,
+          "end": 364.307,
+          "prob": 0.999
+        },
+        {
+          "word": " a",
+          "start": 364.307,
+          "end": 364.427,
+          "prob": 0.995
+        },
+        {
+          "word": " desk.",
+          "start": 364.427,
+          "end": 364.767,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 365.547,
+      "end": 367.747,
+      "text": "The shipment's ready. It's sitting at the port.",
+      "words": [],
+      "speaker": "Factory Manager"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 368.227,
+      "end": 369.847,
+      "text": "Is the export license signed?",
+      "words": [],
+      "speaker": "Export Official"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 370.687,
+      "end": 371.567,
+      "text": "Not yet.",
+      "words": [],
+      "speaker": "Factory Manager"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 372.167,
+      "end": 375.527,
+      "text": "Then it's not moving. Doesn't matter what's in the container.",
+      "words": [],
+      "speaker": "Export Official"
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 375.867,
+      "end": 382.047,
+      "text": "This is the trap, and it's the same one every resource choke point eventually teaches its owner.",
+      "words": [
+        {
+          "word": " This",
+          "start": 375.867,
+          "end": 376.467,
+          "prob": 0.294
+        },
+        {
+          "word": " is",
+          "start": 376.467,
+          "end": 377.067,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 377.067,
+          "end": 377.227,
+          "prob": 0.97
+        },
+        {
+          "word": " trap,",
+          "start": 377.227,
+          "end": 377.487,
+          "prob": 0.695
+        },
+        {
+          "word": " and",
+          "start": 377.867,
+          "end": 378.247,
+          "prob": 0.993
+        },
+        {
+          "word": " it's",
+          "start": 378.247,
+          "end": 378.407,
+          "prob": 0.975
+        },
+        {
+          "word": " the",
+          "start": 378.407,
+          "end": 378.507,
+          "prob": 0.999
+        },
+        {
+          "word": " same",
+          "start": 378.507,
+          "end": 378.787,
+          "prob": 0.999
+        },
+        {
+          "word": " one",
+          "start": 378.787,
+          "end": 379.027,
+          "prob": 0.997
+        },
+        {
+          "word": " every",
+          "start": 379.027,
+          "end": 379.467,
+          "prob": 0.991
+        },
+        {
+          "word": " resource",
+          "start": 379.467,
+          "end": 379.987,
+          "prob": 0.969
+        },
+        {
+          "word": " choke",
+          "start": 379.987,
+          "end": 380.307,
+          "prob": 0.935
+        },
+        {
+          "word": " point",
+          "start": 380.307,
+          "end": 380.607,
+          "prob": 0.557
+        },
+        {
+          "word": " eventually",
+          "start": 380.607,
+          "end": 381.167,
+          "prob": 0.99
+        },
+        {
+          "word": " teaches",
+          "start": 381.167,
+          "end": 381.567,
+          "prob": 0.994
+        },
+        {
+          "word": " its",
+          "start": 381.567,
+          "end": 381.787,
+          "prob": 0.986
+        },
+        {
+          "word": " owner.",
+          "start": 381.787,
+          "end": 382.047,
+          "prob": 0.994
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 382.807,
+      "end": 387.927,
+      "text": "You don't need to block the material, you need to control one signature the material can't move",
+      "words": [
+        {
+          "word": " You",
+          "start": 382.807,
+          "end": 382.987,
+          "prob": 0.903
+        },
+        {
+          "word": " don't",
+          "start": 382.987,
+          "end": 383.167,
+          "prob": 0.997
+        },
+        {
+          "word": " need",
+          "start": 383.167,
+          "end": 383.347,
+          "prob": 0.998
+        },
+        {
+          "word": " to",
+          "start": 383.347,
+          "end": 383.487,
+          "prob": 0.997
+        },
+        {
+          "word": " block",
+          "start": 383.487,
+          "end": 383.687,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 383.687,
+          "end": 383.907,
+          "prob": 0.999
+        },
+        {
+          "word": " material,",
+          "start": 383.907,
+          "end": 384.307,
+          "prob": 0.996
+        },
+        {
+          "word": " you",
+          "start": 384.847,
+          "end": 385.087,
+          "prob": 0.987
+        },
+        {
+          "word": " need",
+          "start": 385.087,
+          "end": 385.227,
+          "prob": 0.998
+        },
+        {
+          "word": " to",
+          "start": 385.227,
+          "end": 385.367,
+          "prob": 0.998
+        },
+        {
+          "word": " control",
+          "start": 385.367,
+          "end": 385.767,
+          "prob": 0.998
+        },
+        {
+          "word": " one",
+          "start": 385.767,
+          "end": 386.067,
+          "prob": 0.992
+        },
+        {
+          "word": " signature",
+          "start": 386.067,
+          "end": 386.547,
+          "prob": 0.77
+        },
+        {
+          "word": " the",
+          "start": 386.547,
+          "end": 386.827,
+          "prob": 0.989
+        },
+        {
+          "word": " material",
+          "start": 386.827,
+          "end": 387.267,
+          "prob": 0.998
+        },
+        {
+          "word": " can't",
+          "start": 387.267,
+          "end": 387.747,
+          "prob": 0.996
+        },
+        {
+          "word": " move",
+          "start": 387.747,
+          "end": 387.927,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 387.927,
+      "end": 393.227,
+      "text": "without. A licensing office in Beijing can do more to an American factory floor",
+      "words": [
+        {
+          "word": " without.",
+          "start": 387.927,
+          "end": 388.327,
+          "prob": 0.998
+        },
+        {
+          "word": " A",
+          "start": 388.987,
+          "end": 389.407,
+          "prob": 0.996
+        },
+        {
+          "word": " licensing",
+          "start": 389.407,
+          "end": 389.767,
+          "prob": 0.978
+        },
+        {
+          "word": " office",
+          "start": 389.767,
+          "end": 390.127,
+          "prob": 0.998
+        },
+        {
+          "word": " in",
+          "start": 390.127,
+          "end": 390.387,
+          "prob": 0.998
+        },
+        {
+          "word": " Beijing",
+          "start": 390.387,
+          "end": 390.687,
+          "prob": 0.986
+        },
+        {
+          "word": " can",
+          "start": 390.687,
+          "end": 391.307,
+          "prob": 0.97
+        },
+        {
+          "word": " do",
+          "start": 391.307,
+          "end": 391.467,
+          "prob": 0.999
+        },
+        {
+          "word": " more",
+          "start": 391.467,
+          "end": 391.747,
+          "prob": 0.999
+        },
+        {
+          "word": " to",
+          "start": 391.747,
+          "end": 391.927,
+          "prob": 0.998
+        },
+        {
+          "word": " an",
+          "start": 391.927,
+          "end": 392.027,
+          "prob": 0.995
+        },
+        {
+          "word": " American",
+          "start": 392.027,
+          "end": 392.307,
+          "prob": 0.99
+        },
+        {
+          "word": " factory",
+          "start": 392.307,
+          "end": 392.767,
+          "prob": 0.955
+        },
+        {
+          "word": " floor",
+          "start": 392.767,
+          "end": 393.227,
+          "prob": 0.971
+        }
+      ]
+    },
+    {
+      "chapter": "THE TRAP",
+      "start": 393.227,
+      "end": 397.927,
+      "text": "than a naval blockade ever could, and it never has to fire a shot to do it.",
+      "words": [
+        {
+          "word": " than",
+          "start": 393.227,
+          "end": 393.787,
+          "prob": 0.935
+        },
+        {
+          "word": " a",
+          "start": 393.787,
+          "end": 393.887,
+          "prob": 0.991
+        },
+        {
+          "word": " naval",
+          "start": 393.887,
+          "end": 394.187,
+          "prob": 0.923
+        },
+        {
+          "word": " blockade",
+          "start": 394.187,
+          "end": 394.767,
+          "prob": 0.997
+        },
+        {
+          "word": " ever",
+          "start": 394.767,
+          "end": 394.987,
+          "prob": 0.962
+        },
+        {
+          "word": " could,",
+          "start": 394.987,
+          "end": 395.307,
+          "prob": 0.999
+        },
+        {
+          "word": " and",
+          "start": 395.747,
+          "end": 395.987,
+          "prob": 0.994
+        },
+        {
+          "word": " it",
+          "start": 395.987,
+          "end": 396.087,
+          "prob": 0.999
+        },
+        {
+          "word": " never",
+          "start": 396.087,
+          "end": 396.327,
+          "prob": 0.997
+        },
+        {
+          "word": " has",
+          "start": 396.327,
+          "end": 396.547,
+          "prob": 0.998
+        },
+        {
+          "word": " to",
+          "start": 396.547,
+          "end": 396.687,
+          "prob": 0.998
+        },
+        {
+          "word": " fire",
+          "start": 396.687,
+          "end": 396.967,
+          "prob": 0.999
+        },
+        {
+          "word": " a",
+          "start": 396.967,
+          "end": 397.127,
+          "prob": 0.998
+        },
+        {
+          "word": " shot",
+          "start": 397.127,
+          "end": 397.407,
+          "prob": 0.998
+        },
+        {
+          "word": " to",
+          "start": 397.407,
+          "end": 397.587,
+          "prob": 0.998
+        },
+        {
+          "word": " do",
+          "start": 397.587,
+          "end": 397.747,
+          "prob": 0.999
+        },
+        {
+          "word": " it.",
+          "start": 397.747,
+          "end": 397.927,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 398.237,
+      "end": 404.457,
+      "text": "In April 2025, China added seven rare earth elements and the magnets made from them to",
+      "words": [
+        {
+          "word": " In",
+          "start": 398.237,
+          "end": 398.417,
+          "prob": 0.932
+        },
+        {
+          "word": " April",
+          "start": 398.417,
+          "end": 398.677,
+          "prob": 0.995
+        },
+        {
+          "word": " 2025,",
+          "start": 398.677,
+          "end": 399.457,
+          "prob": 0.936
+        },
+        {
+          "word": " China",
+          "start": 400.057,
+          "end": 400.377,
+          "prob": 0.999
+        },
+        {
+          "word": " added",
+          "start": 400.377,
+          "end": 400.657,
+          "prob": 0.996
+        },
+        {
+          "word": " seven",
+          "start": 400.657,
+          "end": 401.137,
+          "prob": 0.722
+        },
+        {
+          "word": " rare",
+          "start": 401.137,
+          "end": 401.617,
+          "prob": 0.608
+        },
+        {
+          "word": " earth",
+          "start": 401.617,
+          "end": 401.977,
+          "prob": 0.664
+        },
+        {
+          "word": " elements",
+          "start": 401.977,
+          "end": 402.377,
+          "prob": 0.996
+        },
+        {
+          "word": " and",
+          "start": 402.377,
+          "end": 402.797,
+          "prob": 0.52
+        },
+        {
+          "word": " the",
+          "start": 402.797,
+          "end": 402.917,
+          "prob": 0.966
+        },
+        {
+          "word": " magnets",
+          "start": 402.917,
+          "end": 403.217,
+          "prob": 0.991
+        },
+        {
+          "word": " made",
+          "start": 403.217,
+          "end": 403.517,
+          "prob": 0.994
+        },
+        {
+          "word": " from",
+          "start": 403.517,
+          "end": 403.777,
+          "prob": 0.995
+        },
+        {
+          "word": " them",
+          "start": 403.777,
+          "end": 403.977,
+          "prob": 0.997
+        },
+        {
+          "word": " to",
+          "start": 403.977,
+          "end": 404.457,
+          "prob": 0.958
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 404.457,
+      "end": 409.277,
+      "text": "its export control list, timed almost exactly to a new round of American tariffs.",
+      "words": [
+        {
+          "word": " its",
+          "start": 404.457,
+          "end": 404.617,
+          "prob": 0.983
+        },
+        {
+          "word": " export",
+          "start": 404.617,
+          "end": 405.097,
+          "prob": 0.856
+        },
+        {
+          "word": " control",
+          "start": 405.097,
+          "end": 405.417,
+          "prob": 0.97
+        },
+        {
+          "word": " list,",
+          "start": 405.417,
+          "end": 405.877,
+          "prob": 0.993
+        },
+        {
+          "word": " timed",
+          "start": 406.157,
+          "end": 406.437,
+          "prob": 0.98
+        },
+        {
+          "word": " almost",
+          "start": 406.437,
+          "end": 406.857,
+          "prob": 0.997
+        },
+        {
+          "word": " exactly",
+          "start": 406.857,
+          "end": 407.437,
+          "prob": 0.99
+        },
+        {
+          "word": " to",
+          "start": 407.437,
+          "end": 407.777,
+          "prob": 0.994
+        },
+        {
+          "word": " a",
+          "start": 407.777,
+          "end": 407.877,
+          "prob": 0.995
+        },
+        {
+          "word": " new",
+          "start": 407.877,
+          "end": 408.037,
+          "prob": 0.999
+        },
+        {
+          "word": " round",
+          "start": 408.037,
+          "end": 408.277,
+          "prob": 0.994
+        },
+        {
+          "word": " of",
+          "start": 408.277,
+          "end": 408.477,
+          "prob": 0.997
+        },
+        {
+          "word": " American",
+          "start": 408.477,
+          "end": 408.797,
+          "prob": 0.983
+        },
+        {
+          "word": " tariffs.",
+          "start": 408.797,
+          "end": 409.277,
+          "prob": 0.987
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 409.957,
+      "end": 416.317,
+      "text": "In October 2025, it went further, then suspended the new controls for one year as part of",
+      "words": [
+        {
+          "word": " In",
+          "start": 409.957,
+          "end": 410.077,
+          "prob": 0.991
+        },
+        {
+          "word": " October",
+          "start": 410.077,
+          "end": 410.437,
+          "prob": 0.995
+        },
+        {
+          "word": " 2025,",
+          "start": 410.437,
+          "end": 411.117,
+          "prob": 0.984
+        },
+        {
+          "word": " it",
+          "start": 411.877,
+          "end": 412.077,
+          "prob": 0.993
+        },
+        {
+          "word": " went",
+          "start": 412.077,
+          "end": 412.237,
+          "prob": 0.998
+        },
+        {
+          "word": " further,",
+          "start": 412.237,
+          "end": 412.657,
+          "prob": 0.995
+        },
+        {
+          "word": " then",
+          "start": 413.117,
+          "end": 413.277,
+          "prob": 0.991
+        },
+        {
+          "word": " suspended",
+          "start": 413.277,
+          "end": 413.717,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 413.717,
+          "end": 413.977,
+          "prob": 0.989
+        },
+        {
+          "word": " new",
+          "start": 413.977,
+          "end": 414.137,
+          "prob": 0.998
+        },
+        {
+          "word": " controls",
+          "start": 414.137,
+          "end": 414.617,
+          "prob": 0.998
+        },
+        {
+          "word": " for",
+          "start": 414.617,
+          "end": 414.937,
+          "prob": 0.997
+        },
+        {
+          "word": " one",
+          "start": 414.937,
+          "end": 415.137,
+          "prob": 0.98
+        },
+        {
+          "word": " year",
+          "start": 415.137,
+          "end": 415.477,
+          "prob": 0.998
+        },
+        {
+          "word": " as",
+          "start": 415.477,
+          "end": 415.957,
+          "prob": 0.983
+        },
+        {
+          "word": " part",
+          "start": 415.957,
+          "end": 416.157,
+          "prob": 0.991
+        },
+        {
+          "word": " of",
+          "start": 416.157,
+          "end": 416.317,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 416.317,
+      "end": 421.597,
+      "text": "a trade truce, but kept the April restrictions and the licensing infrastructure fully in",
+      "words": [
+        {
+          "word": " a",
+          "start": 416.317,
+          "end": 416.377,
+          "prob": 0.993
+        },
+        {
+          "word": " trade",
+          "start": 416.377,
+          "end": 416.677,
+          "prob": 0.991
+        },
+        {
+          "word": " truce,",
+          "start": 416.677,
+          "end": 417.117,
+          "prob": 0.991
+        },
+        {
+          "word": " but",
+          "start": 417.497,
+          "end": 417.617,
+          "prob": 0.997
+        },
+        {
+          "word": " kept",
+          "start": 417.617,
+          "end": 417.877,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 417.877,
+          "end": 418.037,
+          "prob": 0.998
+        },
+        {
+          "word": " April",
+          "start": 418.037,
+          "end": 418.357,
+          "prob": 0.988
+        },
+        {
+          "word": " restrictions",
+          "start": 418.357,
+          "end": 418.897,
+          "prob": 0.993
+        },
+        {
+          "word": " and",
+          "start": 418.897,
+          "end": 419.297,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 419.297,
+          "end": 419.417,
+          "prob": 0.973
+        },
+        {
+          "word": " licensing",
+          "start": 419.417,
+          "end": 419.817,
+          "prob": 0.982
+        },
+        {
+          "word": " infrastructure",
+          "start": 419.817,
+          "end": 420.637,
+          "prob": 0.997
+        },
+        {
+          "word": " fully",
+          "start": 420.637,
+          "end": 421.337,
+          "prob": 0.985
+        },
+        {
+          "word": " in",
+          "start": 421.337,
+          "end": 421.597,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 421.597,
+      "end": 421.957,
+      "text": "place.",
+      "words": [
+        {
+          "word": " place.",
+          "start": 421.597,
+          "end": 421.957,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 422.757,
+      "end": 424.597,
+      "text": "Restraint, not retreat.",
+      "words": [
+        {
+          "word": " Restraint,",
+          "start": 422.757,
+          "end": 423.417,
+          "prob": 0.979
+        },
+        {
+          "word": " not",
+          "start": 423.897,
+          "end": 424.197,
+          "prob": 0.966
+        },
+        {
+          "word": " retreat.",
+          "start": 424.197,
+          "end": 424.597,
+          "prob": 0.807
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 426.017,
+      "end": 432.657,
+      "text": "Then, on June 22nd, 2026, it added 10 more American companies straight to the list,",
+      "words": [
+        {
+          "word": " Then,",
+          "start": 426.017,
+          "end": 426.657,
+          "prob": 0.477
+        },
+        {
+          "word": " on",
+          "start": 426.857,
+          "end": 427.037,
+          "prob": 0.978
+        },
+        {
+          "word": " June",
+          "start": 427.037,
+          "end": 427.297,
+          "prob": 0.988
+        },
+        {
+          "word": " 22nd,",
+          "start": 427.297,
+          "end": 428.237,
+          "prob": 0.868
+        },
+        {
+          "word": " 2026,",
+          "start": 428.237,
+          "end": 429.037,
+          "prob": 0.979
+        },
+        {
+          "word": " it",
+          "start": 429.597,
+          "end": 429.717,
+          "prob": 0.986
+        },
+        {
+          "word": " added",
+          "start": 429.717,
+          "end": 429.937,
+          "prob": 0.998
+        },
+        {
+          "word": " 10",
+          "start": 429.937,
+          "end": 430.277,
+          "prob": 0.746
+        },
+        {
+          "word": " more",
+          "start": 430.277,
+          "end": 430.577,
+          "prob": 0.998
+        },
+        {
+          "word": " American",
+          "start": 430.577,
+          "end": 430.997,
+          "prob": 0.992
+        },
+        {
+          "word": " companies",
+          "start": 430.997,
+          "end": 431.597,
+          "prob": 0.996
+        },
+        {
+          "word": " straight",
+          "start": 431.597,
+          "end": 432.077,
+          "prob": 0.961
+        },
+        {
+          "word": " to",
+          "start": 432.077,
+          "end": 432.297,
+          "prob": 0.994
+        },
+        {
+          "word": " the",
+          "start": 432.297,
+          "end": 432.377,
+          "prob": 0.998
+        },
+        {
+          "word": " list,",
+          "start": 432.377,
+          "end": 432.657,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 433.037,
+      "end": 435.957,
+      "text": "including two of the biggest rare earth names in the country.",
+      "words": [
+        {
+          "word": " including",
+          "start": 433.037,
+          "end": 433.457,
+          "prob": 0.996
+        },
+        {
+          "word": " two",
+          "start": 433.457,
+          "end": 433.757,
+          "prob": 0.909
+        },
+        {
+          "word": " of",
+          "start": 433.757,
+          "end": 433.877,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 433.877,
+          "end": 433.977,
+          "prob": 0.997
+        },
+        {
+          "word": " biggest",
+          "start": 433.977,
+          "end": 434.277,
+          "prob": 0.996
+        },
+        {
+          "word": " rare",
+          "start": 434.277,
+          "end": 434.737,
+          "prob": 0.962
+        },
+        {
+          "word": " earth",
+          "start": 434.737,
+          "end": 435.077,
+          "prob": 0.766
+        },
+        {
+          "word": " names",
+          "start": 435.077,
+          "end": 435.357,
+          "prob": 0.985
+        },
+        {
+          "word": " in",
+          "start": 435.357,
+          "end": 435.537,
+          "prob": 0.993
+        },
+        {
+          "word": " the",
+          "start": 435.537,
+          "end": 435.637,
+          "prob": 0.998
+        },
+        {
+          "word": " country.",
+          "start": 435.637,
+          "end": 435.957,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 436.497,
+      "end": 439.617,
+      "text": "Prices on some of these materials have already spiked sixfold.",
+      "words": [
+        {
+          "word": " Prices",
+          "start": 436.497,
+          "end": 436.817,
+          "prob": 0.987
+        },
+        {
+          "word": " on",
+          "start": 436.817,
+          "end": 437.057,
+          "prob": 0.991
+        },
+        {
+          "word": " some",
+          "start": 437.057,
+          "end": 437.257,
+          "prob": 0.996
+        },
+        {
+          "word": " of",
+          "start": 437.257,
+          "end": 437.377,
+          "prob": 0.986
+        },
+        {
+          "word": " these",
+          "start": 437.377,
+          "end": 437.497,
+          "prob": 0.982
+        },
+        {
+          "word": " materials",
+          "start": 437.497,
+          "end": 438.037,
+          "prob": 0.994
+        },
+        {
+          "word": " have",
+          "start": 438.037,
+          "end": 438.217,
+          "prob": 0.996
+        },
+        {
+          "word": " already",
+          "start": 438.217,
+          "end": 438.537,
+          "prob": 0.999
+        },
+        {
+          "word": " spiked",
+          "start": 438.537,
+          "end": 438.997,
+          "prob": 0.997
+        },
+        {
+          "word": " sixfold.",
+          "start": 438.997,
+          "end": 439.617,
+          "prob": 0.844
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 440.177,
+      "end": 444.997,
+      "text": "European manufacturers report export license approval rates below one in four,",
+      "words": [
+        {
+          "word": " European",
+          "start": 440.177,
+          "end": 440.577,
+          "prob": 0.988
+        },
+        {
+          "word": " manufacturers",
+          "start": 440.577,
+          "end": 441.257,
+          "prob": 0.981
+        },
+        {
+          "word": " report",
+          "start": 441.257,
+          "end": 441.797,
+          "prob": 0.998
+        },
+        {
+          "word": " export",
+          "start": 441.797,
+          "end": 442.357,
+          "prob": 0.98
+        },
+        {
+          "word": " license",
+          "start": 442.357,
+          "end": 442.697,
+          "prob": 0.445
+        },
+        {
+          "word": " approval",
+          "start": 442.697,
+          "end": 443.137,
+          "prob": 0.98
+        },
+        {
+          "word": " rates",
+          "start": 443.137,
+          "end": 443.557,
+          "prob": 0.993
+        },
+        {
+          "word": " below",
+          "start": 443.557,
+          "end": 444.157,
+          "prob": 0.991
+        },
+        {
+          "word": " one",
+          "start": 444.157,
+          "end": 444.497,
+          "prob": 0.431
+        },
+        {
+          "word": " in",
+          "start": 444.497,
+          "end": 444.637,
+          "prob": 0.99
+        },
+        {
+          "word": " four,",
+          "start": 444.637,
+          "end": 444.997,
+          "prob": 0.974
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 445.177,
+      "end": 451.097,
+      "text": "and that one year suspension from October runs out on November 10th, 2026,",
+      "words": [
+        {
+          "word": " and",
+          "start": 445.177,
+          "end": 445.777,
+          "prob": 0.991
+        },
+        {
+          "word": " that",
+          "start": 445.777,
+          "end": 445.937,
+          "prob": 0.996
+        },
+        {
+          "word": " one",
+          "start": 445.937,
+          "end": 446.237,
+          "prob": 0.963
+        },
+        {
+          "word": " year",
+          "start": 446.237,
+          "end": 446.437,
+          "prob": 0.425
+        },
+        {
+          "word": " suspension",
+          "start": 446.437,
+          "end": 446.877,
+          "prob": 0.931
+        },
+        {
+          "word": " from",
+          "start": 446.877,
+          "end": 447.217,
+          "prob": 0.991
+        },
+        {
+          "word": " October",
+          "start": 447.217,
+          "end": 447.637,
+          "prob": 0.991
+        },
+        {
+          "word": " runs",
+          "start": 447.637,
+          "end": 448.457,
+          "prob": 0.983
+        },
+        {
+          "word": " out",
+          "start": 448.457,
+          "end": 448.777,
+          "prob": 0.993
+        },
+        {
+          "word": " on",
+          "start": 448.777,
+          "end": 448.977,
+          "prob": 0.979
+        },
+        {
+          "word": " November",
+          "start": 448.977,
+          "end": 449.237,
+          "prob": 0.974
+        },
+        {
+          "word": " 10th,",
+          "start": 449.237,
+          "end": 450.157,
+          "prob": 0.931
+        },
+        {
+          "word": " 2026,",
+          "start": 450.217,
+          "end": 451.097,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 451.757,
+      "end": 452.857,
+      "text": "a few months from now.",
+      "words": [
+        {
+          "word": " a",
+          "start": 451.757,
+          "end": 451.917,
+          "prob": 0.975
+        },
+        {
+          "word": " few",
+          "start": 451.917,
+          "end": 452.117,
+          "prob": 1.0
+        },
+        {
+          "word": " months",
+          "start": 452.117,
+          "end": 452.377,
+          "prob": 0.998
+        },
+        {
+          "word": " from",
+          "start": 452.377,
+          "end": 452.597,
+          "prob": 0.998
+        },
+        {
+          "word": " now.",
+          "start": 452.597,
+          "end": 452.857,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 453.347,
+      "end": 459.017,
+      "text": "If it isn't renewed, five more rare earth elements snap back under full control, all at",
+      "words": [
+        {
+          "word": " If",
+          "start": 453.347,
+          "end": 453.657,
+          "prob": 0.511
+        },
+        {
+          "word": " it",
+          "start": 453.657,
+          "end": 453.777,
+          "prob": 0.993
+        },
+        {
+          "word": " isn't",
+          "start": 453.777,
+          "end": 453.997,
+          "prob": 0.993
+        },
+        {
+          "word": " renewed,",
+          "start": 453.997,
+          "end": 454.337,
+          "prob": 0.995
+        },
+        {
+          "word": " five",
+          "start": 454.897,
+          "end": 455.077,
+          "prob": 0.763
+        },
+        {
+          "word": " more",
+          "start": 455.077,
+          "end": 455.417,
+          "prob": 0.998
+        },
+        {
+          "word": " rare",
+          "start": 455.417,
+          "end": 455.717,
+          "prob": 0.834
+        },
+        {
+          "word": " earth",
+          "start": 455.717,
+          "end": 456.057,
+          "prob": 0.566
+        },
+        {
+          "word": " elements",
+          "start": 456.057,
+          "end": 456.497,
+          "prob": 0.992
+        },
+        {
+          "word": " snap",
+          "start": 456.497,
+          "end": 456.917,
+          "prob": 0.983
+        },
+        {
+          "word": " back",
+          "start": 456.917,
+          "end": 457.297,
+          "prob": 0.993
+        },
+        {
+          "word": " under",
+          "start": 457.297,
+          "end": 457.557,
+          "prob": 0.992
+        },
+        {
+          "word": " full",
+          "start": 457.557,
+          "end": 457.857,
+          "prob": 0.991
+        },
+        {
+          "word": " control,",
+          "start": 457.857,
+          "end": 458.337,
+          "prob": 0.998
+        },
+        {
+          "word": " all",
+          "start": 458.717,
+          "end": 458.897,
+          "prob": 0.983
+        },
+        {
+          "word": " at",
+          "start": 458.897,
+          "end": 459.017,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 459.017,
+      "end": 464.477,
+      "text": "once, on companies and supply chains that haven't had time to prepare for the first round, let",
+      "words": [
+        {
+          "word": " once,",
+          "start": 459.017,
+          "end": 459.377,
+          "prob": 0.998
+        },
+        {
+          "word": " on",
+          "start": 459.717,
+          "end": 459.877,
+          "prob": 0.994
+        },
+        {
+          "word": " companies",
+          "start": 459.877,
+          "end": 460.297,
+          "prob": 0.976
+        },
+        {
+          "word": " and",
+          "start": 460.297,
+          "end": 460.537,
+          "prob": 0.984
+        },
+        {
+          "word": " supply",
+          "start": 460.537,
+          "end": 460.837,
+          "prob": 0.998
+        },
+        {
+          "word": " chains",
+          "start": 460.837,
+          "end": 461.277,
+          "prob": 0.989
+        },
+        {
+          "word": " that",
+          "start": 461.277,
+          "end": 461.717,
+          "prob": 0.948
+        },
+        {
+          "word": " haven't",
+          "start": 461.717,
+          "end": 462.037,
+          "prob": 0.995
+        },
+        {
+          "word": " had",
+          "start": 462.037,
+          "end": 462.177,
+          "prob": 0.996
+        },
+        {
+          "word": " time",
+          "start": 462.177,
+          "end": 462.437,
+          "prob": 0.993
+        },
+        {
+          "word": " to",
+          "start": 462.437,
+          "end": 462.577,
+          "prob": 0.997
+        },
+        {
+          "word": " prepare",
+          "start": 462.577,
+          "end": 462.937,
+          "prob": 0.997
+        },
+        {
+          "word": " for",
+          "start": 462.937,
+          "end": 463.117,
+          "prob": 0.996
+        },
+        {
+          "word": " the",
+          "start": 463.117,
+          "end": 463.257,
+          "prob": 0.994
+        },
+        {
+          "word": " first",
+          "start": 463.257,
+          "end": 463.537,
+          "prob": 0.992
+        },
+        {
+          "word": " round,",
+          "start": 463.537,
+          "end": 463.937,
+          "prob": 0.997
+        },
+        {
+          "word": " let",
+          "start": 464.297,
+          "end": 464.477,
+          "prob": 0.994
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 464.477,
+      "end": 465.177,
+      "text": "alone a second.",
+      "words": [
+        {
+          "word": " alone",
+          "start": 464.477,
+          "end": 464.737,
+          "prob": 0.999
+        },
+        {
+          "word": " a",
+          "start": 464.737,
+          "end": 464.937,
+          "prob": 0.994
+        },
+        {
+          "word": " second.",
+          "start": 464.937,
+          "end": 465.177,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 465.817,
+      "end": 468.797,
+      "text": "Nobody knows yet whether that deadline gets extended again.",
+      "words": [
+        {
+          "word": " Nobody",
+          "start": 465.817,
+          "end": 466.137,
+          "prob": 0.986
+        },
+        {
+          "word": " knows",
+          "start": 466.137,
+          "end": 466.497,
+          "prob": 0.997
+        },
+        {
+          "word": " yet",
+          "start": 466.497,
+          "end": 466.757,
+          "prob": 0.994
+        },
+        {
+          "word": " whether",
+          "start": 466.757,
+          "end": 467.037,
+          "prob": 0.99
+        },
+        {
+          "word": " that",
+          "start": 467.037,
+          "end": 467.297,
+          "prob": 0.983
+        },
+        {
+          "word": " deadline",
+          "start": 467.297,
+          "end": 467.657,
+          "prob": 0.995
+        },
+        {
+          "word": " gets",
+          "start": 467.657,
+          "end": 467.977,
+          "prob": 0.995
+        },
+        {
+          "word": " extended",
+          "start": 467.977,
+          "end": 468.437,
+          "prob": 0.997
+        },
+        {
+          "word": " again.",
+          "start": 468.437,
+          "end": 468.797,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 469.477,
+      "end": 472.457,
+      "text": "That's not an oversight in this story, that's the story.",
+      "words": [
+        {
+          "word": " That's",
+          "start": 469.477,
+          "end": 469.817,
+          "prob": 0.992
+        },
+        {
+          "word": " not",
+          "start": 469.817,
+          "end": 469.937,
+          "prob": 0.998
+        },
+        {
+          "word": " an",
+          "start": 469.937,
+          "end": 470.077,
+          "prob": 0.995
+        },
+        {
+          "word": " oversight",
+          "start": 470.077,
+          "end": 470.397,
+          "prob": 0.985
+        },
+        {
+          "word": " in",
+          "start": 470.397,
+          "end": 470.657,
+          "prob": 0.992
+        },
+        {
+          "word": " this",
+          "start": 470.657,
+          "end": 470.817,
+          "prob": 0.992
+        },
+        {
+          "word": " story,",
+          "start": 470.817,
+          "end": 471.137,
+          "prob": 0.998
+        },
+        {
+          "word": " that's",
+          "start": 471.497,
+          "end": 471.977,
+          "prob": 0.97
+        },
+        {
+          "word": " the",
+          "start": 471.977,
+          "end": 472.097,
+          "prob": 0.998
+        },
+        {
+          "word": " story.",
+          "start": 472.097,
+          "end": 472.457,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 473.077,
+      "end": 475.137,
+      "text": "The leverage was never a one-time event.",
+      "words": [
+        {
+          "word": " The",
+          "start": 473.077,
+          "end": 473.197,
+          "prob": 0.98
+        },
+        {
+          "word": " leverage",
+          "start": 473.197,
+          "end": 473.497,
+          "prob": 0.946
+        },
+        {
+          "word": " was",
+          "start": 473.497,
+          "end": 473.777,
+          "prob": 0.997
+        },
+        {
+          "word": " never",
+          "start": 473.777,
+          "end": 474.097,
+          "prob": 0.996
+        },
+        {
+          "word": " a",
+          "start": 474.097,
+          "end": 474.337,
+          "prob": 0.998
+        },
+        {
+          "word": " one",
+          "start": 474.337,
+          "end": 474.557,
+          "prob": 0.966
+        },
+        {
+          "word": "-time",
+          "start": 474.557,
+          "end": 474.797,
+          "prob": 0.938
+        },
+        {
+          "word": " event.",
+          "start": 474.797,
+          "end": 475.137,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 475.737,
+      "end": 480.737,
+      "text": "It's a switch China can flip, loosen and flip again, watching exactly how much",
+      "words": [
+        {
+          "word": " It's",
+          "start": 475.737,
+          "end": 475.977,
+          "prob": 0.99
+        },
+        {
+          "word": " a",
+          "start": 475.977,
+          "end": 476.077,
+          "prob": 0.997
+        },
+        {
+          "word": " switch",
+          "start": 476.077,
+          "end": 476.277,
+          "prob": 0.986
+        },
+        {
+          "word": " China",
+          "start": 476.277,
+          "end": 476.737,
+          "prob": 0.971
+        },
+        {
+          "word": " can",
+          "start": 476.737,
+          "end": 476.977,
+          "prob": 0.997
+        },
+        {
+          "word": " flip,",
+          "start": 476.977,
+          "end": 477.257,
+          "prob": 0.99
+        },
+        {
+          "word": " loosen",
+          "start": 477.697,
+          "end": 477.977,
+          "prob": 0.995
+        },
+        {
+          "word": " and",
+          "start": 477.977,
+          "end": 478.257,
+          "prob": 0.714
+        },
+        {
+          "word": " flip",
+          "start": 478.257,
+          "end": 478.497,
+          "prob": 0.993
+        },
+        {
+          "word": " again,",
+          "start": 478.497,
+          "end": 478.897,
+          "prob": 0.995
+        },
+        {
+          "word": " watching",
+          "start": 479.357,
+          "end": 479.677,
+          "prob": 0.989
+        },
+        {
+          "word": " exactly",
+          "start": 479.677,
+          "end": 480.217,
+          "prob": 0.988
+        },
+        {
+          "word": " how",
+          "start": 480.217,
+          "end": 480.557,
+          "prob": 0.999
+        },
+        {
+          "word": " much",
+          "start": 480.557,
+          "end": 480.737,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 480.737,
+      "end": 484.037,
+      "text": "pressure the rest of the world can absorb before flipping it back.",
+      "words": [
+        {
+          "word": " pressure",
+          "start": 480.737,
+          "end": 481.077,
+          "prob": 0.807
+        },
+        {
+          "word": " the",
+          "start": 481.077,
+          "end": 481.237,
+          "prob": 0.989
+        },
+        {
+          "word": " rest",
+          "start": 481.237,
+          "end": 481.477,
+          "prob": 0.99
+        },
+        {
+          "word": " of",
+          "start": 481.477,
+          "end": 481.597,
+          "prob": 0.999
+        },
+        {
+          "word": " the",
+          "start": 481.597,
+          "end": 481.677,
+          "prob": 0.997
+        },
+        {
+          "word": " world",
+          "start": 481.677,
+          "end": 481.897,
+          "prob": 0.999
+        },
+        {
+          "word": " can",
+          "start": 481.897,
+          "end": 482.097,
+          "prob": 0.997
+        },
+        {
+          "word": " absorb",
+          "start": 482.097,
+          "end": 482.517,
+          "prob": 0.998
+        },
+        {
+          "word": " before",
+          "start": 482.517,
+          "end": 483.197,
+          "prob": 0.966
+        },
+        {
+          "word": " flipping",
+          "start": 483.197,
+          "end": 483.617,
+          "prob": 0.996
+        },
+        {
+          "word": " it",
+          "start": 483.617,
+          "end": 483.797,
+          "prob": 0.996
+        },
+        {
+          "word": " back.",
+          "start": 483.797,
+          "end": 484.037,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 484.877,
+      "end": 485.777,
+      "text": "The mines can reopen.",
+      "words": [
+        {
+          "word": " The",
+          "start": 484.877,
+          "end": 484.957,
+          "prob": 0.983
+        },
+        {
+          "word": " mines",
+          "start": 484.957,
+          "end": 485.297,
+          "prob": 0.863
+        },
+        {
+          "word": " can",
+          "start": 485.297,
+          "end": 485.517,
+          "prob": 0.994
+        },
+        {
+          "word": " reopen.",
+          "start": 485.517,
+          "end": 485.777,
+          "prob": 0.888
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 486.557,
+      "end": 486.957,
+      "text": "They have.",
+      "words": [
+        {
+          "word": " They",
+          "start": 486.557,
+          "end": 486.677,
+          "prob": 0.991
+        },
+        {
+          "word": " have.",
+          "start": 486.677,
+          "end": 486.957,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 487.537,
+      "end": 490.137,
+      "text": "The ore is still down there, same as it always was.",
+      "words": [
+        {
+          "word": " The",
+          "start": 487.537,
+          "end": 487.737,
+          "prob": 0.98
+        },
+        {
+          "word": " ore",
+          "start": 487.737,
+          "end": 487.977,
+          "prob": 0.957
+        },
+        {
+          "word": " is",
+          "start": 487.977,
+          "end": 488.157,
+          "prob": 0.995
+        },
+        {
+          "word": " still",
+          "start": 488.157,
+          "end": 488.357,
+          "prob": 0.993
+        },
+        {
+          "word": " down",
+          "start": 488.357,
+          "end": 488.637,
+          "prob": 0.995
+        },
+        {
+          "word": " there,",
+          "start": 488.637,
+          "end": 488.917,
+          "prob": 0.997
+        },
+        {
+          "word": " same",
+          "start": 489.097,
+          "end": 489.337,
+          "prob": 0.994
+        },
+        {
+          "word": " as",
+          "start": 489.337,
+          "end": 489.497,
+          "prob": 0.997
+        },
+        {
+          "word": " it",
+          "start": 489.497,
+          "end": 489.597,
+          "prob": 0.991
+        },
+        {
+          "word": " always",
+          "start": 489.597,
+          "end": 489.817,
+          "prob": 0.964
+        },
+        {
+          "word": " was.",
+          "start": 489.817,
+          "end": 490.137,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 490.777,
+      "end": 493.757,
+      "text": "Digging it up was never the hard part, and it never will be.",
+      "words": [
+        {
+          "word": " Digging",
+          "start": 490.777,
+          "end": 491.077,
+          "prob": 0.99
+        },
+        {
+          "word": " it",
+          "start": 491.077,
+          "end": 491.197,
+          "prob": 0.981
+        },
+        {
+          "word": " up",
+          "start": 491.197,
+          "end": 491.357,
+          "prob": 0.985
+        },
+        {
+          "word": " was",
+          "start": 491.357,
+          "end": 491.557,
+          "prob": 0.993
+        },
+        {
+          "word": " never",
+          "start": 491.557,
+          "end": 491.777,
+          "prob": 0.998
+        },
+        {
+          "word": " the",
+          "start": 491.777,
+          "end": 491.917,
+          "prob": 0.997
+        },
+        {
+          "word": " hard",
+          "start": 491.917,
+          "end": 492.177,
+          "prob": 0.992
+        },
+        {
+          "word": " part,",
+          "start": 492.177,
+          "end": 492.437,
+          "prob": 0.999
+        },
+        {
+          "word": " and",
+          "start": 492.977,
+          "end": 493.057,
+          "prob": 0.994
+        },
+        {
+          "word": " it",
+          "start": 493.057,
+          "end": 493.137,
+          "prob": 0.997
+        },
+        {
+          "word": " never",
+          "start": 493.137,
+          "end": 493.337,
+          "prob": 0.984
+        },
+        {
+          "word": " will",
+          "start": 493.337,
+          "end": 493.557,
+          "prob": 0.999
+        },
+        {
+          "word": " be.",
+          "start": 493.557,
+          "end": 493.757,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 494.357,
+      "end": 498.037,
+      "text": "Learning to finish it, that's the part nobody else built in time.",
+      "words": [
+        {
+          "word": " Learning",
+          "start": 494.357,
+          "end": 494.637,
+          "prob": 0.977
+        },
+        {
+          "word": " to",
+          "start": 494.637,
+          "end": 494.857,
+          "prob": 0.998
+        },
+        {
+          "word": " finish",
+          "start": 494.857,
+          "end": 495.137,
+          "prob": 0.984
+        },
+        {
+          "word": " it,",
+          "start": 495.137,
+          "end": 495.417,
+          "prob": 0.996
+        },
+        {
+          "word": " that's",
+          "start": 495.877,
+          "end": 496.237,
+          "prob": 0.983
+        },
+        {
+          "word": " the",
+          "start": 496.237,
+          "end": 496.337,
+          "prob": 0.995
+        },
+        {
+          "word": " part",
+          "start": 496.337,
+          "end": 496.577,
+          "prob": 0.999
+        },
+        {
+          "word": " nobody",
+          "start": 496.577,
+          "end": 496.897,
+          "prob": 0.962
+        },
+        {
+          "word": " else",
+          "start": 496.897,
+          "end": 497.217,
+          "prob": 0.994
+        },
+        {
+          "word": " built",
+          "start": 497.217,
+          "end": 497.517,
+          "prob": 0.996
+        },
+        {
+          "word": " in",
+          "start": 497.517,
+          "end": 497.717,
+          "prob": 0.995
+        },
+        {
+          "word": " time.",
+          "start": 497.717,
+          "end": 498.037,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 499.317,
+      "end": 502.957,
+      "text": "Until that changes, it doesn't matter whose flag is on the hill.",
+      "words": [
+        {
+          "word": " Until",
+          "start": 499.317,
+          "end": 499.837,
+          "prob": 0.982
+        },
+        {
+          "word": " that",
+          "start": 499.837,
+          "end": 500.097,
+          "prob": 0.996
+        },
+        {
+          "word": " changes,",
+          "start": 500.097,
+          "end": 500.517,
+          "prob": 0.997
+        },
+        {
+          "word": " it",
+          "start": 501.057,
+          "end": 501.137,
+          "prob": 0.994
+        },
+        {
+          "word": " doesn't",
+          "start": 501.137,
+          "end": 501.377,
+          "prob": 0.998
+        },
+        {
+          "word": " matter",
+          "start": 501.377,
+          "end": 501.597,
+          "prob": 0.999
+        },
+        {
+          "word": " whose",
+          "start": 501.597,
+          "end": 501.857,
+          "prob": 0.829
+        },
+        {
+          "word": " flag",
+          "start": 501.857,
+          "end": 502.237,
+          "prob": 0.997
+        },
+        {
+          "word": " is",
+          "start": 502.237,
+          "end": 502.497,
+          "prob": 0.997
+        },
+        {
+          "word": " on",
+          "start": 502.497,
+          "end": 502.617,
+          "prob": 0.997
+        },
+        {
+          "word": " the",
+          "start": 502.617,
+          "end": 502.737,
+          "prob": 0.996
+        },
+        {
+          "word": " hill.",
+          "start": 502.737,
+          "end": 502.957,
+          "prob": 0.99
+        }
+      ]
+    },
+    {
+      "chapter": "THE CLOCK",
+      "start": 503.477,
+      "end": 505.297,
+      "text": "The stamp still says Beijing.",
+      "words": [
+        {
+          "word": " The",
+          "start": 503.477,
+          "end": 503.577,
+          "prob": 0.988
+        },
+        {
+          "word": " stamp",
+          "start": 503.577,
+          "end": 504.017,
+          "prob": 0.982
+        },
+        {
+          "word": " still",
+          "start": 504.017,
+          "end": 504.517,
+          "prob": 0.962
+        },
+        {
+          "word": " says",
+          "start": 504.517,
+          "end": 504.897,
+          "prob": 0.998
+        },
+        {
+          "word": " Beijing.",
+          "start": 504.897,
+          "end": 505.297,
+          "prob": 0.872
+        }
+      ]
+    }
+  ],
+  "total_duration": 505.783
+}
